@@ -1,56 +1,90 @@
-> [!IMPORTANT]
-> This project has been archived. I have no intention on continuing working on
-> this. You can read more [here](https://gist.github.com/Eijebong/4a8a4a4f96bb64f1503113c81c410653)
+# Archipelago-index (dowlle fork)
 
-# How to add/update worlds
+A downstream fork of [mooinglemur/Archipelago-index](https://github.com/mooinglemur/Archipelago-index), the community-curated index of Archipelago Multiworld APWorld releases. This fork exists to:
 
-- Add an `{apworld}.toml` file in the `index/` directory. The name of the file **MUST** match the apworld name. So for `A link to the Past` which apworld is `alttp`, you would create a file named `alttp.toml`.
-- In the `toml` file, add a name, `name = "A Link to the Past"`. That name **MUST** match the world name. If you're unsure what that means, it's the name used in your YAML.
-- If the `name` field is nondescriptive or "ugly", add a `display_name` field with a pretty name. This especially useful for manuals where the name is `Manual_{game}_{author}`. In that case, add a `display_name` with `"Manual: {game}"`.
-- Add a `home` field if applicable. In order of preference, it should contain a link to the discord thread, the github repo, any other webpage where the apworld might live. If there's none (i.e you made this apworld and it's not publically available anywhere else, omit the field).
-- If the world needs to be tagged specifically, add a `tags = [...]`, available tags are: `ad` to mark the world as being from the after dark server.
-- Add a `[versions]` section, one version per line. It should look something like this: `"{version}" = { src }`. Read the following sections to understand what that means.
+1. **Sync from the MooingLemur upstream**, so a personal copy stays current without depending on anyone's downtime.
+2. **Run an automated source-level security audit** on every APWorld update that lands here, via [`dowlle/apworld-auditor`](https://github.com/dowlle/apworld-auditor). The audit verdict is posted on each PR. See [`SECURITY.md`](./SECURITY.md) for the audit policy.
 
-## Version
-
-Each version **MUST** be valid [semver](https://semver.org/). It doesn't matter if the apworld doesn't respect semver or doesn't even have a version that would be valid. We use this to make sure versions can be ordered.
-If necessary, be creative with your version number.
-
-For example, if an apworld has a release for a version `0.8`, you'd specify version `0.8.0` as the version the index.
-If an apworld doesn't specify a version, as is usually the case with manuals, invent one. I tend to count the number of releases in the discord channel and name it `0.0.X`.
-It's not always feasible though because of discord UX choices regarding search. It's fine to just go with `0.0.1`. When updating those apworlds, just increment the version number.
-
-## Src
-
-The index supports two different source types, `url` and `local`.
-When possible, one should prefer `url` to avoid bloating the repo with apworlds.
-
-Examples:
-
-- The apworld is released on github and has a direct download link to the apworld in the release:
-  `"0.1.0" = { url = "https://github.com/foo/bar/releases/download/0.1.0/foo.apworld" }`
-
-- The apworld is only distributed on some discord channel or the release on github doesn't distribute the apworld. You would need to copy the apworld to the `apworlds` folder of the repository as `{apworld}-{version}.apworld`
-  `"0.1.0" = { local = "../apworlds/foo-0.1.0.apworld" }`
-
-### Special case for `url` releases
-
-When the author uses tags that are semver compatible, it's possible to add a `default_url` field instead in the global scope of the toml like this:
-`default_url = "https://github.com/foo/bar/releases/download/{{version}}/foo.apworld` and to specify versions like this: `"0.1.0" = {}`.
-This makes it easier to update and can be used to automatically fetch newer versions so it's the prefered way of doing things.
-
-
-# Criterias for inclusion
+## Where to request new APWorlds
 
 > [!IMPORTANT]
-> Do **NOT** go make demands for apworlds author to cater their apworlds for inclusion in this index.
+> **Open community contributions go to the upstream:** [mooinglemur/Archipelago-index](https://github.com/mooinglemur/Archipelago-index).
+> Open your PR there. Stef syncs MooingLemur's `main` into this fork.
 
-- The apworld must not be banned on the archipelago server for copyright reasons
-- The apworld must not contain big unknown executable binary blobs or depend on any.
-- The apworld must not contain obvious flaws that will make life difficult for anyone trying to generate large multiworlds. That includes direct usage of the random module, obvious logic flaws, test failures that are deemed problematic...
-- The apworld must not make any use of a remote resource during generation.
-- The apworld must not require a ROM to generate. Apworlds already present in the index are exempt from this, but I will not accept any new one.
-- The generation failure rate calculated using my [fuzzer](https://github.com/Eijebong/Archipelago-fuzzer) must be below 1% (not counting `OptionError`s).
-  - To help removing failures that would be considered restrictive starts, those rates will be calculated with a second [world](https://github.com/Eijebong/empty-apworld) present that has 100 free locations
-  - I will make exceptions for failures happening early during generation (before `generate_basic`) as those would most likely be detectd by YAML validation and won't result in a big time loss during generation
-- If the apworld is a beta for core verified game then it must have a different game name (`LADX` -> `LADX beta`)
+PRs opened directly here are welcome but the same change will need to land upstream to reach the wider ecosystem. See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for more.
+
+## TOML schema (for reference)
+
+The index format is unchanged from upstream. A world entry lives at `index/{apworld}.toml` and looks like this:
+
+```toml
+name = "A Link to the Past"        # required; must match the world name used in YAML
+display_name = "ALttP"             # optional; pretty name when `name` is ugly (e.g., "Manual_Foo_Bar")
+home = "https://discord.com/..."   # optional; discord thread, github repo, or other canonical URL
+tags = ["ad"]                      # optional; "ad" = after-dark server
+
+[versions]
+"0.1.0" = { url = "https://github.com/foo/bar/releases/download/0.1.0/foo.apworld" }
+"0.2.0" = { local = "../apworlds/foo-0.2.0.apworld" }
+```
+
+Filename rule: `{apworld}.toml` MUST match the apworld name. For "A Link to the Past" with apworld `alttp`, the file is `alttp.toml`.
+
+### Versions
+
+Each version key MUST be valid [semver](https://semver.org/) so versions can be ordered. It does not matter whether the actual APWorld respects semver — be creative if you must:
+
+- A release tagged `0.8` becomes `"0.8.0"`.
+- An unversioned manual: count releases in the discord channel and use `"0.0.X"`. If discord search fails you, `"0.0.1"` is fine; bump on update.
+
+### Source: `url` vs `local`
+
+Two source types per version. Prefer `url` to keep the repo small.
+
+- **`url`** — direct download link to the .apworld file (typically a GitHub release artifact):
+  ```toml
+  "0.1.0" = { url = "https://github.com/foo/bar/releases/download/0.1.0/foo.apworld" }
+  ```
+- **`local`** — the .apworld is committed to `apworlds/` as `{apworld}-{version}.apworld`. Use this when the artifact only lives somewhere unstable (e.g., a Discord pinned message):
+  ```toml
+  "0.1.0" = { local = "../apworlds/foo-0.1.0.apworld" }
+  ```
+
+### `default_url` (preferred for semver-tagged GitHub releases)
+
+When release tags are semver-compatible, set a top-level `default_url` template and leave the per-version objects empty:
+
+```toml
+default_url = "https://github.com/foo/bar/releases/download/{{version}}/foo.apworld"
+
+[versions]
+"0.1.0" = {}
+"0.2.0" = {}
+```
+
+This makes updates a one-line change and lets tooling auto-fetch new releases.
+
+## Inclusion criteria
+
+The criteria for what gets indexed are set by the upstream maintainer. Summarised from the upstream README:
+
+- The apworld must not be banned on the Archipelago server for copyright reasons.
+- It must not contain large opaque executable binary blobs or depend on any.
+- It must not have obvious flaws that break large multiworld generation: direct `random` usage, broken logic, problematic test failures, etc.
+- It must not make use of a remote resource during generation.
+- It must not require a ROM to generate. Already-indexed worlds are grandfathered; new ROM-dependent worlds are not accepted.
+- The generation failure rate from [Eijebong's fuzzer](https://github.com/Eijebong/Archipelago-fuzzer) must be below 1% (excluding `OptionError`s). Failures before `generate_basic` are typically excused since they're caught by YAML validation.
+- A beta of a core verified game must use a distinct world name (e.g., `LADX` → `LADX beta`).
+
+> [!IMPORTANT]
+> Do **NOT** demand that an APWorld author cater their package to be included in the index. The index follows authors, not the other way around.
+
+## What this fork adds on top
+
+The only difference from MooingLemur's upstream is the security-audit layer:
+
+- A GitHub Actions / Atlas-runner pipeline (in progress) runs `apworld-auditor` against every PR that touches `index/*.toml`.
+- The auditor downloads each newly-added APWorld version, sandboxes it in a Docker container with no network and no host access, extracts only the Python source, and feeds it to Claude Code for a structured security review.
+- A verdict (`PASS` / `NEEDS_REVIEW` / `FAIL`) is posted as a PR comment.
+
+This is purely additive — no existing upstream rule changes. See [`SECURITY.md`](./SECURITY.md) for the verdict semantics, threat model, and how to report a vulnerability.
