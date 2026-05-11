@@ -1,6 +1,7 @@
 name  = "Ori and the Blind Forest"
 home = "https://discord.com/channels/731205301247803413/1036405779726610452"
 default_url = "https://github.com/c-ostic/Archipelago/releases/download/v{{version}}/oribf.apworld"
+stability = "stable"
 
 [versions]
 "0.3.3-alpha" = {}

@@ -1,6 +1,7 @@
 name = "Minishoot Adventures"
 home = "https://discord.com/channels/731205301247803413/1307687662798508113"
 default_url = "https://github.com/TheNooodle/MinishootRandomizer/releases/download/v{{version}}/minishoot.apworld"
+stability = "stable"
 
 [versions]
 "0.4.2" = {}

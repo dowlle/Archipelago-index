@@ -1,6 +1,8 @@
 name = "Into the Breach"
 home = "https://github.com/Ishigh1/ITB-randomizer-for-AP"
 default_url = "https://github.com/Ishigh1/ITB-randomizer-for-AP/releases/download/v{{version}}/into_the_breach.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/Ishigh1/Archipelago/blob/into-the-breach/worlds/into_the_breach/docs/setup_en.md"
 
 [versions]
 "0.15.15" = {}

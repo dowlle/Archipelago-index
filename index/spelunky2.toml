@@ -1,6 +1,8 @@
 name = "Spelunky 2"
 home = "https://discord.com/channels/731205301247803413/1142626744629735555"
 default_url = "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases/download/{{version}}/spelunky2.apworld"
+stability = "stable"
+setup_guide = "https://github.com/DDR-Khat/Spelunky2-Archipelago/blob/main/README.md"
 
 [versions]
 "0.2.4" = {}

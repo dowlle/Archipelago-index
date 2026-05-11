@@ -1,6 +1,7 @@
 name = "Minit"
 home = "https://discord.com/channels/731205301247803413/1167463223528787998"
 default_url = "https://github.com/qwint/APMinit/releases/download/v{{version}}/minit.apworld"
+stability = "stable"
 
 [versions]
 "0.6.4" = {}

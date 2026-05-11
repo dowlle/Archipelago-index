@@ -2,6 +2,9 @@ name = "Ratchet and Clank 3"
 display_name = "Ratchet & Clank 3"
 home = "https://discord.com/channels/731205301247803413/1357102103054651622"
 default_url = "https://github.com/Taoshix/Archipelago-RaC3/releases/download/v{{version}}/rac3.apworld"
+stability = "stable"
+setup_guide = "https://github.com/Taoshix/Archipelago-RaC3/blob/staging/worlds/rac3/docs/setup_en.md"
+tracker = "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker"
 
 [versions]
 "0.4.1" = {}

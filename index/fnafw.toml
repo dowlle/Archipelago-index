@@ -1,5 +1,6 @@
 name = "FNaFW"
 home = "https://discord.com/channels/731205301247803413/1104088448127729704"
+stability = "stable"
 
 [versions]
 # https://discord.com/channels/731205301247803413/1104088448127729704/1458251596772282522

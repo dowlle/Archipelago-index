@@ -1,6 +1,8 @@
 name = "Lego Star Wars: The Complete Saga"
 home = "https://discord.com/channels/731205301247803413/1110760232763801711"
 default_url = "https://github.com/Mysteryem/Archipelago-TCS/releases/download/v{{version}}/lego_star_wars_tcs.apworld"
+stability = "stable"
+setup_guide = "https://github.com/Mysteryem/Archipelago-TCS/blob/main/lego_star_wars_tcs/docs/setup_en.md"
 
 [versions]
 "1.0.1" = {}

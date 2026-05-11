@@ -2,6 +2,9 @@ name = "Schedule I"
 home = "https://discord.com/channels/1085716850370957462/1424079825697509427"
 default_url = "https://github.com/MacH8s/Narcopelago/releases/download/v{{version}}/Schedule_I.apworld"
 tags = ["ad"]
+stability = "unstable"
+setup_guide = "https://github.com/Papacester/nightmare-monkey"
+tracker = "https://github.com/RazgrizEast/schedule-1-poptracker-razgriz/releases/latest"
 
 [versions]
 "3.4.0" = {}

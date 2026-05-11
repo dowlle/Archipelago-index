@@ -1,6 +1,8 @@
 name = "ULTRAKILL"
 home = "https://discord.com/channels/1085716850370957462/1123371409339584532"
 default_url = "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/download/{{version}}/ultrakill.apworld"
+stability = "stable"
+setup_guide = "https://github.com/TRPG0/ArchipelagoULTRAKILL?tab=readme-ov-file#setup"
 
 [versions]
 "3.2.3" = {}

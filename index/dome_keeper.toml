@@ -1,6 +1,7 @@
 name = "Dome Keeper"
 home = "https://discord.com/channels/731205301247803413/1195385214877306921"
 default_url = "https://github.com/Arrcival/ArchipelagoDK/releases/download/v{{version}}/dome_keeper.apworld"
+stability = "stable"
 
 [versions]
 "1.1.4" = {}

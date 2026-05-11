@@ -1,3 +1,4 @@
 name = "Hollow Knight"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"

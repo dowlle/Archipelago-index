@@ -1,6 +1,8 @@
 name = "Star Fox 64"
 home = "https://discord.com/channels/731205301247803413/1024876649151475732"
 default_url = "https://github.com/Auztin/AP-Star-Fox-64/releases/download/v{{version}}/star_fox_64.apworld"
+stability = "stable"
+setup_guide = "https://github.com/Auztin/AP-Star-Fox-64/blob/v0.4.1/ap/docs/setup_en.md"
 
 [versions]
 "0.4.1" = {}

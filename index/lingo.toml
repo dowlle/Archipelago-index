@@ -1,3 +1,4 @@
 name = "Lingo"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"

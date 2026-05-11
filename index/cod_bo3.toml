@@ -2,6 +2,8 @@ name = "Black Ops 3 - Zombies"
 home = "https://discord.com/channels/1085716850370957462/1205200487175950386"
 tags = ["ad"]
 default_url = "https://github.com/colin969/bo3_archipelago/releases/download/{{version}}/cod_bo3.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/colin969/bo3_archipelago?tab=readme-ov-file#setup-instructions"
 
 [versions]
 "0.5.1" = {}

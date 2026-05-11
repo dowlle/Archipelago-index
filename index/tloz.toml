@@ -1,3 +1,4 @@
 name = "The Legend of Zelda"
 home = "https://archipelago.gg"
 supported = true
+stability = "unstable"
