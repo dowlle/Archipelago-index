@@ -1,0 +1,6 @@
+name = "The Elder Scrolls IV: Oblivion Remastered"
+home = "https://github.com/POD-io/Oblivion-ArchipelagoWorld"
+default_url = "https://github.com/POD-io/Oblivion-ArchipelagoWorld/releases/download/v{{version}}/oblivion.apworld"
+stability = "stable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Kindergarten 2"
+home = "https://github.com/agilbert1412/Archipelagarten"
+default_url = "https://github.com/agilbert1412/Archipelagarten/releases/download/{{version}}/kindergarten_2.apworld"
+stability = "stable"
+
+[versions]

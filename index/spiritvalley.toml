@@ -1,0 +1,6 @@
+name = "Spirit Valley"
+home = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago"
+default_url = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago/releases/download/{{version}}/spiritvalley.apworld"
+stability = "unstable"
+
+[versions]

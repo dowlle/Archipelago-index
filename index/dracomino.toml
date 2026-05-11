@@ -1,0 +1,6 @@
+name = "Dracomino"
+home = "https://github.com/DragonWolfLeo/DracominoAPWorld"
+default_url = "https://github.com/DragonWolfLeo/DracominoAPWorld/releases/download/v{{version}}/dracomino.apworld"
+stability = "stable"
+
+[versions]

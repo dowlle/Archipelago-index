@@ -1,0 +1,6 @@
+name = "Mario is Missing (SNES)"
+home = "https://github.com/TheRealSolidusSnake/Mario-Is-Missing"
+default_url = "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases/download/{{version}}/mariomissing.apworld"
+stability = "stable"
+
+[versions]

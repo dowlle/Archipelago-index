@@ -1,0 +1,6 @@
+name = "Cookie Clicker (New Fork)"
+home = "https://github.com/Charlignon/AP_CookieClicker"
+default_url = "https://github.com/Charlignon/AP_CookieClicker/releases/download/{{version}}/cookieclicker.apworld"
+stability = "stable"
+
+[versions]

@@ -1,0 +1,7 @@
+name = "Library of Ruina"
+home = "https://github.com/Az-LastPenguin/LORAP"
+default_url = "https://github.com/Az-LastPenguin/LORAP/releases/download/v{{version}}/lor.apworld"
+stability = "unstable"
+setup_guide = "https://az-lastpenguin.github.io/guide"
+
+[versions]

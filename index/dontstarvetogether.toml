@@ -1,0 +1,6 @@
+name = "Don't Starve Together"
+home = "https://github.com/DragonWolfLeo/Archipelago-DST"
+default_url = "https://github.com/DragonWolfLeo/Archipelago-DST/releases/download/{{version}}/dontstarvetogether.apworld"
+stability = "stable"
+
+[versions]

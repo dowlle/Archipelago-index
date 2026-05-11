@@ -1,0 +1,8 @@
+name = "Crystalis"
+home = "https://github.com/Ars-Ignis/Archipelago"
+default_url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v{{version}}/manual_gloomhaven_codegorilla.apworld"
+stability = "stable"
+setup_guide = "https://github.com/Ars-Ignis/Archipelago/blob/crystalis/worlds/crystalis/docs/setup_en.md"
+tracker = "https://github.com/Ars-Ignis/crystalis-randomizer-tracker/releases"
+
+[versions]

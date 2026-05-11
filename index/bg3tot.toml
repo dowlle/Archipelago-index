@@ -1,0 +1,7 @@
+name = "Baldur's Gate 3 - Trials of Tav"
+home = "https://github.com/Zoltun456/Archipelago-BG3-ToT"
+default_url = "https://github.com/Zoltun456/Archipelago-BG3-ToT/releases/download/v{{version}}/bg3tot.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/Zoltun456/Archipelago-BG3-ToT?tab=readme-ov-file#install-guide"
+
+[versions]

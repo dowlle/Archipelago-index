@@ -1,0 +1,6 @@
+name = "Cyberpunk 2077"
+home = "https://github.com/247Tossing/cyberpunk_archipelago"
+default_url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/v{{version}}/cyberpunk2077-hotfix-3.apworld"
+stability = "unstable"
+
+[versions]

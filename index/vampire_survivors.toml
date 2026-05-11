@@ -1,0 +1,6 @@
+name = "Vampire Survivors"
+home = "https://github.com/SWCreeperKing/ArchipelagoSurvivors"
+default_url = "https://github.com/SWCreeperKing/ArchipelagoSurvivors/releases/download/v{{version}}/vampire_survivors.apworld"
+stability = "stable"
+
+[versions]

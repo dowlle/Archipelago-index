@@ -1,0 +1,6 @@
+name = "League of Legends"
+home = "https://github.com/kbab13reel/Archipelago"
+default_url = "https://github.com/kbab13reel/Archipelago/releases/download/{{version}}/lol.apworld"
+stability = "stable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Huniepop"
+home = "https://github.com/DotsofdarknessArchipelago/HuniePopArchipelago"
+default_url = "https://github.com/DotsofdarknessArchipelago/HuniePopArchipelago/releases/download/{{version}}/huniepop.apworld"
+stability = "stable"
+
+[versions]

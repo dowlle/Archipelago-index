@@ -1,0 +1,7 @@
+name = "Garry's Mod (apAdventure)"
+home = "https://github.com/ChrisCj8/ap_adventure"
+default_url = "https://github.com/ChrisCj8/ap_adventure/releases/download/v{{version}}/gmod_apadv.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/ChrisCj8/ap_adventure/blob/main/apworld/docs/setup_en.md"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Deep Rock Galactic"
+home = "https://github.com/Cousinit117/Deep-Rock-Galactic-AP"
+default_url = "https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/download/{{version}}/deep_rock_galactic.apworld"
+stability = "stable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Plateup!"
+home = "https://github.com/CazIsABoi/Archipelago"
+default_url = "https://github.com/CazIsABoi/Archipelago/releases/download/{{version}}/plateup.apworld"
+stability = "stable"
+
+[versions]

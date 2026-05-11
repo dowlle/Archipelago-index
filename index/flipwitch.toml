@@ -1,0 +1,6 @@
+name = "Flipwitch"
+home = "https://github.com/Witchybun/FlipwitchAPClient"
+default_url = "https://github.com/Witchybun/FlipwitchAPClient/releases/download/{{version}}/flipwitch.apworld"
+stability = "stable"
+
+[versions]

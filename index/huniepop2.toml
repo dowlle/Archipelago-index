@@ -1,0 +1,6 @@
+name = "Huniepop 2: Double Date"
+home = "https://github.com/DotsofdarknessArchipelago/HuniePop2Archipelago"
+default_url = "https://github.com/DotsofdarknessArchipelago/HuniePop2Archipelago/releases/download/v{{version}}/huniepop2.apworld"
+stability = "stable"
+
+[versions]

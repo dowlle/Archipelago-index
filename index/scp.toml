@@ -1,0 +1,6 @@
+name = "Super Cat Planet"
+home = "https://github.com/lone01/scp"
+default_url = "https://github.com/lone01/scp/releases/download/v{{version}}/scp.apworld"
+stability = "stable"
+
+[versions]

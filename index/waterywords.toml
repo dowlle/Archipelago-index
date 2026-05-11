@@ -1,0 +1,6 @@
+name = "Watery Words"
+home = "https://github.com/spineraks-org/ArchipelagoWateryWords"
+default_url = "https://github.com/spineraks-org/ArchipelagoWateryWords/releases/download/v{{version}}/waterywords.apworld"
+stability = "stable"
+
+[versions]

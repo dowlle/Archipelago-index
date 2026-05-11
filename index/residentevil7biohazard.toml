@@ -1,0 +1,6 @@
+name = "Resident Evil 7"
+home = "https://github.com/ElGrenier/RE7_AP_World"
+default_url = "https://github.com/ElGrenier/RE7_AP_World/releases/download/{{version}}/residentevil7biohazard.apworld"
+stability = "unstable"
+
+[versions]

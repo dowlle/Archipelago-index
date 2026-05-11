@@ -1,0 +1,6 @@
+name = "Running with Rifles"
+home = "https://github.com/mjousse72/archipelago_rwr"
+default_url = "https://github.com/mjousse72/archipelago_rwr/releases/download/v{{version}}/rwr.apworld"
+stability = "unstable"
+
+[versions]
