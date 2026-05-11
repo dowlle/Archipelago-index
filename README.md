@@ -9,7 +9,7 @@ A downstream fork of [mooinglemur/Archipelago-index](https://github.com/mooingle
 
 > [!IMPORTANT]
 > **Open community contributions go to the upstream:** [mooinglemur/Archipelago-index](https://github.com/mooinglemur/Archipelago-index).
-> Open your PR there. Stef syncs MooingLemur's `main` into this fork.
+> Open your PR there. Dowlle syncs MooingLemur's `main` into this fork.
 
 PRs opened directly here are welcome but the same change will need to land upstream to reach the wider ecosystem. See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for more.
 
