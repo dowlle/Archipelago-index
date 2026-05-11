@@ -1,5 +1,7 @@
 name = "Getting Over It"
 home = "https://github.com/BlastSlimey/CheckingOverIt"
+stability = "stable"
+setup_guide = "https://github.com/BlastSlimey/Archipelago/tree/getting_over_it/worlds/getting_over_it/docs"
 
 [versions]
 "0.2.3" = { url = "https://github.com/BlastSlimey/CheckingOverIt/releases/download/0.2.3/getting_over_it.apworld" }

@@ -1,6 +1,8 @@
 name = "Luigi's Mansion"
 home = "https://discord.com/channels/731205301247803413/1378465872917827614"
 default_url = "https://github.com/BootsinSoots/Archipelago/releases/download/V{{version}}/luigismansion.apworld"
+stability = "stable"
+setup_guide = "https://github.com/BootsinSoots/Archipelago/blob/Luigi's-Mansion-AP/worlds/luigismansion/docs/setup_en.md"
 
 [versions]
 "0.4.9" = {}

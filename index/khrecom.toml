@@ -1,6 +1,7 @@
 name = "Kingdom Hearts RE Chain of Memories"
 home = "https://discord.com/channels/731205301247803413/1074710550384234587"
 default_url = "https://github.com/gaithernOrg/ArchipelagoKHRECOM/releases/download/{{version}}/khrecom.apworld"
+stability = "stable"
 
 [versions]
 "1.4.2" = {}

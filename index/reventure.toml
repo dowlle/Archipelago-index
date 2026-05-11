@@ -1,6 +1,8 @@
 name = "Reventure"
 home = "https://discord.com/channels/731205301247803413/1200081144629174363"
 default_url = "https://github.com/Droppel/ReventureEndingRando/releases/download/{{version}}/reventure.apworld"
+stability = "stable"
+tracker = "https://github.com/fhnnhf/reventure_tracker/releases"
 
 [versions]
 "0.19.0" = {}

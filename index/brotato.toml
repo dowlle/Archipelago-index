@@ -1,6 +1,7 @@
 name = "Brotato"
 home = "https://discord.com/channels/731205301247803413/1154944430097313803"
 default_url = "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases/download/v{{version}}/brotato.apworld"
+stability = "stable"
 
 [versions]
 "0.8.0" = {}

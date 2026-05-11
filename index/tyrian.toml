@@ -1,6 +1,8 @@
 name = "Tyrian"
 home = "https://discord.com/channels/731205301247803413/1224498137570349076"
 default_url = "https://github.com/KScl/TyrianArchipelago/releases/download/v{{version}}/tyrian.apworld"
+stability = "stable"
+setup_guide = "https://github.com/KScl/TyrianAPWorld/blob/main/docs/setup_en.md"
 
 [versions]
 "0.80.2" = {}

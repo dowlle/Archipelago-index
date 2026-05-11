@@ -1,6 +1,8 @@
 name = "TOEM: A Photo Adventure"
 home = "https://discord.com/channels/731205301247803413/1255989734497587241"
 default_url = "https://github.com/bbernardoni/Archipelago.TOEM/releases/download/{{version}}/toem.apworld"
+stability = "stable"
+setup_guide = "https://github.com/bbernardoni/Archipelago/blob/toem/worlds/toem/docs/setup_en.md"
 
 [versions]
 "1.1.1" = {}

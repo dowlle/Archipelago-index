@@ -1,6 +1,8 @@
 name = "Mario Super Sluggers"
 home = "https://discord.com/channels/731205301247803413/1238777175033909318"
 default_url = "https://github.com/MarioManTAW/Archipelago/releases/download/sluggers-v{{version}}/mario_super_sluggers.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/MarioManTAW/Archipelago/blob/sluggers-v0.0.0/worlds/mario_super_sluggers/docs/setup_en.md"
 
 [versions]
 "0.2.1" = {}

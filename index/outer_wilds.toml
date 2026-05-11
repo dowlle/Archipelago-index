@@ -1,6 +1,7 @@
 name = "Outer Wilds"
 home = "https://discord.com/channels/731205301247803413/1462820272012005489"
 default_url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v{{version}}/outer_wilds.apworld"
+stability = "stable"
 
 [versions]
 "0.3.6" = {}

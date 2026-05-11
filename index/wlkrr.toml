@@ -1,6 +1,8 @@
 name = "We Love Katamari Reroll"
 home = "https://discord.com/channels/731205301247803413/1141745266723131523"
 default_url = "https://github.com/sapphisylph/We-Love-Archipelago-Reroll/releases/download/v{{version}}/wlkrr.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/sapphisylph/We-Love-Archipelago-Reroll/blob/main/README.md#setup-guide"
 
 [versions]
 

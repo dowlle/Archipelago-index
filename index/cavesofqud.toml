@@ -1,6 +1,8 @@
 name = "Caves of Qud"
 home = "https://discord.com/channels/731205301247803413/1368279310317654087"
 default_url = "https://github.com/lonesurv1vor/CavesOfQudArchipelagoRandomizer/releases/download/v{{version}}/cavesofqud.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/SabreCat/CavesOfQudArchipelagoRandomizer?tab=readme-ov-file#installation-and-creating-a-game"
 
 [versions]
 "0.7.0" = {}

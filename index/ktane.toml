@@ -1,5 +1,6 @@
 name = "Keep Talking and Nobody Explodes"
 home = "https://discord.com/channels/731205301247803413/1058549067107532840"
+stability = "stable"
 
 [versions]
 "0.2.0" = {url = "https://github.com/GreenPower713/Archipelago/releases/download/v0.2.0/ktane.apworld" }

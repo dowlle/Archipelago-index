@@ -15,13 +15,16 @@ PRs opened directly here are welcome but the same change will need to land upstr
 
 ## TOML schema (for reference)
 
-The index format is unchanged from upstream. A world entry lives at `index/{apworld}.toml` and looks like this:
+The index format is unchanged from upstream on the required fields, with three optional additions that downstream tooling can surface (stability badge, setup guide link, tracker link). A world entry lives at `index/{apworld}.toml` and looks like this:
 
 ```toml
 name = "A Link to the Past"        # required; must match the world name used in YAML
 display_name = "ALttP"             # optional; pretty name when `name` is ugly (e.g., "Manual_Foo_Bar")
 home = "https://discord.com/..."   # optional; discord thread, github repo, or other canonical URL
 tags = ["ad"]                      # optional; "ad" = after-dark server
+stability = "stable"               # optional; "stable" | "unstable" | "alpha" | "beta"
+setup_guide = "https://..."        # optional; URL to the author's setup / installation guide
+tracker = "https://..."            # optional; URL to a PopTracker pack or similar
 
 [versions]
 "0.1.0" = { url = "https://github.com/foo/bar/releases/download/0.1.0/foo.apworld" }
@@ -29,6 +32,14 @@ tags = ["ad"]                      # optional; "ad" = after-dark server
 ```
 
 Filename rule: `{apworld}.toml` MUST match the apworld name. For "A Link to the Past" with apworld `alttp`, the file is `alttp.toml`.
+
+### Optional metadata fields
+
+These three fields are forward-compatible additions: existing TOMLs without them parse fine and downstream tools should treat them as missing rather than as defaults.
+
+- **`stability`** — author-declared stability tag. Valid values are `stable`, `unstable`, `alpha`, `beta`. Sourced initially from the unofficial AP APWorld Google Sheet's "Stability" column. Renderers can use this to badge the apworld in their UI. Defaults to "unknown" if absent.
+- **`setup_guide`** — direct URL to a setup / installation guide for the apworld. Usually a wiki page or a setup-en.md in the apworld repo. Renderers can link this next to the version pin so hosts find it without hunting.
+- **`tracker`** — direct URL to a PopTracker pack or similar tracker resource. Renderers can link this next to the apworld's version pin.
 
 ### Versions
 

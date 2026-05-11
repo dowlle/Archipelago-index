@@ -1,3 +1,4 @@
 name = "Kingdom Hearts"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"

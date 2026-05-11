@@ -1,6 +1,8 @@
 name = "Zork Grand Inquisitor"
 home = "https://discord.com/channels/731205301247803413/1224389493289648218"
 default_url = "https://github.com/SerpentAI/Archipelago/releases/download/zgi-v{{version}}/zork_grand_inquisitor.apworld"
+stability = "stable"
+setup_guide = "https://archipelago.miraheze.org/wiki/Zork_Grand_Inquisitor#Setup"
 
 [versions]
 "2.0.6+hotfix1" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/zgi-v2.0.6/zork_grand_inquisitor.apworld" }

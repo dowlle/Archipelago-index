@@ -1,6 +1,8 @@
 name = "The Grinch"
 home = "https://discord.com/channels/731205301247803413/1279837475338190999"
 default_url = "https://github.com/MarioSpore/Grinch-AP/releases/download/v{{version}}/grinch.apworld"
+stability = "stable"
+tracker = "https://www.google.com/url?q=https://github.com/JAHapner01/Grinch-AP-Tracker/releases/latest&sa=D&source=editors&ust=1775835197578395&usg=AOvVaw3cLg7ZDJAc2K_0T7R4ZT7b"
 
 [versions]
 "1.0.2" = {}

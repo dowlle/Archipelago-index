@@ -1,6 +1,7 @@
 name  = "Hatsune Miku Project Diva Mega Mix+"
 home = "https://discord.com/channels/731205301247803413/1241134454391443580"
 default_url = "https://github.com/Cynichill/DivaAPworld/releases/download/{{version}}B/megamix.apworld"
+stability = "stable"
 
 [versions]
 "1.4.3" = {}
