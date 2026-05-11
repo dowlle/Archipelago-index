@@ -3,7 +3,7 @@
 A downstream fork of [mooinglemur/Archipelago-index](https://github.com/mooinglemur/Archipelago-index), the community-curated index of Archipelago Multiworld APWorld releases. This fork exists to:
 
 1. **Sync from the MooingLemur upstream**, so a personal copy stays current without depending on anyone's downtime.
-2. **Run an automated source-level security audit** on every APWorld update that lands here, via [`dowlle/apworld-auditor`](https://github.com/dowlle/apworld-auditor). The audit verdict is posted on each PR. See [`SECURITY.md`](./SECURITY.md) for the audit policy.
+2. **Run an automated source-level security audit** on every APWorld update that lands here. The audit verdict is posted on each PR. See [`SECURITY.md`](./SECURITY.md) for the audit policy.
 
 ## Where to request new APWorlds
 
@@ -83,8 +83,8 @@ The criteria for what gets indexed are set by the upstream maintainer. Summarise
 
 The only difference from MooingLemur's upstream is the security-audit layer:
 
-- A GitHub Actions / Atlas-runner pipeline (in progress) runs `apworld-auditor` against every PR that touches `index/*.toml`.
-- The auditor downloads each newly-added APWorld version, sandboxes it in a Docker container with no network and no host access, extracts only the Python source, and feeds it to Claude Code for a structured security review.
+- A separate audit pipeline (in progress) runs against every PR that touches `index/*.toml`.
+- The auditor downloads each newly-added APWorld version, sandboxes it in a container with no network and no host access, extracts only the Python source, and feeds it to an LLM for a structured security review.
 - A verdict (`PASS` / `NEEDS_REVIEW` / `FAIL`) is posted as a PR comment.
 
 This is purely additive — no existing upstream rule changes. See [`SECURITY.md`](./SECURITY.md) for the verdict semantics, threat model, and how to report a vulnerability.
