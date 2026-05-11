@@ -1,0 +1,6 @@
+name = "PEAK"
+home = "https://github.com/Mickemoose/peak-archipelago"
+default_url = "https://github.com/Mickemoose/peak-archipelago/releases/download/{{version}}/peak.apworld"
+stability = "stable"
+
+[versions]

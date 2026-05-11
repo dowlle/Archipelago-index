@@ -1,0 +1,6 @@
+name = "CloverPit"
+home = "https://github.com/Syntheal/CloverPit.Archipelago"
+default_url = "https://github.com/Syntheal/CloverPit.Archipelago/releases/download/v{{version}}/cloverpit.apworld"
+stability = "stable"
+
+[versions]

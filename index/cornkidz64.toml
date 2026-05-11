@@ -1,0 +1,6 @@
+name = "CornKidz 64"
+home = "https://github.com/Cyb3RGER/cornkidz64_apworld"
+default_url = "https://github.com/Cyb3RGER/cornkidz64_apworld/releases/download/v{{version}}/cornkidz64.apworld"
+stability = "stable"
+
+[versions]
