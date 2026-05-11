@@ -1,0 +1,7 @@
+name = "Sonic the Hedgehog"
+home = "https://github.com/kaithar/Archipelago"
+default_url = "https://github.com/kaithar/Archipelago/releases/download/{{version}}/sonic1.apworld"
+stability = "stable"
+setup_guide = "https://github.com/kaithar/Archipelago/blob/sonic1/worlds/sonic1/docs/setup_en.md"
+
+[versions]

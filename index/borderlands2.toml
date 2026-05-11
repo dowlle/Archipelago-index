@@ -1,0 +1,6 @@
+name = "Borderlands 2"
+home = "https://github.com/EdricY/Bouncy-Loot-God"
+default_url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/v{{version}}/borderlands2.apworld"
+stability = "unstable"
+
+[versions]

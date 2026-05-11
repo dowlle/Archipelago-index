@@ -1,0 +1,7 @@
+name = "Against the Storm"
+home = "https://github.com/Ryguy-9999/ArchipelagoATS"
+default_url = "https://github.com/Ryguy-9999/ArchipelagoATS/releases/download/v{{version}}/against_the_storm.apworld"
+stability = "stable"
+tracker = "https://github.com/Chfou/ATS-poptracker"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Yu-Gi-Oh! Dungeon Dice Monsters"
+home = "https://github.com/JustinMarshall98/Archipelago"
+default_url = "https://github.com/JustinMarshall98/Archipelago/releases/download/v{{version}}/yugiohddm.apworld"
+stability = "stable"
+
+[versions]

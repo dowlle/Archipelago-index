@@ -1,0 +1,7 @@
+name = "A Difficult Game About Climbing"
+home = "https://github.com/BlastSlimey/GrabbingChecks"
+default_url = "https://github.com/BlastSlimey/GrabbingChecks/releases/download/{{version}}/difficult_climbing.apworld"
+stability = "stable"
+setup_guide = "https://github.com/BlastSlimey/Archipelago/blob/difficult_climbing/worlds/difficult_climbing/docs/setup_en.md"
+
+[versions]

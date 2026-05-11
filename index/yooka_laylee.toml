@@ -1,0 +1,6 @@
+name = "Yooka-Laylee"
+home = "https://github.com/Awareqwx/Archipelago"
+default_url = "https://github.com/Awareqwx/Archipelago/releases/download/{{version}}/yooka_laylee.apworld"
+stability = "stable"
+
+[versions]

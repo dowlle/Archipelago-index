@@ -1,0 +1,7 @@
+name = "Funi Raccoon Game"
+home = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/download/{{version}}/funi_raccoon.apworld"
+stability = "stable"
+setup_guide = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md"
+
+[versions]

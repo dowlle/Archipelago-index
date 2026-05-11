@@ -1,0 +1,7 @@
+name = "Ori and the Will of the Wisps"
+home = "https://github.com/Satisha10/APwotw_release"
+default_url = "https://github.com/Satisha10/APwotw_release/releases/download/v{{version}}/ori_wotw.apworld"
+stability = "stable"
+setup_guide = "https://github.com/Satisha10/APwotw_release"
+
+[versions]

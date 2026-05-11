@@ -1,0 +1,6 @@
+name = "Dragon Warrior"
+home = "https://github.com/Serpikmin/Archipelago-DragonWarrior"
+default_url = "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases/download/{{version}}/dragon_warrior.apworld"
+stability = "stable"
+
+[versions]

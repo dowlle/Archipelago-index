@@ -1,0 +1,6 @@
+name = "Tetris Attack"
+home = "https://github.com/AgStarRay/TetrisAttackAP"
+default_url = "https://github.com/AgStarRay/TetrisAttackAP/releases/download/{{version}}/tetrisattack.apworld"
+stability = "stable"
+
+[versions]

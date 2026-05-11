@@ -1,0 +1,7 @@
+name = "Clair Obscur Expedition 33"
+home = "https://github.com/Demorck/ClairObscur_APWorld"
+default_url = "https://github.com/Demorck/ClairObscur_APWorld/releases/download/v{{version}}/clair_obscur.apworld"
+stability = "unstable"
+tracker = "https://github.com/Demorck/ClairObscur-Archipelago-Poptracker"
+
+[versions]

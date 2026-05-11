@@ -1,0 +1,6 @@
+name = "Hammerwatch"
+home = "https://github.com/Parcosmic/Hammerwatch-Archipelago"
+default_url = "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases/download/v{{version}}/hammerwatch.apworld"
+stability = "stable"
+
+[versions]

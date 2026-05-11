@@ -1,0 +1,7 @@
+name = "The WereCleaner"
+home = "https://github.com/SWCreeperKing/Werepelago"
+default_url = "https://github.com/SWCreeperKing/Werepelago/releases/download/v{{version}}/the_werecleaner.apworld"
+stability = "stable"
+setup_guide = "https://github.com/SWCreeperKing/Werepelago/blob/master/Readme.md"
+
+[versions]

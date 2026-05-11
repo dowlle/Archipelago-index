@@ -1,0 +1,6 @@
+name = "Rabi-Ribi"
+home = "https://github.com/tdkollins/Archipelago-Rabi-Ribi"
+default_url = "https://github.com/tdkollins/Archipelago-Rabi-Ribi/releases/download/{{version}}/rabi_ribi.apworld"
+stability = "stable"
+
+[versions]

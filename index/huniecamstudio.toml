@@ -1,0 +1,6 @@
+name = "Huniecam Studio"
+home = "https://github.com/DotsofdarknessArchipelago/Hunie-Cam-Studio-Archipelago"
+default_url = "https://github.com/DotsofdarknessArchipelago/Hunie-Cam-Studio-Archipelago/releases/download/{{version}}/huniecamstudio.apworld"
+stability = "unstable"
+
+[versions]

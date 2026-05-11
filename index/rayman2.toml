@@ -1,0 +1,7 @@
+name = "Rayman 2: The Great Escape"
+home = "https://github.com/Aeltumn/Rayman2AP"
+default_url = "https://github.com/Aeltumn/Rayman2AP/releases/download/v{{version}}/rayman2.apworld"
+stability = "stable"
+setup_guide = "https://github.com/Aeltumn/Rayman2AP/blob/main/README.md"
+
+[versions]

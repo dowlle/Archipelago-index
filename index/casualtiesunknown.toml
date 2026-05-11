@@ -1,0 +1,6 @@
+name = "Casualties: Unknown (Scav Prototype Demo)"
+home = "https://github.com/Nichologeam/CUAP"
+default_url = "https://github.com/Nichologeam/CUAP/releases/download/v{{version}}/casualtiesunknown.apworld"
+stability = "unstable"
+
+[versions]

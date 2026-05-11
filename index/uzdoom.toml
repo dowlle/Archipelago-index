@@ -1,0 +1,7 @@
+name = "UZDoom"
+home = "https://github.com/toxicfrog/doom-mods"
+default_url = "https://github.com/toxicfrog/doom-mods/releases/download/{{version}}/uzdoom.apworld"
+stability = "stable"
+setup_guide = "https://github.com/ToxicFrog/doom-mods/blob/main/gzap/doc/quickstart.md"
+
+[versions]

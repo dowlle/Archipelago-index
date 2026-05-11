@@ -1,0 +1,6 @@
+name = "ClusterTruck"
+home = "https://github.com/Nullctipus/ArchipelagoClusterTruck"
+default_url = "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases/download/{{version}}/cluster_truck.apworld"
+stability = "stable"
+
+[versions]

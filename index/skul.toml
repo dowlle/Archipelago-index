@@ -1,0 +1,6 @@
+name = "Skul: The Hero Slayer"
+home = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Skul"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Skul/releases/download/{{version}}/skul.apworld"
+stability = "stable"
+
+[versions]

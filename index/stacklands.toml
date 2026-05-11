@@ -1,0 +1,6 @@
+name = "Stacklands"
+home = "https://github.com/JammyGeeza/Stacklands-Randomizer"
+default_url = "https://github.com/JammyGeeza/Stacklands-Randomizer/releases/download/v{{version}}/stacklands.apworld"
+stability = "stable"
+
+[versions]

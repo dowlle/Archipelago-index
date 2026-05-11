@@ -1,0 +1,6 @@
+name = "Quake"
+home = "https://github.com/randomcodegen/ironwail_ap"
+default_url = "https://github.com/randomcodegen/ironwail_ap/releases/download/{{version}}/quake.apworld"
+stability = "unstable"
+
+[versions]
