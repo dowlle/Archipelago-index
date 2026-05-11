@@ -1,0 +1,5 @@
+name = "Timberborn"
+home = "https://github.com/dowlle/timberborn-modding"
+default_url = "https://github.com/dowlle/timberborn-modding/releases/download/v{{version}}/timberborn.apworld"
+
+[versions]
