@@ -112,30 +112,8 @@ jobs:
             fi
             cp "$src" "$dest"
           else
-            # Try the URL as supplied, then fall back to lowercase/uppercase
-            # basename if it 404s. Authors sometimes change asset casing between
-            # releases (e.g. rac1 v0.1.3 ships `rac1.apworld` but v0.2b ships
-            # `RAC1.apworld`); we don't want the index entry to die on that.
-            url_dir="${URL%/*}"
-            base="${URL##*/}"
-            lower_base=$(echo "$base" | tr '[:upper:]' '[:lower:]')
-            upper_base=$(echo "$base" | tr '[:lower:]' '[:upper:]')
-            attempts=("$URL")
-            [ "$base" != "$lower_base" ] && attempts+=("${url_dir}/${lower_base}")
-            [ "$base" != "$upper_base" ] && attempts+=("${url_dir}/${upper_base}")
-            ok=0
-            for u in "${attempts[@]}"; do
-              echo "Downloading $u"
-              if curl -sSL --fail -o "$dest" "$u"; then
-                ok=1
-                [ "$u" != "$URL" ] && echo "::warning::Used filename-casing fallback: $u"
-                break
-              fi
-            done
-            if [ $ok -eq 0 ]; then
-              echo "::error::Download failed for all casing variants of $URL"
-              exit 1
-            fi
+            echo "Downloading $URL"
+            curl -SsL --fail -o "$dest" "$URL"
           fi
           actual=$(sha256sum "$dest" | cut -d' ' -f1)
           if [ -n "$EXPECTED_SHA" ] && [ "$actual" != "$EXPECTED_SHA" ]; then
