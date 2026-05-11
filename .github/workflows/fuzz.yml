@@ -1,0 +1,149 @@
+name: Fuzz added APWorld versions
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'index/**.toml'
+      - 'index.lock'
+      - '.github/workflows/fuzz.yml'
+      - '.github/scripts/detect_added_versions.py'
+
+permissions:
+  contents: read
+  pull-requests: read
+
+# Fuzz hooks repo is pinned by sha so a hook-side regression can't
+# silently change verdict semantics on an in-flight PR.
+env:
+  FUZZ_HOOKS_REPO: dowlle/apworld-fuzz-hooks
+  FUZZ_HOOKS_REF: 38215940cb45a9258bc1e205de0240ea3f92b471
+  FUZZER_COMMIT: acc0a12309bdd9b5d58f97ab5c3cfb8bc258525e
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  detect:
+    name: Detect added versions
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.parse.outputs.matrix }}
+      has_targets: ${{ steps.parse.outputs.has_targets }}
+      ap_version: ${{ steps.ap.outputs.ap_version }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Resolve AP version from index.toml
+        id: ap
+        shell: bash
+        run: |
+          ver=$(grep -E '^archipelago_version' index.toml | head -1 | sed -E 's/.*=[[:space:]]*"([^"]+)".*/\1/')
+          if [ -z "$ver" ]; then
+            echo "::error::Could not parse archipelago_version from index.toml"
+            exit 1
+          fi
+          echo "ap_version=$ver" >> "$GITHUB_OUTPUT"
+          echo "AP version: $ver"
+
+      - name: Parse PR diff
+        id: parse
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: python3 .github/scripts/detect_added_versions.py
+
+  fuzz:
+    name: ${{ matrix.apworld }} ${{ matrix.version }} / ${{ matrix.check_name }}
+    needs: detect
+    if: needs.detect.outputs.has_targets == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.detect.outputs.matrix) }}
+    steps:
+      - name: Checkout index repo (for local-backed apworlds)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: index-repo
+
+      - name: Checkout fuzz hooks
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.FUZZ_HOOKS_REPO }}
+          ref: ${{ env.FUZZ_HOOKS_REF }}
+          path: fuzz-hooks
+
+      - name: Setup Archipelago
+        uses: Eijebong/ap-actions/setup-ap@main
+        with:
+          version: ${{ needs.detect.outputs.ap_version }}
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Stage hooks + empty.apworld + fuzz.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -r fuzz-hooks/hooks archipelago/hooks
+          cp fuzz-hooks/empty.apworld archipelago/custom_worlds/empty.apworld
+          curl -SsL --fail -o archipelago/fuzz.py \
+            "https://raw.githubusercontent.com/Eijebong/Archipelago-fuzzer/${FUZZER_COMMIT}/fuzz.py"
+
+      - name: Download target apworld
+        shell: bash
+        env:
+          APWORLD: ${{ matrix.apworld }}
+          VERSION: ${{ matrix.version }}
+          URL: ${{ matrix.url }}
+          LOCAL: ${{ matrix.local }}
+          EXPECTED_SHA: ${{ matrix.sha256 }}
+        run: |
+          set -euo pipefail
+          dest="archipelago/custom_worlds/${APWORLD}.apworld"
+          if [ -n "$LOCAL" ]; then
+            src="index-repo/index/${LOCAL}"
+            if [ ! -f "$src" ]; then
+              echo "::error::local file not found at $src"
+              exit 1
+            fi
+            cp "$src" "$dest"
+          else
+            echo "Downloading $URL"
+            curl -SsL --fail -o "$dest" "$URL"
+          fi
+          actual=$(sha256sum "$dest" | cut -d' ' -f1)
+          if [ -n "$EXPECTED_SHA" ] && [ "$actual" != "$EXPECTED_SHA" ]; then
+            echo "::error::sha256 mismatch for ${APWORLD} ${VERSION}: expected $EXPECTED_SHA, got $actual"
+            exit 1
+          fi
+          ls -la "$dest"
+
+      - name: Run fuzz check
+        shell: bash
+        working-directory: archipelago
+        env:
+          APWORLD: ${{ matrix.apworld }}
+          CHECK_NAME: ${{ matrix.check_name }}
+          CHECK_RUNS: ${{ matrix.check_runs }}
+          CHECK_HOOK: ${{ matrix.check_hook }}
+        run: |
+          set -euo pipefail
+          echo "=== ${CHECK_NAME} (${CHECK_RUNS} runs) ==="
+          if [ -z "$CHECK_HOOK" ]; then
+            uv run python fuzz.py -j 2 -g "$APWORLD" -r "$CHECK_RUNS" -n 1 -t 120
+          else
+            uv run python fuzz.py -j 2 -g "$APWORLD" -r "$CHECK_RUNS" -n 1 -t 120 --hook "$CHECK_HOOK"
+          fi
+
+      - name: Upload failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fuzz-failure-${{ matrix.apworld }}-${{ matrix.version }}-${{ matrix.check_name }}
+          path: archipelago/fuzz_output
+          if-no-files-found: ignore
+          retention-days: 14
