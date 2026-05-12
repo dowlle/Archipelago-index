@@ -4,3 +4,4 @@ stability = "stable"
 
 [versions]
 "0.1.0+20251208-1" = { url = "https://github.com/vicr123/Archipelago/releases/download/20251208-1/candybox2.apworld" }
+"20260210-1" = { url = "https://github.com/vicr123/Archipelago/releases/download/20260210-1/candybox2.apworld" }
