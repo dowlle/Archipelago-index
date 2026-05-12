@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "0.2.0-beta" = {url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/download/v_0.2.0_beta/metrocubevania.apworld"}
+"v_0.2.0" = { url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/download/v_0.2.0/metrocubevania.apworld" }
