@@ -6,3 +6,4 @@ setup_guide = "https://github.com/SabreCat/CavesOfQudArchipelagoRandomizer?tab=r
 
 [versions]
 "0.7.0" = {}
+"0.8.1" = { url = "https://github.com/SabreCat/CavesOfQudArchipelagoRandomizer/releases/download/v0.8.1/cavesofqud.apworld" }
