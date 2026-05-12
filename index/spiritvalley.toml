@@ -4,3 +4,4 @@ default_url = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archip
 stability = "unstable"
 
 [versions]
+"2.0.0" = { url = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago/releases/download/V2.0.0/spiritvalley.apworld" }
