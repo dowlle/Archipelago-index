@@ -4,3 +4,4 @@ default_url = "https://github.com/AgStarRay/TetrisAttackAP/releases/download/{{v
 stability = "stable"
 
 [versions]
+"0.4.2_01" = {}
