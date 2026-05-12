@@ -6,3 +6,4 @@ disabled = true # 2% failure rate
 [versions]
 "0.3.1" = { url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v0.3.1/tje.apworld" }
 "0.3.2" = {}
+"0.5.4" = {}
