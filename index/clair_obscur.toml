@@ -5,3 +5,4 @@ stability = "unstable"
 tracker = "https://github.com/Demorck/ClairObscur-Archipelago-Poptracker"
 
 [versions]
+"0.2.0" = {}
