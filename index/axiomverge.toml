@@ -6,3 +6,4 @@ stability = "stable"
 "0.3.1" = {url = "https://github.com/mail-liam/Archipelago/releases/download/beta3/axiomverge.apworld"}
 "0.3.2" = {url = "https://github.com/mail-liam/Archipelago/releases/download/beta3.2/axiomverge.apworld"}
 "0.3.3" = { url = "https://github.com/mail-liam/Archipelago/releases/download/beta3.3/axiomverge.apworld" }
+"beta3.3" = { url = "https://github.com/mail-liam/Archipelago/releases/download/beta3.3/axiomverge.apworld" }
