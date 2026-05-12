@@ -4,3 +4,4 @@ default_url = "https://github.com/Nichologeam/CUAP/releases/download/v{{version}
 stability = "unstable"
 
 [versions]
+"0.9.3" = {}
