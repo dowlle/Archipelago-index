@@ -4,3 +4,4 @@ default_url = "https://github.com/JustinMarshall98/Archipelago/releases/download
 stability = "stable"
 
 [versions]
+"0.3.3" = {}
