@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "1.1.6" = {}
+"wargroove2-1.1.6" = { url = "https://github.com/FlySniper/Archipelago/releases/download/wargroove2-1.1.6/wargroove2.apworld" }
