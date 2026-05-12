@@ -5,3 +5,4 @@ stability = "stable"
 setup_guide = "https://github.com/Satisha10/APwotw_release"
 
 [versions]
+"0.5.4" = {}
