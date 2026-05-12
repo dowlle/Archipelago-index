@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "1.1.0" = {}
+"voltorb_flip_1.1.1" = { url = "https://github.com/BlastSlimey/Archipelago/releases/download/voltorb_flip_1.1.1/voltorb_flip.apworld" }
