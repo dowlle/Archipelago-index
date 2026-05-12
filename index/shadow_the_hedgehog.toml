@@ -6,3 +6,4 @@ stability = "stable"
 [versions]
 "0.4.1" = {}
 "0.4.2" = {}
+"shadow-0.4.5" = { url = "https://github.com/choatix/Archipelago/releases/download/shadow-0.4.5/shadow_the_hedgehog.apworld" }
