@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "20.1.7" = {}
+"oos-20.1.13" = { url = "https://github.com/Dinopony/Archipelago/releases/download/oos-20.1.13/tloz_oos.apworld" }
