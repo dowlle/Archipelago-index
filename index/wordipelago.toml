@@ -6,3 +6,4 @@ stability = "stable"
 [versions]
 "1.0.2" = {}
 "1.1.0" = { url = "https://github.com/ProfDeCube/Archipelago/releases/download/wordipelago-1.1.0/wordipelago.apworld"}
+"wordipelago-1.1.0" = {}
