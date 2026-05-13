@@ -1,0 +1,50 @@
+name: Lint index TOMLs
+
+on:
+  pull_request:
+    paths:
+      - 'index/**.toml'
+      - '.github/workflows/lint-toml.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index/**.toml'
+      - '.github/workflows/lint-toml.yml'
+
+jobs:
+  parse:
+    name: Parse every index TOML with stdlib tomllib
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Parse all index/*.toml with tomllib
+        run: |
+          python - <<'PY'
+          import pathlib
+          import sys
+          import tomllib
+
+          failures = []
+          total = 0
+          for p in sorted(pathlib.Path("index").glob("*.toml")):
+              total += 1
+              try:
+                  with open(p, "rb") as f:
+                      tomllib.load(f)
+              except Exception as e:
+                  failures.append((p.name, str(e)))
+
+          print(f"Parsed {total} TOML files.")
+          if failures:
+              print(f"FAIL: {len(failures)} file(s) did not parse:")
+              for name, err in failures:
+                  print(f"  {name}: {err}")
+              sys.exit(1)
+          print("OK: every TOML parses with stdlib tomllib.")
+          PY

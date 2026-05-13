@@ -8,10 +8,11 @@ stability = "stable"
 "0.9.3-BETA+hotfix1" = { url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/download/v0.9.3-BETA/psychonauts.apworld" }
 "0.8.1" = {}
 
-[versions."0.8.1".fuzz_result]
+[[fuzz_results]]
+version = "0.8.1"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0
 worst_hook = "check-determinism"
 worst_hook_rate = 0.464
-seeds = 5000
-fuzzed_at = "2026-05-13"

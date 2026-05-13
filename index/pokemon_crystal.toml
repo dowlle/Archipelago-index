@@ -23,10 +23,11 @@ default_url = "https://github.com/gerbiljames/Archipelago/releases/download/{{ve
 "5.4.3" = {}
 "5.4.4" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/5.4.4/pokemon_crystal.apworld" }
 
-[versions."5.4.4".fuzz_result]
+[[fuzz_results]]
+version = "5.4.4"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0002
 worst_hook = "default"
 worst_hook_rate = 0.0002
-seeds = 5000
-fuzzed_at = "2026-05-13"

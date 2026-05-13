@@ -9,10 +9,11 @@ tracker = "https://github.com/Ars-Ignis/crystalis-randomizer-tracker/releases"
 
 "2.1.1-gloomhaven-manual" = {}
 
-[versions."2.1.1-gloomhaven-manual".fuzz_result]
+[[fuzz_results]]
+version = "2.1.1-gloomhaven-manual"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0
 worst_hook = "check-indirect-conditions"
 worst_hook_rate = 0.0
-seeds = 5000
-fuzzed_at = "2026-05-13"

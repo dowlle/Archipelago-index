@@ -7,10 +7,11 @@ stability = "stable"
 "0.0.2-alpha+f" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha02f/cuphead.apworld" }
 "alpha03d" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03d/cuphead.apworld" }
 
-[versions."alpha03d".fuzz_result]
+[[fuzz_results]]
+version = "alpha03d"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0008
 worst_hook = "default"
 worst_hook_rate = 0.0008
-seeds = 5000
-fuzzed_at = "2026-05-13"

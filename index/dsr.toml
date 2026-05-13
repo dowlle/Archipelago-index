@@ -11,10 +11,11 @@ tracker = "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases"
 "0.1.0-0" = {url = "https://github.com/ArsonAssassin/DSAP/releases/download/0.1.0.0/dsr.apworld"}
 "0.1.1.0" = {}
 
-[versions."0.1.1.0".fuzz_result]
+[[fuzz_results]]
+version = "0.1.1.0"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0
 worst_hook = "check-lambda-capture"
 worst_hook_rate = 0.0
-seeds = 5000
-fuzzed_at = "2026-05-13"

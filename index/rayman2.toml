@@ -8,10 +8,11 @@ setup_guide = "https://github.com/Aeltumn/Rayman2AP/blob/main/README.md"
 
 "0.1.4" = {}
 
-[versions."0.1.4".fuzz_result]
+[[fuzz_results]]
+version = "0.1.4"
 verdict = "flaky"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0256
 worst_hook = "default"
 worst_hook_rate = 0.0256
-seeds = 5000
-fuzzed_at = "2026-05-13"
