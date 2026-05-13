@@ -8,3 +8,12 @@ setup_guide = "https://github.com/AllPoland/unbeatAP/blob/main/README.md"
 "0.1.0-alpha" = { }
 "0.2.1-alpha" = { }
 "0.3.0-alpha" = {}
+"0.4.0-alpha" = {}
+
+[versions."0.4.0-alpha".fuzz_result]
+verdict = "broken"
+default_rate = 0.500851
+worst_hook = "default"
+worst_hook_rate = 0.500851
+seeds = 4702
+fuzzed_at = "2026-05-13"
