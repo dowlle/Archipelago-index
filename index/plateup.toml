@@ -4,3 +4,5 @@ default_url = "https://github.com/CazIsABoi/Archipelago/releases/download/{{vers
 stability = "stable"
 
 [versions]
+
+"0.2.6.3" = {}
