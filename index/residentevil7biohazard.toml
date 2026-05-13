@@ -4,3 +4,13 @@ default_url = "https://github.com/ElGrenier/RE7_AP_World/releases/download/{{ver
 stability = "unstable"
 
 [versions]
+
+"0.3.4" = {}
+
+[versions."0.3.4".fuzz_result]
+verdict = "broken"
+default_rate = 0.9912
+worst_hook = "check-ut"
+worst_hook_rate = 0.992
+seeds = 5000
+fuzzed_at = "2026-05-13"
