@@ -103,23 +103,62 @@ jobs:
           EXPECTED_SHA: ${{ matrix.sha256 }}
         run: |
           set -euo pipefail
-          dest="archipelago/custom_worlds/${APWORLD}.apworld"
+          # Download to a staging path so we can inspect before naming
+          tmp="$(mktemp --suffix=.apworld)"
           if [ -n "$LOCAL" ]; then
             src="index-repo/index/${LOCAL}"
             if [ ! -f "$src" ]; then
               echo "::error::local file not found at $src"
               exit 1
             fi
-            cp "$src" "$dest"
+            cp "$src" "$tmp"
           else
             echo "Downloading $URL"
-            curl -SsL --fail -o "$dest" "$URL"
+            curl -SsL --fail -o "$tmp" "$URL"
           fi
-          actual=$(sha256sum "$dest" | cut -d' ' -f1)
+          actual=$(sha256sum "$tmp" | cut -d' ' -f1)
           if [ -n "$EXPECTED_SHA" ] && [ "$actual" != "$EXPECTED_SHA" ]; then
             echo "::error::sha256 mismatch for ${APWORLD} ${VERSION}: expected $EXPECTED_SHA, got $actual"
             exit 1
           fi
+          # Detect the apworld's inner Python module directory so we can name
+          # the file to match. Archipelago derives the module name from the
+          # apworld's filename (e.g. foo.apworld -> worlds.foo), so the
+          # filename must match the top-level package directory inside the
+          # zip. The index key may differ (dashes not allowed in Python
+          # module names; per-version `url` overrides may point at differently
+          # named release assets).
+          INNER=$(python3 - "$tmp" <<'PY'
+          import sys, zipfile
+          zf = zipfile.ZipFile(sys.argv[1])
+          # Pick the dir that contains __init__.py at the top level.
+          candidates = set()
+          for name in zf.namelist():
+              parts = name.split("/")
+              if len(parts) == 2 and parts[1] == "__init__.py":
+                  candidates.add(parts[0])
+          # Fallback: any top-level dir
+          if not candidates:
+              for name in zf.namelist():
+                  parts = name.split("/")
+                  if len(parts) >= 2 and parts[0]:
+                      candidates.add(parts[0])
+          if not candidates:
+              raise SystemExit("could not determine inner module name")
+          # Prefer the first one alphabetically (deterministic) — most
+          # apworlds have exactly one inner dir.
+          print(sorted(candidates)[0])
+          PY
+          )
+          if [ -z "$INNER" ]; then
+            echo "::error::could not determine inner module name for ${APWORLD} ${VERSION}"
+            exit 1
+          fi
+          dest="archipelago/custom_worlds/${INNER}.apworld"
+          cp "$tmp" "$dest"
+          rm -f "$tmp"
+          echo "Inner module: $INNER (index key: $APWORLD)"
+          echo "INNER_MODULE=$INNER" >> "$GITHUB_ENV"
           ls -la "$dest"
 
       - name: Run fuzz check
@@ -127,16 +166,17 @@ jobs:
         working-directory: archipelago
         env:
           APWORLD: ${{ matrix.apworld }}
+          INNER: ${{ env.INNER_MODULE }}
           CHECK_NAME: ${{ matrix.check_name }}
           CHECK_RUNS: ${{ matrix.check_runs }}
           CHECK_HOOK: ${{ matrix.check_hook }}
         run: |
           set -euo pipefail
-          echo "=== ${CHECK_NAME} (${CHECK_RUNS} runs) ==="
+          echo "=== ${CHECK_NAME} (${CHECK_RUNS} runs) — apworld=${APWORLD} module=${INNER} ==="
           if [ -z "$CHECK_HOOK" ]; then
-            uv run python fuzz.py -j 2 -g "$APWORLD" -r "$CHECK_RUNS" -n 1 -t 120
+            uv run python fuzz.py -j 2 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120
           else
-            uv run python fuzz.py -j 2 -g "$APWORLD" -r "$CHECK_RUNS" -n 1 -t 120 --hook "$CHECK_HOOK"
+            uv run python fuzz.py -j 2 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120 --hook "$CHECK_HOOK"
           fi
 
       - name: Upload failure artifacts
