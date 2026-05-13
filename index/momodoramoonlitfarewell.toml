@@ -4,3 +4,12 @@ stability = "stable"
 
 [versions]
 "1.7.5+1" = {url = "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases/download/AP-v1.7.5.1/momodoramoonlitfarewell.apworld"}
+"AP-v1.7.5.1" = { url = "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases/download/AP-v1.7.5.1/momodoramoonlitfarewell.apworld" }
+
+[versions."AP-v1.7.5.1".fuzz_result]
+verdict = "clean"
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.0
+seeds = 5000
+fuzzed_at = "2026-05-13"
