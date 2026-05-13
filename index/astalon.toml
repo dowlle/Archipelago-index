@@ -13,6 +13,7 @@ stability = "stable"
 "0.24.1" = {}
 "0.25.0" = {}
 "0.27.0" = {}
+"0.27.1" = {}
 
 [versions."0.27.1".fuzz_result]
 verdict = "clean"

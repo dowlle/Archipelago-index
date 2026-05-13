@@ -5,6 +5,8 @@ stability = "stable"
 
 [versions]
 
+"0.3.3" = {}
+
 [versions."0.3.3".fuzz_result]
 verdict = "clean"
 default_rate = 0.0
