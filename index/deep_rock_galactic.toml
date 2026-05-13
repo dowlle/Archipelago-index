@@ -4,3 +4,13 @@ default_url = "https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/dow
 stability = "stable"
 
 [versions]
+
+"0.18.3" = {}
+
+[versions."0.18.3".fuzz_result]
+verdict = "broken"
+default_rate = 0.0282
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.866
+seeds = 5000
+fuzzed_at = "2026-05-13"
