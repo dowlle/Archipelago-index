@@ -8,3 +8,11 @@ setup_guide = "https://github.com/fdelduque/Archipelago/blob/main/worlds/sotn/do
 
 "0.8.16+unofficial" = { url = "https://github.com/Darvitz/Archipelago-Crystal/releases/download/Unofficial_0.8.16/sotn.apworld" }
 "b0816" = { url = "https://github.com/fdelduque/Archipelago/releases/download/b0816/sotn.apworld" }
+
+[versions."b0816".fuzz_result]
+verdict = "broken"
+default_rate = 0.176
+worst_hook = "default"
+worst_hook_rate = 0.176
+seeds = 5000
+fuzzed_at = "2026-05-13"
