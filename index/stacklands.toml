@@ -4,4 +4,11 @@ default_url = "https://github.com/JammyGeeza/Stacklands-Randomizer/releases/down
 stability = "stable"
 
 [versions]
-"0.2.5" = {}
+
+[versions."0.2.5".fuzz_result]
+verdict = "clean"
+default_rate = 0.0
+worst_hook = "check-indirect-conditions"
+worst_hook_rate = 0.002
+seeds = 5006
+fuzzed_at = "2026-05-12"

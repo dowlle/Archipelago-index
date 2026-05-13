@@ -4,4 +4,11 @@ default_url = "https://github.com/wcolding/SWR_AP_Client/releases/download/v{{ve
 
 [versions]
 "0.7.0" = {}
-"0.8.0" = {}
+
+[versions."0.8.0".fuzz_result]
+verdict = "flaky"
+default_rate = 0.0
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.09
+seeds = 5000
+fuzzed_at = "2026-05-13"

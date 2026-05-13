@@ -4,4 +4,11 @@ default_url = "https://github.com/JustinMarshall98/Archipelago/releases/download
 stability = "stable"
 
 [versions]
-"0.3.3" = {}
+
+[versions."0.3.3".fuzz_result]
+verdict = "clean"
+default_rate = 0.0
+worst_hook = "check-ut"
+worst_hook_rate = 0.016
+seeds = 500
+fuzzed_at = "2026-05-12"

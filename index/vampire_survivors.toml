@@ -4,4 +4,11 @@ default_url = "https://github.com/SWCreeperKing/ArchipelagoSurvivors/releases/do
 stability = "stable"
 
 [versions]
-"0.3.4" = {}
+
+[versions."0.3.4".fuzz_result]
+verdict = "clean"
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.8659
+seeds = 5000
+fuzzed_at = "2026-05-13"
