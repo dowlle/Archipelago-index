@@ -6,3 +6,11 @@ setup_guide = "https://github.com/Satisha10/APwotw_release"
 
 [versions]
 "0.5.4" = {}
+
+[versions."0.5.4".fuzz_result]
+verdict = "broken"
+default_rate = 0.2736
+worst_hook = "default"
+worst_hook_rate = 0.2736
+seeds = 5000
+fuzzed_at = "2026-05-13"
