@@ -9,3 +9,11 @@ default_url = "https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases
 "2.0.0+hotfix1" = { url = "https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases/download/v2.0.0/manual_residentevil4_vincentssin.apworld" }
 "2.0.4" = {}
 "2.1.1" = {}
+
+[versions."2.1.1".fuzz_result]
+verdict = "broken"
+default_rate = 0.271
+worst_hook = "default"
+worst_hook_rate = 0.271
+seeds = 5000
+fuzzed_at = "2026-05-13"
