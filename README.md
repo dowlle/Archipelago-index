@@ -92,10 +92,44 @@ The criteria for what gets indexed are set by the upstream maintainer. Summarise
 
 ## What this fork adds on top
 
-The only difference from MooingLemur's upstream is the security-audit layer:
+Two additive layers on top of the upstream index:
+
+### 1. Security-audit pipeline
 
 - A separate audit pipeline (in progress) runs against every PR that touches `index/*.toml`.
 - The auditor downloads each newly-added APWorld version, sandboxes it in a container with no network and no host access, extracts only the Python source, and feeds it to an LLM for a structured security review.
 - A verdict (`PASS` / `NEEDS_REVIEW` / `FAIL`) is posted as a PR comment.
 
-This is purely additive — no existing upstream rule changes. See [`SECURITY.md`](./SECURITY.md) for the verdict semantics, threat model, and how to report a vulnerability.
+### 2. Empirical fuzz verdicts (`[[fuzz_results]]`)
+
+A top-level array-of-tables records empirical fuzz outcomes per (version, run). Optional and additive: TOMLs without it parse identically; tools that do not care can ignore it.
+
+```toml
+[[fuzz_results]]
+version = "0.7.0"
+verdict = "clean"           # "clean" | "flaky" | "broken"
+fuzzed_at = "2026-05-13"    # ISO date, used for ordering
+seeds = 5000
+default_rate = 0.004        # decimal (multiply by 100 for display)
+worst_hook = "default"
+worst_hook_rate = 0.004
+ap_version = "0.6.2"        # optional; AP core version the fuzz ran against
+hook_suite_sha = "abcdef0"  # optional; git short-sha of the hook suite used
+fuzz_py_sha = "1234567"     # optional; fuzz.py revision used
+```
+
+Schema rules:
+
+- **Top-level only.** Records live at the document root, not under `[versions]`. The `[versions]` table stays byte-for-byte upstream-compatible.
+- **Multi-result support.** A version may have multiple records (re-fuzz over time, different AP versions, different hook suites). Downstream readers typically pick the most recent by `fuzzed_at`.
+- **Strict TOML parse.** A CI lint runs `python -m tomllib` (stdlib) over every `index/*.toml` on PR. Any file that fails to parse fails the check.
+
+Verdict thresholds (carried over from the prior schema; reflect the bananium 10-hook suite as of 2026-05-13):
+
+- `clean` -- default-hook fail rate < 1% AND every other hook < 3%.
+- `flaky` -- default < 3% OR a non-default hook in the 3-10% band.
+- `broken` -- default >= 3% OR a critical hook >= 10%.
+
+The first cut of this schema (PR #113) nested the record under `[versions."<v>".fuzz_result]`. That shape conflicted with the inline `"<v>" = {}` declaration on the same key under TOML spec rules and was silently unparseable in stdlib `tomllib`. The current top-level shape replaces it. See `Tools/migrate-fuzz-result-to-flat.py` for the one-shot migration that ran when the schema flipped.
+
+This is purely additive -- no existing upstream rule changes. See [`SECURITY.md`](./SECURITY.md) for the verdict semantics, threat model, and how to report a vulnerability.
