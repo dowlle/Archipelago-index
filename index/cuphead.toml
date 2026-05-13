@@ -5,3 +5,4 @@ stability = "stable"
 [versions]
 "0.0.2-alpha+b" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha02b/cuphead.apworld" }
 "0.0.2-alpha+f" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha02f/cuphead.apworld" }
+"alpha03d" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03d/cuphead.apworld" }
