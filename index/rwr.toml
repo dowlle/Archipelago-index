@@ -4,3 +4,13 @@ default_url = "https://github.com/mjousse72/archipelago_rwr/releases/download/v{
 stability = "unstable"
 
 [versions]
+
+"0.5.0" = {}
+
+[versions."0.5.0".fuzz_result]
+verdict = "broken"
+default_rate = 0.2472
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
+seeds = 5000
+fuzzed_at = "2026-05-13"
