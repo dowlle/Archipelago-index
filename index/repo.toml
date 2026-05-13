@@ -7,3 +7,12 @@ stability = "unstable"
 "0.2.4" = {}
 "0.3.0" = {}
 "0.3.1" = {}
+"0.4.0" = {}
+
+[versions."0.4.0".fuzz_result]
+verdict = "broken"
+default_rate = 0.0
+worst_hook = "check-lambda-capture"
+worst_hook_rate = 0.334
+seeds = 5000
+fuzzed_at = "2026-05-13"
