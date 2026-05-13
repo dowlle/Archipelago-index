@@ -5,3 +5,13 @@ stability = "stable"
 setup_guide = "https://github.com/BlastSlimey/Archipelago/blob/difficult_climbing/worlds/difficult_climbing/docs/setup_en.md"
 
 [versions]
+
+"0.1.2" = {}
+
+[versions."0.1.2".fuzz_result]
+verdict = "broken"
+default_rate = 0.3314
+worst_hook = "check-ut"
+worst_hook_rate = 0.366
+seeds = 5000
+fuzzed_at = "2026-05-13"
