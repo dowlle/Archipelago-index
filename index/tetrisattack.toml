@@ -5,3 +5,11 @@ stability = "stable"
 
 [versions]
 "0.4.2_01" = {}
+
+[versions."0.4.2_01".fuzz_result]
+verdict = "broken"
+default_rate = 0.06177
+worst_hook = "check-placement-refs"
+worst_hook_rate = 0.074359
+seeds = 4193
+fuzzed_at = "2026-05-13"
