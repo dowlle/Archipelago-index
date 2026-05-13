@@ -12,10 +12,11 @@ setup_guide = "https://github.com/Mysteryem/Archipelago-TCS/blob/main/lego_star_
 "1.4.0" = {}
 "1.4.1" = {}
 
-[versions."1.4.1".fuzz_result]
+[[fuzz_results]]
+version = "1.4.1"
 verdict = "clean"
+fuzzed_at = "2026-05-12"
+seeds = 4384
 default_rate = 0.008
 worst_hook = "default"
 worst_hook_rate = 0.008
-seeds = 4384
-fuzzed_at = "2026-05-12"

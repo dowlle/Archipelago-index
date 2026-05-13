@@ -8,10 +8,11 @@ disabled = true # 2% failure rate
 "0.3.2" = {}
 "0.5.4" = {}
 
-[versions."0.5.4".fuzz_result]
+[[fuzz_results]]
+version = "0.5.4"
 verdict = "broken"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.05
 worst_hook = "check-collect-accessibility"
 worst_hook_rate = 0.225738
-seeds = 5000
-fuzzed_at = "2026-05-13"

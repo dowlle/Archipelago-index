@@ -7,10 +7,11 @@ setup_guide = "https://github.com/SWCreeperKing/Werepelago/blob/master/Readme.md
 [versions]
 "0.1.2" = {}
 
-[versions."0.1.2".fuzz_result]
+[[fuzz_results]]
+version = "0.1.2"
 verdict = "broken"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0
 worst_hook = "check-item-location-count"
 worst_hook_rate = 1.0
-seeds = 5000
-fuzzed_at = "2026-05-13"

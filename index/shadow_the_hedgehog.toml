@@ -8,10 +8,11 @@ stability = "stable"
 "0.4.2" = {}
 "shadow-0.4.5" = { url = "https://github.com/choatix/Archipelago/releases/download/shadow-0.4.5/shadow_the_hedgehog.apworld" }
 
-[versions."shadow-0.4.5".fuzz_result]
+[[fuzz_results]]
+version = "shadow-0.4.5"
 verdict = "flaky"
+fuzzed_at = "2026-05-13"
+seeds = 718
 default_rate = 0.011142
 worst_hook = "check-determinism"
 worst_hook_rate = 0.216667
-seeds = 718
-fuzzed_at = "2026-05-13"

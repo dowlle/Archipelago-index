@@ -12,10 +12,11 @@ tracker = "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker"
 "0.5.2" = {}
 "0.5.3" = {}
 
-[versions."0.5.3".fuzz_result]
+[[fuzz_results]]
+version = "0.5.3"
 verdict = "clean"
+fuzzed_at = "2026-05-12"
+seeds = 3407
 default_rate = 0.0038
 worst_hook = "default"
 worst_hook_rate = 0.0038
-seeds = 3407
-fuzzed_at = "2026-05-12"

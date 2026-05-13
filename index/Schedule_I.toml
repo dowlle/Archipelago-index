@@ -12,10 +12,11 @@ tracker = "https://github.com/RazgrizEast/schedule-1-poptracker-razgriz/releases
 "3.6.0" = {}
 "3.6.2" = {}
 
-[versions."3.6.2".fuzz_result]
+[[fuzz_results]]
+version = "3.6.2"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
 worst_hook_rate = 0.0
-seeds = 5000
-fuzzed_at = "2026-05-13"

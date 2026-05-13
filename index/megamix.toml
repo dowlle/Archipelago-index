@@ -9,10 +9,11 @@ stability = "stable"
 "1.4.4-unofficial2" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.4.4-R_260410-d8a9b31/megamix.apworld" }
 "1.5.0B" = { url = "https://github.com/Cynichill/DivaAPworld/releases/download/1.5.0B/megamix.apworld" }
 
-[versions."1.5.0B".fuzz_result]
+[[fuzz_results]]
+version = "1.5.0B"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0
 worst_hook = "check-ut"
 worst_hook_rate = 0.0
-seeds = 5000
-fuzzed_at = "2026-05-13"
