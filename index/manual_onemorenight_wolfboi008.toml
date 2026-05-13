@@ -5,3 +5,12 @@ default_url = "https://github.com/WolfBoi008/One-More-Night/releases/download/{{
 
 [versions]
 "2.2.1" = {}
+"2.3.1" = {}
+
+[versions."2.3.1".fuzz_result]
+verdict = "clean"
+default_rate = 0.0
+worst_hook = "check-lambda-capture"
+worst_hook_rate = 0.0
+seeds = 5000
+fuzzed_at = "2026-05-13"
