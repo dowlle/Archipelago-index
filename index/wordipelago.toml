@@ -7,3 +7,11 @@ stability = "stable"
 "1.0.2" = {}
 "1.1.0" = { url = "https://github.com/ProfDeCube/Archipelago/releases/download/wordipelago-1.1.0/wordipelago.apworld"}
 "wordipelago-1.1.0" = {}
+
+[versions."wordipelago-1.1.0".fuzz_result]
+verdict = "clean"
+default_rate = 0.001261
+worst_hook = "default"
+worst_hook_rate = 0.001261
+seeds = 4759
+fuzzed_at = "2026-05-13"

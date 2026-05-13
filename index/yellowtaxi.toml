@@ -6,3 +6,11 @@ stability = "stable"
 [versions]
 "0.3.2" = {}
 "YTGV.v0.3.2" = { url = "https://github.com/soopercool101/Archipelago/releases/download/YTGV.v0.3.2/yellowtaxi.apworld" }
+
+[versions."YTGV.v0.3.2".fuzz_result]
+verdict = "clean"
+default_rate = 0.0048
+worst_hook = "default"
+worst_hook_rate = 0.0048
+seeds = 5000
+fuzzed_at = "2026-05-13"
