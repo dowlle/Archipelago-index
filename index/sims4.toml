@@ -8,6 +8,7 @@ setup_guide = "https://github.com/Simsipelago/Archipelago/blob/sims4-stable/worl
 
 "1.6.1" = {}
 "1.7.5" = {}
+"2.0.0-beta.2" = {}
 
 [versions."2.0.0-beta.2".fuzz_result]
 verdict = "clean"

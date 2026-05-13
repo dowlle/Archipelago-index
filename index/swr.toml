@@ -4,6 +4,7 @@ default_url = "https://github.com/wcolding/SWR_AP_Client/releases/download/v{{ve
 
 [versions]
 "0.7.0" = {}
+"0.8.0" = {}
 
 [versions."0.8.0".fuzz_result]
 verdict = "flaky"
