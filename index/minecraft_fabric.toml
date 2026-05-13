@@ -6,3 +6,12 @@ stability = "unstable"
 [versions]
 "1.0.6-alpha" = {}
 "1.0.7" = {url = "https://github.com/Deadlydiamond98/MinecraftFabricAPWorld/releases/download/v.1.0.7/minecraft_fabric.apworld"}
+"v.1.1.1.1" = { url = "https://github.com/Deadlydiamond98/MinecraftFabricAPWorld/releases/download/v.1.1.1.1/minecraft_fabric.apworld" }
+
+[versions."v.1.1.1.1".fuzz_result]
+verdict = "flaky"
+default_rate = 0.0236
+worst_hook = "default"
+worst_hook_rate = 0.0236
+seeds = 5000
+fuzzed_at = "2026-05-13"
