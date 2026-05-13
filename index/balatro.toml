@@ -8,3 +8,12 @@ setup_guide = "https://github.com/BurndiL/BalatroAP/blob/main/README.md"
 "0.1.9-b" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9b/balatro.apworld" }
 "0.1.9-d" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9d/balatro.apworld" }
 "0.1.9-e" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9e/balatro.apworld" }
+"0.1.9f" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9f/balatro.apworld" }
+
+[versions."0.1.9f".fuzz_result]
+verdict = "broken"
+default_rate = 0.322923
+worst_hook = "default"
+worst_hook_rate = 0.322923
+seeds = 1601
+fuzzed_at = "2026-05-13"
