@@ -52,6 +52,9 @@
 [lor]
 "0.3.1" = "b6c913965dd7c639c460393d84228d6e0cefdc75c7f893aacbf2257b7a731eac"
 
+[manual_gloomhaven_codegorilla]
+"2.1.1-gloomhaven-manual" = "aa79ddd54ed0818f16d4b11e0e9392cd2267bc0b4f4aaeaa54b81728bafaccda"
+
 [Manual_pokemonss_riannehx]
 "0.0.4" = "b345991313f48e2f89cba05d30bc4249188819a7d4b3cfccb249529afa4223f2"
 
