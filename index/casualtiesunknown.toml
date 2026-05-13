@@ -5,3 +5,11 @@ stability = "unstable"
 
 [versions]
 "0.9.3" = {}
+
+[versions."0.9.3".fuzz_result]
+verdict = "broken"
+default_rate = 1.0
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 1.0
+seeds = 4792
+fuzzed_at = "2026-05-13"
