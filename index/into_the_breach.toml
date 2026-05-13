@@ -7,3 +7,12 @@ setup_guide = "https://github.com/Ishigh1/Archipelago/blob/into-the-breach/world
 [versions]
 "0.15.15" = {}
 "0.15.17" = {}
+"0.15.18" = {}
+
+[versions."0.15.18".fuzz_result]
+verdict = "broken"
+default_rate = 0.5022
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.5166
+seeds = 5000
+fuzzed_at = "2026-05-13"
