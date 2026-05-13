@@ -4,3 +4,13 @@ default_url = "https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/dow
 stability = "unstable"
 
 [versions]
+
+"0.5.2-bugfix" = {}
+
+[versions."0.5.2-bugfix".fuzz_result]
+verdict = "flaky"
+default_rate = 0.017071
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.019267
+seeds = 3749
+fuzzed_at = "2026-05-13"
