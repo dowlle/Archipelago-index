@@ -5,3 +5,5 @@ stability = "stable"
 setup_guide = "https://github.com/1-800-thewolf/AoM-Archipelago/blob/main/SETUP.md"
 
 [versions]
+
+"1.0.2" = {}
