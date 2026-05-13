@@ -10,6 +10,9 @@
 [clair_obscur]
 "0.2.0" = "4543e1dd473a7899deb6683c7cf9687c3ddbd3527856a34f62675324075f53ad"
 
+[cluster_truck]
+"1.3.1" = "371d2ec7ef93ccd74816cca85d7a599408ffe51f9cabb80f339fbd6a0ea7dcaa"
+
 [difficult_climbing]
 "0.1.2" = "a02b6461a0624e606096dc2cdd079e37e271066ce312f15a4787bd9a2f674cce"
 
