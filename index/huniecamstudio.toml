@@ -4,3 +4,13 @@ default_url = "https://github.com/DotsofdarknessArchipelago/Hunie-Cam-Studio-Arc
 stability = "unstable"
 
 [versions]
+
+"0.3.2" = { url = "https://github.com/DotsofdarknessArchipelago/Hunie-Cam-Studio-Archipelago/releases/download/V0.3.2/huniecamstudio.apworld" }
+
+[versions."0.3.2".fuzz_result]
+verdict = "broken"
+default_rate = 0.5298
+worst_hook = "check-determinism"
+worst_hook_rate = 0.838057
+seeds = 5000
+fuzzed_at = "2026-05-13"
