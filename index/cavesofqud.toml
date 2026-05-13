@@ -7,3 +7,11 @@ setup_guide = "https://github.com/SabreCat/CavesOfQudArchipelagoRandomizer?tab=r
 [versions]
 "0.7.0" = {}
 "0.8.1" = { url = "https://github.com/SabreCat/CavesOfQudArchipelagoRandomizer/releases/download/v0.8.1/cavesofqud.apworld" }
+
+[versions."0.8.1".fuzz_result]
+verdict = "broken"
+default_rate = 1.0
+worst_hook = "default"
+worst_hook_rate = 1.0
+seeds = 5000
+fuzzed_at = "2026-05-13"
