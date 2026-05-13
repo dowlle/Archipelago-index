@@ -10,10 +10,11 @@ default_url = "https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases
 "2.0.4" = {}
 "2.1.1" = {}
 
-[versions."2.1.1".fuzz_result]
+[[fuzz_results]]
+version = "2.1.1"
 verdict = "broken"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.271
 worst_hook = "default"
 worst_hook_rate = 0.271
-seeds = 5000
-fuzzed_at = "2026-05-13"
