@@ -6,10 +6,11 @@ stability = "stable"
 [versions]
 "0.8.0" = {}
 
-[versions."0.8.0".fuzz_result]
+[[fuzz_results]]
+version = "0.8.0"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.0
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.0
-seeds = 5000
-fuzzed_at = "2026-05-13"

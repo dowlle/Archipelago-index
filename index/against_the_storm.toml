@@ -8,10 +8,11 @@ tracker = "https://github.com/Chfou/ATS-poptracker"
 
 "1.2.0" = {}
 
-[versions."1.2.0".fuzz_result]
+[[fuzz_results]]
+version = "1.2.0"
 verdict = "broken"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.2518
 worst_hook = "check-ut"
 worst_hook_rate = 0.27
-seeds = 5000
-fuzzed_at = "2026-05-13"

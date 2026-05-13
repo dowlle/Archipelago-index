@@ -12,10 +12,11 @@ setup_guide = "https://github.com/GlassToadstool/Portal2ArchipelagoMod/blob/main
 "0.6.0" = {}
 "0.7.0" = {}
 
-[versions."0.7.0".fuzz_result]
+[[fuzz_results]]
+version = "0.7.0"
 verdict = "clean"
+fuzzed_at = "2026-05-13"
+seeds = 5000
 default_rate = 0.004
 worst_hook = "default"
 worst_hook_rate = 0.004
-seeds = 5000
-fuzzed_at = "2026-05-13"
