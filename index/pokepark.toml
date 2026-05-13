@@ -10,4 +10,11 @@ default_url = "https://github.com/Mekurushi/Archipelago_Pokepark/releases/downlo
 "1.1.2" = {}
 "1.1.3" = {}
 "1.2.0" = {}
-"1.2.1" = {}
+
+[versions."1.2.1".fuzz_result]
+verdict = "clean"
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.633452
+seeds = 5000
+fuzzed_at = "2026-05-13"
