@@ -10,6 +10,7 @@ tracker = "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker"
 "0.4.1" = {}
 "0.5.1" = {}
 "0.5.2" = {}
+"0.5.3" = {}
 
 [versions."0.5.3".fuzz_result]
 verdict = "clean"
