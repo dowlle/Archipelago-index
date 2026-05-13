@@ -8,3 +8,12 @@ disabled = true
 
 [versions]
 "0.0.5" = {}
+"0.0.8" = {}
+
+[versions."0.0.8".fuzz_result]
+verdict = "broken"
+default_rate = 0.12
+worst_hook = "default"
+worst_hook_rate = 0.12
+seeds = 5000
+fuzzed_at = "2026-05-13"
