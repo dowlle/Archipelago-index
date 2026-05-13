@@ -7,3 +7,11 @@ setup_guide = "https://github.com/WildBunnie/DarkSoulsII-Archipelago/blob/main/R
 [versions]
 "0.5.5" = {}
 "0.5.5-hotfix" = {}
+
+[versions."0.5.5-hotfix".fuzz_result]
+verdict = "clean"
+default_rate = 0.0
+worst_hook = "check-collect-accessibility"
+worst_hook_rate = 0.0
+seeds = 5000
+fuzzed_at = "2026-05-13"

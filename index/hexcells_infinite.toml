@@ -5,3 +5,11 @@ stability = "stable"
 [versions]
 "1.2.0" = { url = "https://github.com/Heaxeus/Archipelago/releases/download/v1.2/hexcells_infinite.apworld" }
 "1.2" = { url = "https://github.com/Heaxeus/Archipelago/releases/download/v1.2/hexcells_infinite.apworld" }
+
+[versions."1.2".fuzz_result]
+verdict = "clean"
+default_rate = 0.0
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.0
+seeds = 5000
+fuzzed_at = "2026-05-13"
