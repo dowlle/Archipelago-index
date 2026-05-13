@@ -5,4 +5,12 @@ disabled = true
 
 [versions]
 "0.8.0" = { url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/v0.8/enderlilies.apworld" }
+"0.8" = { url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/v0.8/enderlilies.apworld" }
 
+[versions."0.8".fuzz_result]
+verdict = "broken"
+default_rate = 0.0324
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.336
+seeds = 5000
+fuzzed_at = "2026-05-13"
