@@ -4,3 +4,13 @@ default_url = "https://github.com/spineraks-org/ArchipelagoWateryWords/releases/
 stability = "stable"
 
 [versions]
+
+"0.1.0" = {}
+
+[versions."0.1.0".fuzz_result]
+verdict = "flaky"
+default_rate = 0.010602
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
+seeds = 4999
+fuzzed_at = "2026-05-13"
