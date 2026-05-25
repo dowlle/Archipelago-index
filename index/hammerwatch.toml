@@ -4,3 +4,4 @@ default_url = "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases/dow
 stability = "stable"
 
 [versions]
+"4.1" = {}
