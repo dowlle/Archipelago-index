@@ -5,3 +5,4 @@ stability = "stable"
 setup_guide = "https://github.com/kaithar/Archipelago/blob/sonic1/worlds/sonic1/docs/setup_en.md"
 
 [versions]
+"sonic_1-v0.1.1" = {}
