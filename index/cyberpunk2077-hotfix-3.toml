@@ -4,3 +4,4 @@ default_url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/down
 stability = "unstable"
 
 [versions]
+"0.4" = {}
