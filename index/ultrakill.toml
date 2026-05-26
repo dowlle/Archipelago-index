@@ -10,3 +10,12 @@ setup_guide = "https://github.com/TRPG0/ArchipelagoULTRAKILL?tab=readme-ov-file#
 "3.2.6" = {}
 "3.4.5" = {}
 "3.5.2" = {}
+
+[[fuzz_results]]
+version = "3.5.2"
+verdict = "flaky"
+fuzzed_at = "2026-05-26"
+seeds = 1227
+default_rate = 0.0163
+worst_hook = "default"
+worst_hook_rate = 0.0163
