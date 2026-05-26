@@ -11,6 +11,7 @@ setup_guide = "https://github.com/GlassToadstool/Portal2ArchipelagoMod/blob/main
 "0.5.6" = {}
 "0.6.0" = {}
 "0.7.0" = {}
+"0.7.1" = {}
 
 [[fuzz_results]]
 version = "0.7.0"
