@@ -22,6 +22,7 @@ default_url = "https://github.com/gerbiljames/Archipelago/releases/download/{{ve
 "5.4.2" = {}
 "5.4.3" = {}
 "5.4.4" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/5.4.4/pokemon_crystal.apworld" }
+"6.0.0-alpha.15" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-alpha.15/pokemon_crystal_prerelease.apworld" }
 
 [[fuzz_results]]
 version = "5.4.4"
