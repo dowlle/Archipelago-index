@@ -4,3 +4,4 @@ default_url = "https://github.com/Mickemoose/peak-archipelago/releases/download/
 stability = "stable"
 
 [versions]
+"0.6.0" = {}
