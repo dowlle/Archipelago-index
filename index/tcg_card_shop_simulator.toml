@@ -6,4 +6,4 @@ setup_guide = "https://github.com/FyreDay/TCG-CardShop-Sim-APClient#setup"
 
 [versions]
 "0.5.13" = {}
-
+"1.0.0-Pre3" = {}
