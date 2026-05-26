@@ -4,3 +4,4 @@ default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/{{
 stability = "stable"
 
 [versions]
+"sonic_battle_v0.1.3" = {}
