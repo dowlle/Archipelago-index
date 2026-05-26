@@ -108,6 +108,9 @@
 [sly1]
 "0.3.4-alpha" = "8dfe28eb1b1f43677c9ce4e0e9082b013c42df030ebf21b325aca4cd572b15b5"
 
+[sonic1]
+"sonic_1-v0.1.1" = "eb53af94e736dd869dd62bef3b12ae7c18f2c8de5c3fef6d75359841df78e1d4"
+
 [stacklands]
 "0.2.5" = "223e86b79d082503eb5cf7a9ab62c6ec3ca06d76536d4444665984e57514d563"
 
