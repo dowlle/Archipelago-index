@@ -5,3 +5,4 @@ stability = "stable"
 setup_guide = "https://github.com/Totox00/Archipelago-sotm/blob/main/worlds/sotm/docs/setup_en.md"
 
 [versions]
+"0.4.5" = {}
