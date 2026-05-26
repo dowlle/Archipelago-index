@@ -6,3 +6,4 @@ stability = "stable"
 [versions]
 "0.3.3-alpha" = {}
 "0.4.1" = {}
+"0.4.2" = {}
