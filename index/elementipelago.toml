@@ -4,3 +4,4 @@ default_url = "https://github.com/peppidesu/elementipelago/releases/download/v{{
 stability = "stable"
 
 [versions]
+"1.1.0" = {}
