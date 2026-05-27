@@ -7,3 +7,12 @@ default_url = "https://github.com/WolfBoi008/Block-Tales/releases/download/{{ver
 "4.2.2" = {}
 "4.2.3" = {}
 "pre-6.0.0-2" = {}
+
+[[fuzz_results]]
+version = "pre-6.0.0-2"
+verdict = "clean"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
