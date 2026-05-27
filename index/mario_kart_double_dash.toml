@@ -12,3 +12,12 @@ stability = "unstable"
 "0.3.1" = {}
 "0.3.2" = {}
 "1.0.0rc3" = {}
+
+[[fuzz_results]]
+version = "1.0.0rc3"
+verdict = "flaky"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.003
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

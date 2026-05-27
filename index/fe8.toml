@@ -17,3 +17,12 @@ seeds = 4962
 default_rate = 0.019549
 worst_hook = "check-determinism"
 worst_hook_rate = 0.844398
+
+[[fuzz_results]]
+version = "fe8-0.4.2"
+verdict = "flaky"
+fuzzed_at = "2026-05-26"
+seeds = 4977
+default_rate = 0.021097
+worst_hook = "check-determinism"
+worst_hook_rate = 0.85041

@@ -6,3 +6,12 @@ stability = "unstable"
 [versions]
 "0.1.1-alpha" = {}
 "0.2.0-alpha" = {}
+
+[[fuzz_results]]
+version = "0.2.0-alpha"
+verdict = "clean"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0056
+worst_hook = "default"
+worst_hook_rate = 0.0056
