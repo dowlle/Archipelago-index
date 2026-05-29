@@ -22,6 +22,9 @@
 [cluster_truck]
 "1.3.1" = "371d2ec7ef93ccd74816cca85d7a599408ffe51f9cabb80f339fbd6a0ea7dcaa"
 
+[cornkidz64]
+"0.0.7" = "f163217ba1789c3b1fca5f67246800ab4209ce7262b95c5fa5929c06688488ba"
+
 [deep_rock_galactic]
 "0.18.3" = "d5cfa7c68878eb02c2d3635839ddd826b20c18a8722d6b76affb912de36f4f59"
 
