@@ -14,6 +14,7 @@ stability = "stable"
 "0.25.0" = {}
 "0.27.0" = {}
 "0.27.1" = {}
+"1.0.0-rc2" = {}
 
 [[fuzz_results]]
 version = "0.27.1"
