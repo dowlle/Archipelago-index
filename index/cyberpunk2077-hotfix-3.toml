@@ -4,3 +4,13 @@ default_url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/down
 stability = "unstable"
 
 [versions]
+"0.4" = {}
+
+[[fuzz_results]]
+version = "0.4"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.7894
+worst_hook = "default"
+worst_hook_rate = 0.7894
