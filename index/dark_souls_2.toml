@@ -7,6 +7,7 @@ setup_guide = "https://github.com/WildBunnie/DarkSoulsII-Archipelago/blob/main/R
 [versions]
 "0.5.5" = {}
 "0.5.5-hotfix" = {}
+"0.6.0-alpha.2" = {}
 
 [[fuzz_results]]
 version = "0.5.5-hotfix"
