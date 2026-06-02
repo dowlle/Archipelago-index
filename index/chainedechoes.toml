@@ -4,3 +4,4 @@ default_url = "https://github.com/Samupo/ChainedEchoesAPWorld/releases/download/
 stability = "unstable"
 
 [versions]
+"1.1.0" = {}
