@@ -4,3 +4,4 @@ default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/{{ver
 stability = "stable"
 
 [versions]
+"cvpor1.2.2" = {}
