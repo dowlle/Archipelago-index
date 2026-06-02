@@ -5,3 +5,4 @@ stability = "stable"
 setup_guide = "https://github.com/LittleCube-hax/MMRecompRando"
 
 [versions]
+"0.9.5a" = {}
