@@ -1,0 +1,6 @@
+name = "Voltorb Flip (from Pokémon HG & SS)"
+home = "https://github.com/BlastSlimey/Archipelago"
+default_url = "https://github.com/BlastSlimey/Archipelago/releases/download/{{version}}/pokemon_bw_starter_rando.apworld"
+stability = "stable"
+
+[versions]

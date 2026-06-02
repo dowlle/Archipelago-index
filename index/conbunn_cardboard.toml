@@ -1,0 +1,6 @@
+name = "Conbunn Cardboard"
+home = "https://github.com/SWCreeperKing/Conbunnipelago"
+default_url = "https://github.com/SWCreeperKing/Conbunnipelago/releases/download/v{{version}}/conbunn_cardboard.apworld"
+stability = "unstable"
+
+[versions]

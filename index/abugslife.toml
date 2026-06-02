@@ -1,0 +1,7 @@
+name = "A Bug's Life"
+home = "https://github.com/WalWalrus/ABLAP"
+default_url = "https://github.com/WalWalrus/ABLAP/releases/download/v{{version}}/abugslife.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/WalWalrus/ABLAP/blob/main/README.md"
+
+[versions]

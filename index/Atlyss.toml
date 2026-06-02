@@ -1,0 +1,6 @@
+name = "Atlyss"
+home = "https://github.com/AzraeL0534/ATLYSS-Archipelago-WIP"
+default_url = "https://github.com/AzraeL0534/ATLYSS-Archipelago-WIP/releases/download/{{version}}/Atlyss.apworld"
+stability = "unstable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "BK Simulator"
+home = "https://github.com/BK-Simulator/BK-Simulator"
+default_url = "https://github.com/BK-Simulator/BK-Simulator/releases/download/{{version}}/bksim.apworld"
+stability = "stable"
+
+[versions]

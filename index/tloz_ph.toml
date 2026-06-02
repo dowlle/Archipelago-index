@@ -1,0 +1,6 @@
+name = "The Legend of Zelda: Phantom Hourglass"
+home = "https://github.com/carrotinator/Archipelago"
+default_url = "https://github.com/carrotinator/Archipelago/releases/download/{{version}}/tloz_ph.apworld"
+stability = "stable"
+
+[versions]

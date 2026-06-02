@@ -1,0 +1,6 @@
+name = "Final Fantasy Tactics A2: Grimoire of the Rift"
+home = "https://github.com/Rurusachi/Archipelago"
+default_url = "https://github.com/Rurusachi/Archipelago/releases/download/{{version}}/bizhawk_ut.apworld"
+stability = "stable"
+
+[versions]

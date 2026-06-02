@@ -1,0 +1,6 @@
+name = "Cassette Beasts"
+home = "https://github.com/sitskin/apCassetteBeasts"
+default_url = "https://github.com/sitskin/apCassetteBeasts/releases/download/v{{version}}/cassette_beasts.apworld"
+stability = "unstable"
+
+[versions]
