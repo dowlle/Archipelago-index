@@ -4,3 +4,4 @@ default_url = "https://github.com/AzraeL0534/ATLYSS-Archipelago-WIP/releases/dow
 stability = "unstable"
 
 [versions]
+"V1.0.5-PreRelease" = {}

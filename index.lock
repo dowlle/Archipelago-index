@@ -4,6 +4,9 @@
 [against_the_storm]
 "1.2.0" = "3068b85d24be8c49b96acaec52a70e5e4c173c05c4c524610e086e0732ffa6d7"
 
+[Atlyss]
+"V1.0.5-PreRelease" = "0ce1a357b6c200cd72b35bce82c811126a3cc35ab80c44c0b102a0f0baf03ae6"
+
 [balatro]
 "0.1.9f" = "5a767baa3a5b592b76b242b94080561a9c0973c2fc2351d78ac7817794985ee0"
 
