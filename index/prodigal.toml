@@ -4,3 +4,4 @@ default_url = "https://github.com/randomsalience/ProdigalArchipelago/releases/do
 stability = "stable"
 
 [versions]
+"0.2.4" = {}
