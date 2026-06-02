@@ -1,0 +1,6 @@
+name = "Stick Ranger"
+home = "https://github.com/Kryen112/AP_Stick_Ranger"
+default_url = "https://github.com/Kryen112/AP_Stick_Ranger/releases/download/{{version}}/stick_ranger.apworld"
+stability = "stable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Chained Echoes"
+home = "https://github.com/Samupo/ChainedEchoesAPWorld"
+default_url = "https://github.com/Samupo/ChainedEchoesAPWorld/releases/download/v{{version}}/chainedechoes.apworld"
+stability = "unstable"
+
+[versions]

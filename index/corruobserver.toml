@@ -1,0 +1,7 @@
+name = "corru.observer"
+home = "https://github.com/Adrthegamedev/ArchipelagoCorruObserver"
+default_url = "https://github.com/Adrthegamedev/ArchipelagoCorruObserver/releases/download/v{{version}}/corruobserver.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/Adrthegamedev/ArchipelagoCorruObserver/blob/main/docs/setup_en.md"
+
+[versions]

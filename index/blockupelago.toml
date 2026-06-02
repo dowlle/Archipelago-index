@@ -1,0 +1,6 @@
+name = "Blockupelago"
+home = "https://github.com/StefanDucharme/blockupelago"
+default_url = "https://github.com/StefanDucharme/blockupelago/releases/download/v{{version}}/blockupelago.apworld"
+stability = "unstable"
+
+[versions]

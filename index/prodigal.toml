@@ -1,0 +1,6 @@
+name = "Prodigal"
+home = "https://github.com/randomsalience/ProdigalArchipelago"
+default_url = "https://github.com/randomsalience/ProdigalArchipelago/releases/download/v{{version}}/prodigal.apworld"
+stability = "stable"
+
+[versions]

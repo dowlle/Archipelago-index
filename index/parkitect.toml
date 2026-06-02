@@ -1,0 +1,6 @@
+name = "Parkitect"
+home = "https://github.com/CrusherRL/AP_Parkitect_World"
+default_url = "https://github.com/CrusherRL/AP_Parkitect_World/releases/download/{{version}}/parkitect.apworld"
+stability = "stable"
+
+[versions]
