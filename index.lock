@@ -141,6 +141,9 @@
 [spiritvalley]
 "2.0.0" = "926a73bbc08dbb0bb69dc39666e848970431bb9f3552b5315aceec2477dfd9df"
 
+[tetris_gb]
+"0.2.1" = "7e48c804adce432fe3f8f4842dd973215e19a0cd63cdac9f37459b46942c38fc"
+
 [the_werecleaner]
 "0.1.2" = "be14e7ffed5416882a3e136a09a54144964d2a46d6a030085cbf2e307214e3e3"
 
