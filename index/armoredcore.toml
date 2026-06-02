@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/tree/main/docs"
 
 [versions]
+"0.3.0" = {}
