@@ -4,3 +4,4 @@ default_url = "https://github.com/BlastSlimey/Archipelago/releases/download/{{ve
 stability = "stable"
 
 [versions]
+"starter_rando_1.0.0" = {}
