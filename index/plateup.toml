@@ -4,3 +4,23 @@ default_url = "https://github.com/CazIsABoi/Archipelago/releases/download/{{vers
 stability = "stable"
 
 [versions]
+"0.2.6.3" = {}
+"0.2.6.4" = {}
+
+[[fuzz_results]]
+version = "0.2.6.3"
+verdict = "broken"
+fuzzed_at = "2026-06-02"
+seeds = 5000
+default_rate = 0.3898
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.405556
+
+[[fuzz_results]]
+version = "0.2.6.4"
+verdict = "broken"
+fuzzed_at = "2026-06-02"
+seeds = 3600
+default_rate = 0.391944
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.396923

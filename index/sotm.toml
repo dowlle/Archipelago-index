@@ -5,3 +5,13 @@ stability = "stable"
 setup_guide = "https://github.com/Totox00/Archipelago-sotm/blob/main/worlds/sotm/docs/setup_en.md"
 
 [versions]
+"0.4.5" = {}
+
+[[fuzz_results]]
+version = "0.4.5"
+verdict = "broken"
+fuzzed_at = "2026-06-02"
+seeds = 1500
+default_rate = 0.942667
+worst_hook = "default"
+worst_hook_rate = 0.942667
