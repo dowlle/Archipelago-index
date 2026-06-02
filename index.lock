@@ -141,6 +141,9 @@
 [spiritvalley]
 "2.0.0" = "926a73bbc08dbb0bb69dc39666e848970431bb9f3552b5315aceec2477dfd9df"
 
+[stick_ranger]
+"1.5.0" = "c7f3b034a0a9f2f37293faea3d135139bcc3303acc48b1a426e7dc84bd35f119"
+
 [the_werecleaner]
 "0.1.2" = "be14e7ffed5416882a3e136a09a54144964d2a46d6a030085cbf2e307214e3e3"
 
