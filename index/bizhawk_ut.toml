@@ -4,3 +4,4 @@ default_url = "https://github.com/Rurusachi/Archipelago/releases/download/{{vers
 stability = "stable"
 
 [versions]
+"BizhawkUT_1.3.1" = {}
