@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/Sim10XXX/C2AP/blob/master/README.md"
 
 [versions]
+"0.3.0" = {}
