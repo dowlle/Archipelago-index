@@ -10,6 +10,7 @@ setup_guide = "https://github.com/Emerassi/Crystal-Project-Archipelago-Mod-Insta
 "0.11.4" = {}
 "0.13.0" = {}
 "CrystalProject-v0.15.1" = { url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/download/CrystalProject-v0.15.1/crystal_project.apworld" }
+"CrystalProject-v0.16.0" = { url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/download/CrystalProject-v0.16.0/crystal_project.apworld" }
 
 [[fuzz_results]]
 version = "CrystalProject-v0.15.1"
