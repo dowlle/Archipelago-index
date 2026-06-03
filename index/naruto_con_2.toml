@@ -4,3 +4,4 @@ default_url = "https://github.com/richarm4/Archipelago/releases/download/{{versi
 stability = "unstable"
 
 [versions]
+"ncon2-0.2.0" = {}
