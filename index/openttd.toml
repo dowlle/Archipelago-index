@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/solida1987/openttd-archipelago?tab=readme-ov-file#download"
 
 [versions]
+"1.4.1" = {}
