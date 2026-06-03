@@ -5,3 +5,4 @@ disabled = true
 
 [versions]
 "0.6.6" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/v1.4.6/tevi.apworld" }
+"1.5.2" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/v1.5.2/tevi.apworld" }
