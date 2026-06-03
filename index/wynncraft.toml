@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/EpicPuppy613/Wynnpelago#wynnpelago"
 
 [versions]
+"0.3.0" = {}
