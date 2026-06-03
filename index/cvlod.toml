@@ -4,3 +4,4 @@ stability = "stable"
 
 [versions]
 "1.1.0" = { url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvlod_v1.1/cvlod.apworld" }
+"cvlod_v1.1" = { url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvlod_v1.1/cvlod.apworld" }
