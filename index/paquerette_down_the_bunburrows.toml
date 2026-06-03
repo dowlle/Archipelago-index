@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/SergeAzel/Archipelago_PDTB/blob/main/worlds/paquerette_down_the_bunburrows/docs/setup_en.md"
 
 [versions]
+"paquerette_down_the_bunburrows-0.1.0" = {}
