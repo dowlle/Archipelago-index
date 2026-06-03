@@ -1,0 +1,7 @@
+name = "Spirit Island"
+home = "https://github.com/Wouter17/Spirit-Archipelago"
+default_url = "https://github.com/Wouter17/Spirit-Archipelago/releases/download/{{version}}/spirit_island.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/Wouter17/Spirit-Archipelago?tab=readme-ov-file#how-to-install-the-client"
+
+[versions]

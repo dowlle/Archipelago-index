@@ -1,0 +1,6 @@
+name = "Monster Hunter World"
+home = "https://github.com/QPL22/MHW_Archipelago"
+default_url = "https://github.com/QPL22/MHW_Archipelago/releases/download/v{{version}}/mhw.apworld"
+stability = "unstable"
+
+[versions]

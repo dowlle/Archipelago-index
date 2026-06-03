@@ -1,0 +1,6 @@
+name = "West of Loathing"
+home = "https://github.com/Lucasvdm/WOLAP"
+default_url = "https://github.com/Lucasvdm/WOLAP/releases/download/v{{version}}/westofloathing.apworld"
+stability = "unstable"
+
+[versions]

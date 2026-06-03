@@ -1,0 +1,6 @@
+name = "Phoenotopia: Awakening"
+home = "https://github.com/Amphyros/Phoenotopia-Awakening-AP-client"
+default_url = "https://github.com/Amphyros/Phoenotopia-Awakening-AP-client/releases/download/v{{version}}/phoa.apworld"
+stability = "unstable"
+
+[versions]

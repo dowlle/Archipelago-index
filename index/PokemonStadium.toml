@@ -1,0 +1,6 @@
+name = "Pokémon Stadium"
+home = "https://github.com/jciii91/Pokemon-Stadium"
+default_url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v{{version}}/PokemonStadium.apworld"
+stability = "unstable"
+
+[versions]

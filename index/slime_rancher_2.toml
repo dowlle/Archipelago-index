@@ -1,0 +1,6 @@
+name = "Slime Rancher 2"
+home = "https://github.com/Rhelys/SlimeRancher2-AP"
+default_url = "https://github.com/Rhelys/SlimeRancher2-AP/releases/download/v{{version}}/slime_rancher_2.apworld"
+stability = "unstable"
+
+[versions]

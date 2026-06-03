@@ -1,0 +1,6 @@
+name = "Persona 5 Royal"
+home = "https://github.com/Daphoa/ArchipelagoP5RMod"
+default_url = "https://github.com/Daphoa/ArchipelagoP5RMod/releases/download/v{{version}}/p5r.apworld"
+stability = "unstable"
+
+[versions]

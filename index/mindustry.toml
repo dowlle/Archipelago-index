@@ -1,0 +1,6 @@
+name = "Mindustry"
+home = "https://github.com/JohnMahglass/Archipelago-Mindustry"
+default_url = "https://github.com/JohnMahglass/Archipelago-Mindustry/releases/download/v{{version}}/mindustry.apworld"
+stability = "unstable"
+
+[versions]

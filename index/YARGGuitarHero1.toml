@@ -1,0 +1,6 @@
+name = "YARG (Guitar Hero/Rockband)"
+home = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGGuitarHero1.apworld"
+stability = "unstable"
+
+[versions]

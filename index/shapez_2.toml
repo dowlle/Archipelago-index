@@ -1,0 +1,6 @@
+name = "shapez 2"
+home = "https://github.com/BlastSlimey/2hapezipelago_legacy"
+default_url = "https://github.com/BlastSlimey/2hapezipelago_legacy/releases/download/{{version}}/shapez_2.apworld"
+stability = "unstable"
+
+[versions]

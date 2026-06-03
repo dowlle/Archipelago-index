@@ -1,0 +1,6 @@
+name = "Phantasy Star II"
+home = "https://github.com/lagdotcom/Archipelago"
+default_url = "https://github.com/lagdotcom/Archipelago/releases/download/{{version}}/phantasy_star_2.apworld"
+stability = "unstable"
+
+[versions]

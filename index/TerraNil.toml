@@ -1,0 +1,6 @@
+name = "Terra Nil"
+home = "https://github.com/nepcore/TerraNilAP"
+default_url = "https://github.com/nepcore/TerraNilAP/releases/download/v{{version}}/TerraNil.apworld"
+stability = "unstable"
+
+[versions]

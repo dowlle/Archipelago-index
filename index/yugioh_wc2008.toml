@@ -1,0 +1,6 @@
+name = "Yu-Gi-Oh! World Championship 2008"
+home = "https://github.com/eatntcg/Archipelago"
+default_url = "https://github.com/eatntcg/Archipelago/releases/download/{{version}}/yugioh_wc2008.apworld"
+stability = "unstable"
+
+[versions]

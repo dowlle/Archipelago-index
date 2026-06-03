@@ -1,0 +1,7 @@
+name = "Road Trip Adventure"
+home = "https://github.com/Phenra/RoadTripAdventure-AP"
+default_url = "https://github.com/Phenra/RoadTripAdventure-AP/releases/download/v{{version}}/roadtrip.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/setup_en.md"
+
+[versions]

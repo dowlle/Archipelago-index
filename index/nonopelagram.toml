@@ -1,0 +1,6 @@
+name = "Nonopelagram"
+home = "https://github.com/StefanDucharme/nonogram-archipelago"
+default_url = "https://github.com/StefanDucharme/nonogram-archipelago/releases/download/v{{version}}/nonopelagram.apworld"
+stability = "unstable"
+
+[versions]

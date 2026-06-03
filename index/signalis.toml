@@ -1,0 +1,7 @@
+name = "Signalis"
+home = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer"
+default_url = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/releases/download/v{{version}}/signalis.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/blob/main/installation_instructions.md"
+
+[versions]

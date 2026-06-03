@@ -1,0 +1,6 @@
+name = "Voices of the Void"
+home = "https://github.com/Nathan-R-Og/Archipelago"
+default_url = "https://github.com/Nathan-R-Og/Archipelago/releases/download/{{version}}/votv.apworld"
+stability = "unstable"
+
+[versions]

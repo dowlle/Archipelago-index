@@ -1,0 +1,7 @@
+name = "Widget Inc"
+home = "https://github.com/SWCreeperKing/Widgitpelago"
+default_url = "https://github.com/SWCreeperKing/Widgitpelago/releases/download/v{{version}}/widget_inc.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/SWCreeperKing/Widgitpelago/blob/master/Readme.md"
+
+[versions]
