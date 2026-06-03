@@ -5,3 +5,4 @@ stability = "unstable"
 
 [versions]
 "0.1.1" = {}
+"V0.1.1" = { url = "https://github.com/Quinn-Patrick/Archipelago-Vespadian/releases/download/V0.1.1/vespadian.apworld" }
