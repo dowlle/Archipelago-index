@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/setup_en.md"
 
 [versions]
+"0.1.0" = {}
