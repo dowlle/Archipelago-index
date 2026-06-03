@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/MichelFenouil/SFA-Archipelago/blob/main/README.md"
 
 [versions]
+"sfa-0.1.2" = {}
