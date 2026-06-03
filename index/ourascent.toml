@@ -4,3 +4,4 @@ default_url = "https://github.com/AzuriCaelum/OurAscentAPWorld/releases/download
 stability = "unstable"
 
 [versions]
+"0.2.0" = {}
