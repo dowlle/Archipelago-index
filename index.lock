@@ -1819,6 +1819,9 @@
 [yooka_laylee]
 "1.0.0-beta.8" = "a95acda05d1319f70737e74d8b5bbb3a005794305e44ad8833c42f4cc1e72fc8"
 
+[yugioh_wc2008]
+"0.1.1" = "9c14ca89bf5e41d68a2c646d296d9ac7dd90d1264f915fbfb4fd49bf3012a650"
+
 [yugiohddm]
 "0.3.3" = "45503e86dd028e16da06ace4531dc90acb304de935dce8bb7e578a937aa67df1"
 
