@@ -120,6 +120,9 @@
 [ourascent]
 "0.2.0" = "064f183f1c55cca4791ffa9a56101b9fbb2aefa51c22da4fded31ce0a3ed0289"
 
+[phoa]
+"0.2.1" = "1b9e874d56478e7c4148ad60f22b913b894facb2f3b61540e81bb7bfb4b6d15c"
+
 [pikmin]
 "0.1.0" = "8a909e0b4dd392051298bb996b6a5831a9178d525ed0c0f5912fb9bff4d90cda"
 
