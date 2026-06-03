@@ -4,3 +4,4 @@ default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-fo
 stability = "unstable"
 
 [versions]
+"26.05.10" = {}
