@@ -1,0 +1,6 @@
+name = "Naruto Clash of Ninja 2"
+home = "https://github.com/richarm4/Archipelago"
+default_url = "https://github.com/richarm4/Archipelago/releases/download/{{version}}/naruto_con_2.apworld"
+stability = "unstable"
+
+[versions]

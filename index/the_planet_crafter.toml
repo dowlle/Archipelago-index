@@ -1,0 +1,6 @@
+name = "The Planet Crafter"
+home = "https://github.com/Hawkrex/Archipelago-ThePlanetCrafter"
+default_url = "https://github.com/Hawkrex/Archipelago-ThePlanetCrafter/releases/download/v{{version}}/the_planet_crafter.apworld"
+stability = "unstable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Tombola"
+home = "https://github.com/Arenes214/APWorld-Tombola"
+default_url = "https://github.com/Arenes214/APWorld-Tombola/releases/download/{{version}}/aptombola.apworld"
+stability = "unstable"
+
+[versions]

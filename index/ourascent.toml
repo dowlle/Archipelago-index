@@ -1,0 +1,6 @@
+name = "Our Ascent"
+home = "https://github.com/AzuriCaelum/OurAscentAPWorld"
+default_url = "https://github.com/AzuriCaelum/OurAscentAPWorld/releases/download/{{version}}/ourascent.apworld"
+stability = "unstable"
+
+[versions]

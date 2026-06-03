@@ -1,0 +1,7 @@
+name = "OpenTTD"
+home = "https://github.com/solida1987/openttd-archipelago"
+default_url = "https://github.com/solida1987/openttd-archipelago/releases/download/v{{version}}/openttd.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/solida1987/openttd-archipelago?tab=readme-ov-file#download"
+
+[versions]

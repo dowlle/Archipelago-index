@@ -1,0 +1,6 @@
+name = "Mega Man X Command Mission"
+home = "https://github.com/themogulAP/ArchipelagoCM"
+default_url = "https://github.com/themogulAP/ArchipelagoCM/releases/download/{{version}}/commandmission.apworld"
+stability = "unstable"
+
+[versions]

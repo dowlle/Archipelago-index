@@ -1,0 +1,6 @@
+name = "MediEvil 2"
+home = "https://github.com/riezahughes/Medievil2APWorld"
+default_url = "https://github.com/riezahughes/Medievil2APWorld/releases/download/v{{version}}/medievil2.apworld"
+stability = "unstable"
+
+[versions]

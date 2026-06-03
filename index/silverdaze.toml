@@ -1,0 +1,6 @@
+name = "Silver Daze"
+home = "https://github.com/udime123/Silver-Daze-APWorld"
+default_url = "https://github.com/udime123/Silver-Daze-APWorld/releases/download/{{version}}/silverdaze.apworld"
+stability = "unstable"
+
+[versions]

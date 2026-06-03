@@ -1,0 +1,7 @@
+name = "Star Fox Adventures"
+home = "https://github.com/MichelFenouil/SFA-Archipelago"
+default_url = "https://github.com/MichelFenouil/SFA-Archipelago/releases/download/{{version}}/sfa.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/MichelFenouil/SFA-Archipelago/blob/main/README.md"
+
+[versions]

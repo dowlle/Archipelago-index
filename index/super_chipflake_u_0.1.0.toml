@@ -1,0 +1,6 @@
+name = "Super Chipflake Ü: Quest for the Uncooked Schnitzel"
+home = "https://github.com/Max-G4/Chipflake_AP"
+default_url = "https://github.com/Max-G4/Chipflake_AP/releases/download/{{version}}/super_chipflake_u_0.1.0.apworld"
+stability = "unstable"
+
+[versions]

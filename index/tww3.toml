@@ -1,0 +1,6 @@
+name = "Total War: Warhammer III Alternative"
+home = "https://github.com/jordansds/Archipelago_TWW3_Alt"
+default_url = "https://github.com/jordansds/Archipelago_TWW3_Alt/releases/download/v{{version}}/tww3.apworld"
+stability = "unstable"
+
+[versions]

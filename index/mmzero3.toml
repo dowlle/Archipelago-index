@@ -1,0 +1,6 @@
+name = "Mega Man Zero 3"
+home = "https://github.com/brodieberger/MMZero3Archipelago"
+default_url = "https://github.com/brodieberger/MMZero3Archipelago/releases/download/v{{version}}/mmzero3.apworld"
+stability = "unstable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Mega Man Battle Network 6"
+home = "https://github.com/RischDev/Archipelago"
+default_url = "https://github.com/RischDev/Archipelago/releases/download/v{{version}}/mmbn6.apworld"
+stability = "unstable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "Sonic Frontiers"
+home = "https://github.com/OnakuTV/SonicFrontiersAPWorld"
+default_url = "https://github.com/OnakuTV/SonicFrontiersAPWorld/releases/download/v{{version}}/SonicFrontiers.apworld"
+stability = "unstable"
+
+[versions]

@@ -1,0 +1,6 @@
+name = "MediEvil (1998)"
+home = "https://github.com/riezahughes/MedievilAPWorld"
+default_url = "https://github.com/riezahughes/MedievilAPWorld/releases/download/v{{version}}/medievil.apworld"
+stability = "unstable"
+
+[versions]

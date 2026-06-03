@@ -1,0 +1,7 @@
+name = "Sonic Advance 2"
+home = "https://github.com/NiwatoriCode/sadv2_ap_releases"
+default_url = "https://github.com/NiwatoriCode/sadv2_ap_releases/releases/download/{{version}}/sadv2.apworld"
+stability = "unstable"
+setup_guide = "https://github.com/NiwatoriCode/Archipelago/blob/main/worlds/sadv2/docs/setup_en.md"
+
+[versions]
