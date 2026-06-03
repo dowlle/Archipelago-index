@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/functorial/MMLAP?tab=readme-ov-file#instructions"
 
 [versions]
+"0.2.6" = {}
