@@ -4,3 +4,4 @@ default_url = "https://github.com/Nathan-R-Og/Archipelago/releases/download/{{ve
 stability = "unstable"
 
 [versions]
+"votv-v0.0.2" = {}
