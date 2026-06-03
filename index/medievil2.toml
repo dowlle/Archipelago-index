@@ -4,3 +4,4 @@ default_url = "https://github.com/riezahughes/Medievil2APWorld/releases/download
 stability = "unstable"
 
 [versions]
+"0.1.5" = {}
