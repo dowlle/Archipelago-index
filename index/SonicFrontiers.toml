@@ -4,3 +4,4 @@ default_url = "https://github.com/OnakuTV/SonicFrontiersAPWorld/releases/downloa
 stability = "unstable"
 
 [versions]
+"0.1.3" = {}
