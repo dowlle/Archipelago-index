@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/johnso48/TalosPrincipleArchipelagoClient/blob/main/README.md"
 
 [versions]
+"1.2.2" = {}
