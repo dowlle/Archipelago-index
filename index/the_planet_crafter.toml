@@ -4,3 +4,4 @@ default_url = "https://github.com/Hawkrex/Archipelago-ThePlanetCrafter/releases/
 stability = "unstable"
 
 [versions]
+"0.0.1-poc" = {}

@@ -141,6 +141,9 @@
 [spiritvalley]
 "2.0.0" = "926a73bbc08dbb0bb69dc39666e848970431bb9f3552b5315aceec2477dfd9df"
 
+[the_planet_crafter]
+"0.0.1-poc" = "de07de4df979fa5187ef25ef73af0f638cfa90bfa520c73ce44fb07ce7093de8"
+
 [the_werecleaner]
 "0.1.2" = "be14e7ffed5416882a3e136a09a54144964d2a46d6a030085cbf2e307214e3e3"
 
