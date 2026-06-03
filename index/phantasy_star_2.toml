@@ -4,3 +4,4 @@ default_url = "https://github.com/lagdotcom/Archipelago/releases/download/{{vers
 stability = "unstable"
 
 [versions]
+"phst2-0.1.1" = {}
