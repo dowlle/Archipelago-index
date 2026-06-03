@@ -4,3 +4,4 @@ default_url = "https://github.com/BK-Simulator/BK-Simulator/releases/download/{{
 stability = "stable"
 
 [versions]
+"1.0.2" = {}
