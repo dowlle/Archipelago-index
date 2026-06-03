@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/blob/main/installation_instructions.md"
 
 [versions]
+"0.1.2" = {}
