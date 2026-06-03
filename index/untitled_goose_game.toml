@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/PixelShake92/Untitled-Goose-Game-Archipelago/blob/main/APWorld/untitled_goose_game/docs/setup_en.md"
 
 [versions]
+"Alpha_2.2" = {}
