@@ -4,3 +4,4 @@ default_url = "https://github.com/udime123/Silver-Daze-APWorld/releases/download
 stability = "unstable"
 
 [versions]
+"0.7.3" = {}
