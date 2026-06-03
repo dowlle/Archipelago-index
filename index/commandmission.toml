@@ -4,3 +4,4 @@ default_url = "https://github.com/themogulAP/ArchipelagoCM/releases/download/{{v
 stability = "unstable"
 
 [versions]
+"V0.1.7" = {}
