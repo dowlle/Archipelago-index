@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/NiwatoriCode/Archipelago/blob/main/worlds/sadv2/docs/setup_en.md"
 
 [versions]
+"sadv2-v0.1.0" = {}
