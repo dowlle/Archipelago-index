@@ -4,6 +4,9 @@
 [against_the_storm]
 "1.2.0" = "3068b85d24be8c49b96acaec52a70e5e4c173c05c4c524610e086e0732ffa6d7"
 
+[alttp]
+"enemizer-v4" = "d476d7abbce7fe6fd5886ebfaacbcda310af3d7ea28561981706fc9761dfc919"
+
 [balatro]
 "0.1.9f" = "5a767baa3a5b592b76b242b94080561a9c0973c2fc2351d78ac7817794985ee0"
 

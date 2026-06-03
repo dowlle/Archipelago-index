@@ -1,3 +1,6 @@
 name = "A Link to the Past"
 home = "https://archipelago.gg"
 supported = true
+
+[versions]
+"enemizer-v4" = { url = "https://github.com/Alchav/Archipelago/releases/download/enemizer-v4/alttp.apworld" }
