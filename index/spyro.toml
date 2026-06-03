@@ -6,3 +6,4 @@ setup_guide = "https://github.com/XuaTheGrate/Archipelago/blob/spyro/worlds/spyr
 
 [versions]
 "0.4.1" = {}
+"spyro-v0.4.1" = { url = "https://github.com/gamefreq0/Archipelago/releases/download/spyro-v0.4.1/spyro.apworld" }
