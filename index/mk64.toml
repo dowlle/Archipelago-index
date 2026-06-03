@@ -4,3 +4,4 @@ disabled = true
 
 [versions]
 "0.2.1-c" = { url = "https://github.com/Edsploration/MK64-Archipelago/releases/download/mk64%2F0.2.1c/mk64.apworld" }
+"mk64/0.2.5" = { url = "https://github.com/Edsploration/MK64-Archipelago/releases/download/mk64/0.2.5/mk64.apworld" }
