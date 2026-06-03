@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/SWCreeperKing/Widgitpelago/blob/master/Readme.md"
 
 [versions]
+"0.2.1" = {}
