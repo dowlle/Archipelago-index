@@ -9,6 +9,7 @@ setup_guide = "https://github.com/dannybonz/replanted_archipelago/blob/main/apwo
 "1.6.2" = {}
 "1.6.3" = {}
 "1.7.2" = {}
+"1.8.0" = {}
 
 [[fuzz_results]]
 version = "1.7.2"
