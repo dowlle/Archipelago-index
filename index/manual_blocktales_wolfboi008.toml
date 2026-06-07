@@ -8,6 +8,7 @@ default_url = "https://github.com/WolfBoi008/Block-Tales/releases/download/{{ver
 "4.2.3" = {}
 "pre-6.0.0-2" = {}
 "6.0.0" = {}
+"6.0.2" = {}
 
 [[fuzz_results]]
 version = "pre-6.0.0-2"
