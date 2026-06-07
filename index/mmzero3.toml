@@ -5,6 +5,7 @@ stability = "unstable"
 
 [versions]
 "0.2.5" = {}
+"0.2.6" = {}
 
 [[fuzz_results]]
 version = "0.2.5"
