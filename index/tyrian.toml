@@ -9,3 +9,12 @@ setup_guide = "https://github.com/KScl/TyrianAPWorld/blob/main/docs/setup_en.md"
 "1.0.1" = {}
 "1.0.4" = {}
 "1.0.5" = {}
+
+[[fuzz_results]]
+version = "1.0.5"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 4013
+default_rate = 0.043857
+worst_hook = "default"
+worst_hook_rate = 0.043857
