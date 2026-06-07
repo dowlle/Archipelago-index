@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "0.13.2" = {}
+"0.15.1" = {}
