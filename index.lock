@@ -7,6 +7,9 @@
 [against_the_storm]
 "1.2.0" = "3068b85d24be8c49b96acaec52a70e5e4c173c05c4c524610e086e0732ffa6d7"
 
+[armoredcore]
+"0.3.0" = "794e1da0d72a01edfd48537aa2b83de747fce89ff949bc6aa69d61edf7aa0011"
+
 [balatro]
 "0.1.9f" = "5a767baa3a5b592b76b242b94080561a9c0973c2fc2351d78ac7817794985ee0"
 
