@@ -4,3 +4,13 @@ default_url = "https://github.com/Kylogias/Spark3-Archipelago/releases/download/
 stability = "unstable"
 
 [versions]
+"0.7.0-alpha" = {}
+
+[[fuzz_results]]
+version = "0.7.0-alpha"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.7368
+worst_hook = "default"
+worst_hook_rate = 0.7368

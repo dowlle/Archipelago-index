@@ -4,3 +4,13 @@ default_url = "https://github.com/Hawkrex/Archipelago-ThePlanetCrafter/releases/
 stability = "unstable"
 
 [versions]
+"0.0.1-poc" = {}
+
+[[fuzz_results]]
+version = "0.0.1-poc"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-item-location-count"
+worst_hook_rate = 1.0

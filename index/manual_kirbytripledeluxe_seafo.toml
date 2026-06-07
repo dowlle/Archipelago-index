@@ -2,3 +2,13 @@ name = "Manual_KirbyTripleDeluxe_Seafo"
 home = "https://discord.com/channels/1097532591650910289/1207547321370279987"
 
 [versions]
+"2.0.0" = { url = "https://github.com/Seatori/ManualAPWorlds/releases/download/KTD-v2.0.0-beta/manual_kirbytripledeluxe_seafo.apworld" }
+
+[[fuzz_results]]
+version = "2.0.0"
+verdict = "flaky"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.01
+worst_hook = "default"
+worst_hook_rate = 0.01

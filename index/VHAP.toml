@@ -5,3 +5,13 @@ stability = "unstable"
 setup_guide = "https://github.com/Studmuffin2227/VHAPMod/blob/main/README.txt"
 
 [versions]
+"1.2.2" = {}
+
+[[fuzz_results]]
+version = "1.2.2"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 3777
+default_rate = 0.396346
+worst_hook = "default"
+worst_hook_rate = 0.396346

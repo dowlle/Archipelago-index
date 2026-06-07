@@ -4,3 +4,13 @@ default_url = "https://github.com/StefanDucharme/nonogram-archipelago/releases/d
 stability = "unstable"
 
 [versions]
+"0.6.3" = {}
+
+[[fuzz_results]]
+version = "0.6.3"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.7392
+worst_hook = "check-ut"
+worst_hook_rate = 0.76

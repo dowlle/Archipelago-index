@@ -5,3 +5,13 @@ stability = "unstable"
 
 [versions]
 "1.2.0-rc2" = {}
+"release/1.1.6" = { url = "https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/download/release/1.1.6/cobalt_core.apworld" }
+
+[[fuzz_results]]
+version = "release/1.1.6"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.6882
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

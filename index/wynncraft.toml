@@ -5,3 +5,13 @@ stability = "unstable"
 setup_guide = "https://github.com/EpicPuppy613/Wynnpelago#wynnpelago"
 
 [versions]
+"0.3.0" = {}
+
+[[fuzz_results]]
+version = "0.3.0"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.5798
+worst_hook = "default"
+worst_hook_rate = 0.5798

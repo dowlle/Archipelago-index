@@ -5,3 +5,13 @@ stability = "unstable"
 setup_guide = "https://github.com/tjwombo/RNSArchipelago/blob/main/README.md"
 
 [versions]
+"0.3.2-fix3" = {}
+
+[[fuzz_results]]
+version = "0.3.2-fix3"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 167
+default_rate = 0.053892
+worst_hook = "check-determinism"
+worst_hook_rate = 0.866667

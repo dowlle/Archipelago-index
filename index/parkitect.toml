@@ -4,3 +4,13 @@ default_url = "https://github.com/CrusherRL/AP_Parkitect_World/releases/download
 stability = "stable"
 
 [versions]
+"1.3.3" = {}
+
+[[fuzz_results]]
+version = "1.3.3"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.1892
+worst_hook = "default"
+worst_hook_rate = 0.1892

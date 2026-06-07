@@ -5,3 +5,13 @@ stability = "unstable"
 setup_guide = "https://github.com/Wouter17/Spirit-Archipelago?tab=readme-ov-file#how-to-install-the-client"
 
 [versions]
+"0.1.3-hf1" = {}
+
+[[fuzz_results]]
+version = "0.1.3-hf1"
+verdict = "flaky"
+fuzzed_at = "2026-05-26"
+seeds = 4958
+default_rate = 0.000807
+worst_hook = "check-determinism"
+worst_hook_rate = 0.997988

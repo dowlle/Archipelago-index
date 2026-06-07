@@ -4,3 +4,13 @@ default_url = "https://github.com/carrotinator/Archipelago/releases/download/{{v
 stability = "stable"
 
 [versions]
+"ph-v0.9.3-alpha" = {}
+
+[[fuzz_results]]
+version = "ph-v0.9.3-alpha"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.3734
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

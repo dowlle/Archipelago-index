@@ -4,3 +4,13 @@ default_url = "https://github.com/themogulAP/ArchipelagoCM/releases/download/{{v
 stability = "unstable"
 
 [versions]
+"V0.1.7" = {}
+
+[[fuzz_results]]
+version = "V0.1.7"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-item-location-count"
+worst_hook_rate = 1.0

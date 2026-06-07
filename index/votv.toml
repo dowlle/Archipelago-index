@@ -4,3 +4,13 @@ default_url = "https://github.com/Nathan-R-Og/Archipelago/releases/download/{{ve
 stability = "unstable"
 
 [versions]
+"votv-v0.0.2" = {}
+
+[[fuzz_results]]
+version = "votv-v0.0.2"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.5994
+worst_hook = "check-ut"
+worst_hook_rate = 0.608

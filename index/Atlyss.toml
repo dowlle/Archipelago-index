@@ -4,3 +4,13 @@ default_url = "https://github.com/AzraeL0534/ATLYSS-Archipelago-WIP/releases/dow
 stability = "unstable"
 
 [versions]
+"V1.0.5-PreRelease" = {}
+
+[[fuzz_results]]
+version = "V1.0.5-PreRelease"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 3755
+default_rate = 0.514248
+worst_hook = "default"
+worst_hook_rate = 0.514248

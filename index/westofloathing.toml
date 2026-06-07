@@ -4,3 +4,13 @@ default_url = "https://github.com/Lucasvdm/WOLAP/releases/download/v{{version}}/
 stability = "unstable"
 
 [versions]
+"0.2.3-alpha" = {}
+
+[[fuzz_results]]
+version = "0.2.3-alpha"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-indirect-conditions"
+worst_hook_rate = 0.817635

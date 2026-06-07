@@ -6,3 +6,13 @@ setup_guide = "https://github.com/Rosalie-A/Archipelago/wiki/Final-Fantasy-Tacti
 
 [versions]
 "0.2.2" = {}
+"FFT-v0.3.1" = { url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFT-v0.3.1/fftii.apworld" }
+
+[[fuzz_results]]
+version = "FFT-v0.3.1"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.165
+worst_hook = "check-ut"
+worst_hook_rate = 0.168

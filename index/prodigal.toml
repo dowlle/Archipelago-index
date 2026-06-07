@@ -4,3 +4,13 @@ default_url = "https://github.com/randomsalience/ProdigalArchipelago/releases/do
 stability = "stable"
 
 [versions]
+"0.2.4" = {}
+
+[[fuzz_results]]
+version = "0.2.4"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.6138
+worst_hook = "check-determinism"
+worst_hook_rate = 0.737864

@@ -5,3 +5,13 @@ stability = "unstable"
 setup_guide = "https://github.com/johnso48/TalosPrincipleArchipelagoClient/blob/main/README.md"
 
 [versions]
+"1.2.2" = {}
+
+[[fuzz_results]]
+version = "1.2.2"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0596
+worst_hook = "check-ut"
+worst_hook_rate = 0.066

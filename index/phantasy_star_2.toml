@@ -4,3 +4,13 @@ default_url = "https://github.com/lagdotcom/Archipelago/releases/download/{{vers
 stability = "unstable"
 
 [versions]
+"phst2-0.1.1" = {}
+
+[[fuzz_results]]
+version = "phst2-0.1.1"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.9816
+worst_hook = "check-ut"
+worst_hook_rate = 0.99

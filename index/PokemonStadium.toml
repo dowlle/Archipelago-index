@@ -4,3 +4,13 @@ default_url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/down
 stability = "unstable"
 
 [versions]
+"0.5.6" = {}
+
+[[fuzz_results]]
+version = "0.5.6"
+verdict = "flaky"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
