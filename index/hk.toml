@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "1.1.2" = { url = "https://github.com/qwint/Archipelago/releases/download/1.1.2/hk.apworld" }
+"1.1.3" = { url = "https://github.com/qwint/Archipelago/releases/download/1.1.3/hk.apworld" }
