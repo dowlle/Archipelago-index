@@ -1,0 +1,12 @@
+# index.lock is an append-only lockfile that every version PR appends to, so
+# open PRs all conflict on it and serialize — only one can merge before the
+# rest go stale. Resolve index.lock conflicts by keeping BOTH sides' additions
+# (the built-in `union` merge driver) so version PRs stop blocking each other.
+#
+# This changes nothing about the file's format or content — every consumer
+# (the AP-Pie web app's SHA verification, .github/scripts/detect_added_versions.py,
+# the worker's open-pr.sh) keeps parsing it byte-identically. The only risk union
+# introduces is two PRs adding the *same* "version" = "sha" line, which would be a
+# duplicate key; the lint-toml workflow now parses index.lock with tomllib to catch
+# exactly that.
+index.lock merge=union

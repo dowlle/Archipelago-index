@@ -4,11 +4,13 @@ on:
   pull_request:
     paths:
       - 'index/**.toml'
+      - 'index.lock'
       - '.github/workflows/lint-toml.yml'
   push:
     branches: [main]
     paths:
       - 'index/**.toml'
+      - 'index.lock'
       - '.github/workflows/lint-toml.yml'
 
 jobs:
@@ -47,4 +49,25 @@ jobs:
                   print(f"  {name}: {err}")
               sys.exit(1)
           print("OK: every TOML parses with stdlib tomllib.")
+          PY
+
+      - name: Parse index.lock with tomllib
+        run: |
+          python - <<'PY'
+          import sys
+          import tomllib
+
+          # index.lock is valid TOML: one [world] table per apworld, with
+          # "version" = "sha256" entries. tomllib raises on a duplicate key,
+          # which is the one corruption the `merge=union` driver could produce
+          # (two PRs adding the same version). Parsing it here is the guard.
+          try:
+              with open("index.lock", "rb") as f:
+                  lock = tomllib.load(f)
+          except Exception as e:
+              print(f"FAIL: index.lock did not parse: {e}")
+              sys.exit(1)
+          n_worlds = len(lock)
+          n_versions = sum(len(v) for v in lock.values() if isinstance(v, dict))
+          print(f"OK: index.lock parses — {n_worlds} worlds, {n_versions} pinned versions.")
           PY
