@@ -281,6 +281,7 @@
 
 [spark3]
 "0.7.0-alpha" = "9b06b4d8ad6b1d43ed47ebfde8b8ec02ad4bd4a0b477de05c430e9a5dc0117e4"
+"0.7.1-alpha" = "9b06b4d8ad6b1d43ed47ebfde8b8ec02ad4bd4a0b477de05c430e9a5dc0117e4"
 
 [spirit_island]
 "0.1.3-hf1" = "cb83a7b212abad6210d843c625c263298c6aa0cc60de2f002b9a049b8bf25924"
