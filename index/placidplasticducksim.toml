@@ -8,3 +8,4 @@ stability = "stable"
 "0.1.1" = {}
 "0.1.2" = {url = "https://github.com/SWCreeperKing/PPDSArchipelago/releases/download/v0.1.2/placidplasticducksim.apworld"}
 "0.3.0" = { url = "https://github.com/SWCreeperKing/PPDSArchipelago/releases/download/v0.3.0/placidplasticducksim.apworld" }
+"0.3.2" = { url = "https://github.com/SWCreeperKing/PPDSArchipelago/releases/download/v0.3.2/placidplasticducksim.apworld" }
