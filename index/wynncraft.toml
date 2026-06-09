@@ -6,6 +6,7 @@ setup_guide = "https://github.com/EpicPuppy613/Wynnpelago#wynnpelago"
 
 [versions]
 "0.3.0" = {}
+"0.3.1" = {}
 
 [[fuzz_results]]
 version = "0.3.0"
