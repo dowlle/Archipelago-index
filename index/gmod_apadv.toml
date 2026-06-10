@@ -5,3 +5,4 @@ stability = "unstable"
 setup_guide = "https://github.com/ChrisCj8/ap_adventure/blob/main/apworld/docs/setup_en.md"
 
 [versions]
+"0.1.2" = {}
