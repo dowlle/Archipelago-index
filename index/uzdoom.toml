@@ -5,3 +5,4 @@ stability = "stable"
 setup_guide = "https://github.com/ToxicFrog/doom-mods/blob/main/gzap/doc/quickstart.md"
 
 [versions]
+"gzap-0.8.5" = { url = "https://github.com/ToxicFrog/doom-mods/releases/download/gzap-0.8.5/uzdoom.apworld" }
