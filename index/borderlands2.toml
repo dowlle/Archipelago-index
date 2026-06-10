@@ -4,3 +4,4 @@ default_url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/v{{ve
 stability = "unstable"
 
 [versions]
+"be-85" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-85/borderlands2.apworld" }
