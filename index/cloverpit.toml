@@ -4,3 +4,4 @@ default_url = "https://github.com/Syntheal/CloverPit.Archipelago/releases/downlo
 stability = "stable"
 
 [versions]
+"1.2.2" = {}
