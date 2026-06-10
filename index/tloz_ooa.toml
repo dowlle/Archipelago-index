@@ -6,3 +6,4 @@ setup_guide = "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worl
 [versions]
 "0.4.3+hotfix-0.6.2" = { local = "../apworlds/tloz_ooa-0.4.3+hotfix-0.6.2.apworld" }
 "0.5.1" = { url = "https://github.com/josephanimate2021/ArchipelagoOoA/releases/download/v0.5.1/tloz_ooa.apworld" }
+"0.5.2" = { url = "https://github.com/josephanimate2021/ArchipelagoOoA/releases/download/v0.5.2/tloz_ooa.apworld" }
