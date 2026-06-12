@@ -283,6 +283,7 @@
 
 [sotm]
 "0.4.5" = "c2765de07d80e1360a68c33a8d579bddb465406e10b745b29a77ea5a4c1e7ee7"
+"0.4.6" = "896627f8ad9c7bf42fc43f86c9863e34c6bbb0177e7bececff25c72f0b657adc"
 
 [spark3]
 "0.7.0-alpha" = "9b06b4d8ad6b1d43ed47ebfde8b8ec02ad4bd4a0b477de05c430e9a5dc0117e4"
