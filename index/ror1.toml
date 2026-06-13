@@ -5,3 +5,13 @@ disabled = true # 20% failure rate
 
 [versions]
 "0.6.0" = { url = "https://github.com/studkid/RoR_Archipelago/releases/download/v0.6/ror1.apworld" }
+"0.6.2" = {}
+
+[[fuzz_results]]
+version = "0.6.2"
+verdict = "broken"
+fuzzed_at = "2026-06-13"
+seeds = 3700
+default_rate = 0.1743
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.1798

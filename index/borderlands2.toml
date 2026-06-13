@@ -5,3 +5,12 @@ stability = "unstable"
 
 [versions]
 "be-85" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-85/borderlands2.apworld" }
+
+[[fuzz_results]]
+version = "be-85"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.9974
+worst_hook = "check-ut"
+worst_hook_rate = 0.998

@@ -15,3 +15,5 @@ stability = "stable"
 "1.2.1" = {}
 "2.0.0+pre-release-3" = { url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/download/v2.0.0%2Bpre-release-3/deltarune.apworld" }
 "2.0.0+pre-release-2b" = { url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/download/v2.0.0%2Bpre-release-2b/deltarune.apworld" }
+"2.0.2" = {}
+"2.0.0+pre-release-1b" = { url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/download/v2.0.0%2Bpre-release-1b/deltarune.apworld" }
