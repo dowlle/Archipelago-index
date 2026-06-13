@@ -8,6 +8,7 @@ stability = "stable"
 "0.4.2" = {}
 "shadow-0.4.5" = { url = "https://github.com/choatix/Archipelago/releases/download/shadow-0.4.5/shadow_the_hedgehog.apworld" }
 "shadow-0.4.6" = { url = "https://github.com/choatix/Archipelago/releases/download/shadow-0.4.6/shadow_the_hedgehog.apworld" }
+"shadow-0.4.7" = { url = "https://github.com/choatix/Archipelago/releases/download/shadow-0.4.7/shadow_the_hedgehog.apworld" }
 
 [[fuzz_results]]
 version = "shadow-0.4.5"
