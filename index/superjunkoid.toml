@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "0.1.10" = {}
+"sj_v0.1.10" = { url = "https://github.com/Ninjakakes/Archipelago/releases/download/sj_v0.1.10/superjunkoid.apworld" }
