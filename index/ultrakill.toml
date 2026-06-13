@@ -10,6 +10,7 @@ setup_guide = "https://github.com/TRPG0/ArchipelagoULTRAKILL?tab=readme-ov-file#
 "3.2.6" = {}
 "3.4.5" = {}
 "3.5.2" = {}
+"3.5.1" = {}
 
 [[fuzz_results]]
 version = "3.5.2"
