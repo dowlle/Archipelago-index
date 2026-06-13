@@ -10,3 +10,12 @@ stability = "stable"
 "2.1.1" = {}
 "2.1.5" = {}
 "2.1.6" = {}
+
+[[fuzz_results]]
+version = "2.1.6"
+verdict = "flaky"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.674

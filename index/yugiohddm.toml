@@ -16,3 +16,12 @@ seeds = 500
 default_rate = 0.0
 worst_hook = "check-ut"
 worst_hook_rate = 0.016
+
+[[fuzz_results]]
+version = "0.3.4"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.1752
+worst_hook = "check-determinism"
+worst_hook_rate = 0.369048

@@ -11,3 +11,12 @@ setup_guide = "https://github.com/Automagic00/ACT-AP-Client-Plugin?tab=readme-ov
 "0.4.3" = {}
 "0.4.4" = {}
 "0.5.0" = {}
+
+[[fuzz_results]]
+version = "0.5.0"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0952
+worst_hook = "check-determinism"
+worst_hook_rate = 0.922222

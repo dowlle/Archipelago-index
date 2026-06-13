@@ -6,3 +6,12 @@ setup_guide = "https://github.com/1-800-thewolf/AoM-Archipelago/blob/main/SETUP.
 
 [versions]
 "1.2.0" = {}
+
+[[fuzz_results]]
+version = "1.2.0"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.4112
+worst_hook = "default"
+worst_hook_rate = 0.4112
