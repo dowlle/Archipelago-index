@@ -4,3 +4,4 @@ default_url = "https://github.com/tdkollins/Archipelago-Rabi-Ribi/releases/downl
 stability = "stable"
 
 [versions]
+"1.5.1" = {}
