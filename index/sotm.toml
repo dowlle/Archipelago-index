@@ -6,6 +6,7 @@ setup_guide = "https://github.com/Totox00/Archipelago-sotm/blob/main/worlds/sotm
 
 [versions]
 "0.4.5" = {}
+"0.4.6" = {}
 
 [[fuzz_results]]
 version = "0.4.5"
