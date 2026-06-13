@@ -10,6 +10,9 @@
 [against_the_storm]
 "1.2.0" = "3068b85d24be8c49b96acaec52a70e5e4c173c05c4c524610e086e0732ffa6d7"
 
+[aom]
+"1.2.0" = "535667c040be1672abeec08a4b0ea1399f75f0247ec6dbaf5e29fabfdca67f74"
+
 [aptombola]
 "0.2" = "599776f913afc2c7efccd7da90c9a842385ee29c6574274cfb3626096e99b1ba"
 
