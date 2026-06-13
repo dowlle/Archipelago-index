@@ -5,3 +5,4 @@ setup_guide = "https://github.com/AshIndigo/Archipelago/blob/dmc3-world/worlds/d
 
 [versions]
 "0.3.0" = { local = "../apworlds/dmc3-0.3.0.apworld" }
+"0.5.1" = { url = "https://github.com/AshIndigo/Archipelago/releases/download/v0.5.1/dmc3.apworld" }
