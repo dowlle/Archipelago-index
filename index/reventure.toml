@@ -7,3 +7,4 @@ tracker = "https://github.com/fhnnhf/reventure_tracker/releases"
 [versions]
 "0.19.0" = {}
 "0.19.1" = {}
+"0.20.0" = {}
