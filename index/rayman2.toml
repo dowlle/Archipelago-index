@@ -7,6 +7,7 @@ setup_guide = "https://github.com/Aeltumn/Rayman2AP/blob/main/README.md"
 [versions]
 
 "0.1.4" = {}
+"0.1.5" = {}
 
 [[fuzz_results]]
 version = "0.1.4"
