@@ -27,6 +27,7 @@ default_url = "https://github.com/gerbiljames/Archipelago/releases/download/{{ve
 "6.0.0-alpha.20" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-alpha.20/pokemon_crystal_prerelease.apworld" }
 "6.0.0-alpha.21" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-alpha.21/pokemon_crystal_prerelease.apworld" }
 "5.4.6" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/5.4.6/pokemon_crystal.apworld" }
+"6.0.0-alpha.22" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-alpha.22/pokemon_crystal_prerelease.apworld" }
 
 [[fuzz_results]]
 version = "5.4.4"
