@@ -1,4 +1,4 @@
-name = "Castlevania: Dawn of Sorrow"
+name = "Castlevania: Portrait of Ruin"
 home = "https://github.com/PinkSwitch/Archipelago"
 default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/{{version}}/cv_por.apworld"
 stability = "stable"
