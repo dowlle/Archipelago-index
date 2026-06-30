@@ -680,6 +680,7 @@
 [doom_ii_beta]
 "2.0.0-beta2" = "e8df56bd50f0c3da923956b946188321ed617f5ed2ba5679db136a8044efc6e2"
 "2.0.0-beta3" = "343ca5fcd27a6cb7c8e21f7f30f995b0dba2783fdf65c5b5d4a2f430ea4c0bf1"
+"2.0.0-beta4" = "804c6c257a369da0dbac26aa317ef95108a69f2ea1d9dbb7efd8b2bea4b7ea8c"
 
 [doronko_wanko]
 "0.3.0" = "6d7447ea7c9076ba1f815abd1c1cbb722aa594ceaca9823b72d9ea822bb7b358"
