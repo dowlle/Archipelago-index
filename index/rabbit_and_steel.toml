@@ -6,6 +6,7 @@ setup_guide = "https://github.com/tjwombo/RNSArchipelago/blob/main/README.md"
 
 [versions]
 "0.3.2-fix3" = {}
+"0.3.3" = {}
 
 [[fuzz_results]]
 version = "0.3.2-fix3"
