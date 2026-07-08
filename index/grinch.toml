@@ -36,3 +36,12 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "check-indirect-conditions"
 worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "1.6.0-PR3"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 3823
+default_rate = 0.590636
+worst_hook = "default"
+worst_hook_rate = 0.590636
