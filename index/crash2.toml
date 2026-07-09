@@ -7,6 +7,7 @@ setup_guide = "https://github.com/Sim10XXX/C2AP/blob/master/README.md"
 [versions]
 "0.3.0" = {}
 "0.4.0-pre3" = {}
+"0.4.1" = {}
 
 [[fuzz_results]]
 version = "0.3.0"
