@@ -8,6 +8,7 @@ stability = "unstable"
 "0.5.7" = { url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v0.5.7/pokemon_stadium.apworld" }
 "0.5.8" = { url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v0.5.8/pokemon_stadium.apworld" }
 "0.6.0" = { url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v0.6.0/pokemon_stadium.apworld" }
+"0.6.2" = { url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v0.6.2/pokemon_stadium.apworld" }
 
 [[fuzz_results]]
 version = "0.5.6"
