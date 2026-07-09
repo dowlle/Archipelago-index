@@ -10,6 +10,7 @@ setup_guide = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelag
 "1.5.0" = {}
 "1.5.1" = {}
 "1.6.0" = {}
+"1.6.1" = {}
 
 [[fuzz_results]]
 version = "1.2.5"
