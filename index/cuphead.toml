@@ -7,6 +7,7 @@ stability = "stable"
 "0.0.2-alpha+f" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha02f/cuphead.apworld" }
 "alpha03d" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03d/cuphead.apworld" }
 "alpha03e" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03e/cuphead.apworld" }
+"alpha03f" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03f/cuphead.apworld" }
 
 [[fuzz_results]]
 version = "alpha03d"
