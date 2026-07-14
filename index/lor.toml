@@ -9,6 +9,7 @@ setup_guide = "https://az-lastpenguin.github.io/guide"
 "0.3.1" = {}
 "1.0.0-delta" = {}
 "1.0.0-epsilon" = {}
+"1.0.0-zeta" = {}
 
 [[fuzz_results]]
 version = "0.3.1"
