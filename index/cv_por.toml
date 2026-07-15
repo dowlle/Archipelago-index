@@ -6,6 +6,7 @@ stability = "stable"
 [versions]
 "cvpor1.2.2" = {}
 "cvpor1.3" = {}
+"cvpor1.3.2" = {}
 
 [[fuzz_results]]
 version = "cvpor1.2.2"
