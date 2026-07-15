@@ -162,6 +162,7 @@
 "0.3.1" = "b6c913965dd7c639c460393d84228d6e0cefdc75c7f893aacbf2257b7a731eac"
 "1.0.0-delta" = "8a1776c307056b186ab29c6f123796361219aafe408d123f71cdf3fb2104abd8"
 "1.0.0-epsilon" = "1aeeebd40b8696aae3a9baa85cb7843a2308c2b569ebfaaf7880d9acbc7293dc"
+"1.0.0-zeta" = "72423d9c258c7d569097613841825b913d9fc58b09213c9bffe8a0a8b7931e46"
 
 [manual_gloomhaven_codegorilla]
 "2.1.1-gloomhaven-manual" = "aa79ddd54ed0818f16d4b11e0e9392cd2267bc0b4f4aaeaa54b81728bafaccda"
