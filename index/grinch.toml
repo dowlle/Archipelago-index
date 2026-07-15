@@ -18,6 +18,7 @@ tracker = "https://www.google.com/url?q=https://github.com/JAHapner01/Grinch-AP-
 "1.5.7" = {}
 "1.5.8" = {}
 "1.6.0-PR3" = {}
+"1.6.0-PR5" = {}
 
 [[fuzz_results]]
 version = "1.5.5"
