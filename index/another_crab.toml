@@ -11,6 +11,7 @@ setup_guide = "https://github.com/Automagic00/ACT-AP-Client-Plugin?tab=readme-ov
 "0.4.3" = {}
 "0.4.4" = {}
 "0.5.0" = {}
+"0.5.1" = {}
 
 [[fuzz_results]]
 version = "0.5.0"
