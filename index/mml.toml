@@ -6,3 +6,4 @@ setup_guide = "https://github.com/functorial/MMLAP?tab=readme-ov-file#instructio
 
 [versions]
 "0.2.6" = {}
+"0.3.0" = {}
