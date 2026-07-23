@@ -3,3 +3,4 @@ home = "https://github.com/PixelShake92/Salt-and-Sanctuary-AP"
 stability = "untested"
 
 [versions]
+"1.0" = { url = "https://github.com/PixelShake92/Salt-and-Sanctuary-AP/releases/download/First-release/salt_and_sanctuary.apworld" }
