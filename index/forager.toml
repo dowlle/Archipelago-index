@@ -3,3 +3,4 @@ home = "https://github.com/olixx12/Foragipelago"
 stability = "untested"
 
 [versions]
+"0.1.1a0" = { url = "https://github.com/olixx12/Foragipelago/releases/download/0.1.1-alpha/forager.apworld" }
