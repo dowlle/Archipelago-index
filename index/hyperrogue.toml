@@ -4,3 +4,4 @@ default_url = "https://github.com/RealMelwei/hyperrogue_archipelago/releases/dow
 stability = "untested"
 
 [versions]
+"0.2.1" = {}
