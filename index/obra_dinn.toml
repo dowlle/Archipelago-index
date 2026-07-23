@@ -1,0 +1,6 @@
+name = "Return of the Obra Dinn"
+home = "https://github.com/wkcheezy/ObraDinnArchipelagoWorld"
+default_url = "https://github.com/wkcheezy/ObraDinnArchipelagoWorld/releases/download/v{{version}}/obra_dinn.apworld"
+stability = "untested"
+
+[versions]

@@ -1,0 +1,5 @@
+name = "Salt and Sanctuary"
+home = "https://github.com/PixelShake92/Salt-and-Sanctuary-AP"
+stability = "untested"
+
+[versions]

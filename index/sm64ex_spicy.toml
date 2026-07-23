@@ -1,0 +1,6 @@
+name = "SM64: Spicy Mycena 64"
+home = "https://github.com/Alchav/Archipelago"
+default_url = "https://github.com/Alchav/Archipelago/releases/download/spicy-{{version}}/sm64ex_spicy.apworld"
+stability = "untested"
+
+[versions]

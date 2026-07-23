@@ -1,0 +1,6 @@
+name = "Fez"
+home = "https://github.com/nhyldmar/fez-ap"
+default_url = "https://github.com/nhyldmar/fez-ap/releases/download/v{{version}}/fez.apworld"
+stability = "untested"
+
+[versions]

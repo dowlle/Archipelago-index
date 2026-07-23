@@ -1,0 +1,6 @@
+name = "Dragon Ball Z Budokai 3"
+home = "https://github.com/z3xox/Budokai3AP"
+default_url = "https://github.com/z3xox/Budokai3AP/releases/download/v{{version}}/budokai3.apworld"
+stability = "untested"
+
+[versions]

@@ -1,0 +1,5 @@
+name = "Slay the Princess"
+home = "https://github.com/Overlord-Draconic-Fire/Archipelago"
+stability = "untested"
+
+[versions]

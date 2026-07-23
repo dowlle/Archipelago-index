@@ -1,0 +1,5 @@
+name = "Dicey Dungeons"
+home = "https://github.com/Fylcoast/AP_diceydungeons"
+stability = "untested"
+
+[versions]

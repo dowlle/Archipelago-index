@@ -1,0 +1,6 @@
+name = "Manual_LimbusCompany_EchoingEito"
+home = "https://github.com/Ung-W/Limbus_Company-Manual_AP"
+default_url = "https://github.com/Ung-W/Limbus_Company-Manual_AP/releases/download/v{{version}}/manual_limbuscompany_echoingeito.apworld"
+stability = "untested"
+
+[versions]

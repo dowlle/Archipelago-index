@@ -1,0 +1,6 @@
+name = "Outward"
+home = "https://github.com/Daemonarian/AP_Outward"
+default_url = "https://github.com/Daemonarian/AP_Outward/releases/download/v{{version}}/outward.apworld"
+stability = "untested"
+
+[versions]

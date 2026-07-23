@@ -1,0 +1,5 @@
+name = "Dredge"
+home = "https://github.com/alextric234/ArchipelagoDredge"
+stability = "untested"
+
+[versions]
