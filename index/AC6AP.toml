@@ -1,0 +1,6 @@
+name = "AC6AP"
+home = "https://github.com/DeltaSilver/Armored-Core-6-Archipelago"
+stability = "untested"
+
+[versions]
+"0.1b0" = { url = "https://github.com/DeltaSilver/Armored-Core-6-Archipelago/releases/download/v0.1-beta/AC6AP.apworld" }
