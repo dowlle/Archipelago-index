@@ -3,3 +3,4 @@ home = "https://github.com/EmilyEmmi/Babapelago"
 stability = "untested"
 
 [versions]
+"0.3.0.post2" = { url = "https://github.com/EmilyEmmi/Babapelago/releases/download/b3.0h/baba_is_you.apworld" }
