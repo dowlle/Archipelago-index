@@ -1,0 +1,7 @@
+name = "APBingo"
+home = "https://github.com/Cynichill/APBingo"
+default_url = "https://github.com/Cynichill/APBingo/releases/download/{{version}}/APBingo.apworld"
+stability = "untested"
+
+[versions]
+"1.1.1" = {}
