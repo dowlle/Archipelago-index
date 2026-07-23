@@ -4,3 +4,4 @@ default_url = "https://github.com/nhyldmar/fez-ap/releases/download/v{{version}}
 stability = "untested"
 
 [versions]
+"0.5.0" = {}
