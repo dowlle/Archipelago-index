@@ -5,3 +5,4 @@ default_url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_{{v
 [versions]
 "0.0.2" = {}
 "pbrs_0.1.0" = { url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_0.1.0/pokemon_pinball_rs.apworld" }
+"pbrs_0.2.3" = { url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_0.2.3/pokemon_pinball_rs.apworld" }
