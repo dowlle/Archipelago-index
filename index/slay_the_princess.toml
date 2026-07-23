@@ -3,3 +3,4 @@ home = "https://github.com/Overlord-Draconic-Fire/Archipelago"
 stability = "untested"
 
 [versions]
+"0.6.0.post2" = { url = "https://github.com/Overlord-Draconic-Fire/Archipelago/releases/download/STP-0.6.1/slay_the_princess.apworld" }
