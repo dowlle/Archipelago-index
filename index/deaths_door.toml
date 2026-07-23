@@ -1,0 +1,6 @@
+name = "Deaths Door"
+home = "https://github.com/roseasromeo/DeathsDoorAPWorld"
+default_url = "https://github.com/roseasromeo/DeathsDoorAPWorld/releases/download/v{{version}}/deaths_door.apworld"
+stability = "untested"
+
+[versions]

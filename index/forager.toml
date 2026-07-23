@@ -1,0 +1,5 @@
+name = "Forager"
+home = "https://github.com/olixx12/Foragipelago"
+stability = "untested"
+
+[versions]

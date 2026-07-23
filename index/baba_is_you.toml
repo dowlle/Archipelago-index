@@ -1,0 +1,5 @@
+name = "Baba Is You"
+home = "https://github.com/EmilyEmmi/Babapelago"
+stability = "untested"
+
+[versions]

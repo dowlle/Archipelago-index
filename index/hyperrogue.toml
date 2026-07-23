@@ -1,0 +1,6 @@
+name = "HyperRogue"
+home = "https://github.com/RealMelwei/hyperrogue_archipelago"
+default_url = "https://github.com/RealMelwei/hyperrogue_archipelago/releases/download/v{{version}}/hyperrogue.apworld"
+stability = "untested"
+
+[versions]

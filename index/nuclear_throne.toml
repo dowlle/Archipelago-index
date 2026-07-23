@@ -1,0 +1,5 @@
+name = "Nuclear Throne"
+home = "https://github.com/GraphiteGraphic/NuclearThroneArchipelago"
+stability = "untested"
+
+[versions]

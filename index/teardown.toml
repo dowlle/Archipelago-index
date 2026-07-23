@@ -1,0 +1,6 @@
+name = "Teardown"
+home = "https://github.com/Evereliquest/Archipelago"
+default_url = "https://github.com/Evereliquest/Archipelago/releases/download/v{{version}}/teardown.apworld"
+stability = "untested"
+
+[versions]

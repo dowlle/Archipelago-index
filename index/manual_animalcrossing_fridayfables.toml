@@ -1,0 +1,6 @@
+name = "Manual_AnimalCrossing_FridayFables"
+home = "https://github.com/FedoraFriday/Animal-Crossing-Manual"
+default_url = "https://github.com/FedoraFriday/Animal-Crossing-Manual/releases/download/{{version}}/manual_animalcrossing_fridayfables.apworld"
+stability = "untested"
+
+[versions]

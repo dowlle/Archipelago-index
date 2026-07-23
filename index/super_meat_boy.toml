@@ -1,0 +1,6 @@
+name = "Super Meat Boy"
+home = "https://github.com/PixelShake92/Super-Meat-Boy-AP"
+default_url = "https://github.com/PixelShake92/Super-Meat-Boy-AP/releases/download/Alpha_{{version}}/super_meat_boy.apworld"
+stability = "untested"
+
+[versions]
