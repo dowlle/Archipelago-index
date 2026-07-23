@@ -335,6 +335,9 @@
 [sly1]
 "0.3.4-alpha" = "8dfe28eb1b1f43677c9ce4e0e9082b013c42df030ebf21b325aca4cd572b15b5"
 
+[sm64ex_spicy]
+"0.1.0" = "83d29cda64268695241813e8f79a2c84d7a893a733ad0d8d1346f2f834f325a2"
+
 [sonic1]
 "sonic_1-v0.1.1" = "eb53af94e736dd869dd62bef3b12ae7c18f2c8de5c3fef6d75359841df78e1d4"
 
