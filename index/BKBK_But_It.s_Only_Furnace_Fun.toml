@@ -1,0 +1,7 @@
+name = "BKBK But It.s Only Furnace Fun"
+home = "https://github.com/PixelShake92/BKBK_But_It-s_Only_Furnace_Fun-Apworld"
+default_url = "https://github.com/PixelShake92/BKBK_But_It-s_Only_Furnace_Fun-Apworld/releases/download/V{{version}}/BKBK_But_It.s_Only_Furnace_Fun.apworld"
+stability = "untested"
+
+[versions]
+"1" = {}
