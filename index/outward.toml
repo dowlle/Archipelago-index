@@ -4,3 +4,4 @@ default_url = "https://github.com/Daemonarian/AP_Outward/releases/download/v{{ve
 stability = "untested"
 
 [versions]
+"0.2.2" = {}
