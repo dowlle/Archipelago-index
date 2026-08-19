@@ -8,3 +8,12 @@ default_url = "https://github.com/wildham0/FF1PRAP/releases/download/{{version}}
 "0.6.0" = {}
 "0.6.2" = {}
 "0.6.3" = {}
+
+[[fuzz_results]]
+version = "0.6.3"
+verdict = "clean"
+fuzzed_at = "2026-07-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

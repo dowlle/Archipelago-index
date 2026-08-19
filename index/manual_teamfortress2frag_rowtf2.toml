@@ -3,3 +3,12 @@ display_name = "Manual: Team Fortress 2 Frag"
 
 [versions]
 "0.0.2" = { local = "../apworlds/manual_teamfortress2frag_rowtf2-0.0.2.apworld" }
+
+[[fuzz_results]]
+version = "0.0.2"
+verdict = "clean"
+fuzzed_at = "2026-07-15"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

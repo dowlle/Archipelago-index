@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.4.4b0" = { url = "https://github.com/Fylcoast/AP_diceydungeons/releases/download/v0.4.4-beta/diceydungeons.apworld" }
+
+[[fuzz_results]]
+version = "0.4.4b0"
+verdict = "broken"
+fuzzed_at = "2026-07-23"
+seeds = 5000
+default_rate = 0.4584
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

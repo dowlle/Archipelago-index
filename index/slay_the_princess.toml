@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.6.0.post2" = { url = "https://github.com/Overlord-Draconic-Fire/Archipelago/releases/download/STP-0.6.1/slay_the_princess.apworld" }
+
+[[fuzz_results]]
+version = "0.6.0.post2"
+verdict = "broken"
+fuzzed_at = "2026-07-23"
+seeds = 5000
+default_rate = 0.414
+worst_hook = "check-item-location-count"
+worst_hook_rate = 1.0

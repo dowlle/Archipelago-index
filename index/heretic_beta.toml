@@ -7,3 +7,12 @@ default_url = "https://github.com/ArchipelagoDoom/APDoom/releases/download/v{{ve
 "2.0.0-beta3" = {}
 "2.0.0-beta4" = {}
 "2.0.0" = {}
+
+[[fuzz_results]]
+version = "2.0.0"
+verdict = "clean"
+fuzzed_at = "2026-07-21"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
