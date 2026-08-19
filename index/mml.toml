@@ -7,3 +7,12 @@ setup_guide = "https://github.com/functorial/MMLAP?tab=readme-ov-file#instructio
 [versions]
 "0.2.6" = {}
 "0.3.0" = {}
+
+[[fuzz_results]]
+version = "0.3.0"
+verdict = "clean"
+fuzzed_at = "2026-07-20"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
