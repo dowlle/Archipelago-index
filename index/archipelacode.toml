@@ -2,7 +2,6 @@ name = "Archipelacode"
 home = "https://github.com/ShackledMars261/Archipelago"
 default_url = "https://github.com/ShackledMars261/Archipelago/releases/download/{{version}}/archipelacode.apworld"
 stability = "unstable"
-setup_guide = "https://github.com/ShackledMars261/Archipelago/blob/main/worlds/archipelacode/docs/setup_en.md"
 
 [versions]
 "archipelacode-v0.0.2" = {}
