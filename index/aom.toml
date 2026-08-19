@@ -2,7 +2,7 @@ name = "Age of Mythology: Retold"
 home = "https://github.com/1-800-thewolf/AoM-Archipelago"
 default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/download/v{{version}}/aom.apworld"
 stability = "stable"
-setup_guide = "https://github.com/1-800-thewolf/AoM-Archipelago/blob/main/SETUP.md"
+setup_guide = "https://github.com/1-800-thewolf/AoM-Archipelago/blob/main/README.md"
 
 [versions]
 "1.2.0" = {}
