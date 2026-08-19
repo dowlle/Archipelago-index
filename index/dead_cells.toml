@@ -4,3 +4,13 @@ default_url = "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/d
 stability = "untested"
 
 [versions]
+"0.1.6" = {}
+
+[[fuzz_results]]
+version = "0.1.6"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.288
+worst_hook = "check-determinism"
+worst_hook_rate = 0.75

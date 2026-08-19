@@ -22,3 +22,12 @@ seeds = 5000
 default_rate = 0.0034
 worst_hook = "default"
 worst_hook_rate = 0.0034
+
+[[fuzz_results]]
+version = "sluggers-v0.4.0"
+verdict = "clean"
+fuzzed_at = "2026-07-11"
+seeds = 5000
+default_rate = 0.0014
+worst_hook = "default"
+worst_hook_rate = 0.0014

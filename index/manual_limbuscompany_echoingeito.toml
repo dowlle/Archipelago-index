@@ -4,3 +4,4 @@ default_url = "https://github.com/Ung-W/Limbus_Company-Manual_AP/releases/downlo
 stability = "untested"
 
 [versions]
+"1.0.2" = {}

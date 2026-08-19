@@ -1,0 +1,15 @@
+name = "AC6AP"
+home = "https://github.com/DeltaSilver/Armored-Core-6-Archipelago"
+stability = "untested"
+
+[versions]
+"0.1b0" = { url = "https://github.com/DeltaSilver/Armored-Core-6-Archipelago/releases/download/v0.1-beta/AC6AP.apworld" }
+
+[[fuzz_results]]
+version = "0.1b0"
+verdict = "broken"
+fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.1258
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.1282

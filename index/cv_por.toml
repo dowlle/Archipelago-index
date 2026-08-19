@@ -25,3 +25,12 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "check-determinism"
 worst_hook_rate = 0.952
+
+[[fuzz_results]]
+version = "cvpor1.3.2"
+verdict = "flaky"
+fuzzed_at = "2026-07-14"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.956
