@@ -2,6 +2,9 @@ name = "Clique"
 home = "https://discord.com/channels/731205301247803413/1090815835825774683"
 default_url = "https://pharware.com/git/Phar/Clique/releases/download/{{version}}/clique.apworld"
 stability = "stable"
+# Upstream release host returned HTTP 522 in repeated checks on 2026-08-19.
+# Re-enable when the maintainer provides a reachable, provenance-preserving artifact.
+disabled = true
 
 [versions]
 "1.5.4" = {}
