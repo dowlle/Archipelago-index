@@ -1,0 +1,6 @@
+name = "Hello Kitty: Roller Rescue"
+home = "https://github.com/richarm4/Archipelago"
+stability = "untested"
+
+[versions]
+"0.1.0" = { url = "https://github.com/richarm4/Archipelago/releases/download/hkrr-0.1.0/hkrr.apworld" }
