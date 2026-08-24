@@ -1,0 +1,6 @@
+name = "Wikipelago"
+home = "https://github.com/Skrumptily69/Wikipelago"
+stability = "untested"
+
+[versions]
+"2" = { url = "https://github.com/Skrumptily69/Wikipelago/releases/download/release-2/Wikipelago.apworld" }
