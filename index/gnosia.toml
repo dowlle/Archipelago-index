@@ -1,0 +1,6 @@
+name = "Gnosia"
+home = "https://github.com/Mat8071/Gnosia-Archipelago-Randomizer"
+stability = "untested"
+
+[versions]
+"0.1.3" = { url = "https://github.com/Mat8071/Gnosia-Archipelago-Randomizer/releases/download/v0.1.3/gnosia.apworld" }
