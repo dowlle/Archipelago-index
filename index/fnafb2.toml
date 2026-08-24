@@ -1,0 +1,6 @@
+name = "Five Nights at Fuckboy's 2"
+home = "https://github.com/zuils/FNaFBAP"
+stability = "untested"
+
+[versions]
+"0.4.3.post2" = { url = "https://github.com/zuils/FNaFBAP/releases/download/v0.4.4/fnafb2.apworld" }
