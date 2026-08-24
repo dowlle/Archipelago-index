@@ -1,0 +1,7 @@
+name = "Hololive Treasure Mountain"
+home = "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago"
+default_url = "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago/releases/download/v{{version}}/HololiveTreasureMountain.apworld"
+stability = "untested"
+
+[versions]
+"1.0.0" = {}
