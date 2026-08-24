@@ -1,0 +1,6 @@
+name = "SBURBelago"
+home = "https://github.com/SephDB/SBURBelago"
+stability = "untested"
+
+[versions]
+"2.1.0" = { url = "https://github.com/SephDB/SBURBelago/releases/download/v2.1.0/sburbelago.apworld" }
