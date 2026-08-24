@@ -1,0 +1,6 @@
+name = "Operation Octo"
+home = "https://github.com/GraymonDgt/OperationOctoAP"
+stability = "untested"
+
+[versions]
+"1.0.3" = { url = "https://github.com/GraymonDgt/OperationOctoAP/releases/download/v1.0.3/operationocto.apworld" }
