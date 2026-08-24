@@ -1,0 +1,6 @@
+name = "Shahrazad"
+home = "https://github.com/qwint/ap-shahrazad"
+stability = "untested"
+
+[versions]
+"0.4.0" = { url = "https://github.com/qwint/ap-shahrazad/releases/download/0.4.0/shahrazad.apworld" }
