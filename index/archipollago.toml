@@ -1,0 +1,7 @@
+name = "Archipollago"
+home = "https://github.com/FlySniper/Archipelago"
+default_url = "https://github.com/FlySniper/Archipelago/releases/download/apollago-{{version}}/archipollago.apworld"
+stability = "untested"
+
+[versions]
+"0.1.3" = {}
