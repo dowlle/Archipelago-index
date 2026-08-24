@@ -1,0 +1,6 @@
+name = "Jet Island"
+home = "https://github.com/Nullctipus/JetIslandArchipelago"
+stability = "untested"
+
+[versions]
+"0.0.2" = { url = "https://github.com/Nullctipus/JetIslandArchipelago/releases/download/0.0.2/jet_island.apworld" }
