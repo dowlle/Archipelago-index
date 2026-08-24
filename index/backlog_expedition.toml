@@ -1,0 +1,6 @@
+name = "Backlog Expedition"
+home = "https://github.com/Nikkilites/Archipelago-BacklogExpedition-APWorld"
+stability = "untested"
+
+[versions]
+"3.0.0" = { url = "https://github.com/Nikkilites/Archipelago-BacklogExpedition-APWorld/releases/download/v3.0.0/backlog_expedition.apworld" }
