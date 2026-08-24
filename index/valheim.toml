@@ -1,0 +1,6 @@
+name = "Valheim"
+home = "https://github.com/xyzzy44/ValheimArchipelagoRandomizer"
+stability = "untested"
+
+[versions]
+"0.2.1" = { url = "https://github.com/xyzzy44/ValheimArchipelagoRandomizer/releases/download/0.2.1/valheim.apworld" }
