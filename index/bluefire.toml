@@ -1,0 +1,6 @@
+name = "Blue Fire"
+home = "https://github.com/Nebulea-dev/Archipelago-BlueFire"
+stability = "untested"
+
+[versions]
+"0.1.0.post2" = { url = "https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/download/0.3.0/bluefire.apworld" }
