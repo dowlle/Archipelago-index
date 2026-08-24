@@ -1,0 +1,7 @@
+name = "Ys 8"
+home = "https://github.com/junglechief87/Ys-8-AP-World"
+default_url = "https://github.com/junglechief87/Ys-8-AP-World/releases/download/v{{version}}/ys_8.apworld"
+stability = "untested"
+
+[versions]
+"1.2.1b" = {}
