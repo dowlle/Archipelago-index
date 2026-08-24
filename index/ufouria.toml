@@ -1,0 +1,6 @@
+name = "Ufouria"
+home = "https://github.com/vinheim3/Archipelago"
+stability = "untested"
+
+[versions]
+"0.0.1.post4" = { url = "https://github.com/vinheim3/Archipelago/releases/download/0.1.1/ufouria.apworld" }
