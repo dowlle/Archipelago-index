@@ -1,0 +1,6 @@
+name = "I Was a Teenage Exocolonist"
+home = "https://github.com/pamymaf/Exocolonist-AP"
+stability = "untested"
+
+[versions]
+"1.1.0" = { url = "https://github.com/pamymaf/Exocolonist-AP/releases/download/v1.1/exocolonist.apworld" }
