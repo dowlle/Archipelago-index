@@ -1,0 +1,6 @@
+name = "Mario Kart Wii"
+home = "https://github.com/toent/Archipelago-MKWii"
+stability = "untested"
+
+[versions]
+"0.2.3" = { url = "https://github.com/toent/Archipelago-MKWii/releases/download/v0.2.3/mkwii.apworld" }
