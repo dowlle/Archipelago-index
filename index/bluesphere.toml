@@ -1,0 +1,7 @@
+name = "Blue Sphere"
+home = "https://github.com/FlitPix/ap-bluesphere"
+default_url = "https://github.com/FlitPix/ap-bluesphere/releases/download/v{{version}}/bluesphere.apworld"
+stability = "untested"
+
+[versions]
+"0.1.0" = {}
