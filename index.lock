@@ -73,6 +73,9 @@
 [cavern_of_dreams]
 "0-beta.10.2" = "8f594e15e4c36ab87423087e25144502ca1f426ac578aa110202a9aeea7eeb87"
 
+[ccs]
+"0.0.1" = "c1ba034a23028fa652c2fa4bdcaa09a070c4832ef16e9dd6c887a5a05d966bb8"
+
 [chainedechoes]
 "1.1.0" = "5321f0ee687fb32f7e0d0893d09f46ed3ae213dd71b00d8a024af965cd3bd9a8"
 
