@@ -1,0 +1,7 @@
+name = "Cash Cleaner Simulator"
+home = "https://github.com/aymeric-duchein/Archipelago-ccs"
+default_url = "https://github.com/aymeric-duchein/Archipelago-ccs/releases/download/{{version}}/ccs.apworld"
+stability = "untested"
+
+[versions]
+"0.0.1" = {}
