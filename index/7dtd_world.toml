@@ -1,0 +1,7 @@
+name = "7dtd World"
+home = "https://github.com/OrcThrowman/7-Days-to-Die-AP"
+default_url = "https://github.com/OrcThrowman/7-Days-to-Die-AP/releases/download/{{version}}/7dtd_world.apworld"
+stability = "untested"
+
+[versions]
+"1.1" = {}
