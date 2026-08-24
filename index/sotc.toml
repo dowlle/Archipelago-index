@@ -1,0 +1,6 @@
+name = "Shadow of the Colossus"
+home = "https://github.com/riezahughes/SOTC-APWorld"
+stability = "untested"
+
+[versions]
+"0.0.1.post7" = { url = "https://github.com/riezahughes/SOTC-APWorld/releases/download/v0.0.7/sotc.apworld" }
