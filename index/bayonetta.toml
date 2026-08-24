@@ -1,0 +1,6 @@
+name = "Bayonetta"
+home = "https://github.com/Boi-027/BayonettaArchipelago"
+stability = "untested"
+
+[versions]
+"1.5" = { url = "https://github.com/Boi-027/BayonettaArchipelago/releases/download/v1.5/bayonetta.apworld" }
