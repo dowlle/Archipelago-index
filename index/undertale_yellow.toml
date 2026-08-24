@@ -1,0 +1,6 @@
+name = "Undertale Yellow"
+home = "https://github.com/Pugie38/Undertale-Yellow-AP"
+stability = "untested"
+
+[versions]
+"0.1.6.post2" = { url = "https://github.com/Pugie38/Undertale-Yellow-AP/releases/download/v0.1.6/undertale_yellow.apworld" }
