@@ -1,0 +1,7 @@
+name = "Lobap"
+home = "https://github.com/YarRuin/LOBAP"
+default_url = "https://github.com/YarRuin/LOBAP/releases/download/v{{version}}/lobap.apworld"
+stability = "untested"
+
+[versions]
+"0.3.5" = {}
