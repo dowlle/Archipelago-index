@@ -1,0 +1,6 @@
+name = "Geometry Dash"
+home = "https://github.com/matorblal-byte/ArchipelagoGD2"
+stability = "untested"
+
+[versions]
+"1.0.0a9" = { url = "https://github.com/matorblal-byte/ArchipelagoGD2/releases/download/v1.0.0-alpha.9/geometrydash.apworld" }
