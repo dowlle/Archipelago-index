@@ -1,0 +1,6 @@
+name = "One Must Fall: 2097"
+home = "https://github.com/stubobis1/archipelago-openomf"
+stability = "untested"
+
+[versions]
+"0.0.2" = { url = "https://github.com/stubobis1/archipelago-openomf/releases/download/0.0.02/openomf.apworld" }
