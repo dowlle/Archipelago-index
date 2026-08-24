@@ -1,0 +1,6 @@
+name = "Nicktoons Bfvi"
+home = "https://github.com/dylpill999/Nicktoons-BFVI-GBA-AP"
+stability = "untested"
+
+[versions]
+"2.1.0" = { url = "https://github.com/dylpill999/Nicktoons-BFVI-GBA-AP/releases/download/Archipelago/nicktoons_bfvi.apworld" }
