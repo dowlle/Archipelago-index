@@ -1,0 +1,7 @@
+name = "Mina The Hollower"
+home = "https://github.com/FyreDay/Archipelago-MinaTheHollower"
+default_url = "https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/download/v{{version}}/mina_the_hollower.apworld"
+stability = "untested"
+
+[versions]
+"1.0.0" = {}
