@@ -1,0 +1,6 @@
+name = "Five Nights at Fuckboy's"
+home = "https://github.com/Scrungip/FNaFBAP"
+stability = "untested"
+
+[versions]
+"1.0.0" = { url = "https://github.com/Scrungip/FNaFBAP/releases/download/v1.0.0/fnafb1.apworld" }
