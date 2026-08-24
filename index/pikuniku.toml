@@ -1,0 +1,6 @@
+name = "Pikuniku"
+home = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku"
+stability = "untested"
+
+[versions]
+"0.3.1" = { url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku/releases/download/0.3.1/pikuniku.apworld" }
