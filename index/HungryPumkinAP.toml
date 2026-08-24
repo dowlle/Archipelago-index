@@ -1,0 +1,6 @@
+name = "Hungry Pumkin"
+home = "https://github.com/NotFamilyJules/hungry_pumkin_ap"
+stability = "untested"
+
+[versions]
+"0.1.0" = { url = "https://github.com/NotFamilyJules/hungry_pumkin_ap/releases/download/v0.1/HungryPumkinAP.apworld" }
