@@ -1,0 +1,7 @@
+name = "Cyber Hook"
+home = "https://github.com/PieOrPi/CyberHookAPWorld"
+default_url = "https://github.com/PieOrPi/CyberHookAPWorld/releases/download/{{version}}/cyberhook.apworld"
+stability = "untested"
+
+[versions]
+"0.1.0" = {}
