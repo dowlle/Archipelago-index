@@ -1,0 +1,6 @@
+name = "Halo The Master Chief Collection"
+home = "https://github.com/spencer2585/MCC-AP"
+stability = "untested"
+
+[versions]
+"1.1.2" = { url = "https://github.com/spencer2585/MCC-AP/releases/download/Alpha-1.1.2/halo_mcc.apworld" }
