@@ -1,0 +1,6 @@
+name = "Idle Loops"
+home = "https://github.com/IHaveNoFunnyName/Archipelago"
+stability = "untested"
+
+[versions]
+"0.4.1" = { url = "https://github.com/IHaveNoFunnyName/Archipelago/releases/download/0.4.1/idleloops.apworld" }
