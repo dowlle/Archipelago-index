@@ -1,0 +1,7 @@
+name = "Gta Sa"
+home = "https://github.com/awakenbad/SanAndreasAP"
+default_url = "https://github.com/awakenbad/SanAndreasAP/releases/download/v{{version}}/gta_sa.apworld"
+stability = "untested"
+
+[versions]
+"0.7.0" = {}
