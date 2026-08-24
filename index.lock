@@ -45,7 +45,7 @@
 [bg3tot]
 "1.2.0" = "1ec0c64461ea45206d471e6f731a9ae5c594fa8b8b9415270384723af9930b7b"
 
-[BKBK_But_It.s_Only_Furnace_Fun]
+["BKBK_But_It.s_Only_Furnace_Fun"]
 "1" = "e9d3cec179221410ee23cf6fd75322dfb15f43e7eac4f98229ee4293808e8c8c"
 
 [bksim]
@@ -142,6 +142,9 @@
 [enderlilies]
 "0.8" = "58271963b8ef318a934a27bec3f11cb34217614e2414a1596dd3a116027b6480"
 
+[enter_the_gungeon]
+"0.1.1" = "23c3e546775e6d5fcf8b7c5b210f2a4425ad580fbf1e6ebb7ca6de94bf4cc517"
+
 [flipwitch]
 "1.1.3" = "fc5f225d7e1445845a951acdb3beec03f6bec569bae80fb206ba15bea5455181"
 "1.1.7" = "500b51f959411a2ea2060bf310b5a0a688a90a4bb7c1d78bdd1137e39c1a65bd"
@@ -154,6 +157,9 @@
 "1.6.0" = "5c34808ce8d0543c2c7180d0dc7a378224c9f0e0cf7c97c140faf919a93f922c"
 "1.6.1" = "68647712cafc36e793c863d9823667c21dcb190826769afc83993fe2fc4fced6"
 "1.6.2" = "e4930b54eeafa7951c35f3dcf10e4f1ae13422c940038fae8bff859984220ee5"
+
+[getting_over_it]
+"0.2.3" = "01f44e92881f818c72bc048f40cbb6328d7e22d4810c83244df3a3ed5b8eefd2"
 
 [gmod_apadv]
 "0.1.2" = "c51354e1cff100248cd83d725441202a12dd2162ba1a4c8ffc5d746fd3df6b8b"
@@ -182,6 +188,9 @@
 [librarian]
 "1.1.0" = "1b99a2cd8af906e5d33836645deaf3de893fd6ec30b23ef10fad4861f852a3b4"
 
+[lobotomycorporation]
+"1.2.0" = "10c925cbc077c9255d96ebeaeef0438997d6cc4a5d62a8e248bf2569d268b2d3"
+
 [loonyland]
 "0.2.1" = "7bfc8f1ec6d4d50bc5b6b654ff667096c54d6194a3ab2f89c33b7ad6d2c2190e"
 "0.2.5" = "51ea1d6959ffa81336a08d2c0644d4e96ee8b3a3fbb1425db77df05097b93664"
@@ -201,6 +210,9 @@
 [manual_grappledog_profdecube]
 "1.2.0" = "4cc4f3146a72d5b95556637d50d1238559d7fa801e22e0afa2a60ef854be3f76"
 
+[manual_kerbalspaceprogramplswork_dallortheabsol]
+"0.0.1" = "53a90c3c4d91af533a2f552ab6a4fed573c67f71571260eeb18063682fa25238"
+
 [manual_kirbytripledeluxe_seafo]
 "2.0.0" = "9088112933c918c88f37dfae82a5420cc54e3cf4fa49cbe6e86d748b50a50d76"
 
@@ -210,6 +222,9 @@
 [Manual_pokemonss_riannehx]
 "0.0.4" = "b345991313f48e2f89cba05d30bc4249188819a7d4b3cfccb249529afa4223f2"
 "0.0.5" = "5273fbc9c2f7d8768993055efee53e3d17bb4cb02dcd61f2f21dd297064b1961"
+
+[manual_portal2_]
+"0.0.2" = "d4d5af8c22c73a0f403b5d106aae5d06f88ef288aba1be1e404dadaac9fb5154"
 
 [medievil]
 "0.2.11" = "b7ae56163b62250007a0f3ff1ff4e5e451e9251644769f87aa5de2434bd99b10"
@@ -2134,6 +2149,7 @@
 "1.3.3" = "8eda6f6fe7a39133a0d64e22e1759e136d93a1584faee65ca2d5408c9da1cac6"
 "waffles-v1.3.6" = "0bde7f482043b89c82b6f71012737aa10e7d8ada438b0f71491209c927f10a8f"
 "waffles-v1.3.9" = "e5ac2980de407963cd891ff1ea4bde97b70df692e7cee868a6f340a940bc1b1e"
+"1.0.0" = "ed191ab718f0dcc5579470c73aaf28dfa4d0dc090412d8ac7fa6e9eb7d02ad74"
 
 [wargroove2]
 "1.1.6" = "2244c7d308b5b9e3e4b8c3d49df7719b4affbb7bdcb863f70a2f2187ca3be612"
