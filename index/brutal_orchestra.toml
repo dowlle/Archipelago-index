@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "1.0.0.post3" = { url = "https://github.com/DeadEyeDv/Brutal-Orchestra-Archipelago/releases/download/v1.2.1/brutal_orchestra.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0.post3"
+verdict = "flaky"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0026
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

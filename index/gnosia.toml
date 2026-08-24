@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.1.3" = { url = "https://github.com/Mat8071/Gnosia-Archipelago-Randomizer/releases/download/v0.1.3/gnosia.apworld" }
+
+[[fuzz_results]]
+version = "0.1.3"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.496

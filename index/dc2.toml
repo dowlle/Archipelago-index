@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.0.4" = { url = "https://github.com/ArsonAssassin/DC2AP/releases/download/0.0.4.0/dc2.apworld" }
+
+[[fuzz_results]]
+version = "0.0.4"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.096
+worst_hook = "check-ut"
+worst_hook_rate = 0.11
