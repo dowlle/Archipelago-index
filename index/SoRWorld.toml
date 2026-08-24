@@ -1,0 +1,7 @@
+name = "Streets of Rogue"
+home = "https://github.com/Jmarcs27/StreetsOfRogueArchipelago"
+default_url = "https://github.com/Jmarcs27/StreetsOfRogueArchipelago/releases/download/v{{version}}/SoRWorld.apworld"
+stability = "untested"
+
+[versions]
+"0.0.2" = {}
