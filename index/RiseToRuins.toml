@@ -1,0 +1,6 @@
+name = "Rise to Ruins"
+home = "https://github.com/mattthewaz/RtRAPWorld"
+stability = "untested"
+
+[versions]
+"0.4" = { url = "https://github.com/mattthewaz/RtRAPWorld/releases/download/v0.4/RiseToRuins.apworld" }
