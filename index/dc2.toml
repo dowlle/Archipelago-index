@@ -1,0 +1,6 @@
+name = "Dark Cloud 2"
+home = "https://github.com/ArsonAssassin/DC2AP"
+stability = "untested"
+
+[versions]
+"0.0.4" = { url = "https://github.com/ArsonAssassin/DC2AP/releases/download/0.0.4.0/dc2.apworld" }
