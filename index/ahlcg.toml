@@ -1,0 +1,7 @@
+name = "Arkham Horror: The Card Game"
+home = "https://github.com/Totox00/ap-ahlcg"
+default_url = "https://github.com/Totox00/ap-ahlcg/releases/download/v{{version}}/ahlcg.apworld"
+stability = "untested"
+
+[versions]
+"0.1.4" = {}
