@@ -5,3 +5,12 @@ stability = "untested"
 
 [versions]
 "1.2.1b" = {}
+
+[[fuzz_results]]
+version = "1.2.1b"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0102
+worst_hook = "check-lambda-capture"
+worst_hook_rate = 0.791583

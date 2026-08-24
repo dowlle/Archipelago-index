@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "1.5" = { url = "https://github.com/Boi-027/BayonettaArchipelago/releases/download/v1.5/bayonetta.apworld" }
+
+[[fuzz_results]]
+version = "1.5"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0014
+worst_hook = "default"
+worst_hook_rate = 0.0014

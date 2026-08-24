@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.3.9" = { url = "https://github.com/ArsonAssassin/DWAP/releases/download/0.3.9/dw1.apworld" }
+
+[[fuzz_results]]
+version = "0.3.9"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.2506
+worst_hook = "check-item-location-count"
+worst_hook_rate = 1.0

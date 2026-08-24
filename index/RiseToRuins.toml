@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.4" = { url = "https://github.com/mattthewaz/RtRAPWorld/releases/download/v0.4/RiseToRuins.apworld" }
+
+[[fuzz_results]]
+version = "0.4"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.4534
+worst_hook = "check-ut"
+worst_hook_rate = 0.476
