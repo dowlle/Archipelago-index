@@ -1,0 +1,6 @@
+name = "Mini Metro"
+home = "https://github.com/Slimm160/Mini-Metro-Archipelago"
+stability = "untested"
+
+[versions]
+"0.2.1a0" = { url = "https://github.com/Slimm160/Mini-Metro-Archipelago/releases/download/0.2.1-alpha/mini_metro.apworld" }
