@@ -1,0 +1,6 @@
+name = "Kirby Squeak Squad"
+home = "https://github.com/WindChill404/Kirby-Squeak-Squad-APWORLD"
+stability = "untested"
+
+[versions]
+"3" = { url = "https://github.com/WindChill404/Kirby-Squeak-Squad-APWORLD/releases/download/V003/kirby_squeak_squad.apworld" }
