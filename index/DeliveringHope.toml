@@ -1,0 +1,7 @@
+name = "Delivering Hope"
+home = "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago"
+default_url = "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago/releases/download/v{{version}}/DeliveringHope.apworld"
+stability = "untested"
+
+[versions]
+"0.3.0" = {}
