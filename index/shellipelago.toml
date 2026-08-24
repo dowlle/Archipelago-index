@@ -1,0 +1,7 @@
+name = "Shellipelago"
+home = "https://github.com/ethentianknight/shellipelago"
+default_url = "https://github.com/ethentianknight/shellipelago/releases/download/{{version}}/shellipelago.apworld"
+stability = "untested"
+
+[versions]
+"1.14b" = {}
