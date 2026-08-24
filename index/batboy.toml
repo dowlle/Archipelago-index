@@ -1,0 +1,7 @@
+name = "Bat Boy"
+home = "https://github.com/alwaysintreble/Archipelago.BatBoy"
+default_url = "https://github.com/alwaysintreble/Archipelago.BatBoy/releases/download/v{{version}}/batboy.apworld"
+stability = "untested"
+
+[versions]
+"0.1.6" = {}
