@@ -1,0 +1,7 @@
+name = "Crypt of the NecroDancer"
+home = "https://github.com/lastingParadox/Archipelago-CotND"
+default_url = "https://github.com/lastingParadox/Archipelago-CotND/releases/download/v{{version}}/cotnd.apworld"
+stability = "untested"
+
+[versions]
+"0.7.2" = {}
