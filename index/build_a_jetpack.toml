@@ -1,0 +1,7 @@
+name = "Build a Jetpack"
+home = "https://github.com/NyanMC/build-a-jetpack"
+default_url = "https://github.com/NyanMC/build-a-jetpack/releases/download/{{version}}/build_a_jetpack.apworld"
+stability = "untested"
+
+[versions]
+"0.2.0" = {}
