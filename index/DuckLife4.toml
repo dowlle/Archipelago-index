@@ -1,0 +1,6 @@
+name = "Duck Life 4"
+home = "https://github.com/spencer2585/Duck-Life-4-Archipelago"
+stability = "untested"
+
+[versions]
+"1.0.0.post2" = { url = "https://github.com/spencer2585/Duck-Life-4-Archipelago/releases/download/1.0.0_HF1/DuckLife4.apworld" }
