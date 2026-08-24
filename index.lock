@@ -436,6 +436,9 @@
 [tloz_ph]
 "ph-v0.9.3-alpha" = "fd8d8b3d1ec904a64dcc5735a811dc1ef6d5009560832a76e60db562d409a4d9"
 
+[tr1r]
+"0.1.5" = "ece9eb966480b28796bca886c5cb209ab9f799b8c9adb8045fa17440fbb2fce5"
+
 [trombone]
 "0.3.4" = "b0a095253b5b154ed93340eb8d85a16e7bd3b3e2ddebe9852c9e8d73ec4c8db8"
 

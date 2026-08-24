@@ -1,0 +1,6 @@
+name = "Tomb Raider I-III Remastered"
+home = "https://github.com/ReynierMatth/archipelago-tomb-raider-1-remastered"
+stability = "untested"
+
+[versions]
+"0.1.5" = { url = "https://github.com/ReynierMatth/archipelago-tomb-raider-1-remastered/releases/download/v0.1.5/tr1r.apworld" }
