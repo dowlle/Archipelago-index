@@ -279,6 +279,9 @@
 [phantasy_star_2]
 "phst2-0.1.1" = "f511acc08693cb12b2f2b3c7bb3a2e5857f009c0327c939fe198a9357c20548d"
 
+[pharcryption]
+"1.1.0" = "23bb828ad8be261ba1ffc38bacd1ebadbd5bff68b0ea8d327d0e1d39e9abb655"
+
 [phoa]
 "0.2.1" = "1b9e874d56478e7c4148ad60f22b913b894facb2f3b61540e81bb7bfb4b6d15c"
 "0.3.0" = "73f4aaa9f260e396dac6dc8ab2e8bf3f817dc2f63bb1c7b0cb6eff5b01344a58"
