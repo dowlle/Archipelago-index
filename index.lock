@@ -457,6 +457,9 @@
 [votv]
 "votv-v0.0.2" = "dbd82d42209f7e4eb22b05879bc838d346747c2c4b8ce5fd54d4d6ffde6e7b5f"
 
+[vsim]
+"0.0.4" = "9eb39bad02bd030abb1ec69e4fff09ed41bc2bd615e6ef700a8742366800bd23"
+
 [waterywords]
 "0.1.0" = "744f67091e09a7027eb9c682ed1ed97dc29982d603a7da815d9f91fe9144670d"
 
