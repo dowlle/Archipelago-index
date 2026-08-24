@@ -1,0 +1,6 @@
+name = "RWBY Grimm Eclipse"
+home = "https://github.com/nepcore/RwbyAP"
+stability = "untested"
+
+[versions]
+"0.1.0.post2" = { url = "https://github.com/nepcore/RwbyAP/releases/download/v0.1.1/rwby_ge.apworld" }
