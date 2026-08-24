@@ -1,0 +1,6 @@
+name = "Layer 8 Problem"
+home = "https://github.com/TheZockerBrain069/Layer8Problem-AP"
+stability = "untested"
+
+[versions]
+"8" = { url = "https://github.com/TheZockerBrain069/Layer8Problem-AP/releases/download/Layer8Problem/layer8problem.apworld" }
