@@ -1,0 +1,6 @@
+name = "Digimon World"
+home = "https://github.com/ArsonAssassin/DWAP"
+stability = "untested"
+
+[versions]
+"0.3.9" = { url = "https://github.com/ArsonAssassin/DWAP/releases/download/0.3.9/dw1.apworld" }
