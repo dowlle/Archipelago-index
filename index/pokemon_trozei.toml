@@ -1,0 +1,6 @@
+name = "Pokemon Trozei"
+home = "https://github.com/WCutePy/ArchipelagoAlmia"
+stability = "untested"
+
+[versions]
+"0.0.1b0" = { url = "https://github.com/WCutePy/ArchipelagoAlmia/releases/download/trozei_v0.0.1-beta/pokemon_trozei.apworld" }
