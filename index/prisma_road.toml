@@ -1,0 +1,6 @@
+name = "Prisma Road"
+home = "https://github.com/MoraAntonio/Prisma-Road-APWorld"
+stability = "untested"
+
+[versions]
+"0.1.0" = { url = "https://github.com/MoraAntonio/Prisma-Road-APWorld/releases/download/v0.1.0/prisma_road.apworld" }
