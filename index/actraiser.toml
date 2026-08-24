@@ -1,0 +1,6 @@
+name = "ActRaiser"
+home = "https://github.com/Happyhappyism/Archipelago"
+stability = "untested"
+
+[versions]
+"1.3.4" = { url = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v134/actraiser.apworld" }
