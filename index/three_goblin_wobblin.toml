@@ -1,0 +1,6 @@
+name = "Three Goblin Wobblin"
+home = "https://github.com/melenehh/Three-Goblin-Archipelago"
+stability = "untested"
+
+[versions]
+"0.0.1a0" = { url = "https://github.com/melenehh/Three-Goblin-Archipelago/releases/download/unstable/three_goblin_wobblin.apworld" }
