@@ -403,6 +403,9 @@
 [spiritvalley]
 "2.0.0" = "926a73bbc08dbb0bb69dc39666e848970431bb9f3552b5315aceec2477dfd9df"
 
+[sternly_worded_adventures]
+"1.0.0.post2" = "0ea38d6df9dd9faf2f6b7a7a36c2f45a5d044d7828a06e391c615ac5d6f17fc9"
+
 [talos_principle_reawakened]
 "1.2.2" = "d989e7e187e2ec5027450ddc6ede386b8be87234e9fd278870913e927f32dfb5"
 "1.3.0-BETA.2" = "a43ac037068612a524399d3e24ab07b35ce74ca1c070bd4072fd29c53de97f8a"

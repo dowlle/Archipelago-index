@@ -1,0 +1,6 @@
+name = "Sternly Worded Adventures"
+home = "https://github.com/ChaoskillerSR/Sternly-Worded-Peninsula"
+stability = "untested"
+
+[versions]
+"1.0.0.post2" = { url = "https://github.com/ChaoskillerSR/Sternly-Worded-Peninsula/releases/download/V1.0.1/sternly_worded_adventures.apworld" }
