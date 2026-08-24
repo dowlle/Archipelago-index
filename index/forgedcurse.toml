@@ -1,0 +1,6 @@
+name = "Forged Curse"
+home = "https://github.com/cheesepak/ap-forged-curse"
+stability = "untested"
+
+[versions]
+"1.1.0b1" = { url = "https://github.com/cheesepak/ap-forged-curse/releases/download/v1.1.0-beta.1/forgedcurse.apworld" }
