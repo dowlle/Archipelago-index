@@ -1,0 +1,6 @@
+name = "Vision Soft Reset"
+home = "https://github.com/kumquat-ir/Archipelago"
+stability = "untested"
+
+[versions]
+"1.0.0" = { url = "https://github.com/kumquat-ir/Archipelago/releases/download/vsr-1.0.0/vision_soft_reset.apworld" }
