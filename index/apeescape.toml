@@ -12,6 +12,7 @@ tracker = "https://github.com/lurch9229/Ape-Escape-Tracker/releases"
 "0.9.6" = {}
 "0.9.7" = {}
 "0.9.9" = {}
+"0.9.10" = {}
 
 [[fuzz_results]]
 version = "0.9.7"
