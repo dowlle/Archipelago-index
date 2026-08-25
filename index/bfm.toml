@@ -9,6 +9,7 @@ setup_guide = "https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/bl
 "0.5.0" = {}
 "0.5.2" = {}
 "0.6.0" = {}
+"0.7.1" = {}
 
 [[fuzz_results]]
 version = "0.5.2"
