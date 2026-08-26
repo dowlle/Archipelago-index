@@ -1,0 +1,15 @@
+name = "Duck Life 4"
+home = "https://github.com/spencer2585/Duck-Life-4-Archipelago"
+stability = "untested"
+
+[versions]
+"1.0.0.post2" = { url = "https://github.com/spencer2585/Duck-Life-4-Archipelago/releases/download/1.0.0_HF1/DuckLife4.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0.post2"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0106
+worst_hook = "check-item-location-count"
+worst_hook_rate = 1.0

@@ -1,3 +1,5 @@
 name = "Mario & Luigi Superstar Saga"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/seto10987/MLSS-PopTracker/releases/latest"

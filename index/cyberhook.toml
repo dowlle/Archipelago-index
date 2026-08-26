@@ -1,0 +1,16 @@
+name = "Cyber Hook"
+home = "https://github.com/PieOrPi/CyberHookAPWorld"
+default_url = "https://github.com/PieOrPi/CyberHookAPWorld/releases/download/{{version}}/cyberhook.apworld"
+stability = "untested"
+
+[versions]
+"0.1.0" = {}
+
+[[fuzz_results]]
+version = "0.1.0"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0098
+worst_hook = "default"
+worst_hook_rate = 0.0098

@@ -1,3 +1,5 @@
 name = "A Short Hike"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Oshroth/shorthike-archipelago-poptracker/releases/latest"
