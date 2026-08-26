@@ -1,0 +1,6 @@
+name = "Q-UP"
+home = "https://github.com/cxve/q-ap-world"
+stability = "untested"
+
+[versions]
+"1.0.1" = { url = "https://github.com/cxve/q-ap-world/releases/download/v1.0.1/q_up.apworld" }
