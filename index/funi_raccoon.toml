@@ -3,6 +3,7 @@ home = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi"
 default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/download/{{version}}/funi_raccoon.apworld"
 stability = "stable"
 setup_guide = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md"
+tracker = "https://github.com/Jeffdev-Archipelago-Implementations/FuniRaccoonPopTracker/releases/latest"
 
 [versions]
 
@@ -12,6 +13,7 @@ setup_guide = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelag
 "1.6.0" = {}
 "1.6.1" = {}
 "1.6.2" = {}
+"1.6.3" = {}
 
 [[fuzz_results]]
 version = "1.2.5"
@@ -48,3 +50,12 @@ seeds = 1733
 default_rate = 0.008078
 worst_hook = "check-determinism"
 worst_hook_rate = 0.343558
+
+[[fuzz_results]]
+version = "1.6.3"
+verdict = "flaky"
+fuzzed_at = "2026-08-26"
+seeds = 1677
+default_rate = 0.010137
+worst_hook = "default"
+worst_hook_rate = 0.010137

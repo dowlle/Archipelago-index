@@ -3,3 +3,4 @@ home = "https://archipelago.gg"
 supported = true
 # taking a risk
 #disabled = true # Very very high failure rate
+stability = "stable"
