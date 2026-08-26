@@ -291,6 +291,9 @@
 [hyperrogue]
 "0.2.1" = "fba2437257f5dfa5b3f7b6d68d48d87663471a91051e1a68f17483a22eed4e0d"
 
+[Hytale]
+"1.1.2" = "c0363cb7d8fc166742437261123d9d4712c34da2178a0e351e65b4eadfedb5a2"
+
 [idleloops]
 "0.4.1" = "880f9b34c64cc7912013fea7147ba17bcffbcfdc56bcb27e54d08a67e965dbed"
 

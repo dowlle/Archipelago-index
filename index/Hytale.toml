@@ -1,0 +1,6 @@
+name = "Hytale"
+home = "https://github.com/LucasRenaudineau/hytelago"
+stability = "untested"
+
+[versions]
+"1.1.2" = { url = "https://github.com/LucasRenaudineau/hytelago/releases/download/release2/Hytale.apworld" }
