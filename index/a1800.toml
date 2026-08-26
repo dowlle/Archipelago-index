@@ -1,0 +1,7 @@
+name = "A1800"
+home = "https://github.com/Dark-Listener/ArchipelagoA1800"
+default_url = "https://github.com/Dark-Listener/ArchipelagoA1800/releases/download/release%2Fv{{version}}/a1800.apworld"
+stability = "untested"
+
+[versions]
+"1.3.1" = {}
