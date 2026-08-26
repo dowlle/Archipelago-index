@@ -11,6 +11,7 @@ setup_guide = "https://github.com/dowlle/ctr-archipelago-apworld/blob/main/world
 "0.1.4" = {}
 "0.1.5" = {}
 "0.2.0-alpha4" = { url = "https://github.com/dowlle/ctr-archipelago-apworld/releases/download/v0.2.0-alpha4/ctr.apworld" }
+"0.2.0-alpha5" = { url = "https://github.com/dowlle/ctr-archipelago-apworld/releases/download/v0.2.0-alpha5/ctr.apworld" }
 
 [[fuzz_results]]
 version = "0.1.0"
