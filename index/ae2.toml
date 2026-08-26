@@ -1,0 +1,6 @@
+name = "Applied Energistics 2"
+home = "https://github.com/dannybonz/ae2_archipelago"
+stability = "untested"
+
+[versions]
+"1.1.0" = { url = "https://github.com/dannybonz/ae2_archipelago/releases/download/v1.1.0/ae2.apworld" }
