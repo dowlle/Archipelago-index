@@ -85,6 +85,9 @@
 [build_a_jetpack]
 "0.2.0" = "430bcffce53010e1779a659c0e70d78691cd07d70d5f6ebc7b6eef2ad3d61b46"
 
+[burger_shop]
+"0.2.2" = "95b93532453535b2efe9f9b67f6ff72cf65a52ec9c972a21c290eb085797d151"
+
 [cassette_beasts]
 "0.0.6" = "303201301d841a7e5f1e7a5548d8d399e6eb497c6f780d2770d9adce020aeda4"
 
