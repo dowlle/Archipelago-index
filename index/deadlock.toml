@@ -1,0 +1,7 @@
+name = "Deadlock"
+home = "https://github.com/ArchipelagoBrad/deadlockipelago"
+default_url = "https://github.com/ArchipelagoBrad/deadlockipelago/releases/download/{{version}}-unstable/deadlock.apworld"
+stability = "untested"
+
+[versions]
+"1.1.4" = {}
