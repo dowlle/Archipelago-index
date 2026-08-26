@@ -100,6 +100,9 @@
 [chainedechoes]
 "1.1.0" = "5321f0ee687fb32f7e0d0893d09f46ed3ae213dd71b00d8a024af965cd3bd9a8"
 
+[chibi_robo]
+"1.2.5" = "3c69bf1aa11ba215ac8556b9ae0f51afdb2cec1491248a62c307f18aacf6f5f8"
+
 [clair_obscur]
 "0.2.0" = "4543e1dd473a7899deb6683c7cf9687c3ddbd3527856a34f62675324075f53ad"
 "0.2.1" = "da27d45f1a97cfd6b323ffb9a18dd92ca42a842924ade9a47ffdf606f09a504b"
