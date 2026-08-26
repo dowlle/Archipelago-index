@@ -3,5 +3,6 @@ home = "https://github.com/RecompRando/MMRecompRando"
 default_url = "https://github.com/RecompRando/MMRecompRando/releases/download/v{{version}}/mm_recomp.apworld"
 stability = "stable"
 setup_guide = "https://github.com/LittleCube-hax/MMRecompRando"
+tracker = "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/latest"
 
 [versions]

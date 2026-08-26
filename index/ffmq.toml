@@ -1,3 +1,5 @@
 name = "Final Fantasy Mystic Quest"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/D-Skye/ffmq-ap-poptracker/releases/latest"

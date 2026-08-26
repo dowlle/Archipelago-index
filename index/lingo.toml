@@ -2,3 +2,4 @@ name = "Lingo"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"
+tracker = "https://code.fourisland.com/lingo-ap-tracker/about/"
