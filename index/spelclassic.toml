@@ -1,0 +1,6 @@
+name = "Spelunky Classic"
+home = "https://github.com/rm-steele/Archipelago"
+stability = "untested"
+
+[versions]
+"0.1.0" = { url = "https://github.com/rm-steele/Archipelago/releases/download/v0.1.0/spelclassic.apworld" }
