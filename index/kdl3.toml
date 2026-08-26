@@ -1,3 +1,5 @@
 name = "Kirby's Dream Land 3"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/The-ROT8/Kirby_Dream_Land_3_AP_Poptracker/releases/latest"

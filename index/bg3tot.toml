@@ -7,6 +7,7 @@ setup_guide = "https://github.com/Zoltun456/Archipelago-BG3-ToT?tab=readme-ov-fi
 [versions]
 
 "1.2.0" = {}
+"1.2.2" = {}
 
 [[fuzz_results]]
 version = "1.2.0"
@@ -16,3 +17,12 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "check-determinism"
 worst_hook_rate = 0.824
+
+[[fuzz_results]]
+version = "1.2.2"
+verdict = "flaky"
+fuzzed_at = "2026-08-25"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.851703

@@ -2,3 +2,4 @@ name = "Super Mario World"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"
+tracker = "https://github.com/IsoFrieze/SMW_AP_Tracker/releases/latest"
