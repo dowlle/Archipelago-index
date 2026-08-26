@@ -1,0 +1,6 @@
+name = "Hacknet"
+home = "https://github.com/AutumnRivers/Archipelago-Hacknet"
+stability = "untested"
+
+[versions]
+"4" = { url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/download/hacknet-alpha-4/hacknet.apworld" }
