@@ -1,0 +1,6 @@
+name = "Bomberman Hero"
+home = "https://github.com/Happyhappyism/Bomberman-Hero-Archipelago"
+stability = "untested"
+
+[versions]
+"0.2.3" = { url = "https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/download/bomberman_hero_v0.2.3/bomberman_hero.apworld" }
