@@ -1,3 +1,5 @@
 name = "Castlevania - Circle of the Moon"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/BowserCrusher/Circle-of-the-Moon-AP-Tracker/releases/latest"

@@ -1,3 +1,5 @@
 name = "Inscryption"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/DrBibop/Inscryption_Poptracker/releases/latest"
