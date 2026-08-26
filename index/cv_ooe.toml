@@ -1,0 +1,7 @@
+name = "Cv Ooe"
+home = "https://github.com/PinkSwitch/Archipelago"
+default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvooe{{version}}/cv_ooe.apworld"
+stability = "untested"
+
+[versions]
+"1.0.1" = {}
