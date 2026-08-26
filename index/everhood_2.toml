@@ -1,0 +1,7 @@
+name = "Everhood 2"
+home = "https://github.com/DeamonHunter/ArchipelagoEverhood2"
+default_url = "https://github.com/DeamonHunter/ArchipelagoEverhood2/releases/download/v{{version}}/everhood_2.apworld"
+stability = "untested"
+
+[versions]
+"0.4.8" = {}
