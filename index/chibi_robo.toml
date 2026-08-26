@@ -1,0 +1,7 @@
+name = "Chibi Robo"
+home = "https://github.com/EverydaySimpleDev/Archipelago"
+default_url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/{{version}}/chibi_robo.apworld"
+stability = "untested"
+
+[versions]
+"1.2.5" = {}
