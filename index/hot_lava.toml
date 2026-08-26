@@ -1,0 +1,6 @@
+name = "Hot Lava"
+home = "https://github.com/Bongo9911/HotLavaAPWorld"
+stability = "untested"
+
+[versions]
+"0.0.1" = { url = "https://github.com/Bongo9911/HotLavaAPWorld/releases/download/0.0.1/hot_lava.apworld" }
