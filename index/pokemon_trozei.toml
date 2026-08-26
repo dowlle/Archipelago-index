@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.0.1b0" = { url = "https://github.com/WCutePy/ArchipelagoAlmia/releases/download/trozei_v0.0.1-beta/pokemon_trozei.apworld" }
+
+[[fuzz_results]]
+version = "0.0.1b0"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

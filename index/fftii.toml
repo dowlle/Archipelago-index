@@ -17,3 +17,12 @@ seeds = 5000
 default_rate = 0.165
 worst_hook = "check-ut"
 worst_hook_rate = 0.168
+
+[[fuzz_results]]
+version = "FFT-v0.4.0"
+verdict = "flaky"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.0286
+worst_hook = "check-ut"
+worst_hook_rate = 0.036

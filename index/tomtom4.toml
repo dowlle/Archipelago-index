@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.2.0" = { url = "https://github.com/Awesome7285/TomTom4AP/releases/download/v0.2.0/tomtom4.apworld" }
+
+[[fuzz_results]]
+version = "0.2.0"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0882
+worst_hook = "default"
+worst_hook_rate = 0.0882
