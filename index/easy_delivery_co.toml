@@ -1,0 +1,6 @@
+name = "Easy Delivery Co."
+home = "https://github.com/Aeromaze/Archipelago"
+stability = "untested"
+
+[versions]
+"0.1.0.post2" = { url = "https://github.com/Aeromaze/Archipelago/releases/download/v0.1.2/easy_delivery_co.apworld" }
