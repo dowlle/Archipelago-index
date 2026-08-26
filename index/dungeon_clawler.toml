@@ -1,0 +1,7 @@
+name = "Dungeon Clawler"
+home = "https://github.com/agilbert1412/Clawrchipelago"
+default_url = "https://github.com/agilbert1412/Clawrchipelago/releases/download/{{version}}/dungeon_clawler_1.0.3.apworld"
+stability = "untested"
+
+[versions]
+"1.0.3" = {}
