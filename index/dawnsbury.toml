@@ -1,0 +1,6 @@
+name = "Dawnsbury Days"
+home = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago"
+stability = "untested"
+
+[versions]
+"1.4.0" = { url = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago/releases/download/v1.4.0/dawnsbury.apworld" }
