@@ -55,3 +55,12 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "check-lambda-capture"
 worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "0.8.0"
+verdict = "broken"
+fuzzed_at = "2026-08-25"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-lambda-capture"
+worst_hook_rate = 1.0

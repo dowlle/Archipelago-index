@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.1.0.post2" = { url = "https://github.com/Aeromaze/Archipelago/releases/download/v0.1.2/easy_delivery_co.apworld" }
+
+[[fuzz_results]]
+version = "0.1.0.post2"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0166
+worst_hook = "check-indirect-conditions"
+worst_hook_rate = 0.531568

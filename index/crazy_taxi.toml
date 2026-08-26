@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.6.0b1" = { url = "https://github.com/Spriddles/crazy-taxi-apworld/releases/download/v0.6.0-beta.1/crazy_taxi_v0_6.apworld" }
+
+[[fuzz_results]]
+version = "0.6.0b1"
+verdict = "broken"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.2234
+worst_hook = "default"
+worst_hook_rate = 0.2234

@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "8" = { url = "https://github.com/TheZockerBrain069/Layer8Problem-AP/releases/download/Layer8Problem/layer8problem.apworld" }
+
+[[fuzz_results]]
+version = "8"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
