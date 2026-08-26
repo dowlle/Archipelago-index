@@ -1,0 +1,7 @@
+name = "Fp2"
+home = "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago"
+default_url = "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago/releases/download/{{version}}/fp2.apworld"
+stability = "untested"
+
+[versions]
+"0.1.2" = {}
