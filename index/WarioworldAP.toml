@@ -1,0 +1,6 @@
+name = "Wario World"
+home = "https://github.com/m0ester/WarioworldAP"
+stability = "untested"
+
+[versions]
+"0.1.9.post4" = { url = "https://github.com/m0ester/WarioworldAP/releases/download/v0.1.9/WarioworldAP.apworld" }
