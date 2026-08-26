@@ -1,0 +1,6 @@
+name = "Crystalis"
+home = "https://github.com/Ars-Ignis/Archipelago"
+stability = "untested"
+
+[versions]
+"2.0.4rc0.post0" = { url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v2.0.4-Crystalis/crystalis.apworld" }
