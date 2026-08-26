@@ -1,0 +1,6 @@
+name = "LostButFound"
+home = "https://github.com/Michimarii/LostButFoundAP"
+stability = "untested"
+
+[versions]
+"0.0.1" = { url = "https://github.com/Michimarii/LostButFoundAP/releases/download/v0.0.1/lostbutfound.apworld" }
