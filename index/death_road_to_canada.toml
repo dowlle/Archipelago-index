@@ -1,0 +1,7 @@
+name = "Death Road To Canada"
+home = "https://github.com/PixelShake92/DR2C-AP"
+default_url = "https://github.com/PixelShake92/DR2C-AP/releases/download/Alpha_{{version}}/death_road_to_canada.apworld"
+stability = "untested"
+
+[versions]
+"0.1" = {}
