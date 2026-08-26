@@ -7,6 +7,7 @@ setup_guide = "https://github.com/Rosalie-A/Archipelago/wiki/Final-Fantasy-Tacti
 [versions]
 "0.2.2" = {}
 "FFT-v0.3.1" = { url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFT-v0.3.1/fftii.apworld" }
+"FFT-v0.4.0" = { url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFT-v0.4.0/fftii.apworld" }
 
 [[fuzz_results]]
 version = "FFT-v0.3.1"
