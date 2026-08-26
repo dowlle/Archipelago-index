@@ -1,0 +1,6 @@
+name = "Factorio Bob's"
+home = "https://github.com/Osiris32-and-a-half/BobFactorioAP"
+stability = "untested"
+
+[versions]
+"2.2.2" = { url = "https://github.com/Osiris32-and-a-half/BobFactorioAP/releases/download/V2.2.2/factorio_bobs.apworld" }
