@@ -1,0 +1,7 @@
+name = "Evolve"
+home = "https://github.com/The1stBurb/EvolveAPWorld"
+default_url = "https://github.com/The1stBurb/EvolveAPWorld/releases/download/v{{version}}/evolve.apworld"
+stability = "untested"
+
+[versions]
+"0.3.17" = {}
