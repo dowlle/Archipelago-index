@@ -1,0 +1,6 @@
+name = "Crazy Taxi"
+home = "https://github.com/Spriddles/crazy-taxi-apworld"
+stability = "untested"
+
+[versions]
+"0.6.0b1" = { url = "https://github.com/Spriddles/crazy-taxi-apworld/releases/download/v0.6.0-beta.1/crazy_taxi_v0_6.apworld" }
