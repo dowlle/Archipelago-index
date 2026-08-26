@@ -1,0 +1,7 @@
+name = "Custom Robo"
+home = "https://github.com/Metaruler/ArchipelagoCR"
+default_url = "https://github.com/Metaruler/ArchipelagoCR/releases/download/V{{version}}/custom_robo.apworld"
+stability = "untested"
+
+[versions]
+"0.3" = {}
