@@ -97,6 +97,9 @@
 [chainedechoes]
 "1.1.0" = "5321f0ee687fb32f7e0d0893d09f46ed3ae213dd71b00d8a024af965cd3bd9a8"
 
+[ckd]
+"1.1.0" = "1ca8debed3f9fd1f5b968b3eb1ff9d52cdc398aaeab46a5ed78ef39cdd38d90f"
+
 [clair_obscur]
 "0.2.0" = "4543e1dd473a7899deb6683c7cf9687c3ddbd3527856a34f62675324075f53ad"
 "0.2.1" = "da27d45f1a97cfd6b323ffb9a18dd92ca42a842924ade9a47ffdf606f09a504b"

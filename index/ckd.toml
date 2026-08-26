@@ -1,0 +1,7 @@
+name = "Ckd"
+home = "https://github.com/TheLX5/Archipelago"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/ckd-v{{version}}/ckd.apworld"
+stability = "untested"
+
+[versions]
+"1.1.0" = {}
