@@ -1,0 +1,7 @@
+name = "Dtdds"
+home = "https://github.com/TheOmnipresence/DoorSalesmanAPWorld"
+default_url = "https://github.com/TheOmnipresence/DoorSalesmanAPWorld/releases/download/{{version}}/dtdds.apworld"
+stability = "untested"
+
+[versions]
+"0.0.2" = {}
