@@ -85,6 +85,9 @@
 [build_a_jetpack]
 "0.2.0" = "430bcffce53010e1779a659c0e70d78691cd07d70d5f6ebc7b6eef2ad3d61b46"
 
+[burnout3]
+"0.1.0" = "b4f064d0f775138895d87383077a7d2cbf37393e2f2e8dbfd38bf2c9c814c834"
+
 [cassette_beasts]
 "0.0.6" = "303201301d841a7e5f1e7a5548d8d399e6eb497c6f780d2770d9adce020aeda4"
 
