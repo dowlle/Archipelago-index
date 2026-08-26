@@ -147,6 +147,9 @@
 [dead_cells]
 "0.1.6" = "7c4a6d6083bee3d6f325756cf39eab7c447f5fac1890bf617a94efbaa15ef149"
 
+[death_road_to_canada]
+"0.1" = "6da8c281ad56877c90c1e5fc00eed747dad5eeb0395d7fe51061d192dccdd022"
+
 [deathbulge]
 "0.1.0" = "7069c1ef6128f38ec841e69397a12ce5a39c1cd9ca576fc9982c1755b1df892c"
 
