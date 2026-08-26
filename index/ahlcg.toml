@@ -1,0 +1,26 @@
+name = "Arkham Horror: The Card Game"
+home = "https://github.com/Totox00/ap-ahlcg"
+default_url = "https://github.com/Totox00/ap-ahlcg/releases/download/v{{version}}/ahlcg.apworld"
+stability = "untested"
+
+[versions]
+"0.1.4" = {}
+"0.2.0" = {}
+
+[[fuzz_results]]
+version = "0.1.4"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.7052
+worst_hook = "default"
+worst_hook_rate = 0.7052
+
+[[fuzz_results]]
+version = "0.2.0"
+verdict = "broken"
+fuzzed_at = "2026-08-25"
+seeds = 5000
+default_rate = 0.71
+worst_hook = "default"
+worst_hook_rate = 0.71
