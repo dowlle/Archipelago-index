@@ -1,0 +1,6 @@
+name = "I Hate You, Please Suffer"
+home = "https://github.com/chloebangbang/Archipelago"
+stability = "untested"
+
+[versions]
+"0.3.0" = { url = "https://github.com/chloebangbang/Archipelago/releases/download/ihyps-v0.3.0/ihyps.apworld" }
