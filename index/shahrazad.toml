@@ -1,0 +1,15 @@
+name = "Shahrazad"
+home = "https://github.com/qwint/ap-shahrazad"
+stability = "untested"
+
+[versions]
+"0.4.0" = { url = "https://github.com/qwint/ap-shahrazad/releases/download/0.4.0/shahrazad.apworld" }
+
+[[fuzz_results]]
+version = "0.4.0"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

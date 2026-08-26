@@ -2,6 +2,7 @@ name = "Pseudoregalia"
 home = "https://discord.com/channels/731205301247803413/1147564210436452393"
 default_url = "https://github.com/qwint/pseudoregalia-archipelago/releases/download/{{version}}/pseudoregalia.apworld"
 stability = "stable"
+tracker = "https://github.com/highrow623/pseudoregalia_brooty/releases/tag/0.1.11"
 
 [versions]
 "0.7.3" = {}
