@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.3.9" = { url = "https://github.com/ArsonAssassin/DWAP/releases/download/0.3.9/dw1.apworld" }
+"0.3.11" = { url = "https://github.com/ArsonAssassin/DWAP/releases/download/0.3.11/dw1.apworld" }
 
 [[fuzz_results]]
 version = "0.3.9"
