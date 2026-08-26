@@ -1,0 +1,7 @@
+name = "Modded Minecraft"
+home = "https://github.com/Stuff691734/ModdedMCArchipelago"
+default_url = "https://github.com/Stuff691734/ModdedMCArchipelago/releases/download/v{{version}}/moddedminecraft.apworld"
+stability = "untested"
+
+[versions]
+"3.0.2" = {}
