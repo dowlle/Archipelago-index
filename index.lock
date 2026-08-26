@@ -239,6 +239,9 @@
 [hyperrogue]
 "0.2.1" = "fba2437257f5dfa5b3f7b6d68d48d87663471a91051e1a68f17483a22eed4e0d"
 
+[icewall]
+"0.2.0" = "793707ee6a4f29e845e959d4efcfc4f7539c5f5d40c83b6a6cc6eacd77c562b1"
+
 [idleloops]
 "0.4.1" = "880f9b34c64cc7912013fea7147ba17bcffbcfdc56bcb27e54d08a67e965dbed"
 
