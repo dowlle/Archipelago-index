@@ -192,6 +192,9 @@
 [deadlock]
 "1.1.4" = "8537127b05ddcd1497039278d6059fe72ba1d2c6c307003123c3fd0664d3c8d3"
 
+[death_road_to_canada]
+"0.1" = "6da8c281ad56877c90c1e5fc00eed747dad5eeb0395d7fe51061d192dccdd022"
+
 [deathbulge]
 "0.1.0" = "7069c1ef6128f38ec841e69397a12ce5a39c1cd9ca576fc9982c1755b1df892c"
 
