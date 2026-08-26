@@ -1,0 +1,6 @@
+name = "High Roller"
+home = "https://github.com/ElireFeltores/High-Roller"
+stability = "untested"
+
+[versions]
+"1.3.1" = { url = "https://github.com/ElireFeltores/High-Roller/releases/download/v1.3.1/high_roller.apworld" }
