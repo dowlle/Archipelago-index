@@ -1,0 +1,7 @@
+name = "Mldt"
+home = "https://github.com/MnL-Modding/Piillomizer"
+default_url = "https://github.com/MnL-Modding/Piillomizer/releases/download/v{{version}}/mldt.apworld"
+stability = "untested"
+
+[versions]
+"0.1.2" = {}
