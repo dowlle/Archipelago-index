@@ -3,6 +3,7 @@ home = "https://discord.com/channels/731205301247803413/1142626744629735555"
 default_url = "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases/download/{{version}}/spelunky2.apworld"
 stability = "stable"
 setup_guide = "https://github.com/DDR-Khat/Spelunky2-Archipelago/blob/main/README.md"
+tracker = "https://github.com/Bogdan1000pink/Spelunky-2-Tracker"
 
 [versions]
 "0.2.4" = {}

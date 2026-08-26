@@ -1,0 +1,16 @@
+name = "Burger Shop"
+home = "https://github.com/zsiegel701/Burger-Shop-Archipelago"
+default_url = "https://github.com/zsiegel701/Burger-Shop-Archipelago/releases/download/v{{version}}/burger_shop.apworld"
+stability = "untested"
+
+[versions]
+"0.2.2" = {}
+
+[[fuzz_results]]
+version = "0.2.2"
+verdict = "clean"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
