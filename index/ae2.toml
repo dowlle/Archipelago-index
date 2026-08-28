@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "1.1.0" = { url = "https://github.com/dannybonz/ae2_archipelago/releases/download/v1.1.0/ae2.apworld" }
+"1.2.0" = { url = "https://github.com/dannybonz/ae2_archipelago/releases/download/v1.2.0/ae2.apworld" }
 
 [[fuzz_results]]
 version = "1.1.0"
