@@ -1,3 +1,4 @@
 name = "Bomb Rush Cyberfunk"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"

@@ -1,3 +1,5 @@
 name = "Heretic"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Forsaken-angel/heretic-ap-tracker/releases/latest"
