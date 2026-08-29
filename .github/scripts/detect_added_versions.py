@@ -14,9 +14,10 @@ Output: writes to $GITHUB_OUTPUT
   - has_targets: "true"|"false"
 
 The matrix dimension is intentionally flat so the fuzz job can name
-its 10 hook checks once and multiply across whatever (apworld, version)
-pairs a PR adds. GHA caps a matrix at 256 entries; a 23-batch sweep
-(23 x 10 = 230) still fits.
+its checks once and multiply across whatever (apworld, version) pairs a
+PR adds. GHA caps a matrix at 256 entries; a 23-batch sweep with the ten
+fuzz checks plus the canonical-template smoke check (23 x 11 = 253)
+still fits.
 """
 
 from __future__ import annotations
@@ -28,19 +29,22 @@ import sys
 import tomllib
 from pathlib import Path
 
-# Bananium-style 10-check suite. Identical names + run counts to the
-# worker-host run-fuzz.sh so the GHA verdict semantics match locally.
+# The random-option fuzz suite remains identical to worker-host
+# run-fuzz.sh. canonical-default is deliberately separate: it generates
+# from Archipelago's own emitted template, so 0/N randomized fuzz results
+# can no longer be mistaken for proof that a world never generates.
 CHECKS = [
-    {"name": "default",                     "runs": 5000, "hook": ""},
-    {"name": "no-restrictive-starts",       "runs": 5000, "hook": "hooks.no_rs:Hook"},
-    {"name": "check-determinism",            "runs": 500, "hook": "hooks.determinism:Hook"},
-    {"name": "check-collect-accessibility",  "runs": 500, "hook": "hooks.collect_accessibility_test:Hook"},
-    {"name": "check-item-location-count",    "runs": 500, "hook": "hooks.item_location_count:Hook"},
-    {"name": "check-placement-refs",         "runs": 500, "hook": "hooks.check_placement_item_location_references:Hook"},
-    {"name": "check-lambda-capture",         "runs": 500, "hook": "hooks.detect_rule_variable_capture_issues:Hook"},
-    {"name": "check-static-output",          "runs": 500, "hook": "hooks.detect_output_placement_changes:Hook"},
-    {"name": "check-indirect-conditions",    "runs": 500, "hook": "hooks.indirect_conditions:Hook"},
-    {"name": "check-ut",                     "runs": 500, "hook": "hooks.with_empty:Hook"},
+    {"name": "canonical-default",            "runs": 1, "hook": "", "mode": "canonical"},
+    {"name": "default",                     "runs": 5000, "hook": "", "mode": "fuzz"},
+    {"name": "no-restrictive-starts",       "runs": 5000, "hook": "hooks.no_rs:Hook", "mode": "fuzz"},
+    {"name": "check-determinism",            "runs": 500, "hook": "hooks.determinism:Hook", "mode": "fuzz"},
+    {"name": "check-collect-accessibility",  "runs": 500, "hook": "hooks.collect_accessibility_test:Hook", "mode": "fuzz"},
+    {"name": "check-item-location-count",    "runs": 500, "hook": "hooks.item_location_count:Hook", "mode": "fuzz"},
+    {"name": "check-placement-refs",         "runs": 500, "hook": "hooks.check_placement_item_location_references:Hook", "mode": "fuzz"},
+    {"name": "check-lambda-capture",         "runs": 500, "hook": "hooks.detect_rule_variable_capture_issues:Hook", "mode": "fuzz"},
+    {"name": "check-static-output",          "runs": 500, "hook": "hooks.detect_output_placement_changes:Hook", "mode": "fuzz"},
+    {"name": "check-indirect-conditions",    "runs": 500, "hook": "hooks.indirect_conditions:Hook", "mode": "fuzz"},
+    {"name": "check-ut",                     "runs": 500, "hook": "hooks.with_empty:Hook", "mode": "fuzz"},
 ]
 
 
@@ -159,6 +163,7 @@ def main() -> int:
                 "check_name": c["name"],
                 "check_runs": c["runs"],
                 "check_hook": c["hook"],
+                "check_mode": c["mode"],
             })
 
     print(f"Detected {len(targets)} target(s), {len(include)} matrix job(s):", file=sys.stderr)
@@ -172,7 +177,7 @@ def main() -> int:
     else:
         # GHA requires at least one matrix entry; the noop never runs
         # because the fuzz job's `if: has_targets == 'true'` skips it.
-        matrix_json = json.dumps({"include": [{"apworld": "noop", "version": "noop", "sha256": "", "url": "", "local": "", "check_name": "noop", "check_runs": 0, "check_hook": ""}]})
+        matrix_json = json.dumps({"include": [{"apworld": "noop", "version": "noop", "sha256": "", "url": "", "local": "", "check_name": "noop", "check_runs": 0, "check_hook": "", "check_mode": "noop"}]})
         has_targets = "false"
 
     write_outputs(matrix_json, has_targets)

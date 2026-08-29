@@ -8,6 +8,7 @@ on:
       - 'index.lock'
       - '.github/workflows/fuzz.yml'
       - '.github/scripts/detect_added_versions.py'
+      - '.github/scripts/check_canonical_generation.py'
 
 permissions:
   contents: read
@@ -72,6 +73,7 @@ jobs:
           path: index-repo
 
       - name: Checkout fuzz hooks
+        if: matrix.check_mode == 'fuzz'
         uses: actions/checkout@v4
         with:
           repository: ${{ env.FUZZ_HOOKS_REPO }}
@@ -85,6 +87,7 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Stage hooks + empty.apworld + fuzz.py
+        if: matrix.check_mode == 'fuzz'
         shell: bash
         run: |
           set -euo pipefail
@@ -161,7 +164,7 @@ jobs:
           echo "INNER_MODULE=$INNER" >> "$GITHUB_ENV"
           ls -la "$dest"
 
-      - name: Run fuzz check
+      - name: Run generation check
         shell: bash
         working-directory: archipelago
         env:
@@ -170,10 +173,14 @@ jobs:
           CHECK_NAME: ${{ matrix.check_name }}
           CHECK_RUNS: ${{ matrix.check_runs }}
           CHECK_HOOK: ${{ matrix.check_hook }}
+          CHECK_MODE: ${{ matrix.check_mode }}
         run: |
           set -euo pipefail
           echo "=== ${CHECK_NAME} (${CHECK_RUNS} runs) — apworld=${APWORLD} module=${INNER} ==="
-          if [ -z "$CHECK_HOOK" ]; then
+          if [ "$CHECK_MODE" = "canonical" ]; then
+            uv run python ../index-repo/.github/scripts/check_canonical_generation.py \
+              --module "$INNER" --artifact-dir canonical_output --seed 0
+          elif [ -z "$CHECK_HOOK" ]; then
             uv run python fuzz.py -j 2 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120
           else
             uv run python fuzz.py -j 2 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120 --hook "$CHECK_HOOK"
@@ -184,6 +191,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fuzz-failure-${{ matrix.apworld }}-${{ matrix.version }}-${{ matrix.check_name }}
-          path: archipelago/fuzz_output
+          path: |
+            archipelago/fuzz_output
+            archipelago/canonical_output
           if-no-files-found: ignore
           retention-days: 14
