@@ -1,0 +1,15 @@
+name = "Isles of Trials"
+home = "https://github.com/NyanMC/ap-islesoftrials"
+stability = "untested"
+
+[versions]
+"0.1.0rc0" = { url = "https://github.com/NyanMC/ap-islesoftrials/releases/download/0.1.0c/isles_of_trials.apworld" }
+
+[[fuzz_results]]
+version = "0.1.0rc0"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

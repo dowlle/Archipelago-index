@@ -1,0 +1,16 @@
+name = "Herocore"
+home = "https://github.com/Minish-Link/HeroCore-Archipelago"
+default_url = "https://github.com/Minish-Link/HeroCore-Archipelago/releases/download/v{{version}}/herocore.apworld"
+stability = "untested"
+
+[versions]
+"1.0.4" = {}
+
+[[fuzz_results]]
+version = "1.0.4"
+verdict = "broken"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.038
+worst_hook = "check-determinism"
+worst_hook_rate = 0.622881

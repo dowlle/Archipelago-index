@@ -1,6 +1,7 @@
 name = "Streets of Rage"
 home = "https://discord.com/channels/731205301247803413/1421815799504437409"
 stability = "unstable"
+tracker = "https://github.com/UltiNaruto/SOR_AP_Tracker/releases"
 
 [versions]
 "0.1.15+norandom" = { local = "../apworlds/streets_of_rage-0.1.15+norandom.apworld" }

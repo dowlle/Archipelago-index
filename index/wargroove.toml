@@ -1,3 +1,4 @@
 name = "Wargroove"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"

@@ -1,0 +1,6 @@
+name = "Hijack - Pilot Generator"
+home = "https://github.com/Meliacci/Archipelago"
+stability = "untested"
+
+[versions]
+"0.0.5" = { url = "https://github.com/Meliacci/Archipelago/releases/download/HijackV0.0.5/hijack_pilot.apworld" }
