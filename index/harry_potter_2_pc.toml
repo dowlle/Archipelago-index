@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "2.8.0" = { url = "https://github.com/Kryen112/HP2PC_AP/releases/download/v2.8.0/harry_potter_2_pc.apworld" }
+
+[[fuzz_results]]
+version = "2.8.0"
+verdict = "flaky"
+fuzzed_at = "2026-08-26"
+seeds = 4669
+default_rate = 0.013065
+worst_hook = "default"
+worst_hook_rate = 0.013065
