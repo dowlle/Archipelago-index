@@ -1,3 +1,5 @@
 name = "Zillion"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Br00ty/zillion_brooty/releases/latest"

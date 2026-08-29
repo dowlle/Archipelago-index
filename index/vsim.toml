@@ -1,0 +1,6 @@
+name = "Vacation Simulator"
+home = "https://github.com/energymaster22/Archipelago"
+stability = "untested"
+
+[versions]
+"0.0.4" = { url = "https://github.com/energymaster22/Archipelago/releases/download/vacation_simulator_0.0.4/vsim.apworld" }

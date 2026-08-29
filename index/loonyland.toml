@@ -2,6 +2,7 @@ name = "Loonyland: Halloween Hill"
 home = "https://github.com/AutomaticFrenzy/Archipelago"
 default_url = "https://github.com/AutomaticFrenzy/Archipelago/releases/download/v{{version}}/loonyland.apworld"
 stability = "stable"
+tracker = "https://github.com/AutomaticFrenzy/loonyland_archipelago_tracker/releases/latest"
 
 [versions]
 "0.2.1" = {}

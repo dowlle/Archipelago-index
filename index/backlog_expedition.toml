@@ -1,0 +1,15 @@
+name = "Backlog Expedition"
+home = "https://github.com/Nikkilites/Archipelago-BacklogExpedition-APWorld"
+stability = "untested"
+
+[versions]
+"3.0.0" = { url = "https://github.com/Nikkilites/Archipelago-BacklogExpedition-APWorld/releases/download/v3.0.0/backlog_expedition.apworld" }
+
+[[fuzz_results]]
+version = "3.0.0"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.968
+worst_hook = "default"
+worst_hook_rate = 0.968
