@@ -1,3 +1,4 @@
 name = "Saving Princess"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"

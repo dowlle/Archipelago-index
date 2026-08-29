@@ -2,6 +2,7 @@ name = "Castlevania: Portrait of Ruin"
 home = "https://github.com/PinkSwitch/Archipelago"
 default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/{{version}}/cv_por.apworld"
 stability = "stable"
+tracker = "https://github.com/SchwartzGandhi/CVPoRPT/releases/tag/2.1"
 
 [versions]
 "cvpor1.2.2" = {}
