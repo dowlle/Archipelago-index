@@ -3,6 +3,7 @@ home = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer"
 default_url = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/releases/download/v{{version}}/signalis.apworld"
 stability = "unstable"
 setup_guide = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/blob/main/installation_instructions.md"
+tracker = "https://discord.com/channels/731205301247803413/1217788850034708480/1509957088154091651"
 
 [versions]
 "0.1.2" = {}

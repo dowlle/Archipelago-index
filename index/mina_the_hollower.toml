@@ -1,0 +1,16 @@
+name = "Mina The Hollower"
+home = "https://github.com/FyreDay/Archipelago-MinaTheHollower"
+default_url = "https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/download/v{{version}}/mina_the_hollower.apworld"
+stability = "untested"
+
+[versions]
+"1.0.0" = {}
+
+[[fuzz_results]]
+version = "1.0.0"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0004
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.001
