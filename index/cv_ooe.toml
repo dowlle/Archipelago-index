@@ -5,3 +5,12 @@ stability = "untested"
 
 [versions]
 "1.0.1" = {}
+
+[[fuzz_results]]
+version = "1.0.1"
+verdict = "flaky"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 0.0002
+worst_hook = "check-determinism"
+worst_hook_rate = 0.794
