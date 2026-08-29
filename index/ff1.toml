@@ -1,3 +1,5 @@
 name = "Final Fantasy"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/haate/FFR_AP_autotracking"

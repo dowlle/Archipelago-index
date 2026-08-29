@@ -1,0 +1,16 @@
+name = "Custom Robo"
+home = "https://github.com/Metaruler/ArchipelagoCR"
+default_url = "https://github.com/Metaruler/ArchipelagoCR/releases/download/V{{version}}/custom_robo.apworld"
+stability = "untested"
+
+[versions]
+"0.3" = {}
+
+[[fuzz_results]]
+version = "0.3"
+verdict = "clean"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

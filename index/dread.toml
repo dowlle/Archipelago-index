@@ -1,0 +1,16 @@
+name = "Dread"
+home = "https://github.com/mdietz94/dread_ap"
+default_url = "https://github.com/mdietz94/dread_ap/releases/download/v{{version}}/dread.apworld"
+stability = "untested"
+
+[versions]
+"0.24.0" = {}
+
+[[fuzz_results]]
+version = "0.24.0"
+verdict = "broken"
+fuzzed_at = "2026-08-26"
+seeds = 4765
+default_rate = 0.043861
+worst_hook = "default"
+worst_hook_rate = 0.043861

@@ -1,0 +1,15 @@
+name = "Hot Lava"
+home = "https://github.com/Bongo9911/HotLavaAPWorld"
+stability = "untested"
+
+[versions]
+"0.0.1" = { url = "https://github.com/Bongo9911/HotLavaAPWorld/releases/download/0.0.1/hot_lava.apworld" }
+
+[[fuzz_results]]
+version = "0.0.1"
+verdict = "broken"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.8828
+worst_hook = "default"
+worst_hook_rate = 0.8828

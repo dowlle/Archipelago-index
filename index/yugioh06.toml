@@ -1,3 +1,5 @@
 name = "Yu-Gi-Oh! 2006"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Rensen3/poptracker-ygo06/releases/latest"
