@@ -1,0 +1,15 @@
+name = "SBURBelago"
+home = "https://github.com/SephDB/SBURBelago"
+stability = "untested"
+
+[versions]
+"2.1.0" = { url = "https://github.com/SephDB/SBURBelago/releases/download/v2.1.0/sburbelago.apworld" }
+
+[[fuzz_results]]
+version = "2.1.0"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

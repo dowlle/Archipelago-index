@@ -1,0 +1,15 @@
+name = "Mario Kart Wii"
+home = "https://github.com/toent/Archipelago-MKWii"
+stability = "untested"
+
+[versions]
+"0.2.3" = { url = "https://github.com/toent/Archipelago-MKWii/releases/download/v0.2.3/mkwii.apworld" }
+
+[[fuzz_results]]
+version = "0.2.3"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.5314
+worst_hook = "check-determinism"
+worst_hook_rate = 0.963265
