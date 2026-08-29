@@ -1,0 +1,16 @@
+name = "Delivering Hope"
+home = "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago"
+default_url = "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago/releases/download/v{{version}}/DeliveringHope.apworld"
+stability = "untested"
+
+[versions]
+"0.3.0" = {}
+
+[[fuzz_results]]
+version = "0.3.0"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 4246
+default_rate = 0.512953
+worst_hook = "check-determinism"
+worst_hook_rate = 0.927461

@@ -1,0 +1,7 @@
+name = "Burnout3"
+home = "https://github.com/Metasura/Burnout3Archipelago"
+default_url = "https://github.com/Metasura/Burnout3Archipelago/releases/download/{{version}}/burnout3.apworld"
+stability = "untested"
+
+[versions]
+"0.1.0" = {}

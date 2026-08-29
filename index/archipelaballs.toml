@@ -1,0 +1,16 @@
+name = "Archipelaballs"
+home = "https://github.com/StellatedCUBE/Archipelaballs"
+default_url = "https://github.com/StellatedCUBE/Archipelaballs/releases/download/v{{version}}/archipelaballs.apworld"
+stability = "untested"
+
+[versions]
+"1.0.1" = {}
+
+[[fuzz_results]]
+version = "1.0.1"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
