@@ -5,6 +5,7 @@ stability = "stable"
 [versions]
 "0.2.0" = {url = "https://github.com/GreenPower713/Archipelago/releases/download/v0.2.0/ktane.apworld" }
 "0.3.0" = { url = "https://github.com/GreenPower713/Archipelago/releases/download/v0.3.0/ktane.apworld" }
+"0.3.0c" = { url = "https://github.com/GreenPower713/Archipelago/releases/download/v0.3.0c/ktane.apworld" }
 
 [[fuzz_results]]
 version = "0.3.0"
