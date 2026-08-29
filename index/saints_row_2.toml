@@ -1,0 +1,16 @@
+name = "Saints Row 2"
+home = "https://github.com/hoXyy/SaintsRow2Archipelago"
+default_url = "https://github.com/hoXyy/SaintsRow2Archipelago/releases/download/v{{version}}/saints_row_2.apworld"
+stability = "untested"
+
+[versions]
+"0.1.1" = {}
+
+[[fuzz_results]]
+version = "0.1.1"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 1825
+default_rate = 0.238904
+worst_hook = "check-ut"
+worst_hook_rate = 0.30303

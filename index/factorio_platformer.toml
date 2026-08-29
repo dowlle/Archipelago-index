@@ -1,0 +1,16 @@
+name = "Factorio Platformer"
+home = "https://github.com/lepideble/factorio-apworld"
+default_url = "https://github.com/lepideble/factorio-apworld/releases/download/platformer-{{version}}/factorio_platformer.apworld"
+stability = "untested"
+
+[versions]
+"0.4.4" = {}
+
+[[fuzz_results]]
+version = "0.4.4"
+verdict = "broken"
+fuzzed_at = "2026-08-26"
+seeds = 4999
+default_rate = 0.128026
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

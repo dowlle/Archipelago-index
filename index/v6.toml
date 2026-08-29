@@ -1,3 +1,5 @@
 name = "VVVVVV"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/JBarrows/vvvvvv_archipelago_tracker/releases"

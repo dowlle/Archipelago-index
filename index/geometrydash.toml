@@ -1,0 +1,15 @@
+name = "Geometry Dash"
+home = "https://github.com/matorblal-byte/ArchipelagoGD2"
+stability = "untested"
+
+[versions]
+"1.0.0a9" = { url = "https://github.com/matorblal-byte/ArchipelagoGD2/releases/download/v1.0.0-alpha.9/geometrydash.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0a9"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.8402
+worst_hook = "check-determinism"
+worst_hook_rate = 0.987805

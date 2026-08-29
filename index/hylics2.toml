@@ -1,3 +1,5 @@
 name = "Hylics 2"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/superfid2006/Hylics2-poptracker/releases/latest"
