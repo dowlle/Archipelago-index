@@ -1,0 +1,15 @@
+name = "ShippedInSpace"
+home = "https://github.com/Typ0Codes/shipped-in-space-archipeligo-support"
+stability = "untested"
+
+[versions]
+"1.0.0.post3" = { url = "https://github.com/Typ0Codes/shipped-in-space-archipeligo-support/releases/download/2.1.0/shippedinspace.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0.post3"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
