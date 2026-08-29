@@ -1,0 +1,16 @@
+name = "Fp2"
+home = "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago"
+default_url = "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago/releases/download/{{version}}/fp2.apworld"
+stability = "untested"
+
+[versions]
+"0.1.2" = {}
+
+[[fuzz_results]]
+version = "0.1.2"
+verdict = "broken"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.1952
+worst_hook = "default"
+worst_hook_rate = 0.1952

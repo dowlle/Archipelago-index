@@ -1,0 +1,16 @@
+name = "Ys 8"
+home = "https://github.com/junglechief87/Ys-8-AP-World"
+default_url = "https://github.com/junglechief87/Ys-8-AP-World/releases/download/v{{version}}/ys_8.apworld"
+stability = "untested"
+
+[versions]
+"1.2.1b" = {}
+
+[[fuzz_results]]
+version = "1.2.1b"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0102
+worst_hook = "check-lambda-capture"
+worst_hook_rate = 0.791583

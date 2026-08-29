@@ -1,0 +1,6 @@
+name = "Eso"
+home = "https://github.com/spencer2585/APESO"
+stability = "untested"
+
+[versions]
+"1.0.0.post4" = { url = "https://github.com/spencer2585/APESO/releases/download/0.2.2/eso.apworld" }

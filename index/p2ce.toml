@@ -1,0 +1,15 @@
+name = "P2CE"
+home = "https://github.com/marclemieux64/P2CE-Archipelago"
+stability = "untested"
+
+[versions]
+"1.0.0b1" = { url = "https://github.com/marclemieux64/P2CE-Archipelago/releases/download/1.0.0-Beta1/p2ce.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0b1"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0034
+worst_hook = "default"
+worst_hook_rate = 0.0034

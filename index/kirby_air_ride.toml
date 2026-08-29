@@ -2,11 +2,13 @@ name = "Kirby Air Ride"
 home = "https://discord.com/channels/731205301247803413/1291501105389502554"
 default_url = "https://github.com/DeDeDeK/KARchipelago/releases/download/v{{version}}/kirby_air_ride.apworld"
 stability = "unstable"
+tracker = "https://github.com/lighting8282/KAR-Poptracker/releases/latest"
 
 [versions]
 "0.6.0" = {}
 "1.0.1-TEST" = {}
 "1.0.2-TEST" = {}
+"1.1.1-TEST" = {}
 
 [[fuzz_results]]
 version = "1.0.1-TEST"
@@ -21,6 +23,15 @@ worst_hook_rate = 1.0
 version = "1.0.2-TEST"
 verdict = "flaky"
 fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "1.1.1-TEST"
+verdict = "flaky"
+fuzzed_at = "2026-08-27"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "check-determinism"

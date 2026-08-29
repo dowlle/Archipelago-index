@@ -3,6 +3,7 @@ home = "https://discord.com/channels/731205301247803413/1196504617941475379"
 default_url = "https://github.com/LuxMake/Archipelago-KHDDD/releases/download/{{version}}/khddd.apworld"
 stability = "unstable"
 setup_guide = "https://github.com/LuxMake/Archipelago-KHDDD/blob/main/worlds/khddd/docs/setup.md"
+tracker = "https://github.com/jhobz/khddd-ap-tracker/releases/latest"
 
 [versions]
 "0.0.4" = {}

@@ -1,0 +1,15 @@
+name = "Kirby Squeak Squad"
+home = "https://github.com/WindChill404/Kirby-Squeak-Squad-APWORLD"
+stability = "untested"
+
+[versions]
+"3" = { url = "https://github.com/WindChill404/Kirby-Squeak-Squad-APWORLD/releases/download/V003/kirby_squeak_squad.apworld" }
+
+[[fuzz_results]]
+version = "3"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
