@@ -1,3 +1,5 @@
 name = "DOOM II"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Ozone31/doomii-ap-tracker/releases/latest"

@@ -1,3 +1,5 @@
 name = "DLCQuest"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/RaceProUK/DLCQuest-APTracker/releases/latest"
