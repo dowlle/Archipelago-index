@@ -1,0 +1,16 @@
+name = "Chibi Robo"
+home = "https://github.com/EverydaySimpleDev/Archipelago"
+default_url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/{{version}}/chibi_robo.apworld"
+stability = "untested"
+
+[versions]
+"1.2.5" = {}
+
+[[fuzz_results]]
+version = "1.2.5"
+verdict = "clean"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

@@ -3,6 +3,7 @@ home = "https://github.com/tjwombo/RNSArchipelago"
 default_url = "https://github.com/tjwombo/RNSArchipelago/releases/download/v{{version}}/rabbit_and_steel.apworld"
 stability = "unstable"
 setup_guide = "https://github.com/tjwombo/RNSArchipelago/blob/main/README.md"
+tracker = "https://github.com/FuyumiSogeki/Rabbit-and-Steel-Tracker/releases"
 
 [versions]
 "0.3.2-fix3" = {}

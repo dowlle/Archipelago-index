@@ -3,6 +3,7 @@ display_name = "Touhou 18.5: Black Market of Bulletphilia ~ 100th Black Market"
 home = "https://discord.com/channels/731205301247803413/1346288808512983040"
 stability = "unstable"
 setup_guide = "https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md"
+tracker = "https://github.com/furret78/hbm-pack/releases/latest"
 
 [versions]
 "0.3.5" = { url = "https://github.com/furret78/ap185-maintenance/releases/download/maintenance-0.3.5/th185.apworld" }

@@ -1,6 +1,7 @@
 name = "YOHANE THE PARHELION -BLAZE in the DEEPBLUE-"
 default_url = "https://github.com/SilicDev/Archipelago/releases/download/yohane_bitdb-v{{version}}/yohane_deepblue.apworld"
 stability = "unstable"
+tracker = "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/releases"
 
 [versions]
 "0.0.3" = {}

@@ -1,0 +1,25 @@
+name = "Applied Energistics 2"
+home = "https://github.com/dannybonz/ae2_archipelago"
+stability = "untested"
+
+[versions]
+"1.1.0" = { url = "https://github.com/dannybonz/ae2_archipelago/releases/download/v1.1.0/ae2.apworld" }
+"1.2.0" = { url = "https://github.com/dannybonz/ae2_archipelago/releases/download/v1.2.0/ae2.apworld" }
+
+[[fuzz_results]]
+version = "1.1.0"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0016
+worst_hook = "default"
+worst_hook_rate = 0.0016
+
+[[fuzz_results]]
+version = "1.2.0"
+verdict = "clean"
+fuzzed_at = "2026-08-28"
+seeds = 5000
+default_rate = 0.0006
+worst_hook = "default"
+worst_hook_rate = 0.0006
