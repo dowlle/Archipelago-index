@@ -1,0 +1,6 @@
+name = "Hades II"
+home = "https://github.com/BrittisH39/Hades2Archipelago"
+stability = "untested"
+
+[versions]
+"0.7.0" = { url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v0.7.0/Hades2Rogue.apworld" }
