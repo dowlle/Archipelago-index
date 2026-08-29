@@ -1,0 +1,7 @@
+name = "Dqix"
+home = "https://github.com/kid2407/ArchipelagoDQIX"
+default_url = "https://github.com/kid2407/ArchipelagoDQIX/releases/download/{{version}}/dqix.apworld"
+stability = "untested"
+
+[versions]
+"0.1.1" = {}
