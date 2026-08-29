@@ -667,6 +667,8 @@
 [sonic1]
 "sonic_1-v0.1.1" = "eb53af94e736dd869dd62bef3b12ae7c18f2c8de5c3fef6d75359841df78e1d4"
 
+[sotc]
+"0.0.1.post7" = "00bfff0fe794a058339b7591bf2da1d603206bb93b16939b2ce3bad857cab5c7"
 [SoRWorld]
 "0.0.2" = "3360fe0d4c1cba8ac6be8d60c6b214fd761cb8cd28467178637d87087c697215"
 
