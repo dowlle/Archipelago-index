@@ -1,3 +1,5 @@
 name = "Mega Man 2"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/BrianCumminger/megaman2-ap-poptracker/releases/latest"
