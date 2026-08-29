@@ -6,3 +6,4 @@ tracker = "https://github.com/rajanb/RabiRibiPoptracker/releases/latest"
 
 [versions]
 "1.5.1" = {}
+"1.5.3" = {}
