@@ -21,7 +21,7 @@ import traceback
 from pathlib import Path
 
 
-def target_games(module: str) -> list[str]:
+def target_games(module: str) -> list[tuple[str, str]]:
     # The script lives in the index checkout while it is executed with the
     # Archipelago checkout as cwd. Make that checkout importable explicitly.
     sys.path.insert(0, str(Path.cwd()))
@@ -29,11 +29,28 @@ def target_games(module: str) -> list[str]:
     from worlds.AutoWorld import AutoWorldRegister
 
     prefix = f"worlds.{module}"
-    return sorted(
-        game
+    expected_archive = (Path.cwd() / "custom_worlds" / f"{module}.apworld").resolve()
+    matches = sorted(
+        (game, world)
         for game, world in AutoWorldRegister.world_types.items()
         if world.__module__ == prefix or world.__module__.startswith(prefix + ".")
     )
+    games: list[tuple[str, str]] = []
+    wrong_sources: list[str] = []
+    for game, world in matches:
+        defining_module = sys.modules.get(world.__module__)
+        source = str(getattr(defining_module, "__file__", ""))
+        if source == str(expected_archive) or source.startswith(str(expected_archive) + "/"):
+            games.append((game, source))
+        else:
+            wrong_sources.append(f"{game}: {source or '<unknown>'}")
+
+    if wrong_sources:
+        raise RuntimeError(
+            f"worlds.{module} resolved outside the target archive {expected_archive}: "
+            + "; ".join(wrong_sources)
+        )
+    return games
 
 
 def run_check(module: str, artifact_dir: Path, seed: int) -> int:
@@ -55,7 +72,7 @@ def run_check(module: str, artifact_dir: Path, seed: int) -> int:
             # to whether their canonical option set can generate.
             generate_yaml_templates(template_dir, True)
 
-            for position, game in enumerate(games, start=1):
+            for position, (game, source) in enumerate(games, start=1):
                 template = template_dir / f"{get_file_safe_name(game)}.yaml"
                 if not template.is_file():
                     raise RuntimeError(f"Canonical template was not emitted for {game}: {template}")
@@ -85,6 +102,7 @@ def run_check(module: str, artifact_dir: Path, seed: int) -> int:
 
                 results["games"].append({
                     "game": game,
+                    "source": source,
                     "template": template.name,
                     "returncode": completed.returncode,
                 })
@@ -95,7 +113,8 @@ def run_check(module: str, artifact_dir: Path, seed: int) -> int:
 
         results["status"] = "passed"
         result_path.write_text(json.dumps(results, indent=2) + "\n", encoding="utf-8")
-        print(f"Canonical core generation passed for {len(games)} game(s): {', '.join(games)}")
+        print(f"Canonical core generation passed for {len(games)} game(s): "
+              f"{', '.join(game for game, _source in games)}")
         return 0
     except Exception as exc:
         results["status"] = "error"
