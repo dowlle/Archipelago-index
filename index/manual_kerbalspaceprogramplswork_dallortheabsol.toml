@@ -4,3 +4,12 @@ stability = "unstable"
 
 [versions]
 "0.0.1" = { local = "../apworlds/manual_kerbalspaceprogramplswork_dallortheabsol-0.0.1.apworld" }
+
+[[fuzz_results]]
+version = "0.0.1"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
