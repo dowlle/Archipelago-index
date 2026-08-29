@@ -16,3 +16,12 @@ seeds = 5000
 default_rate = 0.3682
 worst_hook = "check-ut"
 worst_hook_rate = 0.38
+
+[[fuzz_results]]
+version = "0.9.11"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 0.0582
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.176
