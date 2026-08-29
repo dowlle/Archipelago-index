@@ -5,6 +5,8 @@ stability = "untested"
 
 [versions]
 "0.1.6" = {}
+"0.1.7" = {}
+"0.1.8" = {}
 
 [[fuzz_results]]
 version = "0.1.6"
@@ -14,3 +16,21 @@ seeds = 5000
 default_rate = 0.288
 worst_hook = "check-determinism"
 worst_hook_rate = 0.75
+
+[[fuzz_results]]
+version = "0.1.7"
+verdict = "broken"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.4952
+worst_hook = "check-determinism"
+worst_hook_rate = 0.772727
+
+[[fuzz_results]]
+version = "0.1.8"
+verdict = "broken"
+fuzzed_at = "2026-08-28"
+seeds = 5000
+default_rate = 0.5424
+worst_hook = "check-determinism"
+worst_hook_rate = 0.742358

@@ -3,6 +3,7 @@ home = "https://github.com/Sim10XXX/C2AP"
 default_url = "https://github.com/Sim10XXX/C2AP/releases/download/v{{version}}/crash2.apworld"
 stability = "unstable"
 setup_guide = "https://github.com/Sim10XXX/C2AP/blob/master/README.md"
+tracker = "https://github.com/EvilGod50/crash2-ap-tracker/releases/latest"
 
 [versions]
 "0.3.0" = {}

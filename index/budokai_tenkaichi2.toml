@@ -1,0 +1,15 @@
+name = "Dragon Ball Z: Budokai Tenkaichi 2"
+home = "https://github.com/z3xox/Tenkaichi2AP"
+stability = "untested"
+
+[versions]
+"0.3.3" = { url = "https://github.com/z3xox/Tenkaichi2AP/releases/download/v0.3.3/budokai_tenkaichi2.apworld" }
+
+[[fuzz_results]]
+version = "0.3.3"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 4972
+default_rate = 0.497385
+worst_hook = "default"
+worst_hook_rate = 0.497385

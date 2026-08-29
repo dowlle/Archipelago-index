@@ -2,6 +2,7 @@ name = "The Legend of Zelda - Oracle of Ages"
 home = "https://discord.com/channels/731205301247803413/1492540520462024774"
 stability = "unstable"
 setup_guide = "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/ooa_setup_en.md"
+tracker = "https://github.com/Dranzior/ooa_brooty/releases"
 
 [versions]
 "0.4.3+hotfix-0.6.2" = { local = "../apworlds/tloz_ooa-0.4.3+hotfix-0.6.2.apworld" }
