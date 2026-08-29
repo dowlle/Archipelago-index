@@ -1,0 +1,7 @@
+name = "Icewall"
+home = "https://github.com/System-of-Root/ICEwallAPword"
+default_url = "https://github.com/System-of-Root/ICEwallAPword/releases/download/V{{version}}/icewall.apworld"
+stability = "untested"
+
+[versions]
+"0.2.0" = {}
