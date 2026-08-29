@@ -1,0 +1,16 @@
+name = "Cash Cleaner Simulator"
+home = "https://github.com/aymeric-duchein/Archipelago-ccs"
+default_url = "https://github.com/aymeric-duchein/Archipelago-ccs/releases/download/{{version}}/ccs.apworld"
+stability = "untested"
+
+[versions]
+"0.0.1" = {}
+
+[[fuzz_results]]
+version = "0.0.1"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

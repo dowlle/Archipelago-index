@@ -13,6 +13,7 @@ setup_guide = "https://github.com/T0r1nn/APLC?tab=readme-ov-file#setup"
 "0.7.9-beta" = {url = "https://github.com/T0r1nn/APLC/releases/download/v0.7.9-beta/lethal_company.apworld"}
 "0.7.11-beta" = { url = "https://github.com/T0r1nn/APLC/releases/download/v0.7.11-beta/lethal_company.apworld" }
 "0.7.12-beta" = { url = "https://github.com/T0r1nn/APLC/releases/download/v0.7.12-beta/lethal_company.apworld" }
+"0.7.13" = { url = "https://github.com/T0r1nn/APLC/releases/download/v0.7.13/lethal_company.apworld" }
 
 [[fuzz_results]]
 version = "0.7.11-beta"
@@ -31,3 +32,12 @@ seeds = 5000
 default_rate = 0.052
 worst_hook = "default"
 worst_hook_rate = 0.052
+
+[[fuzz_results]]
+version = "0.7.13"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 0.0544
+worst_hook = "default"
+worst_hook_rate = 0.0544

@@ -1,0 +1,15 @@
+name = "High Roller"
+home = "https://github.com/ElireFeltores/High-Roller"
+stability = "untested"
+
+[versions]
+"1.3.1" = { url = "https://github.com/ElireFeltores/High-Roller/releases/download/v1.3.1/high_roller.apworld" }
+
+[[fuzz_results]]
+version = "1.3.1"
+verdict = "flaky"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.0116
+worst_hook = "default"
+worst_hook_rate = 0.0116
