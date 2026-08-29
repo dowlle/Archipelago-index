@@ -313,6 +313,9 @@
 "1.1.7" = "500b51f959411a2ea2060bf310b5a0a688a90a4bb7c1d78bdd1137e39c1a65bd"
 "1.1.6" = "ba3a4e275d568ac1fb54cfed38cd854df4a7bcc4325ebdad9a8d1de81baf7973"
 
+[flowersanity]
+"1.1.0.post2" = "c8e428c616e22453379dca24218f66c8d18a34caf7bb0c7b4b39fc3fd3829ab5"
+
 [fnafb2]
 "0.4.3.post2" = "84e8d2e25af75a8ee4fa9dd6939ae74da918f836b93ae8df2556cb08ab6b92b8"
 

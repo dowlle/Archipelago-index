@@ -1,0 +1,6 @@
+name = "Flowersanity"
+home = "https://github.com/BlastSlimey/Archipelago"
+stability = "untested"
+
+[versions]
+"1.1.0.post2" = { url = "https://github.com/BlastSlimey/Archipelago/releases/download/flowersanity_1.1.0_fix/flowersanity.apworld" }
