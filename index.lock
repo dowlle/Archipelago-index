@@ -271,6 +271,8 @@
 [exocolonist]
 "1.1.0" = "b287ab28cdde7f996849761733e03ad7accc677a736e7f4596b1a669d9640b3c"
 
+[factorio_platformer]
+"0.4.4" = "ca06ad657b61799a81d4cb176f04f8ceaa1911232fb0aa5c77eb2204520978c3"
 [ffx]
 "0.8.1" = "ccc84c3a09b5c60ffd4c6ce0d2a70475c7dfe1d83e445dea39ca51e81fd32d05"
 [factorio_space_age]

@@ -1,0 +1,7 @@
+name = "Factorio Platformer"
+home = "https://github.com/lepideble/factorio-apworld"
+default_url = "https://github.com/lepideble/factorio-apworld/releases/download/platformer-{{version}}/factorio_platformer.apworld"
+stability = "untested"
+
+[versions]
+"0.4.4" = {}
