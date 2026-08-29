@@ -1,0 +1,15 @@
+name = "Cursed Mario 64"
+home = "https://github.com/IncidiousJacob/Cursed-Mario-64"
+stability = "untested"
+
+[versions]
+"0.2.3" = { url = "https://github.com/IncidiousJacob/Cursed-Mario-64/releases/download/Climbsanity/Cursed_Mario_64.apworld" }
+
+[[fuzz_results]]
+version = "0.2.3"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.2658
+worst_hook = "check-ut"
+worst_hook_rate = 0.298
