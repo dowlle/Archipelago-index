@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.0.1" = { url = "https://github.com/Michimarii/LostButFoundAP/releases/download/v0.0.1/lostbutfound.apworld" }
+"1.1.1" = { url = "https://github.com/Michimarii/LostButFoundAP/releases/download/v1.1.1/LostButFound.apworld" }
 
 [[fuzz_results]]
 version = "0.0.1"
