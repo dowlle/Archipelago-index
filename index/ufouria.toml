@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.0.1.post4" = { url = "https://github.com/vinheim3/Archipelago/releases/download/0.1.1/ufouria.apworld" }
+
+[[fuzz_results]]
+version = "0.0.1.post4"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 1.0
+worst_hook = "default"
+worst_hook_rate = 1.0

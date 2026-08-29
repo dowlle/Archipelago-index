@@ -28,3 +28,21 @@ seeds = 4562
 default_rate = 0.457913
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.471532
+
+[[fuzz_results]]
+version = "0.4.0"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 0.9996
+worst_hook = "default"
+worst_hook_rate = 0.9996
+
+[[fuzz_results]]
+version = "0.4.1"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 2134
+default_rate = 1.0
+worst_hook = "default"
+worst_hook_rate = 1.0

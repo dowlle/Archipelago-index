@@ -7,3 +7,21 @@ tracker = "https://github.com/Phantom5800/pmr-emotracker/releases/latest"
 [versions]
 "0.6.3" = {}
 "0.6.4" = {}
+
+[[fuzz_results]]
+version = "0.6.3"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 1.0
+worst_hook = "default"
+worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "0.6.4"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 1.0
+worst_hook = "default"
+worst_hook_rate = 1.0
