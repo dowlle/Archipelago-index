@@ -4,6 +4,7 @@ home = "https://discord.com/channels/731205301247803413/8371361856621117461"
 default_url = "https://github.com/qixils/NeoForgeAP/releases/download/v{{version}}/minecraft.apworld"
 stability = "unstable"
 setup_guide = "https://github.com/Studmuffin2227/VHAPMod/blob/main/README.txt"
+tracker = "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/latest"
 
 [versions]
 "2.1.2" = {}

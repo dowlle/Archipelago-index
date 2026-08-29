@@ -1,0 +1,25 @@
+name = "Dawnsbury Days"
+home = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago"
+stability = "untested"
+
+[versions]
+"1.4.0" = { url = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago/releases/download/v1.4.0/dawnsbury.apworld" }
+"1.5.0" = { url = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago/releases/download/v1.5.0/dawnsbury.apworld" }
+
+[[fuzz_results]]
+version = "1.4.0"
+verdict = "flaky"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.021
+worst_hook = "check-determinism"
+worst_hook_rate = 0.106776
+
+[[fuzz_results]]
+version = "1.5.0"
+verdict = "flaky"
+fuzzed_at = "2026-08-28"
+seeds = 5000
+default_rate = 0.0204
+worst_hook = "check-determinism"
+worst_hook_rate = 0.25462
