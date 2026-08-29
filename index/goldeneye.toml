@@ -1,0 +1,6 @@
+name = "GoldenEye 007"
+home = "https://github.com/NotFamilyJules/goldeneye_ap"
+stability = "untested"
+
+[versions]
+"0.1.0" = { url = "https://github.com/NotFamilyJules/goldeneye_ap/releases/download/alpha_v0.1/goldeneye.apworld" }
