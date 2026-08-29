@@ -1,3 +1,5 @@
 name = "Risk of Rain 2"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Swiftmane/Ror2-AP-tracker/releases/latest"

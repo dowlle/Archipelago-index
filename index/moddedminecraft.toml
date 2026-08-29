@@ -1,0 +1,16 @@
+name = "Modded Minecraft"
+home = "https://github.com/Stuff691734/ModdedMCArchipelago"
+default_url = "https://github.com/Stuff691734/ModdedMCArchipelago/releases/download/v{{version}}/moddedminecraft.apworld"
+stability = "untested"
+
+[versions]
+"3.0.2" = {}
+
+[[fuzz_results]]
+version = "3.0.2"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
