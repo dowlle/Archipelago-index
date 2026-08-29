@@ -7,3 +7,4 @@ tracker = "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/latest
 
 [versions]
 "0.0.6" = {}
+"0.1.3" = {}
