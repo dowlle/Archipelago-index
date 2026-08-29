@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.7.0" = { url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v0.7.0/Hades2Rogue.apworld" }
+
+[[fuzz_results]]
+version = "0.7.0"
+verdict = "flaky"
+fuzzed_at = "2026-08-24"
+seeds = 3240
+default_rate = 0.010494
+worst_hook = "check-determinism"
+worst_hook_rate = 0.698795
