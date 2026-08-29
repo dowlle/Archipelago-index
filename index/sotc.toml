@@ -1,0 +1,15 @@
+name = "Shadow of the Colossus"
+home = "https://github.com/riezahughes/SOTC-APWorld"
+stability = "untested"
+
+[versions]
+"0.0.1.post7" = { url = "https://github.com/riezahughes/SOTC-APWorld/releases/download/v0.0.7/sotc.apworld" }
+
+[[fuzz_results]]
+version = "0.0.1.post7"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 2279
+default_rate = 0.032909
+worst_hook = "default"
+worst_hook_rate = 0.032909

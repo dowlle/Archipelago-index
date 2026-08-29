@@ -1,0 +1,15 @@
+name = "Undertale Yellow"
+home = "https://github.com/Pugie38/Undertale-Yellow-AP"
+stability = "untested"
+
+[versions]
+"0.1.6.post2" = { url = "https://github.com/Pugie38/Undertale-Yellow-AP/releases/download/v0.1.6/undertale_yellow.apworld" }
+
+[[fuzz_results]]
+version = "0.1.6.post2"
+verdict = "flaky"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0002
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.058
