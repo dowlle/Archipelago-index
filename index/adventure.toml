@@ -1,3 +1,5 @@
 name = "Adventure"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/ZobeePlays/Adventure-AP-Tracker"

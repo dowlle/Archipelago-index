@@ -1,0 +1,15 @@
+name = "YARG Guitar Hero World Tour"
+home = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks"
+stability = "untested"
+
+[versions]
+"26.5.10" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.05.10/YARGGuitarHeroWorldTour.apworld" }
+
+[[fuzz_results]]
+version = "26.5.10"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 3188
+default_rate = 0.000941
+worst_hook = "default"
+worst_hook_rate = 0.000941
