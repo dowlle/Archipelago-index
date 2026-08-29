@@ -1842,6 +1842,7 @@
 "sluggers-v0.2.3" = "2f32f48bd6bb42913b2e9d1f23cf7fd7daff3813c0ac39ee7fa9cc7cac7780bc"
 "sluggers-v0.3.0" = "9c6f03af2ff5f8663b124f613b0175a6e21f3dd38aba279ff4d4e14a0410fd2d"
 "sluggers-v0.4.0" = "f56f2cea01ef4a8fd7f54bcfa1924aa3ea92831cb82143f579e3da06b5b8a94c"
+"sluggers-v1.0.0" = "a3665499acef31d8f65d042f7422a7071abb8dbee2a4a5f7500a06ccdadca85e"
 
 [megamix]
 "1.4.3" = "574faf813d5050531b5793254c760412bfcff3b8aeaae3b9b78ae0ae956297bf"
