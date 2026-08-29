@@ -3,6 +3,7 @@ display_name = "Castlevania: Symphony Of The Night"
 home = "https://discord.com/channels/731205301247803413/1462294492752380167"
 stability = "stable"
 setup_guide = "https://github.com/fdelduque/Archipelago/blob/main/worlds/sotn/docs/setup_en.md"
+tracker = "https://github.com/Michpem/SOTN-AP-MapTracker/releases"
 
 [versions]
 

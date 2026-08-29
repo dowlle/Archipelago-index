@@ -1,0 +1,25 @@
+name = "Cowtastic Cafe"
+home = "https://github.com/zane31415/APCowtasticCafe"
+stability = "untested"
+
+[versions]
+"1.0.0" = { url = "https://github.com/zane31415/APCowtasticCafe/releases/download/v1.0.0/cowtastic_cafe.apworld" }
+"1.0.2" = { url = "https://github.com/zane31415/APCowtasticCafe/releases/download/v1.0.2/cowtastic_cafe.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 4263
+default_rate = 0.278208
+worst_hook = "check-determinism"
+worst_hook_rate = 0.91875
+
+[[fuzz_results]]
+version = "1.0.2"
+verdict = "broken"
+fuzzed_at = "2026-08-25"
+seeds = 4269
+default_rate = 0.067229
+worst_hook = "check-determinism"
+worst_hook_rate = 0.927861

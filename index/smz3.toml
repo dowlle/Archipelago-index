@@ -1,3 +1,5 @@
 name = "SMZ3"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Dessyreqt/smz3-ap-tracker/releases/latest"

@@ -12,6 +12,7 @@ tracker = "https://github.com/lurch9229/Ape-Escape-Tracker/releases"
 "0.9.6" = {}
 "0.9.7" = {}
 "0.9.9" = {}
+"0.9.10" = {}
 
 [[fuzz_results]]
 version = "0.9.7"
@@ -21,3 +22,12 @@ seeds = 5000
 default_rate = 0.033
 worst_hook = "check-ut"
 worst_hook_rate = 0.042
+
+[[fuzz_results]]
+version = "0.9.10"
+verdict = "clean"
+fuzzed_at = "2026-08-25"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
