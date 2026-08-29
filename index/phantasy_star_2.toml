@@ -6,6 +6,7 @@ tracker = "https://github.com/lagdotcom/poptracker-phantasy-star-2/releases/late
 
 [versions]
 "phst2-0.1.1" = {}
+"phst2-0.1.3" = {}
 
 [[fuzz_results]]
 version = "phst2-0.1.1"
