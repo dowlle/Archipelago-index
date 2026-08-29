@@ -1,3 +1,5 @@
 name = "Choo-Choo Charles"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Ayden123kitten/Choo-Choo-Charles-PopTracker-Remake/releases"

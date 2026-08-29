@@ -1,6 +1,8 @@
 name = "Pikmin"
 home = "https://discord.com/channels/731205301247803413/1397286080184844390"
 default_url = "https://github.com/Poke714/Archipelago/releases/download/v0.1.0/pikmin.apworld"
+stability = "unstable"
+tracker = "https://github.com/Vinaigre1/Pikmin2-PopTracker/releases/latest"
 
 [versions]
 "0.1.0" = {}

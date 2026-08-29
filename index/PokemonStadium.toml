@@ -9,6 +9,7 @@ stability = "unstable"
 "0.5.8" = { url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v0.5.8/pokemon_stadium.apworld" }
 "0.6.0" = { url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v0.6.0/pokemon_stadium.apworld" }
 "0.6.2" = { url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v0.6.2/pokemon_stadium.apworld" }
+"0.8.0" = { url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v0.8.0/pokemon_stadium.apworld" }
 
 [[fuzz_results]]
 version = "0.5.6"
@@ -50,6 +51,15 @@ worst_hook_rate = 1.0
 version = "0.6.2"
 verdict = "broken"
 fuzzed_at = "2026-07-09"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-lambda-capture"
+worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "0.8.0"
+verdict = "broken"
+fuzzed_at = "2026-08-25"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "check-lambda-capture"
