@@ -8,3 +8,12 @@ stability = "stable"
 "0.3.1" = {}
 "0.3.2" = {}
 "0.3.3" = {}
+
+[[fuzz_results]]
+version = "0.3.3"
+verdict = "clean"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
