@@ -2,6 +2,7 @@ name = "Phantasy Star II"
 home = "https://github.com/lagdotcom/Archipelago"
 default_url = "https://github.com/lagdotcom/Archipelago/releases/download/{{version}}/phantasy_star_2.apworld"
 stability = "unstable"
+tracker = "https://github.com/lagdotcom/poptracker-phantasy-star-2/releases/latest"
 
 [versions]
 "phst2-0.1.1" = {}

@@ -1,3 +1,5 @@
 name = "The Witness"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/NewSoupVi/witness_archipelago_tracker/releases/latest"

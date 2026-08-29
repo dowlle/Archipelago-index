@@ -1,0 +1,15 @@
+name = "I Was a Teenage Exocolonist"
+home = "https://github.com/pamymaf/Exocolonist-AP"
+stability = "untested"
+
+[versions]
+"1.1.0" = { url = "https://github.com/pamymaf/Exocolonist-AP/releases/download/v1.1/exocolonist.apworld" }
+
+[[fuzz_results]]
+version = "1.1.0"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

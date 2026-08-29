@@ -1,0 +1,7 @@
+name = "Burger Shop 2"
+home = "https://github.com/zsiegel701/Burger-Shop-Archipelago"
+default_url = "https://github.com/zsiegel701/Burger-Shop-Archipelago/releases/download/v{{version}}/burger_shop_2.apworld"
+stability = "untested"
+
+[versions]
+"0.2.2" = {}

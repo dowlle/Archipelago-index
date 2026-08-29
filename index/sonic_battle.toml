@@ -2,5 +2,6 @@ name = "ActRaiser"
 home = "https://github.com/Happyhappyism/Archipelago"
 default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/{{version}}/sonic_battle.apworld"
 stability = "stable"
+tracker = "https://github.com/Happyhappyism/sonic_battle_poptracker/releases"
 
 [versions]

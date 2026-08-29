@@ -1,3 +1,5 @@
 name = "Aquaria"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/palex00/aquaria-ap-tracker/releases/latest"

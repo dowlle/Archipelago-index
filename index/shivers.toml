@@ -1,3 +1,5 @@
 name = "Shivers"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Shivers-Randomizer/Shivers-AP-Tracker/releases"
