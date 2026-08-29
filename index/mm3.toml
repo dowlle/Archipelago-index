@@ -1,3 +1,5 @@
 name = "Mega Man 3"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/drothe/megaman3-ap-poptracker/releases/latest"

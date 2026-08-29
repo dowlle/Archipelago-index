@@ -2,6 +2,7 @@ name = "Lies Of P"
 home = "https://discord.com/channels/731205301247803413/1232017331232706680"
 default_url = "https://github.com/Xtruh/LiesOfAP/releases/download/{{version}}/liesofp.apworld"
 stability = "unstable"
+tracker = "https://github.com/CaFlavien/Lies-of-P-Poptracker"
 
 [versions]
 "0.1.3" = {}
