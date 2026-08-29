@@ -1,0 +1,6 @@
+name = "Feeding Frenzy 2"
+home = "https://github.com/barretg/feeding-frenzy-2-archipelago"
+stability = "untested"
+
+[versions]
+"0.6" = { url = "https://github.com/barretg/feeding-frenzy-2-archipelago/releases/download/v0.6/feeding_frenzy_2.apworld" }
