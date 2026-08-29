@@ -1,0 +1,16 @@
+name = "Shellipelago"
+home = "https://github.com/ethentianknight/shellipelago"
+default_url = "https://github.com/ethentianknight/shellipelago/releases/download/{{version}}/shellipelago.apworld"
+stability = "untested"
+
+[versions]
+"1.14b" = {}
+
+[[fuzz_results]]
+version = "1.14b"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

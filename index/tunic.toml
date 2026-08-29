@@ -1,3 +1,5 @@
 name = "TUNIC"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/SapphireSapphic/TunicTracker/releases/latest"

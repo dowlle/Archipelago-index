@@ -1,0 +1,16 @@
+name = "Evolve"
+home = "https://github.com/The1stBurb/EvolveAPWorld"
+default_url = "https://github.com/The1stBurb/EvolveAPWorld/releases/download/v{{version}}/evolve.apworld"
+stability = "untested"
+
+[versions]
+"0.3.17" = {}
+
+[[fuzz_results]]
+version = "0.3.17"
+verdict = "clean"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

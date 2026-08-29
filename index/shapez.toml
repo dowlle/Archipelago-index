@@ -2,3 +2,4 @@ name = "shapez"
 home = "https://archipelago.gg"
 supported = true
 stability = "unstable"
+tracker = "https://shapezap.ec32.tech/#/text-client"
