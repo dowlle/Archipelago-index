@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "2.8.0" = { url = "https://github.com/Kryen112/HP2PC_AP/releases/download/v2.8.0/harry_potter_2_pc.apworld" }
+"2.10.0" = { url = "https://github.com/Kryen112/HP2PC_AP/releases/download/v2.10.0/harry_potter_2_pc.apworld" }
 
 [[fuzz_results]]
 version = "2.8.0"
