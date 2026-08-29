@@ -105,6 +105,8 @@
 [budokai3]
 "0.2.3" = "b52ebb96dc08239874efe7f20458e7a81c59ea30af1c13bf2bbaa55f0d5e05bf"
 
+[budokai_tenkaichi2]
+"0.3.3" = "f1a6a70130b04dad3c00d0cb7dec48782c427644ff1314968e1d32c4dd2d35c3"
 [build_a_jetpack]
 "0.2.0" = "430bcffce53010e1779a659c0e70d78691cd07d70d5f6ebc7b6eef2ad3d61b46"
 
