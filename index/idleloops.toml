@@ -1,0 +1,25 @@
+name = "Idle Loops"
+home = "https://github.com/IHaveNoFunnyName/Archipelago"
+stability = "untested"
+
+[versions]
+"0.4.1" = { url = "https://github.com/IHaveNoFunnyName/Archipelago/releases/download/0.4.1/idleloops.apworld" }
+"0.4.5" = { url = "https://github.com/IHaveNoFunnyName/Archipelago/releases/download/0.4.5/idleloops.apworld" }
+
+[[fuzz_results]]
+version = "0.4.1"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.4.5"
+verdict = "broken"
+fuzzed_at = "2026-08-27"
+seeds = 2760
+default_rate = 0.089493
+worst_hook = "default"
+worst_hook_rate = 0.089493

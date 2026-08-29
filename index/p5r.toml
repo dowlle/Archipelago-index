@@ -2,6 +2,7 @@ name = "Persona 5 Royal"
 home = "https://github.com/Daphoa/ArchipelagoP5RMod"
 default_url = "https://github.com/Daphoa/ArchipelagoP5RMod/releases/download/v{{version}}/p5r.apworld"
 stability = "unstable"
+tracker = "https://github.com/AkagiCritMagnet/P5R-poptracker-pack-for-AP/releases"
 
 [versions]
 "0.1.4" = {}
