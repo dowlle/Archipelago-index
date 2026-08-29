@@ -11,6 +11,7 @@ setup_guide = "https://github.com/Emerassi/Crystal-Project-Archipelago-Mod-Insta
 "0.13.0" = {}
 "CrystalProject-v0.15.1" = { url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/download/CrystalProject-v0.15.1/crystal_project.apworld" }
 "CrystalProject-v0.16.0" = { url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/download/CrystalProject-v0.16.0/crystal_project.apworld" }
+"CrystalProject-v0.17.0" = { url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/download/CrystalProject-v0.17.0/crystal_project.apworld" }
 
 [[fuzz_results]]
 version = "CrystalProject-v0.15.1"
@@ -20,3 +21,12 @@ seeds = 5000
 default_rate = 0.3916
 worst_hook = "check-determinism"
 worst_hook_rate = 0.977848
+
+[[fuzz_results]]
+version = "CrystalProject-v0.17.0"
+verdict = "broken"
+fuzzed_at = "2026-08-25"
+seeds = 2824
+default_rate = 0.089943
+worst_hook = "check-determinism"
+worst_hook_rate = 0.966292

@@ -20,6 +20,7 @@ tracker = "https://www.google.com/url?q=https://github.com/JAHapner01/Grinch-AP-
 "1.6.0-PR3" = {}
 "1.6.0-PR5" = {}
 "1.6.0-PR8" = {}
+"1.6.1" = {}
 
 [[fuzz_results]]
 version = "1.5.5"
@@ -65,3 +66,12 @@ seeds = 3756
 default_rate = 0.243344
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.244806
+
+[[fuzz_results]]
+version = "1.6.1"
+verdict = "clean"
+fuzzed_at = "2026-08-27"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
