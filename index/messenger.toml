@@ -1,3 +1,5 @@
 name = "The Messenger"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/latest"
