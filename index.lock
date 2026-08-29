@@ -507,10 +507,6 @@
 [p5r]
 "0.1.4" = "ff98c6e7e740b412d3d4694b97fa9383c448c8055a5262e69f844c3d50f2b447"
 
-[papermario]
-"0.6.3" = "51ff1653e4abf49bebebb44bf63197360fe78d23ed2a2130d29cbdd23e9db5f3"
-"0.6.4" = "100e688358d9e07e75b4a267b81c6bf23ef77a15ba2a4c38e8448c06e7d93ea4"
-
 [paquerette_down_the_bunburrows]
 "paquerette_down_the_bunburrows-0.1.0" = "7af8f22b898b3fcb1cd19522f08513f897af324fb032b18f34f0d67173785162"
 

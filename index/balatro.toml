@@ -19,3 +19,30 @@ seeds = 1601
 default_rate = 0.322923
 worst_hook = "default"
 worst_hook_rate = 0.322923
+
+[[fuzz_results]]
+version = "0.1.9-b"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 1616
+default_rate = 0.348391
+worst_hook = "default"
+worst_hook_rate = 0.348391
+
+[[fuzz_results]]
+version = "0.1.9-d"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 1682
+default_rate = 0.33591
+worst_hook = "default"
+worst_hook_rate = 0.33591
+
+[[fuzz_results]]
+version = "0.1.9-e"
+verdict = "broken"
+fuzzed_at = "2026-08-24"
+seeds = 1680
+default_rate = 0.34881
+worst_hook = "default"
+worst_hook_rate = 0.34881
