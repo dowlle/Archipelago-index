@@ -1,0 +1,15 @@
+name = "Crystalis"
+home = "https://github.com/Ars-Ignis/Archipelago"
+stability = "untested"
+
+[versions]
+"2.0.4rc0.post0" = { url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v2.0.4-Crystalis/crystalis.apworld" }
+
+[[fuzz_results]]
+version = "2.0.4rc0.post0"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 4256
+default_rate = 0.264333
+worst_hook = "default"
+worst_hook_rate = 0.264333
