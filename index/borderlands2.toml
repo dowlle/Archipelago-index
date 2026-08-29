@@ -2,6 +2,7 @@ name = "Borderlands 2"
 home = "https://github.com/EdricY/Bouncy-Loot-God"
 default_url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/v{{version}}/borderlands2.apworld"
 stability = "unstable"
+tracker = "https://github.com/DDogeOneeSama/Borderlands-2-PopTracker/releases/latest"
 
 [versions]
 "be-85" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-85/borderlands2.apworld" }

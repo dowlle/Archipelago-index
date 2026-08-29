@@ -2,3 +2,4 @@ name = "The Legend of Zelda"
 home = "https://archipelago.gg"
 supported = true
 stability = "unstable"
+tracker = "https://github.com/carrotinator/spirit-tracks-poptracker-ap/releases"
