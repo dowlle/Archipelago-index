@@ -1,0 +1,7 @@
+name = "Herocore"
+home = "https://github.com/Minish-Link/HeroCore-Archipelago"
+default_url = "https://github.com/Minish-Link/HeroCore-Archipelago/releases/download/v{{version}}/herocore.apworld"
+stability = "untested"
+
+[versions]
+"1.0.4" = {}
