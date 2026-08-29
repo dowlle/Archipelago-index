@@ -1,0 +1,6 @@
+name = "Content Warning"
+home = "https://github.com/Jakeodude/cw-apworld"
+stability = "untested"
+
+[versions]
+"0.1.0.post2" = { url = "https://github.com/Jakeodude/cw-apworld/releases/download/1.0.1/content_warning.apworld" }
