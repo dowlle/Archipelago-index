@@ -4,3 +4,12 @@ stability = "untested"
 
 [versions]
 "0.0.1" = { url = "https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/releases/download/V0.0.2/fantastic_fist.apworld" }
+
+[[fuzz_results]]
+version = "0.0.1"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 1560
+default_rate = 0.946154
+worst_hook = "default"
+worst_hook_rate = 0.946154
