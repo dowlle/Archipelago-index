@@ -2,3 +2,4 @@ name = "Noita"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"
+tracker = "https://github.com/ScipioWright/Noita-poptracker/releases/latest"

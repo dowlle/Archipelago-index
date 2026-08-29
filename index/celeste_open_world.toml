@@ -1,3 +1,5 @@
 name = "Celeste (Open World)"
 home = "https://archipelago.gg"
 supported = true
+stability = "stable"
+tracker = "https://github.com/Zeeveez/CelesteOpenWorldPoptracker/releases/latest"
