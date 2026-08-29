@@ -3,3 +3,12 @@ display_name = "Manual: Portal 2"
 
 [versions]
 "0.0.2" = { local = "../apworlds/manual_portal2_.apworld" }
+
+[[fuzz_results]]
+version = "0.0.2"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
