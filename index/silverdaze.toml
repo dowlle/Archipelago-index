@@ -15,3 +15,12 @@ seeds = 5000
 default_rate = 0.0036
 worst_hook = "check-placement-refs"
 worst_hook_rate = 0.245473
+
+[[fuzz_results]]
+version = "0.7.4"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 0.0032
+worst_hook = "check-placement-refs"
+worst_hook_rate = 0.216867
