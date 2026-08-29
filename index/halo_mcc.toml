@@ -1,0 +1,15 @@
+name = "Halo The Master Chief Collection"
+home = "https://github.com/spencer2585/MCC-AP"
+stability = "untested"
+
+[versions]
+"1.1.2" = { url = "https://github.com/spencer2585/MCC-AP/releases/download/Alpha-1.1.2/halo_mcc.apworld" }
+
+[[fuzz_results]]
+version = "1.1.2"
+verdict = "clean"
+fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
