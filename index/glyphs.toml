@@ -10,3 +10,13 @@ setup_guide = "https://github.com/BuffYoda21/ap-glyphs/blob/main/README.md"
 "1.0.2" = {}
 "1.1.1" = {}
 "1.1.2" = {}
+"1.2.2" = {}
+
+[[fuzz_results]]
+version = "1.2.2"
+verdict = "clean"
+fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.0002
+worst_hook = "default"
+worst_hook_rate = 0.0002
