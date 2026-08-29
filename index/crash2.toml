@@ -8,6 +8,8 @@ tracker = "https://github.com/EvilGod50/crash2-ap-tracker/releases/latest"
 [versions]
 "0.3.0" = {}
 "0.4.0-pre3" = {}
+"0.4.0" = {}
+"0.4.1" = {}
 
 [[fuzz_results]]
 version = "0.3.0"

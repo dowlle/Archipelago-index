@@ -6,3 +6,4 @@ setup_guide = "https://github.com/LittleCube-hax/MMRecompRando"
 tracker = "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/latest"
 
 [versions]
+"0.9.5a" = {}
