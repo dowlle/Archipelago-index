@@ -12,6 +12,18 @@ setup_guide = "https://ap-pie.com/guides/pokepelago"
 "0.6.4" = {}
 
 [[fuzz_results]]
+version = "0.6.4"
+verdict = "clean"
+fuzzed_at = "2026-08-31"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+ap_version = "0.6.7"
+hook_suite_sha = "3821594"
+fuzz_py_sha = "acc0a12"
+
+[[fuzz_results]]
 version = "0.6.3"
 verdict = "flaky"
 fuzzed_at = "2026-07-08"
