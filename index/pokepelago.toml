@@ -1,6 +1,7 @@
 name = "Pokepelago"
 home = "https://discord.com/channels/731205301247803413/1474030797811093514"
 default_url = "https://github.com/dowlle/PokepelagoClient/releases/download/v{{version}}/pokepelago.apworld"
+setup_guide = "https://ap-pie.com/guides/pokepelago"
 
 [versions]
 "0.4.4" = {}
@@ -8,6 +9,7 @@ default_url = "https://github.com/dowlle/PokepelagoClient/releases/download/v{{v
 "0.6.1" = {}
 "0.6.2" = {}
 "0.6.3" = {}
+"0.6.4" = {}
 
 [[fuzz_results]]
 version = "0.6.3"
