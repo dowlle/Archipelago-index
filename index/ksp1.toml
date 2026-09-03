@@ -7,3 +7,12 @@ tracker = "https://github.com/FarisTheAncient/Archipelago/releases"
 
 [versions]
 "0.8.4" = {}
+
+[[fuzz_results]]
+version = "0.8.4"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 4178
+default_rate = 0.971757
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
