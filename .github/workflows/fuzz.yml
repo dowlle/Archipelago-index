@@ -9,6 +9,7 @@ on:
       - '.github/workflows/fuzz.yml'
       - '.github/scripts/detect_added_versions.py'
       - '.github/scripts/check_canonical_generation.py'
+      - '.github/scripts/patch_fuzzer_yaml_values.py'
 
 permissions:
   contents: read
@@ -95,6 +96,7 @@ jobs:
           cp fuzz-hooks/empty.apworld archipelago/custom_worlds/empty.apworld
           curl -SsL --fail -o archipelago/fuzz.py \
             "https://raw.githubusercontent.com/Eijebong/Archipelago-fuzzer/${FUZZER_COMMIT}/fuzz.py"
+          python3 index-repo/.github/scripts/patch_fuzzer_yaml_values.py archipelago/fuzz.py
 
       - name: Download target apworld
         shell: bash
