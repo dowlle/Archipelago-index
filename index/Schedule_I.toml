@@ -12,6 +12,7 @@ tracker = "https://github.com/RazgrizEast/schedule-1-poptracker-razgriz/releases
 "3.6.0" = {}
 "3.6.2" = {}
 "3.6.3" = {}
+"3.6.4" = {}
 
 [[fuzz_results]]
 version = "3.6.2"
