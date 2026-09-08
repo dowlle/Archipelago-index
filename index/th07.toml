@@ -10,3 +10,12 @@ tracker = "https://github.com/Nepley/pcb-poptracker/releases"
 "1.1.4" = {}
 "1.2.2" = {}
 "1.2.3" = {}
+
+[[fuzz_results]]
+version = "1.2.3"
+verdict = "flaky"
+fuzzed_at = "2026-09-08"
+seeds = 5000
+default_rate = 0.0276
+worst_hook = "default"
+worst_hook_rate = 0.0276
