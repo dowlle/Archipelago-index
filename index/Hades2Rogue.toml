@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.7.0" = { url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v0.7.0/Hades2Rogue.apworld" }
+"0.9.3" = { url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v0.9.3/Hades2Rogue.apworld" }
 
 [[fuzz_results]]
 version = "0.7.0"
