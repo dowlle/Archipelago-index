@@ -14,3 +14,12 @@ tracker = "https://git.ddd.rip/SophiaNya/ae3-poptracker-pack/releases"
 "2.0.5" = {}
 "2.0.6" = {}
 "2.1.0" = {}
+
+[[fuzz_results]]
+version = "2.1.0"
+verdict = "flaky"
+fuzzed_at = "2026-09-05"
+seeds = 1396
+default_rate = 0.001433
+worst_hook = "check-indirect-conditions"
+worst_hook_rate = 0.085714
