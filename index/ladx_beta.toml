@@ -4,3 +4,13 @@ disabled = true # Triggers some assertions, new version doesn't fuzz well
 
 [versions]
 "12.5.0" = {url = "https://github.com/threeandthreee/Archipelago/releases/download/v12.5/ladx_beta.apworld"}
+"13.4.2" = { url = "https://github.com/threeandthreee/Archipelago/releases/download/13.4.2/ladx_beta.apworld" }
+
+[[fuzz_results]]
+version = "13.4.2"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 1.0
+worst_hook = "default"
+worst_hook_rate = 1.0
