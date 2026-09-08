@@ -6,3 +6,13 @@ tracker = "https://github.com/rajanb/RabiRibiPoptracker/releases/latest"
 
 [versions]
 "1.5.1" = {}
+"1.5.3" = {}
+
+[[fuzz_results]]
+version = "1.5.3"
+verdict = "broken"
+fuzzed_at = "2026-08-29"
+seeds = 83
+default_rate = 0.036145
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.061728
