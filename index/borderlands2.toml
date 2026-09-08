@@ -7,6 +7,7 @@ tracker = "https://github.com/DDogeOneeSama/Borderlands-2-PopTracker/releases/la
 [versions]
 "be-85" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-85/borderlands2.apworld" }
 "0.5.2" = {}
+"be-101" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-101/borderlands2.apworld" }
 
 [[fuzz_results]]
 version = "be-85"
