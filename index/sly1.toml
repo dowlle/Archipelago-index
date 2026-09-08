@@ -1,8 +1,6 @@
 name = "Sly Cooper and the Thievius Raccoonus"
 home = "https://discord.com/channels/731205301247803413/1170557242660093952"
 default_url = "https://github.com/hoppel16/ArchipelagoBranchSly1/releases/download/v{{version}}/sly1.apworld"
-# New versions fail the most basic of tests, old version require weird setup
-disabled = true
 
 [versions]
 "0.1.5-alpha" = {}
@@ -15,6 +13,15 @@ disabled = true
 version = "0.3.4-alpha"
 verdict = "clean"
 fuzzed_at = "2026-05-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.3.5-alpha-hotfix1"
+verdict = "clean"
+fuzzed_at = "2026-09-08"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
