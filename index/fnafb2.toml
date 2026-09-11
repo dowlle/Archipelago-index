@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.4.3.post2" = { url = "https://github.com/zuils/FNaFBAP/releases/download/v0.4.4/fnafb2.apworld" }
+"0.4.6" = { url = "https://github.com/zuils/FNaFBAP/releases/download/v0.4.6/fnafb2.apworld" }
 
 [[fuzz_results]]
 version = "0.4.3.post2"
