@@ -6,3 +6,12 @@ stability = "unstable"
 [versions]
 "26.05.10" = {}
 "26.09.13" = {}
+
+[[fuzz_results]]
+version = "26.09.13"
+verdict = "clean"
+fuzzed_at = "2026-09-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
