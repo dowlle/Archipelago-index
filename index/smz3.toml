@@ -1,4 +1,5 @@
 name = "SMZ3"
+setup_guide = "https://archipelago.gg/tutorial/SMZ3/multiworld_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

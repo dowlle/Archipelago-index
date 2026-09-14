@@ -1,4 +1,5 @@
 name = "Mega Man 2"
+setup_guide = "https://archipelago.gg/tutorial/Mega%20Man%202/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

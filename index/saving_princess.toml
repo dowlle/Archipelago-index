@@ -1,4 +1,5 @@
 name = "Saving Princess"
+setup_guide = "https://archipelago.gg/tutorial/Saving%20Princess/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

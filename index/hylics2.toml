@@ -1,4 +1,5 @@
 name = "Hylics 2"
+setup_guide = "https://archipelago.gg/tutorial/Hylics%202/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

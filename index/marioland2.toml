@@ -1,4 +1,5 @@
 name = "Super Mario Land 2"
+setup_guide = "https://archipelago.gg/tutorial/Super%20Mario%20Land%202/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

@@ -1,4 +1,5 @@
 name = "Celeste 64"
+setup_guide = "https://archipelago.gg/tutorial/Celeste%2064/guide_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

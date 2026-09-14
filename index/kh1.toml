@@ -1,4 +1,5 @@
 name = "Kingdom Hearts"
+setup_guide = "https://archipelago.gg/tutorial/Kingdom%20Hearts/kh1_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

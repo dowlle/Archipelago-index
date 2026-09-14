@@ -1,4 +1,5 @@
 name = "Lufia II Ancient Cave"
+setup_guide = "https://archipelago.gg/tutorial/Lufia%20II%20Ancient%20Cave/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

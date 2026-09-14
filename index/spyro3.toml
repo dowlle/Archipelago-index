@@ -1,4 +1,5 @@
 name = "Spyro 3"
+setup_guide = "https://github.com/Uroogla/S3AP#instructions"
 home = "https://discord.com/channels/731205301247803413/1018847303722872843"
 default_url = "https://github.com/Uroogla/S3AP/releases/download/{{version}}/spyro3.apworld"
 stability = "stable"

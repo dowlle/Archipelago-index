@@ -1,4 +1,5 @@
 name = "Zillion"
+setup_guide = "https://archipelago.gg/tutorial/Zillion/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

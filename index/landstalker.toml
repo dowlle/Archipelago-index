@@ -1,4 +1,5 @@
 name = "Landstalker - The Treasures of King Nole"
+setup_guide = "https://archipelago.gg/tutorial/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/landstalker_setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

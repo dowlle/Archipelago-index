@@ -1,4 +1,5 @@
 name = "DLCQuest"
+setup_guide = "https://archipelago.gg/tutorial/DLCQuest/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

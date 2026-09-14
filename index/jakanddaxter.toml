@@ -1,4 +1,5 @@
 name = "Jak and Daxter: The Precursor Legacy"
+setup_guide = "https://archipelago.gg/tutorial/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/setup_en"
 home = "https://discord.com/channels/731205301247803413/1394026388683755613"
 supported = true
 stability = "stable"

@@ -1,4 +1,5 @@
 name = "Old School Runescape"
+setup_guide = "https://archipelago.gg/tutorial/Old%20School%20Runescape/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"
