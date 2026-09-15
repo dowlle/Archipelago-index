@@ -22,6 +22,7 @@ stability = "stable"
 "1.2.1" = {}
 "1.2.2" = {}
 "1.6.0" = {}
+"v.1.7.0" = { url = "https://github.com/spinerak/refunct-tas-archipelago/releases/download/v.1.7.0/refunct.apworld" }
 
 [[fuzz_results]]
 version = "1.1.1"
