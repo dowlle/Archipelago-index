@@ -9,3 +9,12 @@ stability = "stable"
 "0.3.0" = {}
 "0.3.3" = {}
 "0.3.5" = {}
+
+[[fuzz_results]]
+version = "0.3.5"
+verdict = "flaky"
+fuzzed_at = "2026-09-15"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.926829
