@@ -14,3 +14,12 @@ seeds = 5000
 default_rate = 0.0282
 worst_hook = "check-determinism"
 worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "3.0.0"
+verdict = "clean"
+fuzzed_at = "2026-09-15"
+seeds = 4926
+default_rate = 0.000203
+worst_hook = "default"
+worst_hook_rate = 0.000203
