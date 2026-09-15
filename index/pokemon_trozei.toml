@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.0.1b0" = { url = "https://github.com/WCutePy/ArchipelagoAlmia/releases/download/trozei_v0.0.1-beta/pokemon_trozei.apworld" }
+"trozei_v0.0.3" = { url = "https://github.com/WCutePy/ArchipelagoAlmia/releases/download/trozei_v0.0.3/pokemon_trozei.apworld" }
 
 [[fuzz_results]]
 version = "0.0.1b0"
