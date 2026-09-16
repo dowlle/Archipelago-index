@@ -1,0 +1,7 @@
+name = "Sonic Colours DS"
+home = "https://github.com/SilicDev/Archipelago"
+default_url = "https://github.com/SilicDev/Archipelago/releases/download/scds-v{{version}}/sonic_colours_ds.apworld"
+stability = "untested"
+
+[versions]
+"0.2.4" = {}
