@@ -1,0 +1,6 @@
+name = "Super Chipflake U"
+home = "https://github.com/Max-G4/Chipflake_AP"
+stability = "untested"
+
+[versions]
+"0.0.1" = { url = "https://github.com/Max-G4/Chipflake_AP/releases/download/tag1/super_chipflake_u_0.1.0.apworld" }

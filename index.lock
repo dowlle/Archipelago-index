@@ -808,6 +808,9 @@
 [suikapelago]
 "1.1.2" = "4b3c95ed880af3295478e65ae0eb837eb615dd16cb2a7a537251df1ee0e5decc"
 
+[super_chipflake_u]
+"0.0.1" = "81af79d33f2a4c539f58ef6b25dec84e25d9a062e3faf6d20b7e71e37bb37c3f"
+
 [talos_principle_reawakened]
 "1.2.2" = "d989e7e187e2ec5027450ddc6ede386b8be87234e9fd278870913e927f32dfb5"
 "1.3.0-BETA.2" = "a43ac037068612a524399d3e24ab07b35ce74ca1c070bd4072fd29c53de97f8a"
