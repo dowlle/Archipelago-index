@@ -1,0 +1,7 @@
+name = "Lhp2"
+home = "https://github.com/jradcode23/LHP2-APWorld"
+default_url = "https://github.com/jradcode23/LHP2-APWorld/releases/download/v{{version}}/lhp2.apworld"
+stability = "untested"
+
+[versions]
+"1.2.0" = {}
