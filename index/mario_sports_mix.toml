@@ -1,0 +1,7 @@
+name = "Mario Sports Mix"
+home = "https://github.com/ElectroStarz/ArchipelagoMSM"
+default_url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/v{{version}}/mario_sports_mix.apworld"
+stability = "untested"
+
+[versions]
+"3.0.0" = {}
