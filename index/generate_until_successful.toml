@@ -1,0 +1,5 @@
+name = "Generate Until Successful"
+home = "https://github.com/eiron/ArchipelagoGenerateUntilSuccessful"
+
+[versions]
+"1.0.2" = { url = "https://github.com/eiron/ArchipelagoGenerateUntilSuccessful/releases/download/v1.0.2/generate_until_successful.apworld" }

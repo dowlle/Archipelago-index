@@ -1,0 +1,5 @@
+name = "Drehmal"
+home = "https://github.com/threecrowsinatrenchcrowt/DrehmalAPWorld"
+
+[versions]
+"0.3.0-beta" = { url = "https://github.com/threecrowsinatrenchcrowt/DrehmalAPWorld/releases/download/v0.3.0-beta/drehmal.apworld" }

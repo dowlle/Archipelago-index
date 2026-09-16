@@ -1,0 +1,5 @@
+name = "Manual_CTCSudoku_Axxroy"
+home = "https://github.com/axxroytovu/archipelago_manuals"
+
+[versions]
+"Sudoku_1.2.1" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Sudoku_1.2.1/manual_ctcsudoku_axxroy.apworld" }

@@ -1,0 +1,5 @@
+name = "Pokemon HGSS"
+home = "https://github.com/SingeKiller/Pok-HeartGold_Apworld"
+
+[versions]
+"0.2.4" = { url = "https://github.com/SingeKiller/Pok-HeartGold_Apworld/releases/download/v0.2.4/pokemon_hgss.apworld" }

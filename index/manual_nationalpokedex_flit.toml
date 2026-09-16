@@ -1,0 +1,5 @@
+name = "Manual_NationalPokedex_Flit"
+home = "https://github.com/FlitPix/archipelago-manuals"
+
+[versions]
+"natdex_v1.0.0r2" = { url = "https://github.com/FlitPix/archipelago-manuals/releases/download/natdex_v1.0.0/manual_nationalpokedex_flit.apworld" }

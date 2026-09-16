@@ -1,0 +1,5 @@
+name = "Stella"
+home = "https://github.com/giovannialayan/oigArchipelago"
+
+[versions]
+"1.0.2" = { url = "https://github.com/giovannialayan/oigArchipelago/releases/download/1.0.2/stella.apworld" }

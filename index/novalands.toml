@@ -1,0 +1,5 @@
+name = "Nova Lands"
+home = "https://github.com/Foxolotl713/NovaLandsMods"
+
+[versions]
+"ap0.1.0" = { url = "https://github.com/Foxolotl713/NovaLandsMods/releases/download/ap0.1.0/novalands.apworld" }

@@ -1,0 +1,5 @@
+name = "Inscryption Beta"
+home = "https://github.com/empathy-mp3/Archipelago_Inscryption"
+
+[versions]
+"1.5.4" = { url = "https://github.com/empathy-mp3/Archipelago_Inscryption/releases/download/v1.5.4/inscryption_beta.apworld" }

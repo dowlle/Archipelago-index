@@ -1,0 +1,5 @@
+name = "Castlevania: Lords of Shadow"
+home = "https://github.com/Haywire32/LoS-Archipelago"
+
+[versions]
+"0.6.1" = { url = "https://github.com/Haywire32/LoS-Archipelago/releases/download/v0.6.1/los.apworld" }

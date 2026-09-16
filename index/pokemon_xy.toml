@@ -1,0 +1,5 @@
+name = "Pokemon X and Y"
+home = "https://github.com/uhsfiuh/Pokemon-x-y-AP"
+
+[versions]
+"0.0.4" = { url = "https://github.com/uhsfiuh/Pokemon-x-y-AP/releases/download/0.0.4/pokemon_xy.apworld" }

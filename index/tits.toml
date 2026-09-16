@@ -1,0 +1,5 @@
+name = "T.I.T.S. Integrated Text Service"
+home = "https://github.com/digiholic/Archipelago"
+
+[versions]
+"tits-v0.8.2" = { url = "https://github.com/digiholic/Archipelago/releases/download/tits-v0.8.2/tits.apworld" }

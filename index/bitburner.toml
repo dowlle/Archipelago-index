@@ -1,0 +1,5 @@
+name = "Bitburner"
+home = "https://github.com/Shhwip/Archipelago"
+
+[versions]
+"bitburner-0.6.0" = { url = "https://github.com/Shhwip/Archipelago/releases/download/bitburner-0.6.0/bitburner.apworld" }

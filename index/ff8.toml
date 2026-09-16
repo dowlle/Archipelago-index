@@ -1,0 +1,5 @@
+name = "Final Fantasy VIII"
+home = "https://github.com/wilsonao/ff8_arch"
+
+[versions]
+"0.7.0" = { url = "https://github.com/wilsonao/ff8_arch/releases/download/v0.7.0/ff8.apworld" }

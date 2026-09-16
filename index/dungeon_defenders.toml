@@ -1,0 +1,5 @@
+name = "Dungeon Defenders"
+home = "https://github.com/Haywire32/DD1-AP"
+
+[versions]
+"0.6.2" = { url = "https://github.com/Haywire32/DD1-AP/releases/download/v0.6.2/dungeon_defenders.apworld" }

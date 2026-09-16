@@ -1,0 +1,5 @@
+name = "NEO: The World Ends with You"
+home = "https://github.com/Sjerver/NEO-Twewy-Archipelago-Mod"
+
+[versions]
+".0.0.4" = { url = "https://github.com/Sjerver/NEO-Twewy-Archipelago-Mod/releases/download/v.0.0.4/neotwewy.apworld" }

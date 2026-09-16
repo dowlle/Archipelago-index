@@ -1,0 +1,5 @@
+name = "Manual_CastleMinerZ_Garbo"
+home = "https://github.com/ManNamedGarbo/Archipelago_Manuals"
+
+[versions]
+"cmz-0.4" = { url = "https://github.com/ManNamedGarbo/Archipelago_Manuals/releases/download/cmz-0.4/manual_castleminerz_garbo.apworld" }

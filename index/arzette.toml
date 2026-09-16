@@ -1,0 +1,5 @@
+name = "Arzette: The Jewel of Faramore"
+home = "https://github.com/nicolasberube/Arzette_Randomizer"
+
+[versions]
+"1.0.0" = { url = "https://github.com/nicolasberube/Arzette_Randomizer/releases/download/1.0.0/arzette.apworld" }

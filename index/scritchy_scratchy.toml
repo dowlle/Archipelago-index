@@ -1,0 +1,5 @@
+name = "Scritchy Scratchy"
+home = "https://github.com/ksteve35/ScritchyScratchyAP"
+
+[versions]
+"0.1.2-hotfix.2-linuxtest.2" = { url = "https://github.com/ksteve35/ScritchyScratchyAP/releases/download/v0.1.2-hotfix.2-linuxtest.2/scritchy_scratchy.apworld" }

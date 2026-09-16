@@ -1,0 +1,5 @@
+name = "Empire Earth"
+home = "https://github.com/povka/EmpireEarth_Archipelago"
+
+[versions]
+"0.1.0" = { url = "https://github.com/povka/EmpireEarth_Archipelago/releases/download/0.1.0/empire_earth.apworld" }

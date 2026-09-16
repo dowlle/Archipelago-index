@@ -1,0 +1,5 @@
+name = "Jak 3"
+home = "https://github.com/Blake645/Archipelago"
+
+[versions]
+"1.3.0" = { url = "https://github.com/Blake645/Archipelago/releases/download/1.3.0/jak3.apworld" }

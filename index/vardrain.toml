@@ -1,0 +1,5 @@
+name = "vardrain--"
+home = "https://github.com/flingoXD/Archipelago"
+
+[versions]
+"0.1.0" = { url = "https://github.com/flingoXD/Archipelago/releases/download/0.1.0/vardrain--.apworld" }

@@ -1,0 +1,5 @@
+name = "Control"
+home = "https://github.com/Alias-Cynestal/Archipelago"
+
+[versions]
+"1.2.0" = { url = "https://github.com/Alias-Cynestal/Archipelago/releases/download/v1.2.0/control.apworld" }

@@ -1,0 +1,5 @@
+name = "Nplusplus"
+home = "https://github.com/JRoeseph/NAP"
+
+[versions]
+"0.2" = { url = "https://github.com/JRoeseph/NAP/releases/download/v0.2/nplusplus.apworld" }

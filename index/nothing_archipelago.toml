@@ -1,0 +1,5 @@
+name = "nothing_archipelago"
+home = "https://github.com/Phllyphl/Nothing_Archipelago"
+
+[versions]
+"nothing_archipelago_v0.2.3" = { url = "https://github.com/Phllyphl/Nothing_Archipelago/releases/download/nothing_archipelago_v0.2.3/nothing_archipelago.apworld" }

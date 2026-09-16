@@ -1,0 +1,5 @@
+name = "Rhythm Tengoku"
+home = "https://github.com/TheLX5/Archipelago"
+
+[versions]
+"tengoku-v1.0.2" = { url = "https://github.com/TheLX5/Archipelago/releases/download/tengoku-v1.0.2/rhythm_tengoku.apworld" }

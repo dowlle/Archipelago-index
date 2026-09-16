@@ -1,0 +1,5 @@
+name = "bomberman_tournament"
+home = "https://github.com/Happyhappyism/Archipelago"
+
+[versions]
+"bombt-v0.0.10-alpha" = { url = "https://github.com/Happyhappyism/Archipelago/releases/download/bombt-v0.0.10-alpha/bomberman_tournament.apworld" }

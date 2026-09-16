@@ -1,0 +1,5 @@
+name = "crt_2026_seed_roller"
+home = "https://github.com/Ars-Ignis/Archipelago"
+
+[versions]
+"1.0.3-crt-seed-roller" = { url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v1.0.3-crt-seed-roller/crt_2026_seed_roller.apworld" }

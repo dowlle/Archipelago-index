@@ -1,0 +1,5 @@
+name = "Mental Omega"
+home = "https://github.com/Heinki/Mental-Omega-Randomizer"
+
+[versions]
+"1.38" = { url = "https://github.com/Heinki/Mental-Omega-Randomizer/releases/download/V1.38/mental_omega.apworld" }

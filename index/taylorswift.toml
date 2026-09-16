@@ -1,0 +1,5 @@
+name = "Taylor Swift Discography"
+home = "https://github.com/benny-dreamly/Archipelago"
+
+[versions]
+"ts-1.2.2" = { url = "https://github.com/benny-dreamly/Archipelago/releases/download/ts-1.2.2/taylorswift.apworld" }

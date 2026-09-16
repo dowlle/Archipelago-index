@@ -1,0 +1,5 @@
+name = "Animal Crossing: Wild World"
+home = "https://github.com/MikeFritzDevelops/ACWW-Archipelago"
+
+[versions]
+"0.1.2-alpha" = { url = "https://github.com/MikeFritzDevelops/ACWW-Archipelago/releases/download/v0.1.2-alpha/acww.apworld" }

@@ -1,0 +1,5 @@
+name = "Scooby-Doo! Unmasked"
+home = "https://github.com/Its-Retro/Archipelago"
+
+[versions]
+"0.2.1" = { url = "https://github.com/Its-Retro/Archipelago/releases/download/v0.2.1/scooby_doo_unmasked.apworld" }

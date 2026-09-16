@@ -1,0 +1,5 @@
+name = "PapaLouie2"
+home = "https://github.com/Lukeylion/Papa-Louie-2-AP"
+
+[versions]
+"ClientFix" = { url = "https://github.com/Lukeylion/Papa-Louie-2-AP/releases/download/ClientFix/PapaLouie2.apworld" }

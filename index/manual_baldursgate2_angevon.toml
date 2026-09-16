@@ -1,0 +1,5 @@
+name = "Manual_BaldursGate2_Angevon"
+home = "https://github.com/Angevon-1/manual_baldursgate2_angevon"
+
+[versions]
+"0.3.0" = { url = "https://github.com/Angevon-1/manual_baldursgate2_angevon/releases/download/0.3.0/manual_baldursgate2_angevon.apworld" }

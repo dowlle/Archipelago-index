@@ -1,0 +1,5 @@
+name = "Blue Sphere"
+home = "https://github.com/FlitPix/ap-bluesphere"
+
+[versions]
+"0.1.0" = { url = "https://github.com/FlitPix/ap-bluesphere/releases/download/v0.1.0/bluesphere.apworld" }

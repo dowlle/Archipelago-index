@@ -1,0 +1,5 @@
+name = "Seedling"
+home = ["https://github.com/madisonsilver/SeedlingArchipelagoWorld", "https://github.com/madisonsilver/Archipelago"]
+
+[versions]
+"0.2.3" = { url = "https://github.com/madisonsilver/Archipelago/releases/download/v0.2.3/seedling.apworld" }

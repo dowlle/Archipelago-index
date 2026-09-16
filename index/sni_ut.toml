@@ -1,0 +1,5 @@
+name = "sni_ut"
+home = "https://github.com/TheLX5/Archipelago"
+
+[versions]
+"sni-ut-v1.0.1" = { url = "https://github.com/TheLX5/Archipelago/releases/download/sni-ut-v1.0.1/sni_ut.apworld" }

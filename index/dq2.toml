@@ -1,0 +1,5 @@
+name = "DQ2"
+home = "https://github.com/BigBomba88/Archipelago"
+
+[versions]
+"0.0.3" = { url = "https://github.com/BigBomba88/Archipelago/releases/download/0.0.3/dq2.apworld" }

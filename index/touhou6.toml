@@ -1,0 +1,5 @@
+name = "Touhou 6"
+home = "https://github.com/Nepley/eosd-apworld"
+
+[versions]
+"0.13" = { url = "https://github.com/Nepley/eosd-apworld/releases/download/v0.13/touhou6.apworld" }

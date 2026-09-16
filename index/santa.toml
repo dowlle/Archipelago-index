@@ -1,0 +1,5 @@
+name = "Santa"
+home = "https://github.com/Ishigh1/Santa_AP"
+
+[versions]
+"1.1" = { url = "https://github.com/Ishigh1/Santa_AP/releases/download/1.1/santa.apworld" }

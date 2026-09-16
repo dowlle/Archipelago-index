@@ -1,0 +1,5 @@
+name = "Nicktoons: Battle for Volcano Island"
+home = "https://github.com/dylpill999/Nicktoons-BFVI-GBA-AP"
+
+[versions]
+"Archipelago" = { url = "https://github.com/dylpill999/Nicktoons-BFVI-GBA-AP/releases/download/Archipelago/nicktoons_bfvi.apworld" }

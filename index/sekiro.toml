@@ -1,0 +1,5 @@
+name = "Sekiro: Shadows Die Twice"
+home = "https://discord.com/channels/1085716850370957462/1530388679074513037"
+
+[versions]
+"1.0.1" = { url = "https://github.com/yenix4/ArchipelagoSekiro/releases/download/v1.0.1/sekiro.apworld" }

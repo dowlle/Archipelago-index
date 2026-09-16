@@ -1,0 +1,5 @@
+name = "Wedding Witch"
+home = "https://github.com/chickentuna/WeddingWitchMod"
+
+[versions]
+"0.1.0" = { url = "https://github.com/chickentuna/WeddingWitchMod/releases/download/v0.1.0/wedding_witch.apworld" }

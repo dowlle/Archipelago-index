@@ -1,0 +1,5 @@
+name = "Manual_VampireSurvivors_Jones"
+home = "https://github.com/wrjones104/manual_vampiresurvivors_jones"
+
+[versions]
+"1.9.2" = { url = "https://github.com/wrjones104/manual_vampiresurvivors_jones/releases/download/v1.9.2/manual_vampiresurvivors_jones.apworld" }

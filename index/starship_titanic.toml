@@ -1,0 +1,5 @@
+name = "Starship Titanic"
+home = "https://github.com/rescheer/Starship-Titanic-AP"
+
+[versions]
+"0.2.2" = { url = "https://github.com/rescheer/Starship-Titanic-AP/releases/download/v0.2.2/starship_titanic.apworld" }

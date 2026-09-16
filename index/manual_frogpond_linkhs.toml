@@ -1,0 +1,5 @@
+name = "Manual_FrogPond_linkhs"
+home = "https://github.com/linkhsCodesStuff/FrogPondAPManual"
+
+[versions]
+"1.0" = { url = "https://github.com/linkhsCodesStuff/FrogPondAPManual/releases/download/1.0/manual_frogpond_linkhs.apworld" }

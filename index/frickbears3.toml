@@ -1,0 +1,5 @@
+name = "Five Nights at Frickbear's 3"
+home = "https://github.com/Hen2Pen/Frickbears3-AP"
+
+[versions]
+"1.0.2" = { url = "https://github.com/Hen2Pen/Frickbears3-AP/releases/download/v1.0.2/frickbears3.apworld" }

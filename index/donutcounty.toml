@@ -1,0 +1,5 @@
+name = "Donut County"
+home = "https://github.com/1e1001/DonutCountyAP"
+
+[versions]
+"0.2.0-preview.1" = { url = "https://github.com/1e1001/DonutCountyAP/releases/download/v0.2.0-preview.1/donutcounty.apworld" }

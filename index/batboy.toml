@@ -1,0 +1,5 @@
+name = "batboy"
+home = "https://github.com/alwaysintreble/Archipelago.BatBoy"
+
+[versions]
+"0.1.6" = { url = "https://github.com/alwaysintreble/Archipelago.BatBoy/releases/download/v0.1.6/batboy.apworld" }

@@ -1,0 +1,5 @@
+name = "Scorpion Swamp"
+home = "https://github.com/LegendofFantasy/Archipelago"
+
+[versions]
+"scorpion-swamp-1.0.1" = { url = "https://github.com/LegendofFantasy/Archipelago/releases/download/scorpion-swamp-1.0.1/scorpion_swamp.apworld" }

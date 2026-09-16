@@ -1,0 +1,5 @@
+name = "Crossword"
+home = "https://github.com/jm771/apworld_crossword"
+
+[versions]
+"0.1.6" = { url = "https://github.com/jm771/apworld_crossword/releases/download/v0.1.6/crossword.apworld" }

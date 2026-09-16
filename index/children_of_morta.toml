@@ -1,0 +1,5 @@
+name = "Children of Morta"
+home = "https://github.com/BocikPG/Children-Of-Morta-Archipelago-Randomizer-Mod"
+
+[versions]
+"0.2.0" = { url = "https://github.com/BocikPG/Children-Of-Morta-Archipelago-Randomizer-Mod/releases/download/v0.2.0/children_of_morta.apworld" }

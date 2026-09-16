@@ -1,0 +1,5 @@
+name = "Manual_Fellowship_Chakraa"
+home = "https://github.com/ChakraaThePanda/Archipelago-Manual-Fellowship"
+
+[versions]
+"2026.09.12" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-Fellowship/releases/download/2026.09.12/manual_fellowship_chakraa.apworld" }

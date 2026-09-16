@@ -1,0 +1,5 @@
+name = "Johnny Upgrade"
+home = "https://github.com/barretg/johnny-upgrade-ap"
+
+[versions]
+"1.4.1" = { url = "https://github.com/barretg/johnny-upgrade-ap/releases/download/v1.4.1/johnny_upgrade.apworld" }

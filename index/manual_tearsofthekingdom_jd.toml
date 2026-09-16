@@ -1,0 +1,5 @@
+name = "Manual_TearsoftheKingdom_JD"
+home = "https://github.com/JDLKMR/TotK-APManual"
+
+[versions]
+"1.1.0" = { url = "https://github.com/JDLKMR/TotK-APManual/releases/download/v1.1.0/manual_tearsofthekingdom_jd.apworld" }

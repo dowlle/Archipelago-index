@@ -1,0 +1,5 @@
+name = "V Rising"
+home = "https://github.com/dghalfor/V-Rising-APWorld"
+
+[versions]
+"0.3.2" = { url = "https://github.com/dghalfor/V-Rising-APWorld/releases/download/0.3.2/vrising.apworld" }

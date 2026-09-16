@@ -1,0 +1,5 @@
+name = "Dragon Quest III HD-2D Remake"
+home = "https://github.com/ZigzagAwaka/DQ3AP"
+
+[versions]
+"0.3.1" = { url = "https://github.com/ZigzagAwaka/DQ3AP/releases/download/v0.3.1/dq3.apworld" }

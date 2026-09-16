@@ -1,0 +1,5 @@
+name = "Manual_Goldeneye007_VincentsSin"
+home = "https://github.com/VincentsSin/Goldeneye007-Maunual_AP"
+
+[versions]
+"1.4.1" = { url = "https://github.com/VincentsSin/Goldeneye007-Maunual_AP/releases/download/v1.4.1/manual_goldeneye007_vincentssin.apworld" }

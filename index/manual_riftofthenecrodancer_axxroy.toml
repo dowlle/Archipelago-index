@@ -1,0 +1,5 @@
+name = "Manual_RiftoftheNecrodancer_Axxroy"
+home = "https://github.com/axxroytovu/archipelago_manuals"
+
+[versions]
+"rift_0.1.0" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/rift_0.1.0/manual_riftofthenecrodancer_axxroy.apworld" }

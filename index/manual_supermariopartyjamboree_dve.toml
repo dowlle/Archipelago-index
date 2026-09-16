@@ -1,0 +1,5 @@
+name = "Manual_SuperMarioPartyJamboree_DVe"
+home = "https://github.com/TheBadNoob/Super-Mario-Party-Jamboree-Archipelago-Randomizer-Manual"
+
+[versions]
+"1.1" = { url = "https://github.com/TheBadNoob/Super-Mario-Party-Jamboree-Archipelago-Randomizer-Manual/releases/download/v1.1/manual_supermariopartyjamboree_dve.apworld" }

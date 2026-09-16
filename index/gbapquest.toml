@@ -1,0 +1,5 @@
+name = "GBAPQuest"
+home = "https://github.com/Meliacci/Archipelago"
+
+[versions]
+"GBAPQuestV0.1.0" = { url = "https://github.com/Meliacci/Archipelago/releases/download/GBAPQuestV0.1.0/gbapquest.apworld" }

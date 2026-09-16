@@ -1,0 +1,5 @@
+name = "Logic Test"
+home = "https://github.com/palex00/Archipelago"
+
+[versions]
+"logic-test-0.3.1" = { url = "https://github.com/palex00/Archipelago/releases/download/logic-test-0.3.1/logic_test.apworld" }

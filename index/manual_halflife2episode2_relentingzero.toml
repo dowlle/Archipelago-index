@@ -1,0 +1,5 @@
+name = "Manual_HalfLife2Episode2_RelentingZero"
+home = "https://github.com/RelentingZero/HL2-APManual"
+
+[versions]
+"2.1" = { url = "https://github.com/RelentingZero/HL2-APManual/releases/download/2.1/manual_halflife2episode2_relentingzero.apworld" }

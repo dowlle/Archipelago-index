@@ -1,0 +1,5 @@
+name = "FFPS"
+home = "https://github.com/EviVirus/Archipelago-FNaFW"
+
+[versions]
+"FFPS-v1.0.0-pre1" = { url = "https://github.com/EviVirus/Archipelago-FNaFW/releases/download/FFPS-v1.0.0-pre1/ffps.apworld" }

@@ -1,0 +1,5 @@
+name = "IAmYourBeast"
+home = "https://github.com/petiboy7/IAYBArchipelago"
+
+[versions]
+"0.3.4" = { url = "https://github.com/petiboy7/IAYBArchipelago/releases/download/0.3.4/i_am_your_beast.apworld" }

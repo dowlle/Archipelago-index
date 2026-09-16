@@ -1,0 +1,5 @@
+name = "RE3Remake"
+home = "https://github.com/TheRealSolidusSnake/RE3R_AP_World"
+
+[versions]
+"0.2.99" = { url = "https://github.com/TheRealSolidusSnake/RE3R_AP_World/releases/download/0.2.99/re3remake.apworld" }

@@ -1,0 +1,5 @@
+name = "MathQuest"
+home = "https://github.com/rsa17826/mqap"
+
+[versions]
+"11" = { url = "https://github.com/rsa17826/mqap/releases/download/11/mathquest.apworld" }

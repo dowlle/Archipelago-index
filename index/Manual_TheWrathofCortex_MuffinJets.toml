@@ -1,0 +1,5 @@
+name = "Manual_TheWrathofCortex_MuffinJets"
+home = "https://github.com/muffinjets/Manual_TheWrathofCortex_MuffinJets"
+
+[versions]
+"1.0.1" = { url = "https://github.com/muffinjets/Manual_TheWrathofCortex_MuffinJets/releases/download/v1.0.1/Manual_TheWrathofCortex_MuffinJets.apworld" }

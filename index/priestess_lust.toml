@@ -1,0 +1,5 @@
+name = "Priestess Lust"
+home = "https://github.com/SeesawEffectt/ArchipelagoEffect"
+
+[versions]
+"0.0.1" = { url = "https://github.com/SeesawEffectt/ArchipelagoEffect/releases/download/v0.0.1/priestess_lust.apworld" }

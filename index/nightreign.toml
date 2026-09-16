@@ -1,0 +1,5 @@
+name = "Elden Ring Nightreign"
+home = "https://github.com/jacksonstubblefield/nightreign-ap"
+
+[versions]
+"0.3.3" = { url = "https://github.com/jacksonstubblefield/nightreign-ap/releases/download/v0.3.3/nightreign.apworld" }

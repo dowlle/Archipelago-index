@@ -1,0 +1,5 @@
+name = "Uncanny Cat Golf"
+home = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG"
+
+[versions]
+"1.0.5" = { url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG/releases/download/1.0.5/ucg.apworld" }

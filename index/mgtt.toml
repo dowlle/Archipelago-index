@@ -1,0 +1,5 @@
+name = "Mario Golf: Toadstool Tour"
+home = "https://github.com/JackalopeSJ/MGTT-Archipelago"
+
+[versions]
+"1.0.4" = { url = "https://github.com/JackalopeSJ/MGTT-Archipelago/releases/download/v1.0.4/mgtt.apworld" }

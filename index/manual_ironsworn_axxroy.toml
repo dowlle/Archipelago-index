@@ -1,0 +1,5 @@
+name = "manual_ironsworn_axxroy"
+home = "https://github.com/axxroytovu/archipelago_manuals"
+
+[versions]
+"Ironsworn_1.0.0" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Ironsworn_1.0.0/manual_ironsworn_axxroy.apworld" }

@@ -1,0 +1,5 @@
+name = "Manual_MarioKart7Local_BigBradley"
+home = "https://github.com/BigBradley/Mario-Kart-7-Manual-APworld"
+
+[versions]
+"1.0" = { url = "https://github.com/BigBradley/Mario-Kart-7-Manual-APworld/releases/download/V1.0/manual_mariokart7local_bigbradley.apworld" }

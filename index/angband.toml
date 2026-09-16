@@ -1,0 +1,5 @@
+name = "Angband"
+home = "https://github.com/zane31415/APangband"
+
+[versions]
+"0.2.0" = { url = "https://github.com/zane31415/APangband/releases/download/v0.2.0/angband.apworld" }

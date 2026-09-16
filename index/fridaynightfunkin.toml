@@ -1,0 +1,5 @@
+name = "Friday Night Funkin"
+home = "https://github.com/Z11Coding/Mixtape-Engine-Rework"
+
+[versions]
+"beta13.2" = { url = "https://github.com/Z11Coding/Mixtape-Engine-Rework/releases/download/beta13.2/fridaynightfunkin.apworld" }

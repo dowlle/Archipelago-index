@@ -1,0 +1,5 @@
+name = "Manual_THMusic_Awesome7285"
+home = "https://github.com/Awesome7285/manual_thmusic_awesome7285"
+
+[versions]
+"0.1.5r2" = { url = "https://github.com/Awesome7285/manual_thmusic_awesome7285/releases/download/v0.1.5/manual_thmusic_awesome7285.apworld" }

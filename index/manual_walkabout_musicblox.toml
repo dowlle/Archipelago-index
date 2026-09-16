@@ -1,0 +1,5 @@
+name = "Manual_Walkabout_MusicBlox"
+home = "https://github.com/energymaster22/walkabout-mini-golf-ap-manual"
+
+[versions]
+"2.3.0" = { url = "https://github.com/energymaster22/walkabout-mini-golf-ap-manual/releases/download/2.3.0/manual_walkabout_musicblox.apworld" }

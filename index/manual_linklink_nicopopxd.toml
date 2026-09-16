@@ -1,0 +1,5 @@
+name = "Manual_LinkLink_Nicopopxd"
+home = "https://github.com/nicopop/linklink"
+
+[versions]
+"1.2.1" = { url = "https://github.com/nicopop/linklink/releases/download/1.2.1/manual_linklink_nicopopxd.apworld" }

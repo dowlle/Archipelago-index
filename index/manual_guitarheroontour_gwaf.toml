@@ -1,0 +1,5 @@
+name = "Manual_GuitarHeroOnTour_GWAF"
+home = "https://github.com/GirlWithoutAFairy/Official-GH-and-RB-AP-Manuals"
+
+[versions]
+"25.12.11" = { url = "https://github.com/GirlWithoutAFairy/Official-GH-and-RB-AP-Manuals/releases/download/25.12.11/manual_guitarheroontour_gwaf.apworld" }

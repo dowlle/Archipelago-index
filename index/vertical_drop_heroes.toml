@@ -1,0 +1,5 @@
+name = "Vertical Drop Heroes HD"
+home = "https://github.com/zane31415/APVerticalDropHeroesHD"
+
+[versions]
+"0.4.0" = { url = "https://github.com/zane31415/APVerticalDropHeroesHD/releases/download/v0.4.0/vertical_drop_heroes.apworld" }

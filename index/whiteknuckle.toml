@@ -1,0 +1,5 @@
+name = "White Knuckle"
+home = "https://github.com/Makshime/White-Knuckle-Archipelago"
+
+[versions]
+"Release" = { url = "https://github.com/Makshime/White-Knuckle-Archipelago/releases/download/Release/whiteknuckle.apworld" }

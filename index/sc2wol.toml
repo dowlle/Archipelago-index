@@ -1,0 +1,5 @@
+name = "sc2wol"
+home = "https://github.com/Ziktofel/Archipelago"
+
+[versions]
+"sc2-beta-after-044" = { url = "https://github.com/Ziktofel/Archipelago/releases/download/sc2-beta-after-044/sc2wol.apworld" }

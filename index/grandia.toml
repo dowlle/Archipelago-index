@@ -1,0 +1,5 @@
+name = "Grandia"
+home = "https://github.com/Wakamu/Grandiarchipelago"
+
+[versions]
+"0.15.0" = { url = "https://github.com/Wakamu/Grandiarchipelago/releases/download/0.15.0/grandia.apworld" }

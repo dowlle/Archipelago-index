@@ -1,0 +1,5 @@
+name = "ZALiA"
+home = "https://github.com/randomcodegen/ZALiA_ap"
+
+[versions]
+"1.0.3r5" = { url = "https://github.com/randomcodegen/ZALiA_ap/releases/download/1.0.3/zalia.apworld" }

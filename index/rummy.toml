@@ -1,0 +1,5 @@
+name = "AP-Rummy"
+home = "https://github.com/Miiroun/ap-rummy"
+
+[versions]
+"1.0.0" = { url = "https://github.com/Miiroun/ap-rummy/releases/download/v1.0.0/rummy.apworld" }

@@ -1,0 +1,5 @@
+name = "Horse Magnifier"
+home = "https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client"
+
+[versions]
+"1.2.0" = { url = "https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client/releases/download/V1.2.0/horse_magnifier.apworld" }

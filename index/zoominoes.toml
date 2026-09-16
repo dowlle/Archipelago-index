@@ -1,0 +1,5 @@
+name = "Zoominoes"
+home = "https://github.com/chickentuna/Archipelago-Zoominoes"
+
+[versions]
+"0.1.1r2" = { url = "https://github.com/chickentuna/Archipelago-Zoominoes/releases/download/v0.1.1/zoominoes.apworld" }

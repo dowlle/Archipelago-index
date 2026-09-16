@@ -1,0 +1,5 @@
+name = "Manual_TheVault_Chakraa"
+home = "https://github.com/ChakraaThePanda/Archipelago-Manual-TheVault"
+
+[versions]
+"2026.09.12" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-TheVault/releases/download/2026.09.12/manual_thevault_chakraa.apworld" }

@@ -1,0 +1,5 @@
+name = "Dungeon Clawler"
+home = "https://github.com/agilbert1412/Clawrchipelago"
+
+[versions]
+"1.0.3" = { url = "https://github.com/agilbert1412/Clawrchipelago/releases/download/1.0.3/dungeon_clawler_1.0.3.apworld" }

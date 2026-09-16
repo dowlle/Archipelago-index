@@ -1,0 +1,5 @@
+name = "Manual_TaleofTwoWastelands_FallenKingdoms"
+home = "https://github.com/111222111/Tale-of-Two-Wastelands"
+
+[versions]
+"Beta_2.5.0" = { url = "https://github.com/111222111/Tale-of-Two-Wastelands/releases/download/Beta_2.5.0/manual_taleoftwowastelands_fallenkingdoms.apworld" }

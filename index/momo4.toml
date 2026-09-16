@@ -1,0 +1,5 @@
+name = "Momodora 4 - Reverie Under the Moonlight"
+home = "https://github.com/ordinary-magic/MomodoraArchipelagoRandomizer"
+
+[versions]
+"1.0.3" = { url = "https://github.com/ordinary-magic/MomodoraArchipelagoRandomizer/releases/download/v1.0.3/momo4.apworld" }

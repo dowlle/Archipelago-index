@@ -1,0 +1,5 @@
+name = "Natural Disaster Survival"
+home = "https://github.com/KLanausse/MultiworldGG"
+
+[versions]
+"Natural-Disaster-Survival" = { url = "https://github.com/KLanausse/MultiworldGG/releases/download/Natural-Disaster-Survival/nds.apworld" }

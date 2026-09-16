@@ -1,0 +1,5 @@
+name = "Super Mario Bros."
+home = "https://github.com/JuanFunkin/Super-Mario-Bros.-NES---Archipelago"
+
+[versions]
+"SMB1_ARCHIPELAGO_0.2" = { url = "https://github.com/JuanFunkin/Super-Mario-Bros.-NES---Archipelago/releases/download/SMB1_ARCHIPELAGO_0.2/smb1.apworld" }

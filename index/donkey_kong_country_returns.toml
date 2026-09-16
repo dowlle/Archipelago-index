@@ -1,0 +1,5 @@
+name = "Donkey Kong Country Returns"
+home = "https://github.com/CallmeZewo/DKCR_APWorld"
+
+[versions]
+"0.1.2-beta" = { url = "https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v0.1.2-beta/donkey_kong_country_returns.apworld" }

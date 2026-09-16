@@ -1,0 +1,5 @@
+name = "manual_penkopark_axxroy"
+home = "https://github.com/axxroytovu/archipelago_manuals"
+
+[versions]
+"Penko_0.0.1" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Penko_0.0.1/manual_penkopark_axxroy.apworld" }

@@ -1,0 +1,5 @@
+name = "Manual_theHunterCotWTrophyHunt_Camoufladies"
+home = "https://github.com/Nikkilites/Archipelago-Manuals"
+
+[versions]
+"theHunterCotW_v0.1.0" = { url = "https://github.com/Nikkilites/Archipelago-Manuals/releases/download/theHunterCotW_v0.1.0/manual_thehuntercotwtrophyhunt_camoufladies.apworld" }

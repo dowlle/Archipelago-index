@@ -1,0 +1,5 @@
+name = "Bugsnax"
+home = "https://github.com/robofett28/bugsnax_ap_world"
+
+[versions]
+"0.1.1-alpha" = { url = "https://github.com/robofett28/bugsnax_ap_world/releases/download/v0.1.1-alpha/bugsnax.apworld" }

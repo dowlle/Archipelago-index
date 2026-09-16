@@ -1,0 +1,5 @@
+name = "SUPERHOT: MIND CONTROL DELETE"
+home = "https://github.com/Temperz87/SUPERHOT_MCD_Archipelago"
+
+[versions]
+"0.0.0.0.0.1" = { url = "https://github.com/Temperz87/SUPERHOT_MCD_Archipelago/releases/download/0.0.0.0.0.1/superhot_mcd.apworld" }

@@ -1,0 +1,5 @@
+name = "Manual_TeamFortress2_Axxroy"
+home = "https://github.com/axxroytovu/archipelago_manuals"
+
+[versions]
+"TF2_0.0.1" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/TF2_0.0.1/manual_teamfortress2_axxroy.apworld" }

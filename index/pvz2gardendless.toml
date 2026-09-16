@@ -1,0 +1,5 @@
+name = "PvZ2 Gardendless"
+home = "https://github.com/kurt-cole/pvz2ge-ap"
+
+[versions]
+"0.3.1" = { url = "https://github.com/kurt-cole/pvz2ge-ap/releases/download/v0.3.1/pvz2gardendless.apworld" }

@@ -1,0 +1,5 @@
+name = "Civilization IV"
+home = "https://github.com/VincentBorchardt/Civ4-Archipelago-Mod"
+
+[versions]
+"Alpha_0_2_1" = { url = "https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/download/Alpha_0_2_1/civ_4.apworld" }

@@ -1,0 +1,5 @@
+name = "Mathbreakers"
+home = "https://github.com/rsa17826/mbap"
+
+[versions]
+"3" = { url = "https://github.com/rsa17826/mbap/releases/download/3/mathbreakers.apworld" }

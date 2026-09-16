@@ -1,0 +1,5 @@
+name = "Gauntlet Legends"
+home = "https://github.com/jamesbrq/GauntletLegendsAP"
+
+[versions]
+"Alpha-4" = { url = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/Alpha-4/gauntlet_legends.apworld" }

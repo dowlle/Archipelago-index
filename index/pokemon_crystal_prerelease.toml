@@ -1,0 +1,5 @@
+name = "Pokemon Crystal Prerelease"
+home = "https://github.com/gerbiljames/Archipelago-Crystal"
+
+[versions]
+"6.0.0-rc.1" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-rc.1/pokemon_crystal_prerelease.apworld" }

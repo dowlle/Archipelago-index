@@ -1,0 +1,5 @@
+name = "Bat to the Heavens"
+home = "https://github.com/NathanW001/BTTHArchipelago"
+
+[versions]
+"0.1.02" = { url = "https://github.com/NathanW001/BTTHArchipelago/releases/download/0.1.02/bat_to_the_heavens.apworld" }

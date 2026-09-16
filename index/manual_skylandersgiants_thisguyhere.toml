@@ -1,0 +1,5 @@
+name = "Manual_SkylandersGiants_ThisGuyHere"
+home = "https://github.com/IThisGuyHere/SkylandersGiants_Manual"
+
+[versions]
+"1.1.1" = { url = "https://github.com/IThisGuyHere/SkylandersGiants_Manual/releases/download/v1.1.1/manual_skylandersgiants_thisguyhere.apworld" }

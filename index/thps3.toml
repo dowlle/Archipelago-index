@@ -1,0 +1,5 @@
+name = "Tony Hawk's Pro Skater 3"
+home = "https://github.com/randomcodegen/partymod-thps3_ap"
+
+[versions]
+"1.0.5" = { url = "https://github.com/randomcodegen/partymod-thps3_ap/releases/download/1.0.5/thps3.apworld" }

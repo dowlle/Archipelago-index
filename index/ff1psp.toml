@@ -1,0 +1,5 @@
+name = "Final Fantasy 1 PSP"
+home = "https://github.com/1-800-thewolf/FF1PSP-Archipelago"
+
+[versions]
+"0.2.3" = { url = "https://github.com/1-800-thewolf/FF1PSP-Archipelago/releases/download/v0.2.3/ff1psp.apworld" }

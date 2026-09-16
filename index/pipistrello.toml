@@ -1,0 +1,5 @@
+name = "Pipistrello and the Cursed Yoyo"
+home = "https://github.com/CertifiedPyro/PipistrelloArchipelago"
+
+[versions]
+"0.3.0" = { url = "https://github.com/CertifiedPyro/PipistrelloArchipelago/releases/download/v0.3.0/pipistrello.apworld" }

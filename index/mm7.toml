@@ -1,0 +1,5 @@
+name = "Mega Man 7"
+home = "https://github.com/SanchoBob8/Archipelago-MM7"
+
+[versions]
+"0.4.0" = { url = "https://github.com/SanchoBob8/Archipelago-MM7/releases/download/v0.4.0/mm7.apworld" }

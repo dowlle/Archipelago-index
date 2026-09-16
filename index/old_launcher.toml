@@ -1,0 +1,5 @@
+name = "Old Launcher"
+home = "https://github.com/silasary/Archipelago"
+
+[versions]
+"old_launcher-1.0.0" = { url = "https://github.com/silasary/Archipelago/releases/download/old_launcher-1.0.0/old_launcher.apworld" }

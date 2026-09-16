@@ -1,0 +1,5 @@
+name = "Torture Client"
+home = "https://github.com/ElectroStarz/Torture-AP-Client"
+
+[versions]
+"0.0.4" = { url = "https://github.com/ElectroStarz/Torture-AP-Client/releases/download/v0.0.4/torture_client.apworld" }

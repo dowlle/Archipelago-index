@@ -1,0 +1,5 @@
+name = "Discord Rich Presence"
+home = "https://github.com/SerpentAI/Archipelago"
+
+[versions]
+"rich-presence-003" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/rich-presence-003/rich_presence.apworld" }

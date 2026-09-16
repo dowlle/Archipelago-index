@@ -1,0 +1,5 @@
+name = "Manual_Meteos_Konoko"
+home = "https://github.com/Gameplushy/manual_Meteos_Konoko"
+
+[versions]
+"1.2" = { url = "https://github.com/Gameplushy/manual_Meteos_Konoko/releases/download/v1.2/manual_Meteos_Konoko.apworld" }

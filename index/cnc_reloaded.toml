@@ -1,0 +1,5 @@
+name = "C&C Reloaded"
+home = "https://github.com/Heinki/Reloaded-Randomizer"
+
+[versions]
+"1.2" = { url = "https://github.com/Heinki/Reloaded-Randomizer/releases/download/V1.2/cnc_reloaded.apworld" }

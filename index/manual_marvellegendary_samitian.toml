@@ -1,0 +1,5 @@
+name = "Manual_MarvelLegendary_Samitian"
+home = "https://github.com/Samitian/Marvel-Legendary-ManualAP"
+
+[versions]
+"0.4.1" = { url = "https://github.com/Samitian/Marvel-Legendary-ManualAP/releases/download/v0.4.1/manual_marvellegendary_samitian.apworld" }

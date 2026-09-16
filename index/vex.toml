@@ -1,0 +1,5 @@
+name = "Vex2"
+home = "https://github.com/rsa17826/vex2-ap"
+
+[versions]
+"2" = { url = "https://github.com/rsa17826/vex2-ap/releases/download/2/vex2.apworld" }

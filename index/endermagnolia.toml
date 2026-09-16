@@ -1,0 +1,5 @@
+name = "Ender Magnolia"
+home = "https://github.com/Trexounay/EnderLilies.Archipelago"
+
+[versions]
+"endermagnolia-v0.1.7" = { url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.1.7/endermagnolia.apworld" }
