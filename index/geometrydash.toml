@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "1.0.0a9" = { url = "https://github.com/matorblal-byte/ArchipelagoGD2/releases/download/v1.0.0-alpha.9/geometrydash.apworld" }
+"1.0.0-alpha.12-pr" = { url = "https://github.com/matorblal-byte/ArchipelagoGD2/releases/download/v1.0.0-alpha.12-pr/geometrydash.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0a9"
