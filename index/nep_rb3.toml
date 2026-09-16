@@ -1,0 +1,7 @@
+name = "Nep Rb3"
+home = "https://github.com/vegemiiBG/Archipelago-NepRb3"
+default_url = "https://github.com/vegemiiBG/Archipelago-NepRb3/releases/download/v{{version}}/nep_rb3.apworld"
+stability = "untested"
+
+[versions]
+"0.2.0" = {}
