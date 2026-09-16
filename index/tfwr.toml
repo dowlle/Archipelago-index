@@ -1,0 +1,7 @@
+name = "Tfwr"
+home = "https://github.com/seadoggie001/TFWR-APMod"
+default_url = "https://github.com/seadoggie001/TFWR-APMod/releases/download/v{{version}}-beta/tfwr.apworld"
+stability = "untested"
+
+[versions]
+"0.0.9" = {}
