@@ -1,0 +1,7 @@
+name = "Undertale2"
+home = "https://github.com/studkid/Undertale2-AP"
+default_url = "https://github.com/studkid/Undertale2-AP/releases/download/v{{version}}/undertale2.apworld"
+stability = "untested"
+
+[versions]
+"0.2.7" = {}
