@@ -1,0 +1,7 @@
+name = "Manual Lonelywolftreatthecompleteseries Ellie53"
+home = "https://github.com/Ellie53real/ellies-manuals"
+default_url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LWT-v{{version}}/manual_lonelywolftreatthecompleteseries_ellie53.apworld"
+stability = "untested"
+
+[versions]
+"1.1.1" = {}
