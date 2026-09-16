@@ -7,6 +7,7 @@ tracker = "https://discord.com/channels/731205301247803413/1217788850034708480/1
 
 [versions]
 "0.1.2" = {}
+"0.2.5" = {}
 
 [[fuzz_results]]
 version = "0.1.2"
