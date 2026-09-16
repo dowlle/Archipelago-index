@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "4" = { url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/download/hacknet-alpha-4/hacknet.apworld" }
+"hacknet-1.0.0" = { url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/download/hacknet-1.0.0/hacknet.apworld" }
 
 [[fuzz_results]]
 version = "4"
