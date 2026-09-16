@@ -6,6 +6,7 @@ stability = "unstable"
 [versions]
 "0.7.0-alpha" = {}
 "0.7.1-alpha" = {}
+"0.11.3-beta" = { url = "https://github.com/TwinklePillar/Spark3-Archipelago/releases/download/v0.11.3-beta/spark3.apworld" }
 
 [[fuzz_results]]
 version = "0.7.0-alpha"
