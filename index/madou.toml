@@ -1,0 +1,7 @@
+name = "Madou"
+home = "https://github.com/Witchybun/Archipelago"
+default_url = "https://github.com/Witchybun/Archipelago/releases/download/MadouMonogatari{{version}}/madou.apworld"
+stability = "untested"
+
+[versions]
+"106" = {}
