@@ -1,4 +1,5 @@
 name = "Muse Dash"
+setup_guide = "https://archipelago.gg/tutorial/Muse%20Dash/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

@@ -1,4 +1,5 @@
 name = "Castlevania 64"
+setup_guide = "https://archipelago.gg/tutorial/Castlevania%2064/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

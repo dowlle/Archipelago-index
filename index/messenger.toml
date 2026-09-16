@@ -1,4 +1,5 @@
 name = "The Messenger"
+setup_guide = "https://archipelago.gg/tutorial/The%20Messenger/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

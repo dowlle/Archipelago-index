@@ -1,4 +1,5 @@
 name = "Paint"
+setup_guide = "https://archipelago.gg/tutorial/Paint/guide_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

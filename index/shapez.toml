@@ -1,4 +1,5 @@
 name = "shapez"
+setup_guide = "https://archipelago.gg/tutorial/shapez/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "unstable"

@@ -1,4 +1,5 @@
 name = "Meritous"
+setup_guide = "https://archipelago.gg/tutorial/Meritous/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

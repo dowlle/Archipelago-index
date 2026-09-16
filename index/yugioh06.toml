@@ -1,4 +1,5 @@
 name = "Yu-Gi-Oh! 2006"
+setup_guide = "https://archipelago.gg/tutorial/Yu-Gi-Oh!%202006/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

@@ -1,4 +1,5 @@
 name = "Shivers"
+setup_guide = "https://archipelago.gg/tutorial/Shivers/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

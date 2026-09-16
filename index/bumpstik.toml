@@ -1,4 +1,5 @@
 name = "Bumper Stickers"
+setup_guide = "https://archipelago.gg/tutorial/Bumper%20Stickers/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

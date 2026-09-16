@@ -1,4 +1,5 @@
 name = "A Hat in Time"
+setup_guide = "https://archipelago.gg/tutorial/A%20Hat%20in%20Time/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

@@ -1,4 +1,5 @@
 name = "Terraria"
+setup_guide = "https://archipelago.gg/tutorial/Terraria/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

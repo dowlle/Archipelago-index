@@ -1,4 +1,5 @@
 name = "Secret of Evermore"
+setup_guide = "https://archipelago.gg/tutorial/Secret%20of%20Evermore/multiworld_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

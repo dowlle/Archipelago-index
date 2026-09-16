@@ -1,4 +1,5 @@
 name = "Civilization VI"
+setup_guide = "https://archipelago.gg/tutorial/Civilization%20VI/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

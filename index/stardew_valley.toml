@@ -1,4 +1,5 @@
 name = "Stardew Valley"
+setup_guide = "https://archipelago.gg/tutorial/Stardew%20Valley/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

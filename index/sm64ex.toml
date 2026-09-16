@@ -1,4 +1,5 @@
 name = "Super Mario 64"
+setup_guide = "https://archipelago.gg/tutorial/Super%20Mario%2064/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "unstable"

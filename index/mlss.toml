@@ -1,4 +1,5 @@
 name = "Mario & Luigi Superstar Saga"
+setup_guide = "https://archipelago.gg/tutorial/Mario%20&%20Luigi%20Superstar%20Saga/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"
