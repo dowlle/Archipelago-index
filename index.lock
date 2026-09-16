@@ -787,6 +787,7 @@
 [spark3]
 "0.7.0-alpha" = "9b06b4d8ad6b1d43ed47ebfde8b8ec02ad4bd4a0b477de05c430e9a5dc0117e4"
 "0.7.1-alpha" = "9b06b4d8ad6b1d43ed47ebfde8b8ec02ad4bd4a0b477de05c430e9a5dc0117e4"
+"0.11.3-beta" = "4281031892af3f6beba34c428202a1037ce79bc119f2ca7221fff1c815e40f4e"
 
 [spelclassic]
 "0.1.0" = "07464eb5da3490ae9edf2173e704c9feafb3178b4bddd0cbb235845ccd7e8cd0"
