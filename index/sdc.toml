@@ -1,0 +1,7 @@
+name = "Sdc"
+home = "https://github.com/KitLemonfoot/ArchipelagoSDC"
+default_url = "https://github.com/KitLemonfoot/ArchipelagoSDC/releases/download/v{{version}}/sdc.apworld"
+stability = "untested"
+
+[versions]
+"0.4.0" = {}
