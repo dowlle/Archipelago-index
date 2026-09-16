@@ -1,0 +1,7 @@
+name = "Jurassic Park"
+home = "https://github.com/Anguirel86/Archipelago"
+default_url = "https://github.com/Anguirel86/Archipelago/releases/download/JP-{{version}}/jurassic_park.apworld"
+stability = "untested"
+
+[versions]
+"0.0.1" = {}
