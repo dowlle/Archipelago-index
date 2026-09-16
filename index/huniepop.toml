@@ -6,6 +6,7 @@ stability = "stable"
 [versions]
 
 "2.2.0" = { url = "https://github.com/DotsofdarknessArchipelago/HuniePopArchipelago/releases/download/V2.2.0/huniepop.apworld" }
+"V2.3.1" = {}
 
 [[fuzz_results]]
 version = "2.2.0"
