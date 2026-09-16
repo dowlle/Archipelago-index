@@ -1,0 +1,7 @@
+name = "Qualatro"
+home = "https://github.com/600billionlazer/QualatroAP"
+default_url = "https://github.com/600billionlazer/QualatroAP/releases/download/v{{version}}/qualatro.apworld"
+stability = "untested"
+
+[versions]
+"0.1.9f.0q" = {}
