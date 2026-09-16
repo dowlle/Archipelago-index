@@ -1,0 +1,6 @@
+name = "Rogue Legacy 2"
+home = "https://github.com/zaphim12/RL2Archipelago"
+stability = "untested"
+
+[versions]
+"0.1.0" = { url = "https://github.com/zaphim12/RL2Archipelago/releases/download/v1.1.3/rogue_legacy_2.apworld" }
