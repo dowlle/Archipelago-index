@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.1.0.post2" = { url = "https://github.com/Aeromaze/Archipelago/releases/download/v0.1.2/easy_delivery_co.apworld" }
+"0.2.3" = { url = "https://github.com/Aeromaze/Archipelago/releases/download/v0.2.3/easy_delivery_co.apworld" }
 
 [[fuzz_results]]
 version = "0.1.0.post2"
