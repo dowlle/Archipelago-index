@@ -1,0 +1,6 @@
+name = "Pokeclicker"
+home = "https://github.com/Hallstead/AP-Pokeclicker"
+stability = "untested"
+
+[versions]
+"2.0.0" = { url = "https://github.com/Hallstead/AP-Pokeclicker/releases/download/Apworld-v0.1.2-Faster/pokeclicker.apworld" }
