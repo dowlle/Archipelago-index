@@ -1,0 +1,7 @@
+name = "Marbles Balance Challenge"
+home = "https://github.com/mariokirby1703/Lumas-Archipelago"
+default_url = "https://github.com/mariokirby1703/Lumas-Archipelago/releases/download/marbles_balance_challenge_v{{version}}/marbles_balance_challenge.apworld"
+stability = "untested"
+
+[versions]
+"0.2.1" = {}
