@@ -1,0 +1,7 @@
+name = "Pokemon Pinball"
+home = "https://github.com/Happyhappyism/Archipelago"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/pokepinball_v{{version}}/pokemon_pinball.apworld"
+stability = "untested"
+
+[versions]
+"0.0.4" = {}
