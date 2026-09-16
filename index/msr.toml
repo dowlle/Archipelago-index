@@ -1,0 +1,6 @@
+name = "Msr"
+home = "https://github.com/lilDavid/AP-SamusReturns"
+stability = "untested"
+
+[versions]
+"0.3.0" = { url = "https://github.com/lilDavid/AP-SamusReturns/releases/download/0.3.1/msr.apworld" }
