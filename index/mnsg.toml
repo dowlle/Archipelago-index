@@ -1,0 +1,6 @@
+name = "Mnsg"
+home = "https://github.com/Killklli/MNSGRecompRando"
+stability = "untested"
+
+[versions]
+"1.0.0" = { url = "https://github.com/Killklli/MNSGRecompRando/releases/download/v1.1.0/mnsg.apworld" }
