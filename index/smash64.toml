@@ -1,0 +1,6 @@
+name = "Smash64"
+home = "https://github.com/IncidiousJacob/Smashipelago"
+stability = "untested"
+
+[versions]
+"0.1.0" = { url = "https://github.com/IncidiousJacob/Smashipelago/releases/download/BTP/RTTF/smash64.apworld" }

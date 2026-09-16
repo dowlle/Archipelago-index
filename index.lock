@@ -774,6 +774,9 @@
 [sm64ex_spicy]
 "0.1.0" = "83d29cda64268695241813e8f79a2c84d7a893a733ad0d8d1346f2f834f325a2"
 
+[smash64]
+"0.1.0" = "a2b23cd0d74e19e091a0f96bc09c2e1f0ccb5cb83f77cd72e9f015baab82ddab"
+
 [sonic1]
 "sonic_1-v0.1.1" = "eb53af94e736dd869dd62bef3b12ae7c18f2c8de5c3fef6d75359841df78e1d4"
 
