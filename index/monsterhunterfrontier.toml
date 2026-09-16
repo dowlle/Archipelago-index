@@ -1,0 +1,7 @@
+name = "Monsterhunterfrontier"
+home = "https://github.com/matthe815/APFrontier"
+default_url = "https://github.com/matthe815/APFrontier/releases/download/v{{version}}/monsterhunterfrontier.apworld"
+stability = "untested"
+
+[versions]
+"1.0" = {}
