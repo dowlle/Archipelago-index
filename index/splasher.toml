@@ -1,0 +1,7 @@
+name = "Splasher"
+home = "https://github.com/Frisk202020/Archipelago"
+default_url = "https://github.com/Frisk202020/Archipelago/releases/download/{{version}}/splasher.apworld"
+stability = "untested"
+
+[versions]
+"0.0.9" = {}
