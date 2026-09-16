@@ -1,0 +1,7 @@
+name = "Okamihd"
+home = "https://github.com/Ragmoa/Archipelago"
+default_url = "https://github.com/Ragmoa/Archipelago/releases/download/{{version}}/okamihd.apworld"
+stability = "untested"
+
+[versions]
+"0.5.3" = {}
