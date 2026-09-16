@@ -1,0 +1,5 @@
+name = "Ratchet & Clank: Size Matters"
+home = "https://github.com/Panguu/Archipelago-RaCSM"
+
+[versions]
+"0.4.15" = { url = "https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac-size-matters/v0.4.15/rac_size_matters.apworld" }

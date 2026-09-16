@@ -1,0 +1,5 @@
+name = "The Legend of Zelda: A Link to the Past"
+home = "https://github.com/aurabot24/Archipelago-ALttPR"
+
+[versions]
+"1.5.0" = { url = "https://github.com/aurabot24/Archipelago-ALttPR/releases/download/v1.5.0/alttpr.apworld" }

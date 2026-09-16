@@ -1,0 +1,5 @@
+name = "Splasher"
+home = "https://github.com/Frisk202020/Archipelago"
+
+[versions]
+"0.0.9" = { url = "https://github.com/Frisk202020/Archipelago/releases/download/0.0.9/splasher.apworld" }

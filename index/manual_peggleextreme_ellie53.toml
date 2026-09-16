@@ -1,0 +1,5 @@
+name = "Manual: Peggle Extreme"
+home = "https://github.com/Ellie53real/ellies-manuals"
+
+[versions]
+"1.1.0" = { url = "https://github.com/Ellie53real/ellies-manuals/releases/download/PegEx-v1.1.0/manual_peggleextreme_ellie53.apworld" }

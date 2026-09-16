@@ -1,0 +1,5 @@
+name = "Votipelago"
+home = "https://github.com/FlySniper/Archipelago"
+
+[versions]
+"0.1.9" = { url = "https://github.com/FlySniper/Archipelago/releases/download/votipelago-0.1.9/votipelago.apworld" }

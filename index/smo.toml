@@ -1,0 +1,5 @@
+name = "Super Mario Odyssey"
+home = "https://github.com/AdalynBlack/SuperMarioOdysseyArchipelago"
+
+[versions]
+"1.7.7" = { url = "https://github.com/AdalynBlack/SuperMarioOdysseyArchipelago/releases/download/v1.7.7-2/smo.apworld" }

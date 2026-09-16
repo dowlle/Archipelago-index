@@ -1,0 +1,5 @@
+name = "Monster Hunter Rise"
+home = "https://github.com/HillbillyDroid/MHRise-APWorld"
+
+[versions]
+"0.1.1" = { url = "https://github.com/HillbillyDroid/MHRise-APWorld/releases/download/v0.1.1/mhrise.apworld" }

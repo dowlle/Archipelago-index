@@ -1,0 +1,5 @@
+name = "Old School Runescape Members"
+home = "https://github.com/FarisTheAncient/Archipelago"
+
+[versions]
+"0.1.10" = { url = "https://github.com/FarisTheAncient/Archipelago/releases/download/OSRSM-v0.1.10/osrsm.apworld" }

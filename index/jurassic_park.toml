@@ -1,0 +1,5 @@
+name = "Jurassic Park"
+home = "https://github.com/Anguirel86/Archipelago"
+
+[versions]
+"0.0.1" = { url = "https://github.com/Anguirel86/Archipelago/releases/download/JP-0.0.1/jurassic_park.apworld" }

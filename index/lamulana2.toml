@@ -1,0 +1,5 @@
+name = "La-Mulana 2"
+home = "https://github.com/Crownmuri/Archipelago"
+
+[versions]
+"1.0.4" = { url = "https://github.com/Crownmuri/Archipelago/releases/download/v1.0.4/lamulana2.apworld" }

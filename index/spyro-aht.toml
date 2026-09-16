@@ -1,0 +1,5 @@
+name = "Spyro: A Hero's Tail"
+home = "https://github.com/PhoenixAki/PhoenixAP"
+
+[versions]
+"2.1.0" = { url = "https://github.com/PhoenixAki/PhoenixAP/releases/download/AHT-v2.1.0/spyro_aht.apworld" }

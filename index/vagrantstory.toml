@@ -1,0 +1,5 @@
+name = "Vagrant Story"
+home = "https://github.com/riezahughes/VagrantStoryAPWorld"
+
+[versions]
+"0.0.1" = { url = "https://github.com/riezahughes/VagrantStoryAPWorld/releases/download/v0.1.1/vagrantstory.apworld" }

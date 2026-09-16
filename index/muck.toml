@@ -1,0 +1,5 @@
+name = "Muck"
+home = "https://github.com/PGMProductions/Muck-for-Archipelago"
+
+[versions]
+"1.2.1" = { url = "https://github.com/PGMProductions/Muck-for-Archipelago/releases/download/v1.2.1/muck.apworld" }

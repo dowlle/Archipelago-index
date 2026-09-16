@@ -1,0 +1,5 @@
+name = "Lego Batman: The Video Game"
+home = "https://github.com/ZAPaDASH04/LEGO-Batman-APworld"
+
+[versions]
+"0.2.0-alpha" = { url = "https://github.com/ZAPaDASH04/LEGO-Batman-APworld/releases/download/v0.2.0-alpha/lego_batman_1.apworld" }

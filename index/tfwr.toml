@@ -1,0 +1,5 @@
+name = "The Farmer Was Replaced"
+home = "https://github.com/seadoggie001/TFWR-APMod"
+
+[versions]
+"0.0.9" = { url = "https://github.com/seadoggie001/TFWR-APMod/releases/download/v0.0.9-beta/tfwr.apworld" }

@@ -1,0 +1,5 @@
+name = "Pokemon Snap"
+home = "https://github.com/nielrenned/PokemonSnap_Archipelago"
+
+[versions]
+"0.7.0" = { url = "https://github.com/nielrenned/PokemonSnap_Archipelago/releases/download/v0.7.0/pokemon_snap.apworld" }

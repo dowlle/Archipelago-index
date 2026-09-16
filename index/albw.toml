@@ -1,0 +1,5 @@
+name = "A Link Between Worlds"
+home = "https://github.com/randomsalience/albw-archipelago"
+
+[versions]
+"0.3.5" = { url = "https://github.com/randomsalience/albw-archipelago/releases/download/v0.3.5/albw.apworld" }

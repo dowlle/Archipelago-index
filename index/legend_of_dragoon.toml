@@ -1,0 +1,5 @@
+name = "The Legend of Dragoon"
+home = "https://github.com/pkolb-dev/Archipelago"
+
+[versions]
+"2.0.0" = { url = "https://github.com/pkolb-dev/Archipelago/releases/download/2.0.0/legend_of_dragoon.apworld" }

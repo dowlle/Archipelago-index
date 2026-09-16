@@ -1,0 +1,5 @@
+name = "Super Smash Bros. Brawl - The Subspace Emissary"
+home = "https://github.com/kenniky/ArchipelagoSSE"
+
+[versions]
+"0.2.7" = { url = "https://github.com/kenniky/ArchipelagoSSE/releases/download/v0.3.0/ssbb_sse.apworld" }

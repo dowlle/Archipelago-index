@@ -1,0 +1,5 @@
+name = "Forty-Five"
+home = "https://github.com/IveBenGamin/Archipelago---APWorld-For-Forty-Five"
+
+[versions]
+"1.1.2" = { url = "https://github.com/IveBenGamin/Archipelago---APWorld-For-Forty-Five/releases/download/v1.1.2/forty-five.apworld" }

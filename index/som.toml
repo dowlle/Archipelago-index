@@ -1,0 +1,5 @@
+name = "Secret of Mana"
+home = "https://github.com/black-sliver/som-apworld"
+
+[versions]
+"1.48.0" = { url = "https://github.com/black-sliver/som-apworld/releases/download/v1.48.0a3/som.apworld" }

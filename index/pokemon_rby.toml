@@ -1,0 +1,5 @@
+name = "Pokemon Yellow"
+home = "https://github.com/Alchav/Archipelago"
+
+[versions]
+"7b1" = { url = "https://github.com/Alchav/Archipelago/releases/download/rby-7b1/pokemon_rby.apworld" }

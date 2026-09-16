@@ -1,0 +1,5 @@
+name = "Spicy Meatball Overdrive"
+home = "https://github.com/mdietz94/smo_archipelago"
+
+[versions]
+"0.1.0" = { url = "https://github.com/mdietz94/smo_archipelago/releases/download/v1.5.2/meatballs.apworld" }

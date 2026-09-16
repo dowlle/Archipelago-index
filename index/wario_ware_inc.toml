@@ -1,0 +1,5 @@
+name = "WarioWare, Inc. - Mega Microgame$!"
+home = "https://github.com/TheLX5/Archipelago"
+
+[versions]
+"1.0.0" = { url = "https://github.com/TheLX5/Archipelago/releases/download/wariowareinc-v1.0.0/wario_ware_inc.apworld" }

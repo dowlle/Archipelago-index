@@ -1,0 +1,5 @@
+name = "SMBWonder"
+home = "https://github.com/mdietz94/smbw_ap"
+
+[versions]
+"0.16.0" = { url = "https://github.com/mdietz94/smbw_ap/releases/download/v0.16.0/smbwonder.apworld" }

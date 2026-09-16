@@ -1,0 +1,5 @@
+name = "Madou Monogatari Hanamaru Daiyouchienji"
+home = "https://github.com/Witchybun/Archipelago"
+
+[versions]
+"1.0.6" = { url = "https://github.com/Witchybun/Archipelago/releases/download/MadouMonogatari106/madou.apworld" }

@@ -1,0 +1,5 @@
+name = "Age Of Empires II: Definitive Edition"
+home = "https://github.com/dmwever/Ageipelago"
+
+[versions]
+"0.0.1" = { url = "https://github.com/dmwever/Ageipelago/releases/download/v0.2.3/age2de.apworld" }

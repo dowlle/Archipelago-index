@@ -1,0 +1,5 @@
+name = "Mega Man 4"
+home = "https://github.com/Silvris/Archipelago"
+
+[versions]
+"0.1.1" = { url = "https://github.com/Silvris/Archipelago/releases/download/mm4_0.1.1/mm4.apworld" }

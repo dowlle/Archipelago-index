@@ -1,0 +1,5 @@
+name = "Qualatro"
+home = "https://github.com/600billionlazer/QualatroAP"
+
+[versions]
+"0.1.9f.0q" = { url = "https://github.com/600billionlazer/QualatroAP/releases/download/v0.1.9f.0q/qualatro.apworld" }

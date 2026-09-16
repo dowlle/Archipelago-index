@@ -1,0 +1,5 @@
+name = "Borderlands The Pre-Sequel"
+home = "https://github.com/EdricY/Bouncy-Loot-God"
+
+[versions]
+"0.5.6" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-102/borderlands_tps.apworld" }

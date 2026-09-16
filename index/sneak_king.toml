@@ -1,0 +1,5 @@
+name = "Sneak King"
+home = "https://github.com/jamesbrq/SneakKingAP"
+
+[versions]
+"0.1.0" = { url = "https://github.com/jamesbrq/SneakKingAP/releases/download/v0.1.0/sneak_king.apworld" }

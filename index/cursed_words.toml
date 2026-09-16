@@ -1,0 +1,5 @@
+name = "Cursed Words"
+home = "https://github.com/JammyGeeza/CursedWords-Archipelago"
+
+[versions]
+"0.5.2" = { url = "https://github.com/JammyGeeza/CursedWords-Archipelago/releases/download/v0.5.4/cursed_words.apworld" }

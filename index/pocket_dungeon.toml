@@ -1,0 +1,5 @@
+name = "Shovel Knight Pocket Dungeon"
+home = "https://github.com/Mitchell1711/Archipelago"
+
+[versions]
+"0.3.2" = { url = "https://github.com/Mitchell1711/Archipelago/releases/download/v0.3.2/pocket_dungeon.apworld" }

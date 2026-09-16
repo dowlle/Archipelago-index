@@ -1,0 +1,5 @@
+name = "Choo-Choo Charles Enhanced"
+home = "https://github.com/lgbarrere/Archipelago-Fork"
+
+[versions]
+"1.0.3" = { url = "https://github.com/lgbarrere/Archipelago-Fork/releases/download/cccharles_enhanced_v1.0.3/cccharles_enhanced.apworld" }

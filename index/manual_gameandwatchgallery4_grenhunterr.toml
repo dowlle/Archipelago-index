@@ -1,0 +1,5 @@
+name = "Manual: Game & Watch Gallery 4"
+home = "https://github.com/Grenhunterr/grens-manual-repo"
+
+[versions]
+"0.1.0" = { url = "https://github.com/Grenhunterr/grens-manual-repo/releases/download/v0.1_gnw4/manual_gameandwatchgallery4_grenhunterr.apworld" }

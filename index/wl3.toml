@@ -1,0 +1,5 @@
+name = "Wario Land 3"
+home = "https://github.com/RvPA-Roopa/Wario-Land-3-Archipelago"
+
+[versions]
+"0.6.0" = { url = "https://github.com/RvPA-Roopa/Wario-Land-3-Archipelago/releases/download/0.6.0/wl3.apworld" }

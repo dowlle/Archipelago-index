@@ -1,0 +1,5 @@
+name = "Supraland"
+home = "https://github.com/DrNjitram/ArchipelagoSupra"
+
+[versions]
+"0.1.0" = { url = "https://github.com/DrNjitram/ArchipelagoSupra/releases/download/V0.3.0/supraland.apworld" }

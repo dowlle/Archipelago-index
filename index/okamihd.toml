@@ -1,0 +1,5 @@
+name = "Okami HD"
+home = "https://github.com/Ragmoa/Archipelago"
+
+[versions]
+"0.5.3" = { url = "https://github.com/Ragmoa/Archipelago/releases/download/0.5.3/okamihd.apworld" }

@@ -1,0 +1,5 @@
+name = "Super Mario RPG Legend of the Seven Stars"
+home = "https://github.com/TheRealSolidusSnake/SMRPG_apworld"
+
+[versions]
+"0.0.9" = { url = "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases/download/0.0.9/smrpg.apworld" }

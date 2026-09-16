@@ -1,0 +1,5 @@
+name = "Undertale 2"
+home = "https://github.com/studkid/Undertale2-AP"
+
+[versions]
+"0.2.7" = { url = "https://github.com/studkid/Undertale2-AP/releases/download/v0.2.7/undertale2.apworld" }

@@ -1,0 +1,5 @@
+name = "Plants Vs Zombies Fusion"
+home = "https://github.com/GraymonDgt/PVZFusionArchipelago"
+
+[versions]
+"1.6.3" = { url = "https://github.com/GraymonDgt/PVZFusionArchipelago/releases/download/v1.8.0/pvzf.apworld" }

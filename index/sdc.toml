@@ -1,0 +1,5 @@
+name = "Sonic Dreams Collection"
+home = "https://github.com/KitLemonfoot/ArchipelagoSDC"
+
+[versions]
+"0.4.0" = { url = "https://github.com/KitLemonfoot/ArchipelagoSDC/releases/download/v0.4.0/sdc.apworld" }

@@ -1,0 +1,5 @@
+name = "Monster Hunter Freedom Unite"
+home = "https://github.com/Silvris/Archipelago"
+
+[versions]
+"0.0.2" = { url = "https://github.com/Silvris/Archipelago/releases/download/mhfu_0.0.2/mhfu.apworld" }

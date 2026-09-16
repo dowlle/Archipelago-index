@@ -1,0 +1,5 @@
+name = "Manual: Donkey Kong Bananza"
+home = "https://github.com/Konijnde/DKBManualAP"
+
+[versions]
+"0.2.3" = { url = "https://github.com/Konijnde/DKBManualAP/releases/download/v0.2.3/manual_donkeykongbananzaopenworld_konijnde.apworld" }

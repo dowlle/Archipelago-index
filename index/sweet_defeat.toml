@@ -1,0 +1,5 @@
+name = "Sweet Defeat"
+home = "https://github.com/TheOmnipresence/SweetDefeatAPWorld"
+
+[versions]
+"1.3.2" = { url = "https://github.com/TheOmnipresence/SweetDefeatAPWorld/releases/download/1.3.2/sweet_defeat.apworld" }

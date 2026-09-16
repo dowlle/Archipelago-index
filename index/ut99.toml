@@ -1,0 +1,5 @@
+name = "Unreal Tournament 1999"
+home = "https://github.com/soaringjupiter/UT99-Archipelago"
+
+[versions]
+"0.0.1" = { url = "https://github.com/soaringjupiter/UT99-Archipelago/releases/download/v0.0.1/ut99.apworld" }

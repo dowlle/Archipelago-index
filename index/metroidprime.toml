@@ -1,0 +1,5 @@
+name = "Metroid Prime"
+home = "https://github.com/UltiNaruto/MetroidAPrime"
+
+[versions]
+"0.5.4" = { url = "https://github.com/UltiNaruto/MetroidAPrime/releases/download/v0.5.4-h1/metroidprime.apworld" }

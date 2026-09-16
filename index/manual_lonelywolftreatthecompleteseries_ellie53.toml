@@ -1,0 +1,5 @@
+name = "Manual: Lonely Wolf Treat: The Complete Series"
+home = "https://github.com/Ellie53real/ellies-manuals"
+
+[versions]
+"1.1.1" = { url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LWT-v1.1.1/manual_lonelywolftreatthecompleteseries_ellie53.apworld" }

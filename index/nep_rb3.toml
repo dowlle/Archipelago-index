@@ -1,0 +1,5 @@
+name = "Hyperdimension Neptunia Re;Birth3 V GENERATION"
+home = "https://github.com/vegemiiBG/Archipelago-NepRb3"
+
+[versions]
+"0.2.0" = { url = "https://github.com/vegemiiBG/Archipelago-NepRb3/releases/download/v0.2.0/nep_rb3.apworld" }

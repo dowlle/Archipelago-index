@@ -1,0 +1,5 @@
+name = "YAYARG"
+home = "https://github.com/Thedrummonger/YargArchipelagoPluginV2"
+
+[versions]
+"2.5.0" = { url = "https://github.com/Thedrummonger/YargArchipelagoPluginV2/releases/download/V2.5.5/yayarg.apworld" }

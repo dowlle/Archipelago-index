@@ -1,0 +1,5 @@
+name = "Manual: Just Shapes and Beats"
+home = "https://github.com/Dangerboops/manual_jsab_dangerboops"
+
+[versions]
+"0.1.0" = { url = "https://github.com/Dangerboops/manual_jsab_dangerboops/releases/download/v0.1.0/manual_jsab_dangerboops.apworld" }
