@@ -17,3 +17,12 @@ seeds = 5000
 default_rate = 0.4922
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.5054
+
+[[fuzz_results]]
+version = "0.2.5"
+verdict = "broken"
+fuzzed_at = "2026-09-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-item-location-count"
+worst_hook_rate = 1.0
