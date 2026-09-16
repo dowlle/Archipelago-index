@@ -1,0 +1,7 @@
+name = "Legend Of Dragoon"
+home = "https://github.com/pkolb-dev/Archipelago"
+default_url = "https://github.com/pkolb-dev/Archipelago/releases/download/{{version}}/legend_of_dragoon.apworld"
+stability = "untested"
+
+[versions]
+"2.0.0" = {}
