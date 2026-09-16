@@ -1,0 +1,6 @@
+name = "Ringracers"
+home = "https://github.com/TehRealSalt/RingRacersAP"
+stability = "untested"
+
+[versions]
+"0.1.0" = { url = "https://github.com/TehRealSalt/RingRacersAP/releases/download/v0.1.2/ringracers.apworld" }
