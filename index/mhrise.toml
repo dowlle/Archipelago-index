@@ -1,0 +1,7 @@
+name = "Mhrise"
+home = "https://github.com/HillbillyDroid/MHRise-APWorld"
+default_url = "https://github.com/HillbillyDroid/MHRise-APWorld/releases/download/v{{version}}/mhrise.apworld"
+stability = "untested"
+
+[versions]
+"0.1.1" = {}
