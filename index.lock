@@ -445,6 +445,9 @@
 [layer8problem]
 "8" = "1ff7a2899ef1c74d3ec7a04e53e8996a70d7a5d0e2f4790f56e8ca6a8b36785f"
 
+[lego_batman_1]
+"0.2.0-alpha" = "66c06aa9db0d6ee1b7ee5f63b437a1f67cca233adeff86f7bb78019305674409"
+
 [librarian]
 "1.1.0" = "1b99a2cd8af906e5d33836645deaf3de893fd6ec30b23ef10fad4861f852a3b4"
 "2.0.3" = "820e20bb1ae2a3696ed437692a30a3673aa9e086666d99a91d742eceeeaae7a0"

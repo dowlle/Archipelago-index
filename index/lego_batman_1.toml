@@ -1,0 +1,7 @@
+name = "Lego Batman 1"
+home = "https://github.com/ZAPaDASH04/LEGO-Batman-APworld"
+default_url = "https://github.com/ZAPaDASH04/LEGO-Batman-APworld/releases/download/v{{version}}/lego_batman_1.apworld"
+stability = "untested"
+
+[versions]
+"0.2.0-alpha" = {}
