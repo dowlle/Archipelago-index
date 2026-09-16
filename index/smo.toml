@@ -1,0 +1,7 @@
+name = "Smo"
+home = "https://github.com/AdalynBlack/SuperMarioOdysseyArchipelago"
+default_url = "https://github.com/AdalynBlack/SuperMarioOdysseyArchipelago/releases/download/v{{version}}-2/smo.apworld"
+stability = "untested"
+
+[versions]
+"1.7.7" = {}
