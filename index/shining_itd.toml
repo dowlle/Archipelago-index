@@ -1,0 +1,7 @@
+name = "Shining Itd"
+home = "https://github.com/lagdotcom/Archipelago"
+default_url = "https://github.com/lagdotcom/Archipelago/releases/download/{{version}}/shining_itd.apworld"
+stability = "untested"
+
+[versions]
+"0.0.4" = {}
