@@ -1,0 +1,7 @@
+name = "Vrchat"
+home = "https://github.com/Nichologeam/VRChat-AP"
+default_url = "https://github.com/Nichologeam/VRChat-AP/releases/download/v{{version}}/vrchat.apworld"
+stability = "untested"
+
+[versions]
+"0.0.2" = {}
