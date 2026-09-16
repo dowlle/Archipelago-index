@@ -1,0 +1,7 @@
+name = "Tloz St"
+home = "https://github.com/DayKat/spirit-tracks"
+default_url = "https://github.com/DayKat/spirit-tracks/releases/download/st-v{{version}}/tloz_st.apworld"
+stability = "untested"
+
+[versions]
+"0.8.3" = {}
