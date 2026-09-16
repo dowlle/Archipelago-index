@@ -1,0 +1,7 @@
+name = "Cccharles Enhanced"
+home = "https://github.com/lgbarrere/Archipelago-Fork"
+default_url = "https://github.com/lgbarrere/Archipelago-Fork/releases/download/cccharles_enhanced_v{{version}}/cccharles_enhanced.apworld"
+stability = "untested"
+
+[versions]
+"1.0.3" = {}
