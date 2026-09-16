@@ -1,0 +1,7 @@
+name = "Spyro Aht"
+home = "https://github.com/PhoenixAki/PhoenixAP"
+default_url = "https://github.com/PhoenixAki/PhoenixAP/releases/download/AHT-v{{version}}/spyro_aht.apworld"
+stability = "untested"
+
+[versions]
+"2.1.0" = {}
