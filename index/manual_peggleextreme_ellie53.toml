@@ -1,0 +1,7 @@
+name = "Manual Peggleextreme Ellie53"
+home = "https://github.com/Ellie53real/ellies-manuals"
+default_url = "https://github.com/Ellie53real/ellies-manuals/releases/download/PegEx-v{{version}}/manual_peggleextreme_ellie53.apworld"
+stability = "untested"
+
+[versions]
+"1.1.0" = {}
