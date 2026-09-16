@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "1.0.0.post2" = { url = "https://github.com/spencer2585/Duck-Life-4-Archipelago/releases/download/1.0.0_HF1/DuckLife4.apworld" }
+"1.0.0_HF2" = { url = "https://github.com/spencer2585/Duck-Life-4-Archipelago/releases/download/1.0.0_HF2/DuckLife4.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0.post2"
