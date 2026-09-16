@@ -1,0 +1,7 @@
+name = "Wario Ware Inc"
+home = "https://github.com/TheLX5/Archipelago"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/wariowareinc-v{{version}}/wario_ware_inc.apworld"
+stability = "untested"
+
+[versions]
+"1.0.0" = {}

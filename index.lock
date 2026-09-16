@@ -886,6 +886,9 @@
 
 [vsim]
 "0.0.4" = "9eb39bad02bd030abb1ec69e4fff09ed41bc2bd615e6ef700a8742366800bd23"
+[wario_ware_inc]
+"1.0.0" = "74282db29eb55d6f9e5c8928a02598527b9eb8cce63b7de0d2e0eb5f3d22cc1a"
+
 [WarioworldAP]
 "0.1.9.post4" = "9efba6a8225d8c0efe445224ae89a2156a6656e6e91898d31a109663cbaa37c3"
 
