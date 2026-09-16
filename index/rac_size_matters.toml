@@ -1,0 +1,7 @@
+name = "Rac Size Matters"
+home = "https://github.com/Panguu/Archipelago-RaCSM"
+default_url = "https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac-size-matters/v{{version}}/rac_size_matters.apworld"
+stability = "untested"
+
+[versions]
+"0.4.15" = {}
