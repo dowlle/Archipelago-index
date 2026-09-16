@@ -1,0 +1,7 @@
+name = "Smrpg"
+home = "https://github.com/TheRealSolidusSnake/SMRPG_apworld"
+default_url = "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases/download/{{version}}/smrpg.apworld"
+stability = "untested"
+
+[versions]
+"0.0.9" = {}
