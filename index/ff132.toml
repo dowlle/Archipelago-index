@@ -1,0 +1,7 @@
+name = "Ff132"
+home = "https://github.com/MLSTRM/ArchipelagoFF132"
+default_url = "https://github.com/MLSTRM/ArchipelagoFF132/releases/download/ff132/{{version}}/ff132.apworld"
+stability = "untested"
+
+[versions]
+"0.3.0" = {}
