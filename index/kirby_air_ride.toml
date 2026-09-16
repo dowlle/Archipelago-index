@@ -9,6 +9,7 @@ tracker = "https://github.com/lighting8282/KAR-Poptracker/releases/latest"
 "1.0.1-TEST" = {}
 "1.0.2-TEST" = {}
 "1.1.1-TEST" = {}
+"1.2.0-TEST" = {}
 
 [[fuzz_results]]
 version = "1.0.1-TEST"
