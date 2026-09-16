@@ -1,0 +1,7 @@
+name = "Mm4"
+home = "https://github.com/Silvris/Archipelago"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/mm4_{{version}}/mm4.apworld"
+stability = "untested"
+
+[versions]
+"0.1.1" = {}
