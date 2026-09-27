@@ -9,3 +9,4 @@ tracker = "https://github.com/RunInAWeek/Kirby-64-Archipelago-Tracker/releases/l
 "0.3.0" = {}
 "0.3.1" = {}
 "0.3.2" = {}
+"k64_0.4.0" = { url = "https://github.com/Silvris/Archipelago/releases/download/k64_0.4.0/k64.apworld" }
