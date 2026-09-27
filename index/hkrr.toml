@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.1.0" = { url = "https://github.com/richarm4/Archipelago/releases/download/hkrr-0.1.0/hkrr.apworld" }
+"hkrr-0.2.1" = { url = "https://github.com/richarm4/Archipelago/releases/download/hkrr-0.2.1/hkrr.apworld" }
 
 [[fuzz_results]]
 version = "0.1.0"
