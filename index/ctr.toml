@@ -2,8 +2,7 @@ name = "Crash Team Racing"
 home = "https://discord.com/channels/731205301247803413/1222304293751750777"
 default_url = "https://github.com/dowlle/ctr-native-ap/releases/download/v{{version}}/ctr.apworld"
 
-disabled = true # as of 0.2.1, pre_fill dry-runs a full parallel generation+fill of the entire room, once per CTR slot; Each CTR slot is a doubling of the generation time. 3 CTR slots would OCTUPLE THE GEN TIME!
-
 [versions]
 "0.2.1-alpha2" = {}
 "0.2.1" = {}
+"0.2.2" = {}
