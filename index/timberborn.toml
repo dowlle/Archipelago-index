@@ -1,6 +1,7 @@
 name = "Timberborn"
 home = "https://github.com/dowlle/timberborn-modding"
 default_url = "https://github.com/dowlle/timberborn-modding/releases/download/v{{version}}/timberborn.apworld"
+setup_guide = "https://ap-pie.com/timberborn/setup"
 
 [versions]
 "0.0.5" = {}
