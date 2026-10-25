@@ -6,3 +6,4 @@ stability = "unstable"
 "2.6.0" = { url = "https://github.com/Grenhunterr/Archipelago/releases/download/v2.6/severed_soul.apworld" }
 "2.7.0" = { url = "https://github.com/Grenhunterr/Archipelago/releases/download/v2.7/severed_soul.apworld" }
 "2.7" = { url = "https://github.com/Grenhunterr/Archipelago/releases/download/v2.7/severed_soul.apworld" }
+"2.8" = { url = "https://github.com/Grenhunterr/Archipelago/releases/download/v2.8/severed_soul.apworld" }
