@@ -6,6 +6,7 @@ setup_guide = "https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/set
 
 [versions]
 "0.1.0" = {}
+"0.2.0" = {}
 
 [[fuzz_results]]
 version = "0.1.0"
