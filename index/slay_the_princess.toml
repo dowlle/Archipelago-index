@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.6.0.post2" = { url = "https://github.com/Overlord-Draconic-Fire/Archipelago/releases/download/STP-0.6.1/slay_the_princess.apworld" }
+"STP-0.8.4" = { url = "https://github.com/Overlord-Draconic-Fire/Archipelago/releases/download/STP-0.8.4/slay_the_princess.apworld" }
 
 [[fuzz_results]]
 version = "0.6.0.post2"
