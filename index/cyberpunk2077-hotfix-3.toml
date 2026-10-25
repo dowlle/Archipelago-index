@@ -6,6 +6,7 @@ stability = "unstable"
 [versions]
 "0.4" = {}
 "0.6" = { url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/v0.6/cyberpunk2077.apworld" }
+"0.7.2" = { url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/0.7.2/cyberpunk2077.apworld" }
 
 [[fuzz_results]]
 version = "0.4"
