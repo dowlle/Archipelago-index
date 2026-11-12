@@ -3,3 +3,4 @@ home = "https://github.com/ZigzagAwaka/DQ3AP"
 
 [versions]
 "0.3.1" = { url = "https://github.com/ZigzagAwaka/DQ3AP/releases/download/v0.3.1/dq3.apworld" }
+"0.5.1" = { url = "https://github.com/ZigzagAwaka/DQ3AP/releases/download/v0.5.1/dq3.apworld" }
