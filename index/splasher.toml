@@ -3,3 +3,4 @@ home = "https://github.com/Frisk202020/Archipelago"
 
 [versions]
 "0.0.9" = { url = "https://github.com/Frisk202020/Archipelago/releases/download/0.0.9/splasher.apworld" }
+"v.0.0.9.1" = { url = "https://github.com/Frisk202020/Archipelago/releases/download/v.0.0.9.1/splasher.apworld" }
