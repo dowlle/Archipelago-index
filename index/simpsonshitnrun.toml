@@ -4,3 +4,4 @@ disabled = true # Old versions are gone, new versions don't pass fuzzing.
 
 [versions]
 "0.1.6-alpha" = { url = "https://github.com/nmize1/Archipelago/releases/download/v0.1.6a/simpsonshitnrun.apworld" }
+"0.5.5-b" = { url = "https://github.com/nmize1/Archipelago/releases/download/v0.5.5-b/simpsonshitnrun.apworld" }
