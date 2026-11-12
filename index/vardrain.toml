@@ -3,3 +3,4 @@ home = "https://github.com/flingoXD/Archipelago"
 
 [versions]
 "0.1.0" = { url = "https://github.com/flingoXD/Archipelago/releases/download/0.1.0/vardrain--.apworld" }
+"0.1.1" = { url = "https://github.com/flingoXD/Archipelago/releases/download/0.1.1/vardrain--.apworld" }
