@@ -3,3 +3,4 @@ home = "https://github.com/barretg/hl1-sven-ap"
 
 [versions]
 "0.3" = { url = "https://github.com/barretg/hl1-sven-ap/releases/download/v0.3/half_life_sven.apworld" }
+"0.4.1" = { url = "https://github.com/barretg/hl1-sven-ap/releases/download/v0.4.1/half_life_sven.apworld" }
