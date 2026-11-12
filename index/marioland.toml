@@ -3,3 +3,4 @@ home = "https://github.com/MarioGamer9871/Super-Mario-Land-Archipelago"
 
 [versions]
 "0.2.1" = { url = "https://github.com/MarioGamer9871/Super-Mario-Land-Archipelago/releases/download/v0.2.1/marioland.apworld" }
+"0.5.1" = { url = "https://github.com/MarioGamer9871/Super-Mario-Land-Archipelago/releases/download/v0.5.1/marioland.apworld" }
