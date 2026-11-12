@@ -8,6 +8,7 @@ tracker = "https://github.com/Chfou/ATS-poptracker"
 
 "1.2.0" = {}
 "1.2.1" = {}
+"1.2.2" = {}
 
 [[fuzz_results]]
 version = "1.2.0"
