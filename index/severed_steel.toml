@@ -3,3 +3,4 @@ home = "https://github.com/SerpentAI/Archipelago"
 
 [versions]
 "1.0.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/severed-steel-v.1.0.0/severed_steel.apworld" }
+"severed-steel-v1.0.1" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/severed-steel-v1.0.1/severed_steel.apworld" }
