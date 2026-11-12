@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.2.1a0" = { url = "https://github.com/Slimm160/Mini-Metro-Archipelago/releases/download/0.2.1-alpha/mini_metro.apworld" }
+"0.3.1-alpha" = { url = "https://github.com/Slimm160/Mini-Metro-Archipelago/releases/download/0.3.1-alpha/mini_metro.apworld" }
 
 [[fuzz_results]]
 version = "0.2.1a0"
