@@ -3,3 +3,4 @@ home = "https://github.com/Batknight21/stk-archipelago"
 
 [versions]
 "0.9.1" = { url = "https://github.com/Batknight21/stk-archipelago/releases/download/v0.9.1/supertuxkart.apworld" }
+"0.9.2" = { url = "https://github.com/Batknight21/stk-archipelago/releases/download/v0.9.2/supertuxkart.apworld" }
