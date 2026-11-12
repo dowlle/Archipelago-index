@@ -3,3 +3,4 @@ home = "https://github.com/sensokaeru/bubblebobbleAP"
 
 [versions]
 "1.1.7" = { url = "https://github.com/sensokaeru/bubblebobbleAP/releases/download/v1.1.7/bubblebobble.apworld" }
+"1.2.2" = { url = "https://github.com/sensokaeru/bubblebobbleAP/releases/download/v1.2.2/bubblebobble.apworld" }
