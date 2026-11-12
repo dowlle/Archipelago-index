@@ -3,3 +3,4 @@ home = "https://github.com/Gameplushy/manual_Meteos_Konoko"
 
 [versions]
 "1.2" = { url = "https://github.com/Gameplushy/manual_Meteos_Konoko/releases/download/v1.2/manual_Meteos_Konoko.apworld" }
+"1.2.1" = { url = "https://github.com/Gameplushy/manual_Meteos_Konoko/releases/download/v1.2.1/manual_meteos_konoko.apworld" }
