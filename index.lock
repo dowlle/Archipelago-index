@@ -2963,6 +2963,7 @@
 
 [rac_size_matters]
 "0.4.15" = "a03fca2f0a8c6e7ee99deda48d6e5f35f70637bd302e34a4cf5396b670d78df1"
+"rac_size_matters-v0.5.8" = "b73a7ee0331d906a8b0198bb4f6fc2a1aa66f96c74f5344989343de430c7a54d"
 
 [ringracers]
 "0.1.0" = "55e9a3795ee2c2495fb0f74b92c1272639641f931bd2d5c4893e37287bd6cbba"
