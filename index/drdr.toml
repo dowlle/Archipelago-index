@@ -7,6 +7,7 @@ setup_guide = "https://github.com/Str8UpWHITE64/DRAP?tab=readme-ov-file#setup"
 [versions]
 
 "1.0.1" = {}
+"1.1.1" = {}
 
 [[fuzz_results]]
 version = "1.0.1"
