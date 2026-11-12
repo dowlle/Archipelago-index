@@ -6,6 +6,7 @@ stability = "untested"
 "1.5" = { url = "https://github.com/Boi-027/BayonettaArchipelago/releases/download/v1.5/bayonetta.apworld" }
 "3.2.0" = { url = "https://github.com/Boi-027/BayonettaArchipelago/releases/download/v3.2.0/bayonetta.apworld" }
 "3.3.0" = { url = "https://github.com/Boi-027/BayonettaArchipelago/releases/download/v3.3.0/bayonetta.apworld" }
+"3.4.0" = { url = "https://github.com/Boi-027/BayonettaArchipelago/releases/download/v3.4.0/bayonetta.apworld" }
 
 [[fuzz_results]]
 version = "1.5"
