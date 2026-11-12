@@ -433,6 +433,9 @@
 [ihyps]
 "0.3.0" = "2d71b26d0c554deaa6bb791770ef25adf97a20c408eb6b0e1ddac67ad47fb263"
 
+[jet_island]
+"0.0.3" = "99f37df97762bc9ba8e90acbda9ecb77b787d08581f541664a11bde4dc8ef766"
+
 [kindergarten_2]
 "1.1.3" = "475bd347395dcc16d44cdf441ed1a0c7dbcd1b121b8b4d3b574bf1ca74b73f46"
 
