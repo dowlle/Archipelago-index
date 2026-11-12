@@ -3,3 +3,4 @@ home = "https://github.com/Chainsawkitten/SayonaraWildHeartsAP"
 
 [versions]
 "1.0.0" = { url = "https://github.com/Chainsawkitten/SayonaraWildHeartsAP/releases/download/1.0.0/sayonarawildhearts.apworld" }
+"1.1.0" = { url = "https://github.com/Chainsawkitten/SayonaraWildHeartsAP/releases/download/1.1.0/sayonarawildhearts.apworld" }
