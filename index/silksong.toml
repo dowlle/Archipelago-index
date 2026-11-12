@@ -3,3 +3,4 @@ home = "https://github.com/Batatvideogames/silksong-archipelago-randomizer"
 
 [versions]
 "0.4.5-Hotfix2" = { url = "https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/download/v0.4.5-Hotfix2/silksong.apworld" }
+"0.5.5" = { url = "https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/download/v0.5.5/silksong.apworld" }
