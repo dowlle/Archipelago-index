@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.2.3" = { url = "https://github.com/toent/Archipelago-MKWii/releases/download/v0.2.3/mkwii.apworld" }
+"0.4.0" = { url = "https://github.com/toent/Archipelago-MKWii/releases/download/v0.4.0/mkwii.apworld" }
 
 [[fuzz_results]]
 version = "0.2.3"
