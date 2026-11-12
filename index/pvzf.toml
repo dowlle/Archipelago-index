@@ -3,3 +3,4 @@ home = "https://github.com/GraymonDgt/PVZFusionArchipelago"
 
 [versions]
 "1.6.3" = { url = "https://github.com/GraymonDgt/PVZFusionArchipelago/releases/download/v1.8.0/pvzf.apworld" }
+"1.8.1" = { url = "https://github.com/GraymonDgt/PVZFusionArchipelago/releases/download/v1.8.1/pvzf.apworld" }
