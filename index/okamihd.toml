@@ -3,3 +3,4 @@ home = "https://github.com/Ragmoa/Archipelago"
 
 [versions]
 "0.5.3" = { url = "https://github.com/Ragmoa/Archipelago/releases/download/0.5.3/okamihd.apworld" }
+"0.5.5" = { url = "https://github.com/Ragmoa/Archipelago/releases/download/0.5.5/okamihd.apworld" }
