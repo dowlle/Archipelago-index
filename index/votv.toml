@@ -5,6 +5,7 @@ stability = "unstable"
 
 [versions]
 "votv-v0.0.2" = {}
+"votv-v0.7.0" = {}
 
 [[fuzz_results]]
 version = "votv-v0.0.2"
