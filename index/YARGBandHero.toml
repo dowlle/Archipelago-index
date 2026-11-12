@@ -3,3 +3,4 @@ home = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks"
 
 [versions]
 "26.09.13" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.09.13/YARGBandHero.apworld" }
+"26.10.08" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.10.08/YARGBandHero.apworld" }
