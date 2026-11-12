@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "1.0.0" = { url = "https://github.com/kumquat-ir/Archipelago/releases/download/vsr-1.0.0/vision_soft_reset.apworld" }
+"vsr-1.0.1" = { url = "https://github.com/kumquat-ir/Archipelago/releases/download/vsr-1.0.1/vision_soft_reset.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0"
