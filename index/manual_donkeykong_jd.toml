@@ -3,3 +3,4 @@ home = "https://github.com/JDLKMR/Donkey-Kong-APManual"
 
 [versions]
 "1.0.0-original-edition" = { url = "https://github.com/JDLKMR/Donkey-Kong-APManual/releases/download/v1.0.0-original-edition/manual_donkeykong_jd.apworld" }
+"1.0.0-arcade" = { url = "https://github.com/JDLKMR/Donkey-Kong-APManual/releases/download/v1.0.0-arcade/manual_donkeykong_jd.apworld" }
