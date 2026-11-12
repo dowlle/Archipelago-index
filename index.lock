@@ -164,6 +164,9 @@
 [content_warning]
 "0.1.0.post2" = "30f7c71afdd05db8fbb07ff2224de258ef8c9f5b2a5d6f37a5b4106a1e8c4a48"
 
+[core_keeper]
+"1.2.0-rc.5" = "2f9ea5f592f92d87d152718580012eed6660cc253fa045eeca6f417d82f890b8"
+
 [cornkidz64]
 "0.0.7" = "f163217ba1789c3b1fca5f67246800ab4209ce7262b95c5fa5929c06688488ba"
 
