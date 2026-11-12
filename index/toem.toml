@@ -11,6 +11,7 @@ tracker = "https://github.com/culk/toem-poptracker-pack/releases/latest"
 "2.0.1" = {}
 "2.0.3" = {}
 "2.0.6" = {}
+"2.1.0" = {}
 
 [[fuzz_results]]
 version = "2.0.6"
