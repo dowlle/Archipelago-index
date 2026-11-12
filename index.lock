@@ -2822,6 +2822,7 @@
 
 [look_outside]
 "1.2.2" = "19361aeefeeb91b420f57a281c4dd0213f4cf265223212bbab69fcb7ef61c44d"
+"1.2.4" = "0ad1e269ddf4e10faa1e9d4fae90dbeb689fc98b2fbb965f9a59bfa8df54513c"
 
 [madou]
 "1.0.6" = "697300f04e60dbf94a40ada02a8cabf8ca8043baa14425ba54d4edb8130a94c8"
