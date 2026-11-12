@@ -3,3 +3,4 @@ home = "https://github.com/riezahughes/VagrantStoryAPWorld"
 
 [versions]
 "0.0.1" = { url = "https://github.com/riezahughes/VagrantStoryAPWorld/releases/download/v0.1.1/vagrantstory.apworld" }
+"0.2.5" = { url = "https://github.com/riezahughes/VagrantStoryAPWorld/releases/download/v0.2.5/vagrantstory.apworld" }
