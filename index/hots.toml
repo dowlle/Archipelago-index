@@ -3,3 +3,4 @@ home = "https://github.com/POD-io/HotS-ArchipelagoWorld"
 
 [versions]
 "0.6.0" = { url = "https://github.com/POD-io/HotS-ArchipelagoWorld/releases/download/v0.6.0/hots.apworld" }
+"0.6.1" = { url = "https://github.com/POD-io/HotS-ArchipelagoWorld/releases/download/v0.6.1/hots.apworld" }
