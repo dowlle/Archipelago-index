@@ -3,3 +3,4 @@ home = "https://github.com/RoboRyGuy/Archipelago-GTFO"
 
 [versions]
 "0.0.6" = { url = "https://github.com/RoboRyGuy/Archipelago-GTFO/releases/download/0.0.6/gtfo.apworld" }
+"0.1.1" = { url = "https://github.com/RoboRyGuy/Archipelago-GTFO/releases/download/0.1.1/gtfo.apworld" }
