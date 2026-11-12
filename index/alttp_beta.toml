@@ -3,3 +3,4 @@ home = "https://github.com/Alchav/Archipelago"
 
 [versions]
 "alttp2026v4" = { url = "https://github.com/Alchav/Archipelago/releases/download/alttp2026v4/alttp_beta.apworld" }
+"alttp2026-v6" = { url = "https://github.com/Alchav/Archipelago/releases/download/alttp2026-v6/alttp_beta.apworld" }
