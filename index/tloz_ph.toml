@@ -5,6 +5,7 @@ stability = "stable"
 
 [versions]
 "ph-v0.9.3-alpha" = {}
+"ph-v0.10.3" = {}
 
 [[fuzz_results]]
 version = "ph-v0.9.3-alpha"
