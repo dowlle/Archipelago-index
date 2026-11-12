@@ -731,6 +731,9 @@
 [scp]
 "0.1.4b" = "0a5079cbd81ef02922c51f88df81b2da75be2fe48b99664cc9037a7be8514b1b"
 
+[secret_agent_clank]
+"secret_agent_clank-v0.0.10" = "589768b32b00ed5fe6df77c38610333ced300e6c7586c1db67b00f29bd32fecc"
+
 [sfa]
 "sfa-0.1.2" = "5018bab56f0f3c9c5d3cf5bd6f47e9f0d76c0a61bdb4667b27828d16fcadee51"
 
