@@ -3,3 +3,4 @@ home = "https://github.com/CertifiedPyro/PipistrelloArchipelago"
 
 [versions]
 "0.3.0" = { url = "https://github.com/CertifiedPyro/PipistrelloArchipelago/releases/download/v0.3.0/pipistrello.apworld" }
+"0.3.2" = { url = "https://github.com/CertifiedPyro/PipistrelloArchipelago/releases/download/v0.3.2/pipistrello.apworld" }
