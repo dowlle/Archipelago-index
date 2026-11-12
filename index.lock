@@ -433,6 +433,9 @@
 [ihyps]
 "0.3.0" = "2d71b26d0c554deaa6bb791770ef25adf97a20c408eb6b0e1ddac67ad47fb263"
 
+[johnny_upgrade]
+"1.5" = "596097bb40829b2cb4d676908ba637a2c1ca2f45682cc19dbf39aa93b1323596"
+
 [kindergarten_2]
 "1.1.3" = "475bd347395dcc16d44cdf441ed1a0c7dbcd1b121b8b4d3b574bf1ca74b73f46"
 
