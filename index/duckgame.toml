@@ -3,3 +3,4 @@ home = "https://github.com/Marsavue/Archipelago-DuckGame"
 
 [versions]
 "0.1.0" = { url = "https://github.com/Marsavue/Archipelago-DuckGame/releases/download/v0.1.0/duckgame.apworld" }
+"0.1.1" = { url = "https://github.com/Marsavue/Archipelago-DuckGame/releases/download/v0.1.1/duckgame.apworld" }
