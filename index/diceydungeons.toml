@@ -5,6 +5,7 @@ tracker = "https://github.com/Fylcoast/Dicey-Dungeons-AP-Tracker/releases"
 
 [versions]
 "0.4.4b0" = { url = "https://github.com/Fylcoast/AP_diceydungeons/releases/download/v0.4.4-beta/diceydungeons.apworld" }
+"0.6.0-beta" = { url = "https://github.com/Fylcoast/AP_diceydungeons/releases/download/v0.6.0-beta/diceydungeons.apworld" }
 
 [[fuzz_results]]
 version = "0.4.4b0"
