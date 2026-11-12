@@ -852,6 +852,9 @@
 [tomtom4]
 "0.2.0" = "acc6d877b1f172dcd0f4e9dd83c2c564185ab57dab31c228605a55682784a076"
 
+[tracker_addons]
+"Tracker_Addons_v0.1.4" = "e09ce12620324c78b9a7ca83a45a2466acf11b29699bc001cc230ff7db9f588d"
+
 [trombone]
 "0.3.4" = "b0a095253b5b154ed93340eb8d85a16e7bd3b3e2ddebe9852c9e8d73ec4c8db8"
 
