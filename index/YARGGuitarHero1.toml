@@ -6,6 +6,7 @@ stability = "unstable"
 [versions]
 "26.05.10" = {}
 "26.09.13" = {}
+"26.10.08" = {}
 
 [[fuzz_results]]
 version = "26.09.13"
