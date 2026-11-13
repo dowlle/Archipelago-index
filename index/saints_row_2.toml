@@ -5,6 +5,7 @@ stability = "untested"
 
 [versions]
 "0.1.1" = {}
+"0.2.0" = { url = "https://github.com/hoXyy/SaintsRow2Archipelago/releases/download/0.2.0/saints_row_2.apworld" }
 
 [[fuzz_results]]
 version = "0.1.1"
