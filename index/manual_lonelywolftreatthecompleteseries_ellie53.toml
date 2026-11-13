@@ -3,3 +3,4 @@ home = "https://github.com/Ellie53real/ellies-manuals"
 
 [versions]
 "1.1.1" = { url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LWT-v1.1.1/manual_lonelywolftreatthecompleteseries_ellie53.apworld" }
+"LWT-v1.2.0+hotfix2" = { url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LWT-v1.2.0%2Bhotfix2/manual_lonelywolftreatthecompleteseries_ellie53.apworld" }
