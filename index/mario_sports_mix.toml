@@ -3,3 +3,4 @@ home = "https://github.com/ElectroStarz/ArchipelagoMSM"
 
 [versions]
 "3.0.0" = { url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/v3.0.0/mario_sports_mix.apworld" }
+"3.1.4" = { url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/v3.1.4/mario_sports_mix.apworld" }
