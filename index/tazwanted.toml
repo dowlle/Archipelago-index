@@ -3,3 +3,4 @@ home = "https://github.com/imklubb/Archipelago-Taz-Wanted"
 
 [versions]
 "1.2.0" = { url = "https://github.com/imklubb/Archipelago-Taz-Wanted/releases/download/1.2.0/tazwanted.apworld" }
+"1.2.4" = { url = "https://github.com/imklubb/Archipelago-Taz-Wanted/releases/download/1.2.4/tazwanted.apworld" }
