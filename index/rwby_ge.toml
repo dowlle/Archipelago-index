@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.1.0.post2" = { url = "https://github.com/nepcore/RwbyAP/releases/download/v0.1.1/rwby_ge.apworld" }
+"0.2.2" = { url = "https://github.com/nepcore/RwbyAP/releases/download/v0.2.2/rwby_ge.apworld" }
 
 [[fuzz_results]]
 version = "0.1.0.post2"
