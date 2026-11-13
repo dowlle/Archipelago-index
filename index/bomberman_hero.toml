@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.2.3" = { url = "https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/download/bomberman_hero_v0.2.3/bomberman_hero.apworld" }
+"bomberman_hero_v0.2.5" = { url = "https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/download/bomberman_hero_v0.2.5/bomberman_hero.apworld" }
 
 [[fuzz_results]]
 version = "0.2.3"
