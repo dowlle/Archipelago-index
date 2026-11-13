@@ -5,3 +5,4 @@ disabled  = true # Triggers some assertion
 
 [versions]
 "2025.2.13" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Dungeons/releases/download/2025.02.13/manual_worldofwarcraftdungeons_chakraa.apworld" }
+"2026.09.12" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Dungeons/releases/download/2026.09.12/manual_worldofwarcraftdungeons_chakraa.apworld" }
