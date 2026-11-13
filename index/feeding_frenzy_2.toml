@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.6" = { url = "https://github.com/barretg/feeding-frenzy-2-archipelago/releases/download/v0.6/feeding_frenzy_2.apworld" }
+"0.8" = { url = "https://github.com/barretg/feeding-frenzy-2-archipelago/releases/download/v0.8/feeding_frenzy_2.apworld" }
 
 [[fuzz_results]]
 version = "0.6"
