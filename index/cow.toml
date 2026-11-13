@@ -3,3 +3,4 @@ home = "https://github.com/CodeTriangle/ArCowPelago"
 
 [versions]
 "0.1.1" = { url = "https://github.com/CodeTriangle/ArCowPelago/releases/download/0.1.1/cow.apworld" }
+"0.2.0" = { url = "https://github.com/CodeTriangle/ArCowPelago/releases/download/0.2.0/cow.apworld" }
