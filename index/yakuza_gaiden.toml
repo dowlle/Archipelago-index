@@ -3,3 +3,4 @@ home = "https://github.com/zorasknight/YakLaDGaiRando"
 
 [versions]
 "Beta2r2" = { url = "https://github.com/zorasknight/YakLaDGaiRando/releases/download/Beta2/yakuza_gaiden.apworld" }
+"Beta-3" = { url = "https://github.com/zorasknight/YakLaDGaiRando/releases/download/Beta-3/yakuza_gaiden.apworld" }
