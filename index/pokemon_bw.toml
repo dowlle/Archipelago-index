@@ -11,3 +11,4 @@ disabled = true
 "0.3.13" = {}
 "0.3.29" = { url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/0.3.29/pokemon_bw.apworld" }
 "0.3.37" = { url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/0.3.37/pokemon_bw.apworld" }
+"0.4.5" = { url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/0.4.5/pokemon_bw.apworld" }
