@@ -3,3 +3,4 @@ home = "https://github.com/axxroytovu/archipelago_manuals"
 
 [versions]
 "Rise_1.0.0" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Rise_1.0.0/manual_mhrise_village_axxroy.apworld" }
+"Rise_2.0.1" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Rise_2.0.1/manual_mhrisevillage_axxroy.apworld" }
