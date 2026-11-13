@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.1.9.post4" = { url = "https://github.com/m0ester/WarioworldAP/releases/download/v0.1.9/WarioworldAP.apworld" }
+"0.1.9h" = { url = "https://github.com/m0ester/WarioworldAP/releases/download/v0.1.9h/WarioworldAP.apworld" }
 
 [[fuzz_results]]
 version = "0.1.9.post4"
