@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "1.0.0" = { url = "https://github.com/chickentuna/Archipelago-Fakutori/releases/download/v0.1.0/fakutori.apworld" }
+"0.1.1" = { url = "https://github.com/chickentuna/Archipelago-Fakutori/releases/download/v0.1.1/fakutori.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0"
