@@ -8,6 +8,7 @@ tracker = "https://github.com/FuyumiSogeki/Rabbit-and-Steel-Tracker/releases"
 [versions]
 "0.3.2-fix3" = {}
 "0.3.3" = {}
+"0.4.3" = {}
 
 [[fuzz_results]]
 version = "0.3.2-fix3"
