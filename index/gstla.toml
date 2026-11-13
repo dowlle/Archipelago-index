@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "0.2.3-beta" = {}
+"0.2.4-beta" = {}
