@@ -6,6 +6,7 @@ tracker = "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Pop
 [versions]
 "0.0.3" = {}
 "0.1.0" = {}
+"yohane_bitdb-v0.2.6" = { url = "https://github.com/SilicDev/Archipelago/releases/download/yohane_bitdb-v0.2.6/yohane_deepblue.apworld" }
 
 [[fuzz_results]]
 version = "0.1.0"
