@@ -3,3 +3,4 @@ home = "https://github.com/Kalithar/ArchipelagoChronoGear"
 
 [versions]
 "0.1.0" = { url = "https://github.com/Kalithar/ArchipelagoChronoGear/releases/download/v0.1.0/chrono_gear.apworld" }
+"0.2.0" = { url = "https://github.com/Kalithar/ArchipelagoChronoGear/releases/download/v0.2.0/chrono_gear.apworld" }

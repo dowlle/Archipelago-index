@@ -138,6 +138,9 @@
 [chainedechoes]
 "1.1.0" = "5321f0ee687fb32f7e0d0893d09f46ed3ae213dd71b00d8a024af965cd3bd9a8"
 
+[chrono_gear]
+"0.2.0" = "b2f7a1a7bf55688f7aeaba7b90b71d2ff628c722cae5bdc9a267cb240f19fb1c"
+
 [ckd]
 "1.1.0" = "1ca8debed3f9fd1f5b968b3eb1ff9d52cdc398aaeab46a5ed78ef39cdd38d90f"
 [chibi_robo]
