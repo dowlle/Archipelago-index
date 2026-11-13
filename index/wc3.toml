@@ -3,3 +3,4 @@ home = "https://github.com/MatthewMarinets/war3-ap-maps"
 
 [versions]
 "0.0.1-releaser9" = { url = "https://github.com/MatthewMarinets/war3-ap-maps/releases/download/0.0.1-release/wc3.apworld" }
+"0.0.2-initial" = { url = "https://github.com/MatthewMarinets/war3-ap-maps/releases/download/0.0.2-initial/wc3.apworld" }
