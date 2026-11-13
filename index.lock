@@ -50,6 +50,9 @@
 [archipollago]
 "0.1.3" = "d303f51998d501b74f42ad7a3ee516b1d402ccb5f5df4b91f8a9dec413dd1d1f"
 
+[ark_ase]
+"0.3.3" = "6f8c4d367947e69fdbedf1a117138cfe7ca0e16f0187113e283f0b572f0c5942"
+
 [armoredcore]
 "0.3.0" = "794e1da0d72a01edfd48537aa2b83de747fce89ff949bc6aa69d61edf7aa0011"
 
