@@ -3,3 +3,4 @@ home = "https://github.com/ChakraaThePanda/Archipelago-Manual-TheVault"
 
 [versions]
 "2026.09.12" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-TheVault/releases/download/2026.09.12/manual_thevault_chakraa.apworld" }
+"2026.11.03" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-TheVault/releases/download/2026.11.03/manual_thevault_chakraa.apworld" }
