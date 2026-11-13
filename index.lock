@@ -53,6 +53,9 @@
 [armoredcore]
 "0.3.0" = "794e1da0d72a01edfd48537aa2b83de747fce89ff949bc6aa69d61edf7aa0011"
 
+[armoredcore3]
+"0.2.0" = "0bb6b4c8821fe9dedbb0faa6c6db5c3be69f67b1b0522163f10d75a69174fe5a"
+
 [Atlyss]
 "V1.0.5-PreRelease" = "0ce1a357b6c200cd72b35bce82c811126a3cc35ab80c44c0b102a0f0baf03ae6"
 
