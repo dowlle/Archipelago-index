@@ -3024,6 +3024,7 @@
 
 [spyro-aht]
 "2.1.0" = "d7a1f2a8555b034bced363fa90cee3cf28f91a4ebbd5764f0feabd9f1922e8c3"
+"AHT-v2.3.0-PR" = "b9fb04a7ba7ba2d09792c3a48ef8b5cc4915b3652cf4dcda6931c59e7797ace6"
 
 [spyro3gba]
 "0.3" = "80339286f961bd4d8508a66e6d3b3ad5377e26275915f7aa8ee887ab9a21acd6"
