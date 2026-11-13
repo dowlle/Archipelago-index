@@ -12,6 +12,7 @@ tracker = "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/latest"
 "3.4.5" = {}
 "3.5.2" = {}
 "3.5.1" = {}
+"3.5.6" = {}
 
 [[fuzz_results]]
 version = "3.5.2"
