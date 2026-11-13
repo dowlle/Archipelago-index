@@ -5,3 +5,4 @@ disabled = true
 
 [versions]
 "6.2.0" = { url = "https://github.com/Hallstead/manual_crashteamracingnitrofueled_hallstead/releases/download/v6.2/manual_crashteamracingnitrofueled_hallstead.apworld" }
+"6.3.2" = { url = "https://github.com/Hallstead/manual_crashteamracingnitrofueled_hallstead/releases/download/v6.3.2/manual_crashteamracingnitrofueled_hallstead.apworld" }
