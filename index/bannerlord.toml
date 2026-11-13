@@ -3,3 +3,4 @@ home = "https://github.com/dghalfor/Bannerlord-APWorld"
 
 [versions]
 "0.3.1" = { url = "https://github.com/dghalfor/Bannerlord-APWorld/releases/download/0.3.1/bannerlord.apworld" }
+"0.4.0" = { url = "https://github.com/dghalfor/Archipelago/releases/download/0.4.0/bannerlord.apworld" }
