@@ -1,5 +1,6 @@
 name = "Friday Night Funkin"
 home = "https://github.com/Z11Coding/Mixtape-Engine-Rework"
+disabled = true # Security: generation runs code supplied in player YAMLs. Re-enable once fixed upstream.
 
 [versions]
 "beta13.2" = { url = "https://github.com/Z11Coding/Mixtape-Engine-Rework/releases/download/beta13.2/fridaynightfunkin.apworld" }
