@@ -3,3 +3,4 @@ home = "https://github.com/muffinjets/Manual_TheWrathofCortex_MuffinJets"
 
 [versions]
 "1.0.1" = { url = "https://github.com/muffinjets/Manual_TheWrathofCortex_MuffinJets/releases/download/v1.0.1/Manual_TheWrathofCortex_MuffinJets.apworld" }
+"1.0.2" = { url = "https://github.com/muffinjets/Manual_TheWrathofCortex_MuffinJets/releases/download/v1.0.2/manual_thewrathofcortex_muffinjets.apworld" }
