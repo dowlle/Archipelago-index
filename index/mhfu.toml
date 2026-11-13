@@ -3,3 +3,4 @@ home = "https://github.com/Silvris/Archipelago"
 
 [versions]
 "0.0.2" = { url = "https://github.com/Silvris/Archipelago/releases/download/mhfu_0.0.2/mhfu.apworld" }
+"mhfu_0.0.3" = { url = "https://github.com/Silvris/Archipelago/releases/download/mhfu_0.0.3/mhfu.apworld" }
