@@ -3,3 +3,4 @@ home = "https://github.com/narramoment/Archipelago"
 
 [versions]
 "0.2.3" = { url = "https://github.com/narramoment/Archipelago/releases/download/0.2.3/jakii.apworld" }
+"1.2.0" = { url = "https://github.com/narramoment/Archipelago/releases/download/1.2.0/jakii.apworld" }
