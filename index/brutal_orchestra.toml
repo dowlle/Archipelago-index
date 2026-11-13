@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "1.0.0.post3" = { url = "https://github.com/DeadEyeDv/Brutal-Orchestra-Archipelago/releases/download/v1.2.1/brutal_orchestra.apworld" }
+"2.2" = { url = "https://github.com/DeadEyeDv/Brutal-Orchestra-Archipelago/releases/download/v2.2/brutal_orchestra.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0.post3"
