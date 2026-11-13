@@ -3,3 +3,4 @@ home = "https://github.com/EverydaySimpleDev/Archipelago"
 
 [versions]
 "ffcc-beta.0.0.1" = { url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/ffcc-beta.0.0.1/ffcc.apworld" }
+"ffcc-beta-0.3.0" = { url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/ffcc-beta-0.3.0/ffcc.apworld" }
