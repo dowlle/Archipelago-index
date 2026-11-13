@@ -9,6 +9,7 @@ stability = "stable"
 "0.5.3-beta" = {}
 "1.0.0" = {}
 "1.0.2" = { url = "https://github.com/FeluciaPS/GarfieldKartAP/releases/download/1.0.2/garfkart.apworld" }
+"0.5.4-beta" = { url = "https://github.com/FeluciaPS/GarfieldKartAP/releases/download/v0.5.4-beta/garfkart.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0"
