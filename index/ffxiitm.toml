@@ -5,3 +5,4 @@ stability = "stable"
 
 [versions]
 "0.0.9" = {}
+"ffxiitm-0.1.0" = { url = "https://github.com/silasary/Archipelago/releases/download/ffxiitm-0.1.0/ffxiitm.apworld" }
