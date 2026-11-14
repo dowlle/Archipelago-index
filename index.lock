@@ -713,6 +713,9 @@
 [rhythm_doctor]
 "0.0.11.1" = "9725aa3ca97e55c0a302813868d8aa57e35bb514f72bb5edd3160f9b940cc07e"
 
+[rhythm_tengoku]
+"tengoku-v1.0.3" = "2fd77e453f167c9fd432db07f31d3b21070943180eecac21df5c0955497d7136"
+
 [rimworld]
 "0.5.2-bugfix" = "d65f9fbcee6029aa668a7fa066b5c343e17082f6c173704deaafb31320544e8f"
 "0.6.1-alpha" = "0470202f75bf770caadef5062f2a13945a1893ad70cf7be5832b74fcd44b6e8c"
