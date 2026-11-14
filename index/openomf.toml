@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.0.2" = { url = "https://github.com/stubobis1/archipelago-openomf/releases/download/0.0.02/openomf.apworld" }
+"omf-0.0.5" = { url = "https://github.com/stubobis1/archipelago-openomf/releases/download/omf-0.0.5/openomf.apworld" }
 
 [[fuzz_results]]
 version = "0.0.2"
