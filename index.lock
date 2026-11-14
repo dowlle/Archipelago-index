@@ -274,6 +274,7 @@
 
 [diceydungeons]
 "0.4.4b0" = "dd70d0428cdd3345b3ffa0f41e89af831beaead6daaf6c722c6e229165cf2dd2"
+"0.6.0-beta" = "0eb9254484e51c4143080f53e3965ae0f44c5ca9baa6764d43efb1524f33e612"
 
 [difficult_climbing]
 "0.1.2" = "a02b6461a0624e606096dc2cdd079e37e271066ce312f15a4787bd9a2f674cce"
