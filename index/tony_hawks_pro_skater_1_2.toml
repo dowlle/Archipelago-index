@@ -6,3 +6,4 @@ setup_guide = "https://github.com/SerpentAI/Archipelago/blob/thps12/worlds/tony_
 
 [versions]
 "1.1.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/thps12-v1.1.0/tony_hawks_pro_skater_1_2.apworld" }
+"thps12-v1.2.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/thps12-v1.2.0/tony_hawks_pro_skater_1_2.apworld" }
