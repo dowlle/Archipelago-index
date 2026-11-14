@@ -6,3 +6,4 @@ disabled = true # Missing explicit indirect conditions
 [versions]
 "1.1.1" = {}
 "1.2.0" = {}
+"mmx2-v2.0.6" = { url = "https://github.com/TheLX5/Archipelago/releases/download/mmx2-v2.0.6/mmx2.apworld" }
