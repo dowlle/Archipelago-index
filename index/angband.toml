@@ -4,3 +4,12 @@ home = "https://github.com/zane31415/APangband"
 [versions]
 "0.2.0" = { url = "https://github.com/zane31415/APangband/releases/download/v0.2.0/angband.apworld" }
 "0.4.0" = { url = "https://github.com/zane31415/APangband/releases/download/v0.4.0/angband.apworld" }
+
+[[fuzz_results]]
+version = "0.4.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
