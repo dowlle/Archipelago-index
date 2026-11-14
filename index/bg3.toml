@@ -10,6 +10,7 @@ tracker = "https://github.com/jeditobe1/bg3-ap-tracker/releases/tag/v0.7.0"
 "0.5.0" = {}
 "0.4.5" = {}
 "0.6.1" = {}
+"0.8.0" = {}
 
 [[fuzz_results]]
 version = "0.4.4"
