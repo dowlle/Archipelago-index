@@ -3,3 +3,4 @@ home = "https://github.com/ZAPaDASH04/LEGO-Batman-APworld"
 
 [versions]
 "0.2.0-alpha" = { url = "https://github.com/ZAPaDASH04/LEGO-Batman-APworld/releases/download/v0.2.0-alpha/lego_batman_1.apworld" }
+"1.0.2" = { url = "https://github.com/ZAPaDASH04/LEGO-Batman-APworld/releases/download/v1.0.2/lego_batman_1.apworld" }
