@@ -3,3 +3,4 @@ home = "https://github.com/ChakraaThePanda/Archipelago-Northgard"
 
 [versions]
 "2026.09.14" = { url = "https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/download/2026.09.14/northgard.apworld" }
+"2026.11.11" = { url = "https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/download/2026.11.11/northgard.apworld" }
