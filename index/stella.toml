@@ -4,3 +4,12 @@ home = "https://github.com/giovannialayan/oigArchipelago"
 [versions]
 "1.0.2" = { url = "https://github.com/giovannialayan/oigArchipelago/releases/download/1.0.2/stella.apworld" }
 "1.0.3" = { url = "https://github.com/giovannialayan/oigArchipelago/releases/download/1.0.3/stella.apworld" }
+
+[[fuzz_results]]
+version = "1.0.3"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.93
+worst_hook = "check-ut"
+worst_hook_rate = 0.934

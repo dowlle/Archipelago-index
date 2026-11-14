@@ -4,3 +4,12 @@ home = "https://github.com/Serial-Developer/Grunnchipelago"
 [versions]
 "1.1.3" = { url = "https://github.com/Serial-Developer/Grunnchipelago/releases/download/v1.1.3/grunn.apworld" }
 "1.1.6" = { url = "https://github.com/Serial-Developer/Grunnchipelago/releases/download/v1.1.6/grunn.apworld" }
+
+[[fuzz_results]]
+version = "1.1.6"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0346
+worst_hook = "check-indirect-conditions"
+worst_hook_rate = 0.08142

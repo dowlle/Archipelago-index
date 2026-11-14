@@ -4,3 +4,12 @@ home = "https://github.com/Badhamknibbs/ArchipelagoNeonWhite"
 [versions]
 "0.1.1" = { url = "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/download/v0.1.1/neonwhite.apworld" }
 "0.2.1" = { url = "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/download/v0.2.1/neonwhite.apworld" }
+
+[[fuzz_results]]
+version = "0.2.1"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 1668
+default_rate = 0.01199
+worst_hook = "default"
+worst_hook_rate = 0.01199

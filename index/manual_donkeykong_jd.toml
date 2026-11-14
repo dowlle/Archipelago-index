@@ -4,3 +4,12 @@ home = "https://github.com/JDLKMR/Donkey-Kong-APManual"
 [versions]
 "1.0.0-original-edition" = { url = "https://github.com/JDLKMR/Donkey-Kong-APManual/releases/download/v1.0.0-original-edition/manual_donkeykong_jd.apworld" }
 "1.0.0-arcade" = { url = "https://github.com/JDLKMR/Donkey-Kong-APManual/releases/download/v1.0.0-arcade/manual_donkeykong_jd.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0-arcade"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

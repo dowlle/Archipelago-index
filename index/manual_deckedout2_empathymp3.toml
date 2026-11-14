@@ -4,3 +4,12 @@ home = "https://github.com/empathy-mp3/decked-out-2-AP"
 [versions]
 "1.1.0-unstable" = { url = "https://github.com/empathy-mp3/decked-out-2-AP/releases/download/v1.1.0-unstable/manual_deckedout2_empathymp3.apworld" }
 "1.1.0-stable" = { url = "https://github.com/empathy-mp3/decked-out-2-AP/releases/download/v1.1.0-stable/manual_deckedout2_empathymp3.apworld" }
+
+[[fuzz_results]]
+version = "1.1.0-stable"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

@@ -4,3 +4,12 @@ home = "https://github.com/barretg/hl1-sven-ap"
 [versions]
 "0.3" = { url = "https://github.com/barretg/hl1-sven-ap/releases/download/v0.3/half_life_sven.apworld" }
 "0.4.1" = { url = "https://github.com/barretg/hl1-sven-ap/releases/download/v0.4.1/half_life_sven.apworld" }
+
+[[fuzz_results]]
+version = "0.4.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0046
+worst_hook = "check-ut"
+worst_hook_rate = 0.01

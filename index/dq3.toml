@@ -4,3 +4,12 @@ home = "https://github.com/ZigzagAwaka/DQ3AP"
 [versions]
 "0.3.1" = { url = "https://github.com/ZigzagAwaka/DQ3AP/releases/download/v0.3.1/dq3.apworld" }
 "0.5.1" = { url = "https://github.com/ZigzagAwaka/DQ3AP/releases/download/v0.5.1/dq3.apworld" }
+
+[[fuzz_results]]
+version = "0.5.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.002
+worst_hook = "default"
+worst_hook_rate = 0.002

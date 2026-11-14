@@ -4,3 +4,12 @@ home = "https://github.com/wilsonao/ff8_arch"
 [versions]
 "0.7.0" = { url = "https://github.com/wilsonao/ff8_arch/releases/download/v0.7.0/ff8.apworld" }
 "0.10.0" = { url = "https://github.com/wilsonao/ff8_arch/releases/download/v0.10.0/ff8.apworld" }
+
+[[fuzz_results]]
+version = "0.10.0"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 4504
+default_rate = 0.018206
+worst_hook = "default"
+worst_hook_rate = 0.018206
