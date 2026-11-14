@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.6.0b1" = { url = "https://github.com/Spriddles/crazy-taxi-apworld/releases/download/v0.6.0-beta.1/crazy_taxi_v0_6.apworld" }
+"0.6.5" = { url = "https://github.com/Spriddles/crazy-taxi-apworld/releases/download/v0.6.5/crazy_taxi.apworld" }
 
 [[fuzz_results]]
 version = "0.6.0b1"
