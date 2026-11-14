@@ -3,3 +3,4 @@ home = "https://github.com/Kryen112/Viscera-Cleanup-Detail-AP"
 
 [versions]
 "1.2.0" = { url = "https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/download/1.2.0/viscera_cleanup_detail.apworld" }
+"1.2.1" = { url = "https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/download/1.2.1/viscera_cleanup_detail.apworld" }
