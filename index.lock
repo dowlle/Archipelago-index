@@ -732,6 +732,7 @@
 [pokemon_bw]
 "0.3.29" = "49144db16beafefe6f8dba8afa7466d8a58af8b81c0fff8f71491b59cb7fbc8b"
 "0.3.37" = "150b63a8fe3d0953fea1f807dc49d9d870c5dd6e925ebb406437593e72df1327"
+"0.4.5" = "8a400df90fbe2b2ca8a9e129f996b491de3b88f1c8ef146dc3a5dbe7c7bddfcd"
 
 [pokemon_crystal_prerelease]
 "6.0.0-rc.7" = "c25df786ba35945a0aba95d45b4d5bedd8a51385bf5ba712bcb04cbd7ea35eb1"
