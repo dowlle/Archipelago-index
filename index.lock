@@ -362,6 +362,9 @@
 [getting_over_it]
 "0.2.3" = "01f44e92881f818c72bc048f40cbb6328d7e22d4810c83244df3a3ed5b8eefd2"
 
+[glassanimals]
+"ga-1.1.0" = "443ff5c80d8a16c096b0be7a7712bc835edfd2e8661835c45dfc35d6fbd4f72c"
+
 [gmod_apadv]
 "0.1.2" = "c51354e1cff100248cd83d725441202a12dd2162ba1a4c8ffc5d746fd3df6b8b"
 "0.2.0" = "a8dc662c5ef28cb070127df7a7ec0c9953930e13cc4de088556eda639d390c6d"

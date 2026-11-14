@@ -3,3 +3,4 @@ home = "https://github.com/benny-dreamly/Archipelago"
 
 [versions]
 "ga-1.0.0" = { url = "https://github.com/benny-dreamly/Archipelago/releases/download/ga-1.0.0/glassanimals.apworld" }
+"ga-1.1.0" = { url = "https://github.com/benny-dreamly/Archipelago/releases/download/ga-1.1.0/glassanimals.apworld" }
