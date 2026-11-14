@@ -740,6 +740,9 @@
 [pokemon_crystal_prerelease]
 "6.0.0-rc.7" = "c25df786ba35945a0aba95d45b4d5bedd8a51385bf5ba712bcb04cbd7ea35eb1"
 
+[pokemon_hgss]
+"0.2.4-hotfix" = "6c3752a2c82c55e7adabffa94250b374f4d1d8d658be66e1347334a3b3be8298"
+
 [pokemon_trozei]
 "0.0.1b0" = "033644384fe06be9218ae14adcb46e1b16b85cda86c5bae5b74f1b491516d720"
 "trozei_v0.0.3" = "68a88e55401609f3757b2f04a11bd2b4c33b86ef6d747122b055625d1692e66f"
