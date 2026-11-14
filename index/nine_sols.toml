@@ -18,3 +18,4 @@ stability = "stable"
 "0.5.6" = {}
 "0.5.7" = {}
 "0.6.3" = {}
+"0.6.4" = { url = "https://github.com/IxrecsRandomizers/NineSolsArchipelagoRandomizer/releases/download/0.6.4/nine_sols.apworld" }
