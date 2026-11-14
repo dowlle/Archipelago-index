@@ -3,3 +3,4 @@ home = "https://github.com/MLSTRM/ArchipelagoFF132"
 
 [versions]
 "0.3.0" = { url = "https://github.com/MLSTRM/ArchipelagoFF132/releases/download/ff132/0.3.0/ff132.apworld" }
+"ff132/0.3.1" = { url = "https://github.com/MLSTRM/ArchipelagoFF132/releases/download/ff132/0.3.1/ff132.apworld" }
