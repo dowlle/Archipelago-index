@@ -9,6 +9,7 @@ tracker = "https://github.com/Michpem/SOTN-AP-MapTracker/releases"
 
 "0.8.16+unofficial" = { url = "https://github.com/Darvitz/Archipelago-Crystal/releases/download/Unofficial_0.8.16/sotn.apworld" }
 "b0816" = { url = "https://github.com/fdelduque/Archipelago/releases/download/b0816/sotn.apworld" }
+"b08161" = { url = "https://github.com/fdelduque/Archipelago/releases/download/b08161/sotn.apworld" }
 
 [[fuzz_results]]
 version = "b0816"
