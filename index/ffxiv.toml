@@ -7,3 +7,12 @@ disabled = true # 4% failure rate, horribly slow
 [versions]
 "0.22.0" = {}
 "0.31.2" = {}
+
+[[fuzz_results]]
+version = "0.31.2"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 236
+default_rate = 0.076271
+worst_hook = "default"
+worst_hook_rate = 0.076271

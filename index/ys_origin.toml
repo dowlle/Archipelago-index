@@ -4,3 +4,12 @@ home = "https://github.com/4rtefakt/ys-origin-archipelago"
 [versions]
 "1.9.2" = { url = "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v2.0.0-beta.4/ys_origin.apworld" }
 "2.1.1" = { url = "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v2.1.1/ys_origin.apworld" }
+
+[[fuzz_results]]
+version = "2.1.1"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0172
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.04

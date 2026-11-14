@@ -4,3 +4,12 @@ home = "https://github.com/petiboy7/IAYBArchipelago"
 [versions]
 "0.3.4" = { url = "https://github.com/petiboy7/IAYBArchipelago/releases/download/0.3.4/i_am_your_beast.apworld" }
 "0.4.0" = { url = "https://github.com/petiboy7/IAYBArchipelago/releases/download/0.4.0/i_am_your_beast.apworld" }
+
+[[fuzz_results]]
+version = "0.4.0"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.12
+worst_hook = "check-determinism"
+worst_hook_rate = 0.479452

@@ -13,3 +13,12 @@ seeds = 5000
 default_rate = 0.01
 worst_hook = "default"
 worst_hook_rate = 0.01
+
+[[fuzz_results]]
+version = "KTD-v2.1.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0026
+worst_hook = "default"
+worst_hook_rate = 0.0026

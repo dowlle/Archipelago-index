@@ -4,3 +4,12 @@ home = "https://github.com/zorasknight/YakLaDGaiRando"
 [versions]
 "Beta2r2" = { url = "https://github.com/zorasknight/YakLaDGaiRando/releases/download/Beta2/yakuza_gaiden.apworld" }
 "Beta-3" = { url = "https://github.com/zorasknight/YakLaDGaiRando/releases/download/Beta-3/yakuza_gaiden.apworld" }
+
+[[fuzz_results]]
+version = "Beta-3"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0024
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.392

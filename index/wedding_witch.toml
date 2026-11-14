@@ -4,3 +4,12 @@ home = "https://github.com/chickentuna/WeddingWitchMod"
 [versions]
 "0.1.0" = { url = "https://github.com/chickentuna/WeddingWitchMod/releases/download/v0.1.0/wedding_witch.apworld" }
 "0.1.1" = { url = "https://github.com/chickentuna/WeddingWitchMod/releases/download/v0.1.1/wedding_witch.apworld" }
+
+[[fuzz_results]]
+version = "0.1.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 3080
+default_rate = 0.000649
+worst_hook = "default"
+worst_hook_rate = 0.000649

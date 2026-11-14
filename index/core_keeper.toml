@@ -4,3 +4,12 @@ home = "https://github.com/URAQTDev/Core-Keeper-Archipelago-APWorld-Tracker"
 [versions]
 "1.1.0" = { url = "https://github.com/URAQTDev/Core-Keeper-Archipelago-APWorld-Tracker/releases/download/v1.1.0/core_keeper.apworld" }
 "1.2.0-rc.5" = { url = "https://github.com/URAQTDev/Core-Keeper-Archipelago-APWorld-Tracker/releases/download/v1.2.0-rc.5/core_keeper.apworld" }
+
+[[fuzz_results]]
+version = "1.2.0-rc.5"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 4683
+default_rate = 0.001495
+worst_hook = "default"
+worst_hook_rate = 0.001495

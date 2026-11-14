@@ -15,3 +15,12 @@ seeds = 5000
 default_rate = 0.5994
 worst_hook = "check-ut"
 worst_hook_rate = 0.608
+
+[[fuzz_results]]
+version = "votv-v0.7.0"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0006
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.204

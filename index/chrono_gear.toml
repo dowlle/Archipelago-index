@@ -4,3 +4,12 @@ home = "https://github.com/Kalithar/ArchipelagoChronoGear"
 [versions]
 "0.1.0" = { url = "https://github.com/Kalithar/ArchipelagoChronoGear/releases/download/v0.1.0/chrono_gear.apworld" }
 "0.2.0" = { url = "https://github.com/Kalithar/ArchipelagoChronoGear/releases/download/v0.2.0/chrono_gear.apworld" }
+
+[[fuzz_results]]
+version = "0.2.0"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0002
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.086

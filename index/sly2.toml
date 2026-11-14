@@ -10,3 +10,12 @@ tracker = "https://github.com/lastingParadox/Sly2-Poptracker/releases/latest"
 "0.8.6" = {}
 "1.1.0" = {}
 "1.2.0" = {}
+
+[[fuzz_results]]
+version = "1.2.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 4985
+default_rate = 0.002207
+worst_hook = "default"
+worst_hook_rate = 0.002207

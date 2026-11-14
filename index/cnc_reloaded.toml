@@ -4,3 +4,12 @@ home = "https://github.com/Heinki/Reloaded-Randomizer"
 [versions]
 "1.2" = { url = "https://github.com/Heinki/Reloaded-Randomizer/releases/download/V1.2/cnc_reloaded.apworld" }
 "V2.1" = { url = "https://github.com/Heinki/Reloaded-Randomizer/releases/download/V2.1/cnc_reloaded.apworld" }
+
+[[fuzz_results]]
+version = "V2.1"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.5914
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.597

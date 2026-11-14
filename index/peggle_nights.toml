@@ -6,3 +6,12 @@ stability = "stable"
 [versions]
 "1.1.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/peggle-nights-v1.1.0/peggle_nights.apworld" }
 "peggle-nights-v2.0.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/peggle-nights-v2.0.0/peggle_nights.apworld" }
+
+[[fuzz_results]]
+version = "peggle-nights-v2.0.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0002
+worst_hook = "default"
+worst_hook_rate = 0.0002

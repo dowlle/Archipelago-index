@@ -7,3 +7,12 @@ stability = "stable"
 "0.13.2" = {}
 "0.15.1" = {}
 "0.16.3" = {}
+
+[[fuzz_results]]
+version = "0.16.3"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0216
+worst_hook = "default"
+worst_hook_rate = 0.0216

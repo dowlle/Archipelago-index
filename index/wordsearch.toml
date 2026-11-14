@@ -5,3 +5,12 @@ stability = "unstable"
 [versions]
 "0.0.1" = { url = "https://github.com/ProfDeCube/Archipelago/releases/download/wordsearch/wordsearch.apworld" }
 "wordipelago-1.0.1_wordsearch-0.5.0" = { url = "https://github.com/ProfDeCube/Archipelago/releases/download/wordipelago-1.0.1_wordsearch-0.5.0/wordsearch.apworld" }
+
+[[fuzz_results]]
+version = "wordipelago-1.0.1_wordsearch-0.5.0"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 2192
+default_rate = 0.07938
+worst_hook = "default"
+worst_hook_rate = 0.07938

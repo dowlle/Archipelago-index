@@ -26,3 +26,12 @@ seeds = 5000
 default_rate = 0.0004
 worst_hook = "default"
 worst_hook_rate = 0.0004
+
+[[fuzz_results]]
+version = "pbrs_0.3.2"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0006
+worst_hook = "default"
+worst_hook_rate = 0.0006

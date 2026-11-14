@@ -8,3 +8,12 @@ home = "https://discord.com/channels/1097532591650910289/1371605100178440263"
 "1.2.1" = {url = "https://github.com/commanderdot/ManualBattleBlockTheater/releases/download/v1.2.1/manual_battleblocktheater_commanderdot.apworld"}
 "1.2.2" = { url = "https://github.com/commanderdot/ManualBattleBlockTheater/releases/download/v1.2.2/manual_battleblocktheater_commanderdot.apworld" }
 "1.2.3" = { url = "https://github.com/commanderdot/ManualBattleBlockTheater/releases/download/v1.2.3/manual_battleblocktheater_commanderdot.apworld" }
+
+[[fuzz_results]]
+version = "1.2.3"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0092
+worst_hook = "default"
+worst_hook_rate = 0.0092

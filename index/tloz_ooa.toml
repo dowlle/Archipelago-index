@@ -8,3 +8,12 @@ tracker = "https://github.com/Dranzior/ooa_brooty/releases"
 "0.4.3+hotfix-0.6.2" = { local = "../apworlds/tloz_ooa-0.4.3+hotfix-0.6.2.apworld" }
 "0.5.1" = { url = "https://github.com/josephanimate2021/ArchipelagoOoA/releases/download/v0.5.1/tloz_ooa.apworld" }
 "2.0.1" = { url = "https://github.com/josephanimate2021/ArchipelagoOoA/releases/download/v2.0.1/tloz_ooa.apworld" }
+
+[[fuzz_results]]
+version = "2.0.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 2285
+default_rate = 0.000875
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.01

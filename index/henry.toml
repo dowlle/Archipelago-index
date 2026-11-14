@@ -4,3 +4,12 @@ home = "https://github.com/funjeff/HenryStickminArchipelagoIntegration"
 [versions]
 "release3r2" = { url = "https://github.com/funjeff/HenryStickminArchipelagoIntegration/releases/download/release3/henry.apworld" }
 "0.5" = { url = "https://github.com/funjeff/HenryStickminArchipelagoIntegration/releases/download/0.5/henry.apworld" }
+
+[[fuzz_results]]
+version = "0.5"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.5406
+worst_hook = "default"
+worst_hook_rate = 0.5406
