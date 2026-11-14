@@ -4,3 +4,12 @@ home = "https://github.com/kenniky/ArchipelagoSSE"
 [versions]
 "0.2.7" = { url = "https://github.com/kenniky/ArchipelagoSSE/releases/download/v0.3.0/ssbb_sse.apworld" }
 "0.3.1.1" = { url = "https://github.com/kenniky/ArchipelagoSSE/releases/download/v0.3.1.1/ssbb_sse.apworld" }
+
+[[fuzz_results]]
+version = "0.3.1.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

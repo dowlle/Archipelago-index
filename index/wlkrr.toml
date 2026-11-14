@@ -8,3 +8,12 @@ setup_guide = "https://github.com/sapphisylph/We-Love-Archipelago-Reroll/blob/ma
 
 "0.1.0" = {}
 "0.1.1" = {}
+
+[[fuzz_results]]
+version = "0.1.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

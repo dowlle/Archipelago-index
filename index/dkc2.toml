@@ -14,3 +14,12 @@ tracker = "https://github.com/pwkfisher/ap-dkc2-tracker/releases/latest"
 "3.1.0" = {}
 "3.1.2" = {}
 "dkc2-v3.1.5" = { url = "https://github.com/TheLX5/Archipelago/releases/download/dkc2-v3.1.5/dkc2.apworld" }
+
+[[fuzz_results]]
+version = "dkc2-v3.1.5"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

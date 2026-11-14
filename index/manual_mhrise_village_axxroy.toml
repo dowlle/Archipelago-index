@@ -4,3 +4,12 @@ home = "https://github.com/axxroytovu/archipelago_manuals"
 [versions]
 "Rise_1.0.0" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Rise_1.0.0/manual_mhrise_village_axxroy.apworld" }
 "Rise_2.0.1" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Rise_2.0.1/manual_mhrisevillage_axxroy.apworld" }
+
+[[fuzz_results]]
+version = "Rise_2.0.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
