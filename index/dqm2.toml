@@ -3,3 +3,4 @@ home = "https://github.com/Whizzlefern/Archipelago"
 
 [versions]
 "dqm2-v0.1.1" = { url = "https://github.com/Whizzlefern/Archipelago/releases/download/dqm2-v0.1.1/dqm2.apworld" }
+"dqm2-v0.2.1" = { url = "https://github.com/Whizzlefern/Archipelago/releases/download/dqm2-v0.2.1/dqm2.apworld" }
