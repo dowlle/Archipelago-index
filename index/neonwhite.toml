@@ -3,3 +3,4 @@ home = "https://github.com/Badhamknibbs/ArchipelagoNeonWhite"
 
 [versions]
 "0.1.1" = { url = "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/download/v0.1.1/neonwhite.apworld" }
+"0.2.1" = { url = "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/download/v0.2.1/neonwhite.apworld" }
