@@ -3,3 +3,4 @@ home = "https://github.com/TheLivingShadow97/THAWAP"
 
 [versions]
 "0.0.1" = { url = "https://github.com/TheLivingShadow97/THAWAP/releases/download/Downtown/Deathlink/thaw.apworld" }
+"Small-Logic-Fixes" = { url = "https://github.com/TheLivingShadow97/THAWAP/releases/download/Small-Logic-Fixes/thaw.apworld" }
