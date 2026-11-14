@@ -3,3 +3,4 @@ home = "https://github.com/JDLKMR/TotK-APManual"
 
 [versions]
 "1.1.0" = { url = "https://github.com/JDLKMR/TotK-APManual/releases/download/v1.1.0/manual_tearsofthekingdom_jd.apworld" }
+"1.1.1" = { url = "https://github.com/JDLKMR/TotK-APManual/releases/download/v1.1.1/manual_tearsofthekingdom_jd.apworld" }
