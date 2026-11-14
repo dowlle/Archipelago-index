@@ -3,3 +3,4 @@ home = "https://github.com/rsa17826/vex2-ap"
 
 [versions]
 "15" = { url = "https://github.com/rsa17826/vex2-ap/releases/download/15/vex2.apworld" }
+"16" = { url = "https://github.com/rsa17826/vex2-ap/releases/download/16/vex2.apworld" }
