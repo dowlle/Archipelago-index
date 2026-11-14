@@ -6,6 +6,7 @@ setup_guide = "https://github.com/SWCreeperKing/Widgitpelago/blob/master/Readme.
 
 [versions]
 "0.2.1" = {}
+"0.3.0" = {}
 
 [[fuzz_results]]
 version = "0.2.1"
