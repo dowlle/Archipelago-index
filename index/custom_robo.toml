@@ -5,6 +5,7 @@ stability = "untested"
 
 [versions]
 "0.3" = {}
+"V1.0" = { url = "https://github.com/Metaruler/ArchipelagoCR/releases/download/V1.0/custom_robo.apworld" }
 
 [[fuzz_results]]
 version = "0.3"
