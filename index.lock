@@ -928,6 +928,9 @@
 [tetrisattack]
 "0.4.2_01" = "e69ef70d4c404253e41b054ddd7033ae189e39406421c3aa3eb79b7dc5670550"
 
+[thps3]
+"1.0.6" = "402c5fa56cd431371c35c70c6b998b5c0d5b3ec18301e1f5e6c0ca9dc2680a0e"
+
 [three_goblin_wobblin]
 "0.0.1a0" = "540cac59cfbcdf4edd0f1e87ff32f0fef67dbc1256a906b48b73ba06bacc16ce"
 "TPalpha" = "50eff1eea4c7574976d125816e3e5f132862c3c62480e30ea5e48d565a43f5fa"
