@@ -5,6 +5,7 @@ stability = "unstable"
 
 [versions]
 "2.0.0" = { url = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago/releases/download/V2.0.0/spiritvalley.apworld" }
+"V2.1.2" = {}
 
 [[fuzz_results]]
 version = "2.0.0"
