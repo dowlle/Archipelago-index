@@ -725,6 +725,8 @@
 "2026.11.11" = "bdcf761b2fd30873c5e3ff4de4e5c72a8657dad86d161584a26ae4461a2f21e1"
 [nsmbds]
 "nsmbds-v0.5.3-unstable" = "0f129a11e46283c05a0ab9850a5f09f3a7433292cff4045cf93c32562e5daea5"
+[novalands]
+"ap0.2.3-prerelease" = "9c19463f5127b6ff1e33357ea7a4f7ea95c3227fd1963a9fa305d780a4fbd538"
 
 [nuclear_throne]
 "1.3.1.post2" = "b76de96c961b7641eff7b333eccee3d50231bec5050b64d2e7658dbb2855be2a"

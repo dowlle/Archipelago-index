@@ -3,3 +3,4 @@ home = "https://github.com/Foxolotl713/NovaLandsMods"
 
 [versions]
 "ap0.1.0" = { url = "https://github.com/Foxolotl713/NovaLandsMods/releases/download/ap0.1.0/novalands.apworld" }
+"ap0.2.3-prerelease" = { url = "https://github.com/Foxolotl713/NovaLandsMods/releases/download/ap0.2.3-prerelease/novalands.apworld" }
