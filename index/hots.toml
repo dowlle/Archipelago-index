@@ -4,3 +4,12 @@ home = "https://github.com/POD-io/HotS-ArchipelagoWorld"
 [versions]
 "0.6.0" = { url = "https://github.com/POD-io/HotS-ArchipelagoWorld/releases/download/v0.6.0/hots.apworld" }
 "0.6.1" = { url = "https://github.com/POD-io/HotS-ArchipelagoWorld/releases/download/v0.6.1/hots.apworld" }
+
+[[fuzz_results]]
+version = "0.6.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 2570
+default_rate = 0.001946
+worst_hook = "default"
+worst_hook_rate = 0.001946
