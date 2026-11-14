@@ -159,6 +159,7 @@
 
 [cluster_truck]
 "1.3.1" = "371d2ec7ef93ccd74816cca85d7a599408ffe51f9cabb80f339fbd6a0ea7dcaa"
+"1.3.2" = "b60f812554b60dfe02cd0c7d4d3be58d88023038990ec86ecee92b706ee1b00e"
 
 [commandmission]
 "V0.1.7" = "1cfa8e8886abc7c44d794b91de46841999e3439d4a9374f11ef5011e7e2423c0"
