@@ -3,3 +3,4 @@ home = "https://github.com/NathanW001/BTTHArchipelago"
 
 [versions]
 "0.1.02" = { url = "https://github.com/NathanW001/BTTHArchipelago/releases/download/0.1.02/bat_to_the_heavens.apworld" }
+"0.1.03" = { url = "https://github.com/NathanW001/BTTHArchipelago/releases/download/0.1.03/bat_to_the_heavens.apworld" }
