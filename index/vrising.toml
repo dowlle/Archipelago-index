@@ -3,3 +3,4 @@ home = "https://github.com/dghalfor/V-Rising-APWorld"
 
 [versions]
 "0.3.2" = { url = "https://github.com/dghalfor/V-Rising-APWorld/releases/download/0.3.2/vrising.apworld" }
+"0.3.4" = { url = "https://github.com/dghalfor/V-Rising-APWorld/releases/download/0.3.4/vrising.apworld" }

@@ -1045,6 +1045,9 @@
 "votv-v0.0.2" = "dbd82d42209f7e4eb22b05879bc838d346747c2c4b8ce5fd54d4d6ffde6e7b5f"
 "votv-v0.7.0" = "4d1cb14cfa54b90c758438aa9cf35c670d2a3889139a4859350604195c1cc711"
 
+[vrising]
+"0.3.4" = "c5ba8902fc352aea975a39f2bc3d3fe03a4dfb006ae2451cd74fd0e4fd3b9d63"
+
 [vsim]
 "0.0.4" = "9eb39bad02bd030abb1ec69e4fff09ed41bc2bd615e6ef700a8742366800bd23"
 [WarioworldAP]
