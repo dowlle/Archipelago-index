@@ -4,3 +4,12 @@ home = "https://github.com/SingeKiller/Pok-HeartGold_Apworld"
 [versions]
 "0.2.4" = { url = "https://github.com/SingeKiller/Pok-HeartGold_Apworld/releases/download/v0.2.4/pokemon_hgss.apworld" }
 "0.2.4-hotfix" = { url = "https://github.com/SingeKiller/Pok-HeartGold_Apworld/releases/download/v0.2.4-hotfix/pokemon_hgss.apworld" }
+
+[[fuzz_results]]
+version = "0.2.4-hotfix"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.053
+worst_hook = "default"
+worst_hook_rate = 0.053

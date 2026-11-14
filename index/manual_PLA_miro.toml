@@ -5,3 +5,12 @@ home = "https://discord.com/channels/1097532591650910289/1155150756622643260"
 [versions]
 "1.1.1" = { url = "https://github.com/Miro-n1/archipelago_manuals/releases/download/PLA_1.1.1/manual_PLA_miro.apworld" }
 "PLA_1.06" = { url = "https://github.com/Miro-n1/archipelago_manuals/releases/download/PLA_1.06/manual_PLA_miro.apworld" }
+
+[[fuzz_results]]
+version = "PLA_1.06"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.004
+worst_hook = "check-determinism"
+worst_hook_rate = 0.356713

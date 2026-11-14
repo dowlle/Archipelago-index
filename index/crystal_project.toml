@@ -31,3 +31,12 @@ seeds = 2824
 default_rate = 0.089943
 worst_hook = "check-determinism"
 worst_hook_rate = 0.966292
+
+[[fuzz_results]]
+version = "CrystalProject-v0.19.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 2784
+default_rate = 0.003592
+worst_hook = "default"
+worst_hook_rate = 0.003592

@@ -8,3 +8,12 @@ disabled = true
 "1.5.2" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/v1.5.2/tevi.apworld" }
 "1.5.3" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/v1.5.3/tevi.apworld" }
 "1.6.5" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/v1.6.5/tevi.apworld" }
+
+[[fuzz_results]]
+version = "1.6.5"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.001
+worst_hook = "check-ut"
+worst_hook_rate = 0.006

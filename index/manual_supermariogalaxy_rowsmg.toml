@@ -4,3 +4,12 @@ home = "https://github.com/row-row-row/Archipelagos"
 [versions]
 "0.0.1" = { url = "https://github.com/row-row-row/Archipelagos/releases/download/ArchipelagosSMG/manual_supermariogalaxy_rowsmg.apworld" }
 "SuperMarioGalaxyUpdate" = { url = "https://github.com/row-row-row/Archipelagos/releases/download/SuperMarioGalaxyUpdate/manual_supermariogalaxy_rowsmg.apworld" }
+
+[[fuzz_results]]
+version = "SuperMarioGalaxyUpdate"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0004
+worst_hook = "default"
+worst_hook_rate = 0.0004

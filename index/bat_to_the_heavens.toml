@@ -4,3 +4,12 @@ home = "https://github.com/NathanW001/BTTHArchipelago"
 [versions]
 "0.1.02" = { url = "https://github.com/NathanW001/BTTHArchipelago/releases/download/0.1.02/bat_to_the_heavens.apworld" }
 "0.1.03" = { url = "https://github.com/NathanW001/BTTHArchipelago/releases/download/0.1.03/bat_to_the_heavens.apworld" }
+
+[[fuzz_results]]
+version = "0.1.03"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.502

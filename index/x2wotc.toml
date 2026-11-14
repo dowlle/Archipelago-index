@@ -10,3 +10,12 @@ stability = "stable"
 "0.10.7-beta" = {}
 "0.10.10-beta" = {}
 "1.0.0" = { url = "https://github.com/Snyax/Archipelago/releases/download/1.0.0/x2wotc.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 4015
+default_rate = 0.003985
+worst_hook = "default"
+worst_hook_rate = 0.003985

@@ -4,3 +4,12 @@ home = "https://github.com/riezahughes/VagrantStoryAPWorld"
 [versions]
 "0.0.1" = { url = "https://github.com/riezahughes/VagrantStoryAPWorld/releases/download/v0.1.1/vagrantstory.apworld" }
 "0.2.5" = { url = "https://github.com/riezahughes/VagrantStoryAPWorld/releases/download/v0.2.5/vagrantstory.apworld" }
+
+[[fuzz_results]]
+version = "0.2.5"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.041
+worst_hook = "default"
+worst_hook_rate = 0.041

@@ -4,3 +4,12 @@ home = "https://github.com/narramoment/Archipelago"
 [versions]
 "0.2.3" = { url = "https://github.com/narramoment/Archipelago/releases/download/0.2.3/jakii.apworld" }
 "1.2.0" = { url = "https://github.com/narramoment/Archipelago/releases/download/1.2.0/jakii.apworld" }
+
+[[fuzz_results]]
+version = "1.2.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0012
+worst_hook = "default"
+worst_hook_rate = 0.0012

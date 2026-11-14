@@ -4,3 +4,12 @@ home = "https://github.com/DayKat/spirit-tracks"
 [versions]
 "0.8.3" = { url = "https://github.com/DayKat/spirit-tracks/releases/download/st-v0.8.3/tloz_st.apworld" }
 "st-v0.8.4" = { url = "https://github.com/DayKat/spirit-tracks/releases/download/st-v0.8.4/tloz_st.apworld" }
+
+[[fuzz_results]]
+version = "st-v0.8.4"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.2214
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

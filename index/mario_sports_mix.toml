@@ -4,3 +4,12 @@ home = "https://github.com/ElectroStarz/ArchipelagoMSM"
 [versions]
 "3.0.0" = { url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/v3.0.0/mario_sports_mix.apworld" }
 "3.1.4" = { url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/v3.1.4/mario_sports_mix.apworld" }
+
+[[fuzz_results]]
+version = "3.1.4"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 962
+default_rate = 0.362786
+worst_hook = "default"
+worst_hook_rate = 0.362786

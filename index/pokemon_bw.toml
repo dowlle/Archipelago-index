@@ -12,3 +12,12 @@ disabled = true
 "0.3.29" = { url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/0.3.29/pokemon_bw.apworld" }
 "0.3.37" = { url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/0.3.37/pokemon_bw.apworld" }
 "0.4.5" = { url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/0.4.5/pokemon_bw.apworld" }
+
+[[fuzz_results]]
+version = "0.4.5"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 3966
+default_rate = 0.636409
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.648697

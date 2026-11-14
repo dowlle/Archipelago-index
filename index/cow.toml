@@ -4,3 +4,12 @@ home = "https://github.com/CodeTriangle/ArCowPelago"
 [versions]
 "0.1.1" = { url = "https://github.com/CodeTriangle/ArCowPelago/releases/download/0.1.1/cow.apworld" }
 "0.2.0" = { url = "https://github.com/CodeTriangle/ArCowPelago/releases/download/0.2.0/cow.apworld" }
+
+[[fuzz_results]]
+version = "0.2.0"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 3229
+default_rate = 0.02013
+worst_hook = "default"
+worst_hook_rate = 0.02013

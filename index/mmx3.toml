@@ -9,3 +9,12 @@ disabled = true
 "1.5.0" = {}
 "1.5.1" = {}
 "mmx3-v1.5.2" = { url = "https://github.com/TheLX5/Archipelago/releases/download/mmx3-v1.5.2/mmx3.apworld" }
+
+[[fuzz_results]]
+version = "mmx3-v1.5.2"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0014
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.006

@@ -6,3 +6,12 @@ tracker = "https://github.com/imklubb/no100f-poptracker/releases/latest"
 [versions]
 "1.3.5" = { url = "https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/download/Release_1_3_5/no100f.apworld" }
 "Release_1_4_3" = { url = "https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/download/Release_1_4_3/no100f.apworld" }
+
+[[fuzz_results]]
+version = "Release_1_4_3"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0008
+worst_hook = "default"
+worst_hook_rate = 0.0008

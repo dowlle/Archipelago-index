@@ -11,3 +11,12 @@ default_url = "https://github.com/vyneras/Archipelago/releases/download/{{versio
 "0.9.6" = {}
 "1.1.2" = {}
 "1.1.5" = {}
+
+[[fuzz_results]]
+version = "1.1.5"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0008
+worst_hook = "default"
+worst_hook_rate = 0.0008

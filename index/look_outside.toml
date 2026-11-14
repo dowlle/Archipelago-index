@@ -4,3 +4,12 @@ home = "https://github.com/Turese/LOArchipelagoPlugins"
 [versions]
 "1.2.2" = { url = "https://github.com/Turese/LOArchipelagoPlugins/releases/download/1.2.2/look_outside.apworld" }
 "1.2.4" = { url = "https://github.com/Turese/LOArchipelagoPlugins/releases/download/1.2.4/look_outside.apworld" }
+
+[[fuzz_results]]
+version = "1.2.4"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.296
+worst_hook = "check-determinism"
+worst_hook_rate = 0.994366

@@ -4,3 +4,12 @@ home = "https://github.com/Trexounay/EnderLilies.Archipelago"
 [versions]
 "endermagnolia-v0.1.7" = { url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.1.7/endermagnolia.apworld" }
 "endermagnolia-v0.1.8" = { url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.1.8/endermagnolia.apworld" }
+
+[[fuzz_results]]
+version = "endermagnolia-v0.1.8"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0026
+worst_hook = "default"
+worst_hook_rate = 0.0026

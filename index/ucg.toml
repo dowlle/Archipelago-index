@@ -4,3 +4,12 @@ home = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG"
 [versions]
 "1.0.5" = { url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG/releases/download/1.0.5/ucg.apworld" }
 "1.4.1" = { url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG/releases/download/1.4.1/ucg.apworld" }
+
+[[fuzz_results]]
+version = "1.4.1"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 4988
+default_rate = 0.001604
+worst_hook = "check-determinism"
+worst_hook_rate = 0.512146

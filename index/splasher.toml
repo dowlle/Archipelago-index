@@ -4,3 +4,12 @@ home = "https://github.com/Frisk202020/Archipelago"
 [versions]
 "0.0.9" = { url = "https://github.com/Frisk202020/Archipelago/releases/download/0.0.9/splasher.apworld" }
 "v.0.0.9.1" = { url = "https://github.com/Frisk202020/Archipelago/releases/download/v.0.0.9.1/splasher.apworld" }
+
+[[fuzz_results]]
+version = "v.0.0.9.1"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.982
+worst_hook = "default"
+worst_hook_rate = 0.982

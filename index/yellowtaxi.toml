@@ -17,3 +17,12 @@ seeds = 5000
 default_rate = 0.0048
 worst_hook = "default"
 worst_hook_rate = 0.0048
+
+[[fuzz_results]]
+version = "YTGV.v0.8.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0018
+worst_hook = "default"
+worst_hook_rate = 0.0018

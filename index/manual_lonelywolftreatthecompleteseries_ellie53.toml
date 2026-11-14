@@ -4,3 +4,12 @@ home = "https://github.com/Ellie53real/ellies-manuals"
 [versions]
 "1.1.1" = { url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LWT-v1.1.1/manual_lonelywolftreatthecompleteseries_ellie53.apworld" }
 "LWT-v1.2.0+hotfix2" = { url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LWT-v1.2.0%2Bhotfix2/manual_lonelywolftreatthecompleteseries_ellie53.apworld" }
+
+[[fuzz_results]]
+version = "LWT-v1.2.0+hotfix2"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.1294
+worst_hook = "default"
+worst_hook_rate = 0.1294

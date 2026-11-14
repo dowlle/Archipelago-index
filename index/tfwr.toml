@@ -4,3 +4,12 @@ home = "https://github.com/seadoggie001/TFWR-APMod"
 [versions]
 "0.0.9" = { url = "https://github.com/seadoggie001/TFWR-APMod/releases/download/v0.0.9-beta/tfwr.apworld" }
 "0.0.10-beta" = { url = "https://github.com/seadoggie001/TFWR-APMod/releases/download/v0.0.10-beta/tfwr.apworld" }
+
+[[fuzz_results]]
+version = "0.0.10-beta"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0008
+worst_hook = "default"
+worst_hook_rate = 0.0008
