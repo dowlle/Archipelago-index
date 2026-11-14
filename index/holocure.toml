@@ -4,3 +4,12 @@ home = "https://github.com/PippleCultist/HoloCureArchipelagoMod"
 [versions]
 "0.1.1" = { url = "https://github.com/PippleCultist/HoloCureArchipelagoMod/releases/download/v0.1.1/holocure.apworld" }
 "0.2.4" = { url = "https://github.com/PippleCultist/HoloCureArchipelagoMod/releases/download/v0.2.4/holocure.apworld" }
+
+[[fuzz_results]]
+version = "0.2.4"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0014
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.056

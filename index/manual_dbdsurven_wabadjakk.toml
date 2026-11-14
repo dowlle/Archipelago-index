@@ -4,3 +4,12 @@ home = "https://github.com/Wabadjakk/AP_manual_DbDSurv"
 [versions]
 ".1.1.4" = { url = "https://github.com/Wabadjakk/AP_manual_DbDSurv/releases/download/V.1.1.4/manual_dbdsurven_wabadjakk.apworld" }
 "V.1.1.6" = { url = "https://github.com/Wabadjakk/AP_manual_DbDSurv/releases/download/V.1.1.6/manual_dbdsurven_wabadjakk.apworld" }
+
+[[fuzz_results]]
+version = "V.1.1.6"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.6366
+worst_hook = "default"
+worst_hook_rate = 0.6366

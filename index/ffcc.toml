@@ -4,3 +4,12 @@ home = "https://github.com/EverydaySimpleDev/Archipelago"
 [versions]
 "ffcc-beta.0.0.1" = { url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/ffcc-beta.0.0.1/ffcc.apworld" }
 "ffcc-beta-0.3.0" = { url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/ffcc-beta-0.3.0/ffcc.apworld" }
+
+[[fuzz_results]]
+version = "ffcc-beta-0.3.0"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.011
+worst_hook = "default"
+worst_hook_rate = 0.011

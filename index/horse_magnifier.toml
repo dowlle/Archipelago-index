@@ -4,3 +4,12 @@ home = "https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client"
 [versions]
 "1.2.0" = { url = "https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client/releases/download/V1.2.0/horse_magnifier.apworld" }
 "V1.3.1" = { url = "https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client/releases/download/V1.3.1/horse_magnifier.apworld" }
+
+[[fuzz_results]]
+version = "V1.3.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0028
+worst_hook = "default"
+worst_hook_rate = 0.0028

@@ -4,3 +4,12 @@ home = "https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS"
 [versions]
 "nsmbds-v0.5.0-unstable" = { url = "https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/download/nsmbds-v0.5.0-unstable/nsmbds.apworld" }
 "nsmbds-v0.5.3-unstable" = { url = "https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/download/nsmbds-v0.5.3-unstable/nsmbds.apworld" }
+
+[[fuzz_results]]
+version = "nsmbds-v0.5.3-unstable"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0002
+worst_hook = "default"
+worst_hook_rate = 0.0002

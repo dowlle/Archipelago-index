@@ -4,3 +4,12 @@ home = "https://github.com/chickentuna/Archipelago-Zoominoes"
 [versions]
 "0.1.1r2" = { url = "https://github.com/chickentuna/Archipelago-Zoominoes/releases/download/v0.1.1/zoominoes.apworld" }
 "0.1.2" = { url = "https://github.com/chickentuna/Archipelago-Zoominoes/releases/download/v0.1.2/zoominoes.apworld" }
+
+[[fuzz_results]]
+version = "0.1.2"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 4409
+default_rate = 0.000227
+worst_hook = "default"
+worst_hook_rate = 0.000227

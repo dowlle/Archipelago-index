@@ -4,3 +4,12 @@ home = "https://github.com/barretg/johnny-upgrade-ap"
 [versions]
 "1.4.1" = { url = "https://github.com/barretg/johnny-upgrade-ap/releases/download/v1.4.1/johnny_upgrade.apworld" }
 "1.5" = { url = "https://github.com/barretg/johnny-upgrade-ap/releases/download/v1.5/johnny_upgrade.apworld" }
+
+[[fuzz_results]]
+version = "1.5"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0006
+worst_hook = "default"
+worst_hook_rate = 0.0006
