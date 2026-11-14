@@ -3,3 +3,4 @@ home = "https://github.com/rosen200/Archipelago"
 
 [versions]
 "0.0.6" = { url = "https://github.com/rosen200/Archipelago/releases/download/v0.0.6/tome.apworld" }
+"0.0.7" = { url = "https://github.com/rosen200/Archipelago/releases/download/v0.0.7/tome.apworld" }
