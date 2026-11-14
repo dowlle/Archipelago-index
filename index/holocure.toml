@@ -3,3 +3,4 @@ home = "https://github.com/PippleCultist/HoloCureArchipelagoMod"
 
 [versions]
 "0.1.1" = { url = "https://github.com/PippleCultist/HoloCureArchipelagoMod/releases/download/v0.1.1/holocure.apworld" }
+"0.2.4" = { url = "https://github.com/PippleCultist/HoloCureArchipelagoMod/releases/download/v0.2.4/holocure.apworld" }
