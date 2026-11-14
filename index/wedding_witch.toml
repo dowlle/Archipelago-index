@@ -3,3 +3,4 @@ home = "https://github.com/chickentuna/WeddingWitchMod"
 
 [versions]
 "0.1.0" = { url = "https://github.com/chickentuna/WeddingWitchMod/releases/download/v0.1.0/wedding_witch.apworld" }
+"0.1.1" = { url = "https://github.com/chickentuna/WeddingWitchMod/releases/download/v0.1.1/wedding_witch.apworld" }
