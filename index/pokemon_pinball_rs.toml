@@ -7,6 +7,7 @@ default_url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_{{v
 "pbrs_0.1.0" = { url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_0.1.0/pokemon_pinball_rs.apworld" }
 "pbrs_0.2.3" = { url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_0.2.3/pokemon_pinball_rs.apworld" }
 "pbrs_0.3.1" = { url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_0.3.1/pokemon_pinball_rs.apworld" }
+"pbrs_0.3.2" = { url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_0.3.2/pokemon_pinball_rs.apworld" }
 
 [[fuzz_results]]
 version = "pbrs_0.2.3"
