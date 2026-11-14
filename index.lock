@@ -998,6 +998,8 @@
 
 [supertuxkart]
 "0.9.2" = "4877251f3078af32145d164c6d4489363d4f2786dce2f2490541e0e83e5ffa6c"
+[supermarket_simulator]
+"0.3.6" = "bee7ded4bb1367dabef65a3b4749aeefdfac7072729ab37a088239d64cdaffd2"
 
 [talos_principle_reawakened]
 "1.2.2" = "d989e7e187e2ec5027450ddc6ede386b8be87234e9fd278870913e927f32dfb5"
