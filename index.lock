@@ -152,6 +152,8 @@
 
 [chrono_gear]
 "0.2.0" = "b2f7a1a7bf55688f7aeaba7b90b71d2ff628c722cae5bdc9a267cb240f19fb1c"
+[children_of_morta]
+"0.3.3" = "e931ef87733b6eed98e29e6db4d841899b79c0fee5205c8102dd1a997fefc531"
 
 [ckd]
 "1.1.0" = "1ca8debed3f9fd1f5b968b3eb1ff9d52cdc398aaeab46a5ed78ef39cdd38d90f"
