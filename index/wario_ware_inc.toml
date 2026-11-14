@@ -3,3 +3,4 @@ home = "https://github.com/TheLX5/Archipelago"
 
 [versions]
 "1.0.0" = { url = "https://github.com/TheLX5/Archipelago/releases/download/wariowareinc-v1.0.0/wario_ware_inc.apworld" }
+"wariowareinc-v1.1.2" = { url = "https://github.com/TheLX5/Archipelago/releases/download/wariowareinc-v1.1.2/wario_ware_inc.apworld" }
