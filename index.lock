@@ -825,6 +825,9 @@
 [spiritvalley]
 "2.0.0" = "926a73bbc08dbb0bb69dc39666e848970431bb9f3552b5315aceec2477dfd9df"
 
+[starship_titanic]
+"1.0.2" = "e77ae227db2852ff8b8e4c6f50cbd813b02554c43c112403dc88ef3cb2e4daf1"
+
 [sternly_worded_adventures]
 "1.0.0.post2" = "0ea38d6df9dd9faf2f6b7a7a36c2f45a5d044d7828a06e391c615ac5d6f17fc9"
 [suikapelago]
