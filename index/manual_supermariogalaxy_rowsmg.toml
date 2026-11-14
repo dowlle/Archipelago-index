@@ -3,3 +3,4 @@ home = "https://github.com/row-row-row/Archipelagos"
 
 [versions]
 "0.0.1" = { url = "https://github.com/row-row-row/Archipelagos/releases/download/ArchipelagosSMG/manual_supermariogalaxy_rowsmg.apworld" }
+"SuperMarioGalaxyUpdate" = { url = "https://github.com/row-row-row/Archipelagos/releases/download/SuperMarioGalaxyUpdate/manual_supermariogalaxy_rowsmg.apworld" }
