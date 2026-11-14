@@ -4,3 +4,12 @@ home = "https://github.com/Mitchell1711/Archipelago"
 [versions]
 "0.3.2" = { url = "https://github.com/Mitchell1711/Archipelago/releases/download/v0.3.2/pocket_dungeon.apworld" }
 "1.0.1" = { url = "https://github.com/Mitchell1711/Archipelago/releases/download/v1.0.1/pocket_dungeon.apworld" }
+
+[[fuzz_results]]
+version = "1.0.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

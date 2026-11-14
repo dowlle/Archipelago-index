@@ -5,3 +5,12 @@ home = "https://discord.com/channels/1097532591650910289/1435031138719629523"
 [versions]
 "1.3.0" = { url = "https://github.com/satanosskm/Fifa98RTWC/releases/download/1.3/manual_fifa98roadtotheworldcup_satanos.apworld" }
 "1.4" = { url = "https://github.com/satanosskm/Fifa98RTWC/releases/download/1.4/manual_fifa98roadtotheworldcup_satanos.apworld" }
+
+[[fuzz_results]]
+version = "1.4"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

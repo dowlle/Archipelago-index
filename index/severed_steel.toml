@@ -4,3 +4,12 @@ home = "https://github.com/SerpentAI/Archipelago"
 [versions]
 "1.0.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/severed-steel-v.1.0.0/severed_steel.apworld" }
 "severed-steel-v1.0.1" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/severed-steel-v1.0.1/severed_steel.apworld" }
+
+[[fuzz_results]]
+version = "severed-steel-v1.0.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

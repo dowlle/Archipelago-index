@@ -6,3 +6,12 @@ stability = "stable"
 [versions]
 "1.2.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/peggle-deluxe-v1.2.0/peggle_deluxe.apworld" }
 "peggle-deluxe-v2.2.1" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/peggle-deluxe-v2.2.1/peggle_deluxe.apworld" }
+
+[[fuzz_results]]
+version = "peggle-deluxe-v2.2.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

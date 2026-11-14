@@ -14,3 +14,12 @@ tracker = "https://github.com/highrow623/pseudoregalia_brooty/releases/tag/0.1.1
 "0.10.1" = {}
 "0.10.2" = { url = "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/download/0.10.2/pseudoregalia.apworld" }
 "0.11.0" = { url = "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/download/0.11.0/pseudoregalia.apworld" }
+
+[[fuzz_results]]
+version = "0.11.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

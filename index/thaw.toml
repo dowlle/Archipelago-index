@@ -4,3 +4,12 @@ home = "https://github.com/TheLivingShadow97/THAWAP"
 [versions]
 "0.0.1" = { url = "https://github.com/TheLivingShadow97/THAWAP/releases/download/Downtown/Deathlink/thaw.apworld" }
 "Small-Logic-Fixes" = { url = "https://github.com/TheLivingShadow97/THAWAP/releases/download/Small-Logic-Fixes/thaw.apworld" }
+
+[[fuzz_results]]
+version = "Small-Logic-Fixes"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

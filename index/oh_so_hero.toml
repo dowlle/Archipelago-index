@@ -4,3 +4,12 @@ home = "https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe"
 [versions]
 "1.0.4" = { url = "https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/download/v1.0.4/oh_so_hero.apworld" }
 "1.0.5" = { url = "https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/download/v1.0.5/oh_so_hero.apworld" }
+
+[[fuzz_results]]
+version = "1.0.5"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

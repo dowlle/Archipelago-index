@@ -4,3 +4,12 @@ home = "https://github.com/ChakraaThePanda/Archipelago-Manual-Fellowship"
 [versions]
 "2026.09.12" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-Fellowship/releases/download/2026.09.12/manual_fellowship_chakraa.apworld" }
 "2026.11.03" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-Fellowship/releases/download/2026.11.03/manual_fellowship_chakraa.apworld" }
+
+[[fuzz_results]]
+version = "2026.11.03"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

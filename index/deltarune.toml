@@ -18,3 +18,12 @@ stability = "stable"
 "2.0.2" = {}
 "2.0.0+pre-release-1b" = { url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/download/v2.0.0%2Bpre-release-1b/deltarune.apworld" }
 "2.3.0+hotfix1" = { url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/download/v2.3.0%2Bhotfix1/deltarune.apworld" }
+
+[[fuzz_results]]
+version = "2.3.0+hotfix1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
