@@ -3,3 +3,4 @@ home = "https://github.com/DayKat/spirit-tracks"
 
 [versions]
 "0.8.3" = { url = "https://github.com/DayKat/spirit-tracks/releases/download/st-v0.8.3/tloz_st.apworld" }
+"st-v0.8.4" = { url = "https://github.com/DayKat/spirit-tracks/releases/download/st-v0.8.4/tloz_st.apworld" }
