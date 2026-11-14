@@ -3,3 +3,4 @@ home = "https://github.com/Wabadjakk/AP_manual_DbDSurv"
 
 [versions]
 ".1.1.4" = { url = "https://github.com/Wabadjakk/AP_manual_DbDSurv/releases/download/V.1.1.4/manual_dbdsurvfr_wabadjakk.apworld" }
+"V.1.1.6" = { url = "https://github.com/Wabadjakk/AP_manual_DbDSurv/releases/download/V.1.1.6/manual_dbdsurvfr_wabadjakk.apworld" }
