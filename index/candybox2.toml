@@ -6,6 +6,7 @@ stability = "stable"
 "0.1.0+20251208-1" = { url = "https://github.com/vicr123/Archipelago/releases/download/20251208-1/candybox2.apworld" }
 "20260210-1" = { url = "https://github.com/vicr123/Archipelago/releases/download/20260210-1/candybox2.apworld" }
 "20260822-1" = { url = "https://github.com/vicr123/Archipelago/releases/download/20260822-1/candybox2.apworld" }
+"20261104-1" = { url = "https://github.com/vicr123/Archipelago/releases/download/20261104-1/candybox2.apworld" }
 
 [[fuzz_results]]
 version = "20260210-1"
@@ -24,3 +25,12 @@ seeds = 5000
 default_rate = 0.0146
 worst_hook = "default"
 worst_hook_rate = 0.0146
+
+[[fuzz_results]]
+version = "20261104-1"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0134
+worst_hook = "default"
+worst_hook_rate = 0.0134
