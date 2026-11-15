@@ -7,3 +7,13 @@ stability = "stable"
 "0.4.2" = {}
 "0.5.1" = {}
 "0.5.2" = {}
+"0.6.1" = {}
+
+[[fuzz_results]]
+version = "0.6.1"
+verdict = "broken"
+fuzzed_at = "2026-09-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.12
