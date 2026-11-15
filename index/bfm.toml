@@ -10,6 +10,7 @@ setup_guide = "https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/bl
 "0.5.2" = {}
 "0.6.0" = {}
 "0.7.1" = {}
+"0.8.1" = {}
 
 [[fuzz_results]]
 version = "0.5.2"
@@ -37,3 +38,12 @@ seeds = 5000
 default_rate = 0.0008
 worst_hook = "default"
 worst_hook_rate = 0.0008
+
+[[fuzz_results]]
+version = "0.8.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0004
+worst_hook = "default"
+worst_hook_rate = 0.0004
