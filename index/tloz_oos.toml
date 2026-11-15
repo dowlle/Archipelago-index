@@ -7,6 +7,7 @@ tracker = "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/re
 [versions]
 "20.1.7" = {}
 "oos-20.1.13" = { url = "https://github.com/Dinopony/Archipelago/releases/download/oos-20.1.13/tloz_oos.apworld" }
+"oos-23.0.4" = { url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-23.0.4/tloz_oos.apworld" }
 
 [[fuzz_results]]
 version = "oos-20.1.13"
