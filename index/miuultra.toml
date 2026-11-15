@@ -8,6 +8,7 @@ stability = "unstable"
 "0.2.0-alpha" = {}
 "0.2.1-alpha" = {}
 "0.2.1-alpha-hotfix" = {}
+"0.3.0-hotfix" = {}
 
 [[fuzz_results]]
 version = "0.2.0-alpha"
@@ -17,3 +18,12 @@ seeds = 5000
 default_rate = 0.0056
 worst_hook = "default"
 worst_hook_rate = 0.0056
+
+[[fuzz_results]]
+version = "0.3.0-hotfix"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.001
+worst_hook = "default"
+worst_hook_rate = 0.001

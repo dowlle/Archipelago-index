@@ -5,11 +5,21 @@ stability = "untested"
 
 [versions]
 "1.14b" = {}
+"1.15" = {}
 
 [[fuzz_results]]
 version = "1.14b"
 verdict = "clean"
 fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "1.15"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"

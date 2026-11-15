@@ -9,6 +9,7 @@ tracker = "https://github.com/Michpem/SOTN-AP-MapTracker/releases"
 
 "0.8.16+unofficial" = { url = "https://github.com/Darvitz/Archipelago-Crystal/releases/download/Unofficial_0.8.16/sotn.apworld" }
 "b0816" = { url = "https://github.com/fdelduque/Archipelago/releases/download/b0816/sotn.apworld" }
+"b08161" = { url = "https://github.com/fdelduque/Archipelago/releases/download/b08161/sotn.apworld" }
 
 [[fuzz_results]]
 version = "b0816"
@@ -18,3 +19,12 @@ seeds = 5000
 default_rate = 0.176
 worst_hook = "default"
 worst_hook_rate = 0.176
+
+[[fuzz_results]]
+version = "b08161"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-lambda-capture"
+worst_hook_rate = 0.128

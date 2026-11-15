@@ -7,6 +7,7 @@ setup_guide = "https://github.com/EpicPuppy613/Wynnpelago#wynnpelago"
 [versions]
 "0.3.0" = {}
 "0.3.1" = {}
+"0.4.7" = {}
 
 [[fuzz_results]]
 version = "0.3.0"
@@ -25,3 +26,12 @@ seeds = 5000
 default_rate = 0.5704
 worst_hook = "default"
 worst_hook_rate = 0.5704
+
+[[fuzz_results]]
+version = "0.4.7"
+verdict = "broken"
+fuzzed_at = "2026-11-14"
+seeds = 2974
+default_rate = 0.085743
+worst_hook = "default"
+worst_hook_rate = 0.085743

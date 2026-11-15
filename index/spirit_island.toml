@@ -7,6 +7,7 @@ setup_guide = "https://github.com/Wouter17/Spirit-Archipelago?tab=readme-ov-file
 [versions]
 "0.1.3-hf1" = {}
 "0.1.4" = {}
+"0.1.5" = {}
 
 [[fuzz_results]]
 version = "0.1.3-hf1"
@@ -23,5 +24,14 @@ verdict = "flaky"
 fuzzed_at = "2026-05-26"
 seeds = 4963
 default_rate = 0.001209
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "0.1.5"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 4951
+default_rate = 0.00101
 worst_hook = "check-determinism"
 worst_hook_rate = 1.0
