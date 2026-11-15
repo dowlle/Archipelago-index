@@ -1155,6 +1155,7 @@
 "0.3.4" = "c5ba8902fc352aea975a39f2bc3d3fe03a4dfb006ae2451cd74fd0e4fd3b9d63"
 
 [vsim]
+"vacation_simulator_0.0.5" = "e5bc9d18c5a7089d57aed253b364ad46e58b3d24fec691d45a8f3ae7ad1c9556"
 "0.0.4" = "9eb39bad02bd030abb1ec69e4fff09ed41bc2bd615e6ef700a8742366800bd23"
 [WarioworldAP]
 "0.1.9.post4" = "9efba6a8225d8c0efe445224ae89a2156a6656e6e91898d31a109663cbaa37c3"
