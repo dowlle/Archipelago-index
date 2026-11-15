@@ -1,0 +1,5 @@
+name = "Demon Tides"
+home = "https://github.com/RobertSPratley/DemonTidesAPWorld"
+
+[versions]
+"0.1.0" = { url = "https://github.com/RobertSPratley/DemonTidesAPWorld/releases/download/v0.1.0/demontides.apworld" }

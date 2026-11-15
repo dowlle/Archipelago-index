@@ -1,0 +1,5 @@
+name = "Before We Leave"
+home = "https://github.com/haydencase0/BWLArchipelago"
+
+[versions]
+"0.1" = { url = "https://github.com/haydencase0/BWLArchipelago/releases/download/v0.1/before_we_leave.apworld" }

@@ -1,0 +1,5 @@
+name = "SM64 Romhack"
+home = "https://github.com/DNVIC/archipelago-sm64hacks"
+
+[versions]
+"1.1.11" = { url = "https://github.com/DNVIC/archipelago-sm64hacks/releases/download/v1.1.14/sm64hacks.apworld" }

@@ -1,0 +1,5 @@
+name = "Manual_ResidentEvil5_Garbo"
+home = "https://github.com/ManNamedGarbo/Archipelago_Manuals"
+
+[versions]
+"re5-1.0.6" = { url = "https://github.com/ManNamedGarbo/Archipelago_Manuals/releases/download/re5-1.0.6/manual_residentevil5_garbo.apworld" }

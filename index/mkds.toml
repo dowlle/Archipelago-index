@@ -1,0 +1,5 @@
+name = "Mario Kart DS"
+home = "https://github.com/SsL2727/mkds-archipelago"
+
+[versions]
+"0.27.2" = { url = "https://github.com/SsL2727/mkds-archipelago/releases/download/0.27.2/mkds.apworld" }

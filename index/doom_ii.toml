@@ -1,4 +1,5 @@
 name = "DOOM II"
+setup_guide = "https://archipelago.gg/tutorial/DOOM%20II/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

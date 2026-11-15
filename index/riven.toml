@@ -1,0 +1,5 @@
+name = "Riven"
+home = "https://github.com/SerpentAI/Archipelago"
+
+[versions]
+"1.0.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/riven-v1.0.0/riven.apworld" }

@@ -1,4 +1,5 @@
 name = "Satisfactory"
+setup_guide = "https://archipelago.gg/tutorial/Satisfactory/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

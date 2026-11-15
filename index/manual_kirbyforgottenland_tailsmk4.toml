@@ -1,0 +1,5 @@
+name = "Manual_KirbyForgottenLand_TailsMK4"
+home = "https://github.com/TailsMK4/Kirby-And-The-Forgotten-Land-Archipelago-Manual"
+
+[versions]
+"kfl_main_1-0-3" = { url = "https://github.com/TailsMK4/Kirby-And-The-Forgotten-Land-Archipelago-Manual/releases/download/kfl_main_1-0-3/manual_kirbyforgottenland_tailsmk4.apworld" }

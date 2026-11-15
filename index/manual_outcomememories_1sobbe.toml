@@ -1,0 +1,5 @@
+name = "Manual_OutcomeMemories_1sobbe"
+home = "https://github.com/Fabriel1323/OutcomeMemoriesAP"
+
+[versions]
+"playmyrandomizer" = { url = "https://github.com/Fabriel1323/OutcomeMemoriesAP/releases/download/playmyrandomizer/manual_outcomememories_1sobbe.apworld" }

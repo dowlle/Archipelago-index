@@ -10,11 +10,21 @@ setup_guide = "https://github.com/Simsipelago/Archipelago/blob/sims4-stable/worl
 "1.7.5" = {}
 "2.0.0-beta.2" = {}
 "2.0.1" = {}
+"2.1.0-beta1" = {}
 
 [[fuzz_results]]
 version = "2.0.0-beta.2"
 verdict = "clean"
 fuzzed_at = "2026-05-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "2.1.0-beta1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"

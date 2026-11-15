@@ -1,0 +1,5 @@
+name = "Manual_TaylorSwiftDiscography_bennydreamly"
+home = "https://github.com/benny-dreamly/Manuals"
+
+[versions]
+"TS-6.3.0" = { url = "https://github.com/benny-dreamly/Manuals/releases/download/TS-6.3.0/manual_taylorswiftdiscography_bennydreamly.apworld" }

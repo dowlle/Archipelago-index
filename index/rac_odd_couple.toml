@@ -1,0 +1,5 @@
+name = "Ratchet & Clank: The Odd Couple"
+home = "https://github.com/Panguu/Archipelago-RaCSM"
+
+[versions]
+"0.0.3" = { url = "https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac-odd-couple/v0.0.3/rac_odd_couple.apworld" }

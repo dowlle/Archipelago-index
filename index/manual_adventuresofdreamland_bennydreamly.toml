@@ -1,0 +1,5 @@
+name = "Manual_AdventuresofDreamland_BennyDreamly"
+home = "https://github.com/benny-dreamly/Manuals"
+
+[versions]
+"AOD-3.0.0" = { url = "https://github.com/benny-dreamly/Manuals/releases/download/AOD-3.0.0/manual_adventuresofdreamland_bennydreamly.apworld" }

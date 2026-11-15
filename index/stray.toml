@@ -1,0 +1,5 @@
+name = "Stray"
+home = "https://github.com/Nichologeam/StrayAP"
+
+[versions]
+"0.0.4" = { url = "https://github.com/Nichologeam/StrayAP/releases/download/v0.0.4/stray.apworld" }

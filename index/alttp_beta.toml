@@ -1,0 +1,5 @@
+name = "A Link to the Past Beta"
+home = "https://github.com/Alchav/Archipelago"
+
+[versions]
+"alttp2026v4" = { url = "https://github.com/Alchav/Archipelago/releases/download/alttp2026v4/alttp_beta.apworld" }

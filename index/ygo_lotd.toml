@@ -1,0 +1,5 @@
+name = "YGO LotD-LE"
+home = "https://github.com/HillbillyDroid/YGO-LotD-LE-APWorld"
+
+[versions]
+"0.0.2" = { url = "https://github.com/HillbillyDroid/YGO-LotD-LE-APWorld/releases/download/v0.0.2/ygo_lotd.apworld" }

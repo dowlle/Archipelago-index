@@ -1,4 +1,5 @@
 name = "MegaMan Battle Network 3"
+setup_guide = "https://archipelago.gg/tutorial/MegaMan%20Battle%20Network%203/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

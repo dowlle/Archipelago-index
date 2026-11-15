@@ -1,0 +1,5 @@
+name = "Manual_MonopolyGO_WolfBoi008"
+home = "https://github.com/WolfBoi008/Monopoly-GO"
+
+[versions]
+"1.0.1" = { url = "https://github.com/WolfBoi008/Monopoly-GO/releases/download/1.0.1/manual_monopolygo_wolfboi008.apworld" }

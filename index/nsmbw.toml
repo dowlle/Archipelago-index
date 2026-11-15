@@ -1,0 +1,5 @@
+name = "NSMBW"
+home = "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii"
+
+[versions]
+"0.3.5" = { url = "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/download/v0.3.5/nsmbw.apworld" }

@@ -1,0 +1,5 @@
+name = "Manual_FreedomPlanet2_Knuxfan24"
+home = "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago"
+
+[versions]
+"m0.0.2" = { url = "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago/releases/download/m0.0.2/manual_freedomplanet2_knuxfan24.apworld" }

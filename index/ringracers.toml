@@ -1,0 +1,5 @@
+name = "Dr. Robotnik's Ring Racers"
+home = "https://github.com/TehRealSalt/RingRacersAP"
+
+[versions]
+"0.1.0" = { url = "https://github.com/TehRealSalt/RingRacersAP/releases/download/v0.1.2/ringracers.apworld" }
