@@ -15,6 +15,7 @@ tracker = "https://github.com/routhken/Spyro_2_tracker/releases/latest"
 "2.0.0" = {}
 "2.0.1-rc1" = {}
 "2.1.0" = {}
+"2.2.0" = {}
 
 [[fuzz_results]]
 version = "2.0.0"
@@ -24,3 +25,12 @@ seeds = 4388
 default_rate = 0.002
 worst_hook = "default"
 worst_hook_rate = 0.002
+
+[[fuzz_results]]
+version = "2.2.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 4991
+default_rate = 0.0002
+worst_hook = "default"
+worst_hook_rate = 0.0002

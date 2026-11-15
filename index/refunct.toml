@@ -24,6 +24,7 @@ stability = "stable"
 "1.6.0" = {}
 "v.1.7.0" = { url = "https://github.com/spinerak/refunct-tas-archipelago/releases/download/v.1.7.0/refunct.apworld" }
 "1.7.0" = {}
+"1.8.0d" = {}
 
 [[fuzz_results]]
 version = "1.1.1"
@@ -65,6 +66,15 @@ worst_hook_rate = 0.0
 version = "1.7.0"
 verdict = "clean"
 fuzzed_at = "2026-09-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "1.8.0d"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
