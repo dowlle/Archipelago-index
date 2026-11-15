@@ -5,6 +5,7 @@ stability = "untested"
 
 [versions]
 "1.0.1" = {}
+"cvooe1.3.2" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvooe1.3.2/cv_ooe.apworld" }
 
 [[fuzz_results]]
 version = "1.0.1"
@@ -14,3 +15,12 @@ seeds = 5000
 default_rate = 0.0002
 worst_hook = "check-determinism"
 worst_hook_rate = 0.794
+
+[[fuzz_results]]
+version = "cvooe1.3.2"
+verdict = "flaky"
+fuzzed_at = "2026-11-15"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.812
