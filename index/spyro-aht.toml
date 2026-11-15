@@ -3,3 +3,4 @@ home = "https://github.com/PhoenixAki/PhoenixAP"
 
 [versions]
 "2.1.0" = { url = "https://github.com/PhoenixAki/PhoenixAP/releases/download/AHT-v2.1.0/spyro_aht.apworld" }
+"AHT-v2.3.0-PR" = { url = "https://github.com/PhoenixAki/PhoenixAP/releases/download/AHT-v2.3.0-PR/spyro_aht.apworld" }
