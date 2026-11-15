@@ -14,6 +14,7 @@ default_url = "https://github.com/Mekurushi/Archipelago_Pokepark/releases/downlo
 "1.2.2" = {}
 "1.2.4" = {}
 "1.2.6" = {}
+"1.2.7" = {}
 
 [[fuzz_results]]
 version = "1.2.1"
@@ -50,3 +51,12 @@ seeds = 2983
 default_rate = 0.000335
 worst_hook = "check-determinism"
 worst_hook_rate = 0.573826
+
+[[fuzz_results]]
+version = "1.2.7"
+verdict = "flaky"
+fuzzed_at = "2026-09-15"
+seeds = 2892
+default_rate = 0.001729
+worst_hook = "check-determinism"
+worst_hook_rate = 0.598616
