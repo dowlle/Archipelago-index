@@ -89,3 +89,4 @@ default_rate = 0.0
 worst_hook = "default"
 worst_hook_rate = 0.0
 ap_version = "0.6.8"
+report_url = "https://github.com/dowlle/Archipelago-index/pull/1317"
