@@ -6,6 +6,7 @@ stability = "unstable"
 [versions]
 
 "1.1.6" = {}
+"1.2.2" = {}
 
 [[fuzz_results]]
 version = "1.1.6"
@@ -15,3 +16,12 @@ seeds = 5000
 default_rate = 0.2686
 worst_hook = "default"
 worst_hook_rate = 0.2686
+
+[[fuzz_results]]
+version = "1.2.2"
+verdict = "broken"
+fuzzed_at = "2026-09-15"
+seeds = 5000
+default_rate = 0.2782
+worst_hook = "default"
+worst_hook_rate = 0.2782
