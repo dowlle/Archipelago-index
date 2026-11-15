@@ -10,6 +10,7 @@ setup_guide = "https://github.com/dannybonz/replanted_archipelago/blob/main/apwo
 "1.6.3" = {}
 "1.7.2" = {}
 "1.8.0" = {}
+"1.9.1" = {}
 
 [[fuzz_results]]
 version = "1.7.2"
@@ -19,3 +20,12 @@ seeds = 5000
 default_rate = 0.1022
 worst_hook = "default"
 worst_hook_rate = 0.1022
+
+[[fuzz_results]]
+version = "1.9.1"
+verdict = "flaky"
+fuzzed_at = "2026-09-08"
+seeds = 5000
+default_rate = 0.0236
+worst_hook = "default"
+worst_hook_rate = 0.0236
