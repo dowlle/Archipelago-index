@@ -5,6 +5,7 @@ stability = "untested"
 
 [versions]
 "0.1.1" = {}
+"0.2.0" = { url = "https://github.com/hoXyy/SaintsRow2Archipelago/releases/download/0.2.0/saints_row_2.apworld" }
 
 [[fuzz_results]]
 version = "0.1.1"
@@ -14,3 +15,12 @@ seeds = 1825
 default_rate = 0.238904
 worst_hook = "check-ut"
 worst_hook_rate = 0.30303
+
+[[fuzz_results]]
+version = "0.2.0"
+verdict = "broken"
+fuzzed_at = "2026-09-16"
+seeds = 1868
+default_rate = 0.224304
+worst_hook = "default"
+worst_hook_rate = 0.224304
