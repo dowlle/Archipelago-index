@@ -3,3 +3,13 @@ home = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks"
 
 [versions]
 "26.09.13" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.09.13/YARGGuitarHero3.apworld" }
+"26.10.08" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.10.08/YARGGuitarHero3.apworld" }
+
+[[fuzz_results]]
+version = "26.10.08"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
