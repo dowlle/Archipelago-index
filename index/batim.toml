@@ -3,3 +3,13 @@ home = "https://github.com/Lorecrafter703/BendyAndTheArchipelagoMachine"
 
 [versions]
 "2.0.0r3" = { url = "https://github.com/Lorecrafter703/BendyAndTheArchipelagoMachine/releases/download/v2.0.0/batim.apworld" }
+"2.0.1" = { url = "https://github.com/Lorecrafter703/BendyAndTheArchipelagoMachine/releases/download/v2.0.1/batim.apworld" }
+
+[[fuzz_results]]
+version = "2.0.1"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.4016
+worst_hook = "check-ut"
+worst_hook_rate = 0.444
