@@ -3,3 +3,4 @@ home = "https://github.com/EdricY/Bouncy-Loot-God"
 
 [versions]
 "0.5.6" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-102/borderlands_tps.apworld" }
+"0.5.4" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/v0.5.4/borderlands_tps.apworld" }
