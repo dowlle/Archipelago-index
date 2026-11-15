@@ -19,6 +19,7 @@ stability = "stable"
 "0.5.7" = {}
 "0.6.3" = {}
 "0.6.4" = { url = "https://github.com/IxrecsRandomizers/NineSolsArchipelagoRandomizer/releases/download/0.6.4/nine_sols.apworld" }
+"0.6.5" = { url = "https://github.com/IxrecsRandomizers/NineSolsArchipelagoRandomizer/releases/download/0.6.5/nine_sols.apworld" }
 
 [[fuzz_results]]
 version = "0.6.4"
