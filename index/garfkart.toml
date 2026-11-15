@@ -9,6 +9,7 @@ stability = "stable"
 "0.5.3-beta" = {}
 "1.0.0" = {}
 "1.0.2" = { url = "https://github.com/FeluciaPS/GarfieldKartAP/releases/download/1.0.2/garfkart.apworld" }
+"0.5.4-beta" = { url = "https://github.com/FeluciaPS/GarfieldKartAP/releases/download/v0.5.4-beta/garfkart.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0"
@@ -23,6 +24,15 @@ worst_hook_rate = 0.0
 version = "1.0.2"
 verdict = "clean"
 fuzzed_at = "2026-08-26"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.5.4-beta"
+verdict = "clean"
+fuzzed_at = "2026-09-11"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
