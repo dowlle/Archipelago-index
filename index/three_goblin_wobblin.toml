@@ -4,11 +4,21 @@ stability = "untested"
 
 [versions]
 "0.0.1a0" = { url = "https://github.com/melenehh/Three-Goblin-Archipelago/releases/download/unstable/three_goblin_wobblin.apworld" }
+"TPalpha" = { url = "https://github.com/melenehh/Three-Goblin-Archipelago/releases/download/TPalpha/three_goblin_wobblin.apworld" }
 
 [[fuzz_results]]
 version = "0.0.1a0"
 verdict = "clean"
 fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "TPalpha"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
