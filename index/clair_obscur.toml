@@ -9,6 +9,7 @@ tracker = "https://github.com/Demorck/ClairObscur-Archipelago-Poptracker"
 "0.2.1" = {}
 "0.4.0" = {}
 "0.4.1" = {}
+"0.4.3" = {}
 
 [[fuzz_results]]
 version = "0.2.0"
@@ -36,3 +37,12 @@ seeds = 5000
 default_rate = 0.2922
 worst_hook = "default"
 worst_hook_rate = 0.2922
+
+[[fuzz_results]]
+version = "0.4.3"
+verdict = "clean"
+fuzzed_at = "2026-09-09"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
