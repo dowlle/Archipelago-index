@@ -4,3 +4,13 @@ default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-fo
 
 [versions]
 "26.4.12" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.04.12/YARGLEGORockBand.apworld" }
+"26.05.10" = {}
+
+[[fuzz_results]]
+version = "26.05.10"
+verdict = "clean"
+fuzzed_at = "2026-09-10"
+seeds = 2271
+default_rate = 0.000881
+worst_hook = "default"
+worst_hook_rate = 0.000881
