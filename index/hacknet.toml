@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "4" = { url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/download/hacknet-alpha-4/hacknet.apworld" }
+"hacknet-1.0.0" = { url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/download/hacknet-1.0.0/hacknet.apworld" }
 
 [[fuzz_results]]
 version = "4"
@@ -13,3 +14,12 @@ seeds = 4017
 default_rate = 0.649739
 worst_hook = "check-ut"
 worst_hook_rate = 0.665842
+
+[[fuzz_results]]
+version = "hacknet-1.0.0"
+verdict = "broken"
+fuzzed_at = "2026-09-11"
+seeds = 3081
+default_rate = 0.135021
+worst_hook = "check-determinism"
+worst_hook_rate = 0.996241
