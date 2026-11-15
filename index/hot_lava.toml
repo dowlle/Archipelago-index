@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.0.1" = { url = "https://github.com/Bongo9911/HotLavaAPWorld/releases/download/0.0.1/hot_lava.apworld" }
+"0.1.0" = { url = "https://github.com/Bongo9911/HotLavaAPWorld/releases/download/0.1.0/hot_lava.apworld" }
 
 [[fuzz_results]]
 version = "0.0.1"
@@ -13,3 +14,12 @@ seeds = 5000
 default_rate = 0.8828
 worst_hook = "default"
 worst_hook_rate = 0.8828
+
+[[fuzz_results]]
+version = "0.1.0"
+verdict = "broken"
+fuzzed_at = "2026-09-12"
+seeds = 5000
+default_rate = 0.8776
+worst_hook = "default"
+worst_hook_rate = 0.8776
