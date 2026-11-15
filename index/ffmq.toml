@@ -1,4 +1,5 @@
 name = "Final Fantasy Mystic Quest"
+setup_guide = "https://archipelago.gg/tutorial/Final%20Fantasy%20Mystic%20Quest/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

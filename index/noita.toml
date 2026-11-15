@@ -1,4 +1,5 @@
 name = "Noita"
+setup_guide = "https://archipelago.gg/tutorial/Noita/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

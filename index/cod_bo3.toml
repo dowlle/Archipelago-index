@@ -13,6 +13,7 @@ setup_guide = "https://github.com/colin969/bo3_archipelago?tab=readme-ov-file#se
 "0.4.1" = {}
 "0.5.4" = {}
 "0.5.8" = {}
+"0.5.12" = {}
 
 [[fuzz_results]]
 version = "0.5.4"
@@ -31,3 +32,12 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
 worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.5.12"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0002
+worst_hook = "default"
+worst_hook_rate = 0.0002

@@ -1,0 +1,5 @@
+name = "VRChat"
+home = "https://github.com/Nichologeam/VRChat-AP"
+
+[versions]
+"0.0.2" = { url = "https://github.com/Nichologeam/VRChat-AP/releases/download/v0.0.2/vrchat.apworld" }

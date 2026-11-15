@@ -1,0 +1,5 @@
+name = "Etrian Odyssey HD"
+home = "https://github.com/wolicodes/Archipelago"
+
+[versions]
+"0.0.1" = { url = "https://github.com/wolicodes/Archipelago/releases/download/0.0.1/etrian_odyssey_hd.apworld" }

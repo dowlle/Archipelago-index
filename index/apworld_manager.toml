@@ -1,0 +1,5 @@
+name = "APWorld Manager"
+home = "https://github.com/silasary/Archipelago"
+
+[versions]
+"apworld_manager-0.0.25" = { url = "https://github.com/silasary/Archipelago/releases/download/apworld_manager-0.0.25/apworld_manager.apworld" }

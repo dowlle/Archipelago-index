@@ -1,0 +1,5 @@
+name = "Manual_Sprashfecta_MuffinJets"
+home = "https://github.com/muffinjets/Manual_Sprashfecta_MuffinJets"
+
+[versions]
+"0.4.0" = { url = "https://github.com/muffinjets/Manual_Sprashfecta_MuffinJets/releases/download/v0.4.0/Manual_Sprashfecta_MuffinJets.apworld" }

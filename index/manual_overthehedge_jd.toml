@@ -1,0 +1,5 @@
+name = "Manual_OvertheHedge_JD"
+home = "https://github.com/JDLKMR/Over-the-Hedge-APManual"
+
+[versions]
+"1.2.1" = { url = "https://github.com/JDLKMR/Over-the-Hedge-APManual/releases/download/v1.2.1/manual_overthehedge_jd.apworld" }

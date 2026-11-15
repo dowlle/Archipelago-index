@@ -1,0 +1,5 @@
+name = "Manual_WorldofWarcraftLeveling_Chakraa"
+home = "https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Leveling"
+
+[versions]
+"2025.12.09" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Leveling/releases/download/2025.12.09/manual_worldofwarcraftleveling_chakraa.apworld" }

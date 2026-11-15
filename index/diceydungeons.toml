@@ -5,6 +5,7 @@ tracker = "https://github.com/Fylcoast/Dicey-Dungeons-AP-Tracker/releases"
 
 [versions]
 "0.4.4b0" = { url = "https://github.com/Fylcoast/AP_diceydungeons/releases/download/v0.4.4-beta/diceydungeons.apworld" }
+"0.6.0-beta" = { url = "https://github.com/Fylcoast/AP_diceydungeons/releases/download/v0.6.0-beta/diceydungeons.apworld" }
 
 [[fuzz_results]]
 version = "0.4.4b0"
@@ -14,3 +15,12 @@ seeds = 5000
 default_rate = 0.4584
 worst_hook = "check-determinism"
 worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "0.6.0-beta"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.5052
+worst_hook = "check-determinism"
+worst_hook_rate = 0.995633

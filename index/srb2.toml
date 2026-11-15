@@ -1,0 +1,5 @@
+name = "Sonic Robo Blast 2"
+home = "https://github.com/GraymonDgt/SRB2Archipelago"
+
+[versions]
+"1.7.3" = { url = "https://github.com/GraymonDgt/SRB2Archipelago/releases/download/v1.7.3/srb2.apworld" }

@@ -1,4 +1,5 @@
 name = "Donkey Kong Country 3"
+setup_guide = "https://archipelago.gg/tutorial/Donkey%20Kong%20Country%203/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

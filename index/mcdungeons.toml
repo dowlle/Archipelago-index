@@ -1,0 +1,5 @@
+name = "Minecraft Dungeons"
+home = "https://github.com/BarbeucTheCat/Minecraft-Dungeons-Apworld"
+
+[versions]
+"0.0.1" = { url = "https://github.com/BarbeucTheCat/Minecraft-Dungeons-Apworld/releases/download/v0.0.1/mcdungeonsBETA.apworld" }

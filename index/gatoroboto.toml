@@ -1,0 +1,5 @@
+name = "Gato Roboto"
+home = "https://github.com/Ravenmist-Games/Gato-Roboto-APWorld"
+
+[versions]
+"0.1.0" = { url = "https://github.com/Ravenmist-Games/Gato-Roboto-APWorld/releases/download/v0.2.1/gatoroboto.apworld" }

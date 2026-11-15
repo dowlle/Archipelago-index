@@ -1,0 +1,5 @@
+name = "ChristmasDelivery"
+home = "https://github.com/ObsidianMakerDevelopment/christmasdeliveryapworld"
+
+[versions]
+"1.0.2" = { url = "https://github.com/ObsidianMakerDevelopment/christmasdeliveryapworld/releases/download/1.0.2/christmasdeliveryapworld-main.apworld" }

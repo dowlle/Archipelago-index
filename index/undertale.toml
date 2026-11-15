@@ -1,4 +1,5 @@
 name = "Undertale"
+setup_guide = "https://archipelago.gg/tutorial/Undertale/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "unstable"
