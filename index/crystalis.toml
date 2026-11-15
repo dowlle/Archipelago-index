@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "2.0.4rc0.post0" = { url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v2.0.4-Crystalis/crystalis.apworld" }
+"3.0.2-Crystalis" = { url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v3.0.2-Crystalis/crystalis.apworld" }
 
 [[fuzz_results]]
 version = "2.0.4rc0.post0"
