@@ -4,3 +4,13 @@ default_url = "https://github.com/Silvris/Archipelago/releases/download/mm1_{{ve
 
 [versions]
 "0.1.1" = {}
+"mm1_0.1.2" = { url = "https://github.com/Silvris/Archipelago/releases/download/mm1_0.1.2/mm1.apworld" }
+
+[[fuzz_results]]
+version = "mm1_0.1.2"
+verdict = "clean"
+fuzzed_at = "2026-09-13"
+seeds = 5000
+default_rate = 0.001
+worst_hook = "default"
+worst_hook_rate = 0.001
