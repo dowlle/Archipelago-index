@@ -8,6 +8,7 @@ tracker = "https://github.com/DDogeOneeSama/Borderlands-2-PopTracker/releases/la
 "be-85" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-85/borderlands2.apworld" }
 "0.5.2" = {}
 "be-101" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/be-101/borderlands2.apworld" }
+"experiment-3" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/experiment-3/borderlands2.apworld" }
 
 [[fuzz_results]]
 version = "be-85"
@@ -35,3 +36,12 @@ seeds = 5000
 default_rate = 0.9828
 worst_hook = "default"
 worst_hook_rate = 0.9828
+
+[[fuzz_results]]
+version = "experiment-3"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.979
+worst_hook = "check-ut"
+worst_hook_rate = 0.98
