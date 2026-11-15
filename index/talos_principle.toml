@@ -1,0 +1,5 @@
+name = "talos_principle"
+home = "https://github.com/johnso48/TalosPrincipleArchipelago"
+
+[versions]
+"1.0.4" = { url = "https://github.com/johnso48/TalosPrincipleArchipelago/releases/download/v1.0.4/talos_principle.apworld" }

@@ -6,11 +6,21 @@ stability = "stable"
 [versions]
 "1.1.6" = {}
 "wargroove2-1.1.6" = { url = "https://github.com/FlySniper/Archipelago/releases/download/wargroove2-1.1.6/wargroove2.apworld" }
+"wargroove2-1.1.13" = { url = "https://github.com/FlySniper/Archipelago/releases/download/wargroove2-1.1.13/wargroove2.apworld" }
 
 [[fuzz_results]]
 version = "wargroove2-1.1.6"
 verdict = "clean"
 fuzzed_at = "2026-05-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "wargroove2-1.1.13"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"

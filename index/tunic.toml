@@ -1,4 +1,5 @@
 name = "TUNIC"
+setup_guide = "https://archipelago.gg/tutorial/TUNIC/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

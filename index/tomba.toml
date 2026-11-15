@@ -1,0 +1,5 @@
+name = "Tomba!"
+home = "https://github.com/T4g1/ArchipelagoTomba"
+
+[versions]
+"1.5.7" = { url = "https://github.com/T4g1/ArchipelagoTomba/releases/download/v1.5.7/tomba.apworld" }

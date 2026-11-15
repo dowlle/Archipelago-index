@@ -1,0 +1,5 @@
+name = "deathlink_text_client"
+home = "https://github.com/SunCat-s-Archipelago/DeathLink-Text-Client"
+
+[versions]
+"1.0" = { url = "https://github.com/SunCat-s-Archipelago/DeathLink-Text-Client/releases/download/1.0/deathlink_text_client.apworld" }

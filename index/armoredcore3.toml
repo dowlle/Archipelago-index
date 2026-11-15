@@ -1,0 +1,5 @@
+name = "Armored Core 3"
+home = "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago"
+
+[versions]
+"0.1.2" = { url = "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago/releases/download/v0.1.2/armoredcore3.apworld" }

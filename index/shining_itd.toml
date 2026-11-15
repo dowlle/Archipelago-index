@@ -1,0 +1,5 @@
+name = "Shining in the Darkness"
+home = "https://github.com/lagdotcom/Archipelago"
+
+[versions]
+"0.0.4" = { url = "https://github.com/lagdotcom/Archipelago/releases/download/0.0.4/shining_itd.apworld" }

@@ -1,4 +1,5 @@
 name = "Kirby's Dream Land 3"
+setup_guide = "https://archipelago.gg/tutorial/Kirby's%20Dream%20Land%203/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

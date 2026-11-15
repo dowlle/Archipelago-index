@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.1.0" = { url = "https://github.com/NotFamilyJules/goldeneye_ap/releases/download/alpha_v0.1/goldeneye.apworld" }
+"0,2" = { url = "https://github.com/NotFamilyJules/goldeneye_ap/releases/download/v0%2C2/goldeneye.apworld" }
 
 [[fuzz_results]]
 version = "0.1.0"
@@ -13,3 +14,12 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
 worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0,2"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0076
+worst_hook = "default"
+worst_hook_rate = 0.0076

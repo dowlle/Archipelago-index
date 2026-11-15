@@ -1,0 +1,5 @@
+name = "AM2R"
+home = "https://github.com/Ehseezed/Archipelago-Integration"
+
+[versions]
+"1.4.6" = { url = "https://github.com/Ehseezed/Archipelago-Integration/releases/download/1.4.6-M2/am2r.apworld" }

@@ -1,0 +1,4 @@
+name = "Lingo 2"
+
+[versions]
+"9.4.0" = { url = "https://files.fourisland.com/releases/lingo2-archipelago/apworld/v9.4.0/lingo2.apworld" }

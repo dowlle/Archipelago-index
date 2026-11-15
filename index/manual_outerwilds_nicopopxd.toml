@@ -1,0 +1,5 @@
+name = "Manual_OuterWilds_Nicopopxd"
+home = ["https://github.com/nicopop/NicosManualApworlds", "https://github.com/nicopop/ManualApworlds"]
+
+[versions]
+"OW7.0.0" = { url = "https://github.com/nicopop/ManualApworlds/releases/download/OW7.0.0/manual_outerwilds_nicopopxd.apworld" }

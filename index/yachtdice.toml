@@ -1,4 +1,5 @@
 name = "Yacht Dice"
+setup_guide = "https://archipelago.gg/tutorial/Yacht%20Dice/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

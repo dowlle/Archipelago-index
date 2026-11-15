@@ -7,6 +7,7 @@ setup_guide = "https://github.com/Str8UpWHITE64/DRAP?tab=readme-ov-file#setup"
 [versions]
 
 "1.0.1" = {}
+"1.1.1" = {}
 
 [[fuzz_results]]
 version = "1.0.1"
@@ -16,3 +17,12 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "check-determinism"
 worst_hook_rate = 0.526
+
+[[fuzz_results]]
+version = "1.1.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

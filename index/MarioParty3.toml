@@ -1,0 +1,5 @@
+name = "Mario Party 3"
+home = "https://github.com/xoric713/MP3_AP"
+
+[versions]
+"0.0.1" = { url = "https://github.com/xoric713/MP3_AP/releases/download/v0.0.2/MarioParty3.apworld" }

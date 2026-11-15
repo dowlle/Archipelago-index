@@ -1,0 +1,5 @@
+name = "Manual_PlateUp_Nicopopxd"
+home = "https://github.com/nicopop/NicosManualApworlds"
+
+[versions]
+"PlateUpv1.3.1-fix" = { url = "https://github.com/nicopop/NicosManualApworlds/releases/download/PlateUpv1.3.1-fix/manual_plateup_nicopopxd.apworld" }
