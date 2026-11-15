@@ -9,6 +9,7 @@ tracker = "https://github.com/lighting8282/KAR-Poptracker/releases/latest"
 "1.0.1-TEST" = {}
 "1.0.2-TEST" = {}
 "1.1.1-TEST" = {}
+"1.2.0-TEST" = {}
 
 [[fuzz_results]]
 version = "1.0.1-TEST"
@@ -32,6 +33,15 @@ worst_hook_rate = 1.0
 version = "1.1.1-TEST"
 verdict = "flaky"
 fuzzed_at = "2026-08-27"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "1.2.0-TEST"
+verdict = "flaky"
+fuzzed_at = "2026-09-12"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "check-determinism"
