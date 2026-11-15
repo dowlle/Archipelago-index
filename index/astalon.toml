@@ -16,6 +16,7 @@ stability = "stable"
 "0.27.1" = {}
 "1.0.0-rc2" = {}
 "1.0.0-rc3" = {}
+"1.0.0-rc6" = {}
 
 [[fuzz_results]]
 version = "0.27.1"
@@ -34,3 +35,12 @@ seeds = 4549
 default_rate = 0.348868
 worst_hook = "default"
 worst_hook_rate = 0.348868
+
+[[fuzz_results]]
+version = "1.0.0-rc6"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 4541
+default_rate = 0.371284
+worst_hook = "default"
+worst_hook_rate = 0.371284
