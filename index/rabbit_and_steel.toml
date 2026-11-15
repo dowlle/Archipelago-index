@@ -8,6 +8,7 @@ tracker = "https://github.com/FuyumiSogeki/Rabbit-and-Steel-Tracker/releases"
 [versions]
 "0.3.2-fix3" = {}
 "0.3.3" = {}
+"0.4.3" = {}
 
 [[fuzz_results]]
 version = "0.3.2-fix3"
@@ -26,3 +27,12 @@ seeds = 151
 default_rate = 0.05298
 worst_hook = "check-determinism"
 worst_hook_rate = 0.888889
+
+[[fuzz_results]]
+version = "0.4.3"
+verdict = "broken"
+fuzzed_at = "2026-09-15"
+seeds = 52
+default_rate = 0.057692
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
