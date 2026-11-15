@@ -3,3 +3,13 @@ home = "https://github.com/Jbaker16163/Ark-Survival-Archipelago"
 
 [versions]
 "0.3" = { url = "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.3/ark_ase.apworld" }
+"0.3.3" = { url = "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.3.3/ark_ase.apworld" }
+
+[[fuzz_results]]
+version = "0.3.3"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 2688
+default_rate = 0.124628
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.139725
