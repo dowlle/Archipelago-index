@@ -41,6 +41,8 @@
 
 [angband]
 "0.4.0" = "66f7f20881858318ca0a355d0e1cc843c76342b81ad2d6bf407511eadcb10d3b"
+[alttp_beta]
+"alttp2026-v6" = "a53c65baed8b42bc5fb64530aaa186562627d116c68159ea7ef06b0ea18a71c5"
 
 [aom]
 "1.2.0" = "535667c040be1672abeec08a4b0ea1399f75f0247ec6dbaf5e29fabfdca67f74"

@@ -3,3 +3,13 @@ home = "https://github.com/Alchav/Archipelago"
 
 [versions]
 "alttp2026v4" = { url = "https://github.com/Alchav/Archipelago/releases/download/alttp2026v4/alttp_beta.apworld" }
+"alttp2026-v6" = { url = "https://github.com/Alchav/Archipelago/releases/download/alttp2026-v6/alttp_beta.apworld" }
+
+[[fuzz_results]]
+version = "alttp2026-v6"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
+seeds = 4788
+default_rate = 0.020677
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.023446
