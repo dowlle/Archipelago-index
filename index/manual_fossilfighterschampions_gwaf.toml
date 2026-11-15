@@ -1,0 +1,5 @@
+name = "Manual_FossilFightersChampions_GWAF"
+home = "https://github.com/GirlWithoutAFairy/Fossil-Fighters-Champions-Manual-for-Archipelago"
+
+[versions]
+"0.1.2" = { url = "https://github.com/GirlWithoutAFairy/Fossil-Fighters-Champions-Manual-for-Archipelago/releases/download/0.1.2/manual_fossilfighterschampions_gwaf.apworld" }

@@ -1,0 +1,5 @@
+name = "Ultimate Custom Night"
+home = "https://github.com/fewffwa/UCN-AP"
+
+[versions]
+"0.1.1" = { url = "https://github.com/fewffwa/UCN-AP/releases/download/0.1.1/ucn.apworld" }

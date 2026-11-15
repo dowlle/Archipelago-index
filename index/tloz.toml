@@ -1,4 +1,5 @@
 name = "The Legend of Zelda"
+setup_guide = "https://archipelago.gg/tutorial/The%20Legend%20of%20Zelda/multiworld_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "unstable"

@@ -1,0 +1,5 @@
+name = "Dyson Sphere Program"
+home = ["https://github.com/FHAUKEM/Archipelago-DSP", "https://github.com/BloodStainedCrow/Archipelago-DSP"]
+
+[versions]
+"0.2.0rc3" = { url = "https://github.com/BloodStainedCrow/Archipelago-DSP/releases/download/v0.2.0rc3/dsp.apworld" }

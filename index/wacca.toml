@@ -1,0 +1,5 @@
+name = "WACCA"
+home = "https://github.com/jkap/Archipelago"
+
+[versions]
+"1.0.0" = { url = "https://github.com/jkap/Archipelago/releases/download/v1.0.0/wacca.apworld" }

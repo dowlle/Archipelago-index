@@ -1,0 +1,5 @@
+name = "Sonic Colours (DS)"
+home = "https://github.com/SilicDev/Archipelago"
+
+[versions]
+"0.2.4" = { url = "https://github.com/SilicDev/Archipelago/releases/download/scds-v0.2.4/sonic_colours_ds.apworld" }

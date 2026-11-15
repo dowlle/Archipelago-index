@@ -1,0 +1,5 @@
+name = "Bendy and the Ink Machine"
+home = "https://github.com/Lorecrafter703/BendyAndTheArchipelagoMachine"
+
+[versions]
+"2.0.0r3" = { url = "https://github.com/Lorecrafter703/BendyAndTheArchipelagoMachine/releases/download/v2.0.0/batim.apworld" }

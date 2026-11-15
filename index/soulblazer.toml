@@ -9,3 +9,14 @@ tracker = "https://github.com/powerlord/soulblazer-poptracker/releases/latest"
 "0.4.2" = {}
 "0.5.0" = {}
 "0.6.1" = {}
+"0.6.2" = {}
+"0.7.0" = {}
+
+[[fuzz_results]]
+version = "0.6.2"
+verdict = "clean"
+fuzzed_at = "2026-09-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

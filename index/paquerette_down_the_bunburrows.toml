@@ -6,6 +6,7 @@ setup_guide = "https://github.com/SergeAzel/Archipelago_PDTB/blob/main/worlds/pa
 
 [versions]
 "paquerette_down_the_bunburrows-0.1.0" = {}
+"paquerette_down_the_bunburrows-0.2.0" = {}
 
 [[fuzz_results]]
 version = "paquerette_down_the_bunburrows-0.1.0"
@@ -15,3 +16,12 @@ seeds = 5000
 default_rate = 0.0016
 worst_hook = "check-item-location-count"
 worst_hook_rate = 0.738
+
+[[fuzz_results]]
+version = "paquerette_down_the_bunburrows-0.2.0"
+verdict = "broken"
+fuzzed_at = "2026-09-14"
+seeds = 5000
+default_rate = 0.001
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.754

@@ -1,0 +1,5 @@
+name = "Manual_OuterWildsEye_Nicopopxd"
+home = "https://github.com/nicopop/NicosManualApworlds"
+
+[versions]
+"E1.0.0-pre2" = { url = "https://github.com/nicopop/NicosManualApworlds/releases/download/vE1.0.0-pre2/manual_outerwildseye_nicopopxd.apworld" }

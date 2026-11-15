@@ -1,0 +1,5 @@
+name = "Status Lock"
+home = "https://github.com/guigui0246/StatusLock"
+
+[versions]
+"0.4.1" = { url = "https://github.com/guigui0246/StatusLock/releases/download/v0.4.1/status_lock.apworld" }

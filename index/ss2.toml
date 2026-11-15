@@ -1,0 +1,5 @@
+name = "System Shock 2"
+home = ["https://github.com/Partatio/SS2-Apworld", "https://codeberg.org/Partatio/SS2-Apworld"]
+
+[versions]
+"0.5.2" = { url = "https://codeberg.org/Partatio/SS2-Apworld/releases/download/0.5.2/ss2.apworld" }

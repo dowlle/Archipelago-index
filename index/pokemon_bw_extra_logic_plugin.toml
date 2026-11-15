@@ -1,0 +1,5 @@
+name = "Pokemon BW Extra Logic Plugin"
+home = "https://github.com/Radis7Noir/pokemon_bw_extra_logic_plugin"
+
+[versions]
+"11" = { url = "https://github.com/Radis7Noir/pokemon_bw_extra_logic_plugin/releases/download/v11/pokemon_bw_extra_logic_plugin.apworld" }

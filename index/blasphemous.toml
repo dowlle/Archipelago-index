@@ -1,4 +1,5 @@
 name = "Blasphemous"
+setup_guide = "https://archipelago.gg/tutorial/Blasphemous/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

@@ -1,0 +1,5 @@
+name = "Mario Golf 64"
+home = "https://github.com/PangaeaPanga/mario_golf_64"
+
+[versions]
+"0.1.0a" = { url = "https://github.com/PangaeaPanga/mario_golf_64/releases/download/v0.1.0a/mario_golf_64.apworld" }

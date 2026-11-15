@@ -7,6 +7,8 @@ stability = "unstable"
 "0.2.5" = {}
 "0.2.6" = {}
 "0.3.3" = {}
+"0.3.4" = {}
+"0.4.1" = {}
 
 [[fuzz_results]]
 version = "0.2.5"
@@ -25,3 +27,21 @@ seeds = 5000
 default_rate = 0.1156
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.1232
+
+[[fuzz_results]]
+version = "0.3.4"
+verdict = "clean"
+fuzzed_at = "2026-09-14"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.4.1"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
