@@ -5,6 +5,7 @@ stability = "untested"
 [versions]
 "1.4.0" = { url = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago/releases/download/v1.4.0/dawnsbury.apworld" }
 "1.5.0" = { url = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago/releases/download/v1.5.0/dawnsbury.apworld" }
+"v.1.6.0" = { url = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago/releases/download/v.1.6.0/dawnsbury.apworld" }
 
 [[fuzz_results]]
 version = "1.4.0"
@@ -23,3 +24,12 @@ seeds = 5000
 default_rate = 0.0204
 worst_hook = "check-determinism"
 worst_hook_rate = 0.25462
+
+[[fuzz_results]]
+version = "v.1.6.0"
+verdict = "flaky"
+fuzzed_at = "2026-09-12"
+seeds = 5000
+default_rate = 0.0098
+worst_hook = "check-determinism"
+worst_hook_rate = 0.860041
