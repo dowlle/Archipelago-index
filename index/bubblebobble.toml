@@ -3,3 +3,13 @@ home = "https://github.com/sensokaeru/bubblebobbleAP"
 
 [versions]
 "1.1.7" = { url = "https://github.com/sensokaeru/bubblebobbleAP/releases/download/v1.1.7/bubblebobble.apworld" }
+"1.2.2" = { url = "https://github.com/sensokaeru/bubblebobbleAP/releases/download/v1.2.2/bubblebobble.apworld" }
+
+[[fuzz_results]]
+version = "1.2.2"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.9564
+worst_hook = "default"
+worst_hook_rate = 0.9564
