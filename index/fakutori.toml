@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "1.0.0" = { url = "https://github.com/chickentuna/Archipelago-Fakutori/releases/download/v0.1.0/fakutori.apworld" }
+"0.1.1" = { url = "https://github.com/chickentuna/Archipelago-Fakutori/releases/download/v0.1.1/fakutori.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0"
@@ -13,3 +14,12 @@ seeds = 5000
 default_rate = 0.9694
 worst_hook = "check-determinism"
 worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "0.1.1"
+verdict = "broken"
+fuzzed_at = "2026-09-11"
+seeds = 5000
+default_rate = 0.1834
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.516
