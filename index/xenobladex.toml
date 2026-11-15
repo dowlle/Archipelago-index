@@ -1,0 +1,5 @@
+name = "Xenoblade X"
+home = "https://github.com/MaragonMH/Archipelago"
+
+[versions]
+"0.2.10" = { url = "https://github.com/MaragonMH/Archipelago/releases/download/XenoX0.2.10/xenobladex.apworld" }

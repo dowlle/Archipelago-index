@@ -1,4 +1,5 @@
 name = "Factorio"
+setup_guide = "https://archipelago.gg/tutorial/Factorio/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "unstable"

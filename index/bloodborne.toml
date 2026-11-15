@@ -1,0 +1,5 @@
+name = "Bloodborne"
+home = "https://github.com/4laric/bb-archipelago"
+
+[versions]
+"0.1.0-enemizer-playtest.2" = { url = "https://github.com/4laric/bb-archipelago/releases/download/v0.1.0-enemizer-playtest.2/bloodborne.apworld" }

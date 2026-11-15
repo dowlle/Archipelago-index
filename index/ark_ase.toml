@@ -1,0 +1,5 @@
+name = "ARK Survival Evolved"
+home = "https://github.com/Jbaker16163/Ark-Survival-Archipelago"
+
+[versions]
+"0.3" = { url = "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.3/ark_ase.apworld" }

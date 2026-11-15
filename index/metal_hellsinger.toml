@@ -1,0 +1,5 @@
+name = "metal_hellsinger"
+home = "https://github.com/DanielSchaack/ArchipelagoMetalHellsinger"
+
+[versions]
+"1.1.3" = { url = "https://github.com/DanielSchaack/ArchipelagoMetalHellsinger/releases/download/1.1.3/metal_hellsinger.apworld" }

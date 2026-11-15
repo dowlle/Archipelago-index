@@ -1,4 +1,5 @@
 name = "ChecksFinder"
+setup_guide = "https://archipelago.gg/tutorial/ChecksFinder/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

@@ -1,4 +1,5 @@
 name = "Faxanadu"
+setup_guide = "https://archipelago.gg/tutorial/Faxanadu/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

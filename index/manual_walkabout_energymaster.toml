@@ -1,0 +1,5 @@
+name = "Manual_Walkabout_Energymaster"
+home = "https://github.com/energymaster22/walkabout-mini-golf-ap-manual"
+
+[versions]
+"0.1.1" = { url = "https://github.com/energymaster22/walkabout-mini-golf-ap-manual/releases/download/0.1.1/manual_walkabout_energymaster.apworld" }

@@ -1,0 +1,5 @@
+name = "Spyro: Attack of the Rhynocs"
+home = "https://github.com/CDRomatron/Archipelago"
+
+[versions]
+"0.3" = { url = "https://github.com/CDRomatron/Archipelago/releases/download/s3-0.3/spyro3gba.apworld" }

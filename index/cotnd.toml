@@ -1,0 +1,5 @@
+name = "Crypt of the NecroDancer"
+home = "https://github.com/lastingParadox/Archipelago-CotND"
+
+[versions]
+"0.8.2" = { url = "https://github.com/lastingParadox/Archipelago-CotND/releases/download/v0.8.2/cotnd.apworld" }

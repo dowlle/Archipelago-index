@@ -1,0 +1,5 @@
+name = "Manual_PhantomHourglass_Carrot"
+home = "https://github.com/carrotinator/manual_phantomhourglass_carrot"
+
+[versions]
+"0.2.0-alpha" = { url = "https://github.com/carrotinator/manual_phantomhourglass_carrot/releases/download/v0.2.0-alpha/manual_phantomhourglass_carrot.apworld" }

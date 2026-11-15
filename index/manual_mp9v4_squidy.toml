@@ -1,0 +1,5 @@
+name = "Manual_mp9v4_squidy"
+home = "https://github.com/Joethepic/Archipelago"
+
+[versions]
+"4.0mp9manual" = { url = "https://github.com/Joethepic/Archipelago/releases/download/4.0mp9manual/manual_mp9v4_squidy.apworld" }

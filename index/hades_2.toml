@@ -1,0 +1,5 @@
+name = "hades_2"
+home = "https://github.com/BrittisH39/Hades2Archipelago"
+
+[versions]
+"0.1.5" = { url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.5/hades_2.apworld" }

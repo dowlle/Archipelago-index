@@ -1,0 +1,5 @@
+name = "Team Fortress 2 Mann vs Machine"
+home = "https://github.com/m-this/tf2-archipelago"
+
+[versions]
+"1.16.0" = { url = "https://github.com/m-this/tf2-archipelago/releases/download/v1.16.0/tf2_mvm.apworld" }

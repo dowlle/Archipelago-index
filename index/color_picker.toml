@@ -1,0 +1,5 @@
+name = "Color Picker"
+home = "https://github.com/Silvris/Archipelago"
+
+[versions]
+"colorpicker_0.0.1" = { url = "https://github.com/Silvris/Archipelago/releases/download/colorpicker_0.0.1/color_picker.apworld" }

@@ -1,0 +1,5 @@
+name = "Manual_Wyrmspan_Axxroy"
+home = "https://github.com/axxroytovu/archipelago_manuals"
+
+[versions]
+"wyrmspan_0.1.0" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/wyrmspan_0.1.0/manual_wyrmspan_axxroy.apworld" }

@@ -1,0 +1,5 @@
+name = "Beat Saber"
+home = "https://github.com/CurrentlyPending/BeatSaberAP"
+
+[versions]
+"0.1.1" = { url = "https://github.com/CurrentlyPending/BeatSaberAP/releases/download/v0.1.1/beat_saber.apworld" }

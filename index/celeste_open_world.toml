@@ -1,4 +1,5 @@
 name = "Celeste (Open World)"
+setup_guide = "https://archipelago.gg/tutorial/Celeste%20(Open%20World)/guide_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"
