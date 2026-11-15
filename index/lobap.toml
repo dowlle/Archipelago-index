@@ -5,11 +5,21 @@ stability = "untested"
 
 [versions]
 "0.3.5" = {}
+"0.3.5b" = { url = "https://github.com/YarRuin/LOBAP/releases/download/0.3.5b/lobap.apworld" }
 
 [[fuzz_results]]
 version = "0.3.5"
 verdict = "clean"
 fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.3.5b"
+verdict = "clean"
+fuzzed_at = "2026-09-12"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
