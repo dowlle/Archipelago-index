@@ -5,6 +5,7 @@ stability = "unstable"
 
 [versions]
 "2.0.0" = { url = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago/releases/download/V2.0.0/spiritvalley.apworld" }
+"V2.1.2" = {}
 
 [[fuzz_results]]
 version = "2.0.0"
@@ -14,3 +15,12 @@ seeds = 5000
 default_rate = 0.5128
 worst_hook = "check-item-location-count"
 worst_hook_rate = 0.648
+
+[[fuzz_results]]
+version = "V2.1.2"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.4762
+worst_hook = "check-ut"
+worst_hook_rate = 0.51

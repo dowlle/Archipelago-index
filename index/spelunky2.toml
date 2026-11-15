@@ -10,11 +10,21 @@ tracker = "https://github.com/Bogdan1000pink/Spelunky-2-Tracker"
 "0.3.6" = {}
 "0.3.8" = {}
 "0.4.0" = {}
+"0.5.1" = {}
 
 [[fuzz_results]]
 version = "0.4.0"
 verdict = "clean"
 fuzzed_at = "2026-05-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
+
+[[fuzz_results]]
+version = "0.5.1"
+verdict = "flaky"
+fuzzed_at = "2026-11-13"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "check-determinism"
