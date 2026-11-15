@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.0.1.post5" = { url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/v0.5/cyberpunk2077.apworld" }
+"0.7.2" = { url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/0.7.2/cyberpunk2077.apworld" }
 
 [[fuzz_results]]
 version = "0.0.1.post5"
@@ -13,3 +14,12 @@ seeds = 5000
 default_rate = 0.1236
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.129
+
+[[fuzz_results]]
+version = "0.7.2"
+verdict = "broken"
+fuzzed_at = "2026-09-16"
+seeds = 5000
+default_rate = 0.0512
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.1946
