@@ -5,6 +5,7 @@ stability = "untested"
 [versions]
 "26.5.10" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.05.10/YARGGuitarHeroWorldTour.apworld" }
 "26.09.13" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.09.13/YARGGuitarHeroWorldTour.apworld" }
+"26.10.08" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.10.08/YARGGuitarHeroWorldTour.apworld" }
 
 [[fuzz_results]]
 version = "26.5.10"
@@ -23,3 +24,12 @@ seeds = 3070
 default_rate = 0.000326
 worst_hook = "default"
 worst_hook_rate = 0.000326
+
+[[fuzz_results]]
+version = "26.10.08"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 3095
+default_rate = 0.000323
+worst_hook = "default"
+worst_hook_rate = 0.000323
