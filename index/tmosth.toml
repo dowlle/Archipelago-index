@@ -4,11 +4,21 @@ stability = "untested"
 
 [versions]
 "0.2.1a0" = { url = "https://github.com/Kylogias/MurderOfSonicAP/releases/download/v0.2.1-alpha/tmosth.apworld" }
+"0.4.0-beta" = { url = "https://github.com/TwinklePillar/MurderOfSonicAP/releases/download/v0.4.0-beta/tmosth.apworld" }
 
 [[fuzz_results]]
 version = "0.2.1a0"
 verdict = "clean"
 fuzzed_at = "2026-08-24"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.4.0-beta"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
