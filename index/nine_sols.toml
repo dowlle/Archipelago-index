@@ -20,6 +20,7 @@ stability = "stable"
 "0.6.3" = {}
 "0.6.4" = { url = "https://github.com/IxrecsRandomizers/NineSolsArchipelagoRandomizer/releases/download/0.6.4/nine_sols.apworld" }
 "0.6.5" = { url = "https://github.com/IxrecsRandomizers/NineSolsArchipelagoRandomizer/releases/download/0.6.5/nine_sols.apworld" }
+"0.7.0" = { url = "https://github.com/IxrecsRandomizers/NineSolsArchipelagoRandomizer/releases/download/0.7.0/nine_sols.apworld" }
 
 [[fuzz_results]]
 version = "0.6.4"
@@ -38,3 +39,12 @@ seeds = 2732
 default_rate = 0.001098
 worst_hook = "default"
 worst_hook_rate = 0.001098
+
+[[fuzz_results]]
+version = "0.7.0"
+verdict = "flaky"
+fuzzed_at = "2026-11-15"
+seeds = 2684
+default_rate = 0.023845
+worst_hook = "default"
+worst_hook_rate = 0.023845
