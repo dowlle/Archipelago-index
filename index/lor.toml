@@ -10,6 +10,7 @@ setup_guide = "https://az-lastpenguin.github.io/guide"
 "1.0.0-delta" = {}
 "1.0.0-epsilon" = {}
 "1.0.0-zeta" = {}
+"1.0.0-eta.2" = {}
 
 [[fuzz_results]]
 version = "0.3.1"
@@ -37,3 +38,12 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
 worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "1.0.0-eta.2"
+verdict = "broken"
+fuzzed_at = "2026-09-12"
+seeds = 5000
+default_rate = 0.0572
+worst_hook = "default"
+worst_hook_rate = 0.0572
