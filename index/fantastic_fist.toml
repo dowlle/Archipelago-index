@@ -4,6 +4,7 @@ stability = "untested"
 
 [versions]
 "0.0.1" = { url = "https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/releases/download/V0.0.2/fantastic_fist.apworld" }
+"V0.0.4" = { url = "https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/releases/download/V0.0.4/fantastic_fist.apworld" }
 
 [[fuzz_results]]
 version = "0.0.1"
