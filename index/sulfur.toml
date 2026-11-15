@@ -1,0 +1,5 @@
+name = "SULFUR"
+home = "https://github.com/FrederikRasmussen/APWorldSULFUR"
+
+[versions]
+"alpha2.0.0" = { url = "https://github.com/FrederikRasmussen/APWorldSULFUR/releases/download/alpha2.0.0/sulfur.apworld" }

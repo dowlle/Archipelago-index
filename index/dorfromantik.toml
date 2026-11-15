@@ -1,0 +1,5 @@
+name = "Dorfromantik"
+home = "https://github.com/Str8UpWHITE64/Dorfromantik-AP"
+
+[versions]
+"0.1.0" = { url = "https://github.com/Str8UpWHITE64/Dorfromantik-AP/releases/download/0.1.0/dorfromantik.apworld" }

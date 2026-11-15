@@ -1,0 +1,5 @@
+name = "Manual_SpelunkyClassic_Steele"
+home = "https://github.com/rm-steele/Archipelago"
+
+[versions]
+"0.1.0" = { url = "https://github.com/rm-steele/Archipelago/releases/download/v0.1.0/manual_spelunkyclassic_steele.apworld" }

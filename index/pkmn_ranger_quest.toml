@@ -1,0 +1,5 @@
+name = "Pokemon Ranger (Quest)"
+home = "https://github.com/BlastSlimey/Archipelago"
+
+[versions]
+"1.0.5" = { url = "https://github.com/BlastSlimey/Archipelago/releases/download/pkmn_ranger_quest_1.0.5/pkmn_ranger_quest.apworld" }

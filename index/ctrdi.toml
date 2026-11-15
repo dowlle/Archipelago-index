@@ -1,0 +1,5 @@
+name = "Chrono Trigger Rando-Dalton Imperial"
+home = "https://github.com/Anguirel86/ap_ctrdi"
+
+[versions]
+"0.0.2" = { url = "https://github.com/Anguirel86/ap_ctrdi/releases/download/v0.0.2/ctrdi.apworld" }

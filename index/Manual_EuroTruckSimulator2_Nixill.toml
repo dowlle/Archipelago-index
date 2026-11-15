@@ -1,0 +1,5 @@
+name = "Manual_EuroTruckSimulator2_Nixill"
+home = "https://github.com/Nixill/APManual-ETS2"
+
+[versions]
+"ETS2-v4.0.0" = { url = "https://github.com/Nixill/APManual-ETS2/releases/download/ETS2-v4.0.0/Manual_EuroTruckSimulator2_Nixill.apworld" }

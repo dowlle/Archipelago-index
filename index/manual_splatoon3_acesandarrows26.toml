@@ -1,0 +1,5 @@
+name = "Manual: Splatoon 3 Ranked"
+home = "https://github.com/acesandarrows26/aces-manuals"
+
+[versions]
+"0.0.2" = { url = "https://github.com/acesandarrows26/aces-manuals/releases/download/0.0.2/manual_splatoon3_acesandarrows26.apworld" }

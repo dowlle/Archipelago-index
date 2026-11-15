@@ -1,4 +1,5 @@
 name = "Bomb Rush Cyberfunk"
+setup_guide = "https://archipelago.gg/tutorial/Bomb%20Rush%20Cyberfunk/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

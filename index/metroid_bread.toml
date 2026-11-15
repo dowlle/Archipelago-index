@@ -1,0 +1,5 @@
+name = "Metroid Bread"
+home = "https://github.com/Dummydud3/metroid-dread-apworld"
+
+[versions]
+"1.8.4" = { url = "https://github.com/Dummydud3/metroid-dread-apworld/releases/download/1.8.4/metroid_bread.apworld" }

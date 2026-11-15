@@ -5,11 +5,21 @@ stability = "untested"
 
 [versions]
 "0.1.1" = {}
+"0.3.0" = { url = "https://github.com/DQIX/ArchipelagoDQIX/releases/download/0.3.0/dqix.apworld" }
 
 [[fuzz_results]]
 version = "0.1.1"
 verdict = "clean"
 fuzzed_at = "2026-08-29"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.3.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
 seeds = 5000
 default_rate = 0.0
 worst_hook = "default"

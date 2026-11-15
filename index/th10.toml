@@ -1,0 +1,5 @@
+name = "Touhou Fuujinroku ~ Mountain of Faith"
+home = "https://github.com/Nepley/mof-apworld"
+
+[versions]
+"0.2.0" = { url = "https://github.com/Nepley/mof-apworld/releases/download/v0.2.0/th10.apworld" }

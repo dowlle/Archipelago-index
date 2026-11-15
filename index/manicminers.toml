@@ -1,0 +1,5 @@
+name = "Manic Miners"
+home = "https://github.com/fogmike/Archipelago_ManicMiners"
+
+[versions]
+"1.5.2" = { url = "https://github.com/fogmike/Archipelago_ManicMiners/releases/download/v1.5.2/manicminers.apworld" }

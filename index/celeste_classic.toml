@@ -1,0 +1,5 @@
+name = "Celeste Classic"
+home = "https://github.com/NyanMC/ap-celesteclassic"
+
+[versions]
+"0.2.0" = { url = "https://github.com/NyanMC/ap-celesteclassic/releases/download/0.2.0/celeste_classic.apworld" }

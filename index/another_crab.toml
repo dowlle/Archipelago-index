@@ -2,7 +2,7 @@ name = "Another Crabs Treasure"
 home = "https://discord.com/channels/731205301247803413/1239467743116525688"
 default_url = "https://github.com/Automagic00/ACT-AP-Client-Plugin/releases/download/{{version}}/another_crab.apworld"
 stability = "stable"
-setup_guide = "https://github.com/Automagic00/ACT-AP-Client-Plugin?tab=readme-ov-file#another-crabs-treasure-ap-randomizer"
+setup_guide = "https://github.com/Automagic00/ACT-AP-Client-Plugin#another-crabs-treasure-archipelago-rando-act-ap"
 
 [versions]
 "0.3.1" = {}
@@ -13,6 +13,7 @@ setup_guide = "https://github.com/Automagic00/ACT-AP-Client-Plugin?tab=readme-ov
 "0.5.0" = {}
 "0.5.1" = {}
 "0.5.2" = {}
+"0.5.3" = {}
 
 [[fuzz_results]]
 version = "0.5.0"
@@ -40,3 +41,12 @@ seeds = 5000
 default_rate = 0.109
 worst_hook = "check-determinism"
 worst_hook_rate = 0.971175
+
+[[fuzz_results]]
+version = "0.5.3"
+verdict = "broken"
+fuzzed_at = "2026-11-13"
+seeds = 5000
+default_rate = 0.108
+worst_hook = "check-determinism"
+worst_hook_rate = 0.893805

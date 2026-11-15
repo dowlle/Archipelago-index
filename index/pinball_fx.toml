@@ -1,0 +1,5 @@
+name = "Pinball FX"
+home = "https://github.com/SerpentAI/Archipelago"
+
+[versions]
+"1.0.0+hotfix1" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/pinballfx-v1.0.0/pinball_fx.apworld" }

@@ -1,0 +1,5 @@
+name = "filter_text_client"
+home = "https://github.com/Mysteryem/Archipelago-ahit"
+
+[versions]
+"filterable_text_client_v0.0.1" = { url = "https://github.com/Mysteryem/Archipelago-ahit/releases/download/filterable_text_client_v0.0.1/filter_text_client.apworld" }

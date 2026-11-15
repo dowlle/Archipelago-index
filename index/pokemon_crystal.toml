@@ -28,6 +28,9 @@ default_url = "https://github.com/gerbiljames/Archipelago/releases/download/{{ve
 "6.0.0-alpha.21" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-alpha.21/pokemon_crystal_prerelease.apworld" }
 "5.4.6" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/5.4.6/pokemon_crystal.apworld" }
 "6.0.0-alpha.22" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-alpha.22/pokemon_crystal_prerelease.apworld" }
+"6.0.0-beta.12" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-beta.12/pokemon_crystal_prerelease.apworld" }
+"6.0.0-rc.1" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.0-rc.1/pokemon_crystal_prerelease.apworld" }
+"6.0.6" = { url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/download/6.0.6/pokemon_crystal.apworld" }
 
 [[fuzz_results]]
 version = "5.4.4"
@@ -46,3 +49,30 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.0002
+
+[[fuzz_results]]
+version = "6.0.0-beta.12"
+verdict = "clean"
+fuzzed_at = "2026-09-14"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "6.0.0-rc.1"
+verdict = "clean"
+fuzzed_at = "2026-09-16"
+seeds = 5000
+default_rate = 0.0002
+worst_hook = "default"
+worst_hook_rate = 0.0002
+
+[[fuzz_results]]
+version = "6.0.6"
+verdict = "clean"
+fuzzed_at = "2026-11-15"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

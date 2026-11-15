@@ -1,4 +1,5 @@
 name = "Spyro 3"
+setup_guide = "https://github.com/Uroogla/S3AP#instructions"
 home = "https://discord.com/channels/731205301247803413/1018847303722872843"
 default_url = "https://github.com/Uroogla/S3AP/releases/download/{{version}}/spyro3.apworld"
 stability = "stable"
@@ -14,6 +15,7 @@ stability = "stable"
 "1.3.0" = {}
 "1.3.4" = {}
 "1.3.5" = {}
+"1.4.0" = {}
 
 [[fuzz_results]]
 version = "1.3.5"
@@ -23,3 +25,12 @@ seeds = 4937
 default_rate = 0.0004
 worst_hook = "default"
 worst_hook_rate = 0.0004
+
+[[fuzz_results]]
+version = "1.4.0"
+verdict = "clean"
+fuzzed_at = "2026-11-13"
+seeds = 4945
+default_rate = 0.000404
+worst_hook = "default"
+worst_hook_rate = 0.000404

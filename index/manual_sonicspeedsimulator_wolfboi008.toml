@@ -1,0 +1,5 @@
+name = "Manual_SonicSpeedSimulator_WolfBoi008"
+home = "https://github.com/WolfBoi008/Sonic-Speed-Simulator"
+
+[versions]
+"1.1.1" = { url = "https://github.com/WolfBoi008/Sonic-Speed-Simulator/releases/download/1.1.1/manual_sonicspeedsimulator_wolfboi008.apworld" }

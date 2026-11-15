@@ -1,0 +1,5 @@
+name = "SEUM Speedrunners from Hell"
+home = "https://github.com/azukaar/SEUM-archipelago"
+
+[versions]
+"1.0.0" = { url = "https://github.com/azukaar/SEUM-archipelago/releases/download/v1.0.0/seum.apworld" }

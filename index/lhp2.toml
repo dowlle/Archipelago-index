@@ -1,0 +1,5 @@
+name = "Lego Harry Potter 5-7"
+home = "https://github.com/jradcode23/LHP2-APWorld"
+
+[versions]
+"1.2.0" = { url = "https://github.com/jradcode23/LHP2-APWorld/releases/download/v1.2.0/lhp2.apworld" }

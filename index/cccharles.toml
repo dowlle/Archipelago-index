@@ -1,4 +1,5 @@
 name = "Choo-Choo Charles"
+setup_guide = "https://archipelago.gg/tutorial/Choo-Choo%20Charles/setup_en"
 home = "https://archipelago.gg"
 supported = true
 stability = "stable"

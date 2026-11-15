@@ -1,0 +1,5 @@
+name = "Mystical Ninja Starring Goemon"
+home = "https://github.com/Killklli/MNSGRecompRando"
+
+[versions]
+"1.0.0" = { url = "https://github.com/Killklli/MNSGRecompRando/releases/download/v1.1.0/mnsg.apworld" }

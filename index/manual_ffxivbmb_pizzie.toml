@@ -1,0 +1,5 @@
+name = "Manual_FFXIVBMB_Pizzie"
+home = "https://github.com/pizie11/FFXIVBMB"
+
+[versions]
+"0.7.0" = { url = "https://github.com/pizie11/FFXIVBMB/releases/download/0.7.0/manual_ffxivbmb_pizzie.apworld" }

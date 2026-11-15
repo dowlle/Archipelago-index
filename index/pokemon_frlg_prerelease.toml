@@ -1,0 +1,5 @@
+name = "Pokemon FireRed and LeafGreen Prelease"
+home = "https://github.com/vyneras/Archipelago"
+
+[versions]
+"1.1.0-beta.4" = { url = "https://github.com/vyneras/Archipelago/releases/download/1.1.0-beta.4/pokemon_frlg_prerelease.apworld" }

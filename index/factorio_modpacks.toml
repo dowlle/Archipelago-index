@@ -1,0 +1,5 @@
+name = "Factorio Modpacks"
+home = "https://github.com/Osiris32-and-a-half/BobFactorioAP"
+
+[versions]
+"2.3.1" = { url = "https://github.com/Osiris32-and-a-half/BobFactorioAP/releases/download/V2.3.1/factorio_modpacks.apworld" }
