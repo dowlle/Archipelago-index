@@ -5,6 +5,7 @@ stability = "untested"
 
 [versions]
 "0.4.4" = {}
+"platformer-0.5.0" = { url = "https://github.com/lepideble/factorio-apworld/releases/download/platformer-0.5.0/factorio_platformer.apworld" }
 
 [[fuzz_results]]
 version = "0.4.4"
