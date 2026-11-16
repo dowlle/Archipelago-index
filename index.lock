@@ -886,6 +886,7 @@
 "6.0.0-rc.7" = "c25df786ba35945a0aba95d45b4d5bedd8a51385bf5ba712bcb04cbd7ea35eb1"
 
 [pokemon_hgss]
+"0.2.4" = "99a0bc8a48be72a45c655fa7098de664165a5c4df179b98b2dbedd39310a89cc"
 "0.2.4-hotfix" = "6c3752a2c82c55e7adabffa94250b374f4d1d8d658be66e1347334a3b3be8298"
 
 [pokemon_trozei]
@@ -3624,3 +3625,69 @@
 
 [create]
 "0.1.3" = "d34273b006ce5af6002ab17254611a246e9e7495b3bdbf3d2895838122e8dcfa"
+
+[mgtt]
+"1.0.4" = "e02bdff620bc6d0d2c3176ea8250c17fbe39962efe1814008ab8e0047e116766"
+
+[minecraft_aem]
+"0.6.2" = "86dbd6dac8aec9a709df7eee90bdc06b219473010e3c04d7b208aaa5bee9d092"
+
+[mm7]
+"0.4.0" = "41efcc632daaaff324eb52f9c21ae4f78e140f415e5a16e4abd666a06a3e5a8e"
+
+[momo4]
+"1.0.3" = "ee80e2366b72376a8c02ae164847a252af598822695b9aa3f239fde61db4d293"
+
+[nds]
+"Natural-Disaster-Survival" = "c7a2ec4fd110e631b2fd8cb49860f585ef68c7494df1dd9bf64b7f6b1767b3de"
+
+[nicktoons_bfvi]
+"Archipelago" = "fb0fa0235348e067f7b119237a173f342b422e4c6bb554c6be7e7ac027245521"
+
+[nplusplus]
+"0.2" = "161d09a921c032ec3eb46f16dceb242c84461be602a958a405deae28904fa6fd"
+
+[old_launcher]
+"old_launcher-1.0.0" = "fc62e8bc849b44e6a46301baaab01f97ef61ee4d732ddb5d23d9a61c32531147"
+
+[ootbijmqwt]
+"ootbijmqwt-v2.1" = "1a930c4ed5b629162ac74beefc2b395c2e5b9c15ac1263c9eeb4af212f206139"
+
+[pd2_crimdawn]
+"1.0.11" = "1fa97ad2c9b9c291ba0e76ecbf63caa1bae86d701a32e85f4a6286933218bda8"
+
+[pokemon_bw_extra_logic_plugin]
+"11" = "2997cdc893f5188927962c87092774afb341ed00cd89f3e4c985b42a36d824d0"
+
+[pokemon_emerald_beta]
+"3.0.0-beta1" = "db4f1a451a105153917fb86a4434301e8534379212d83e4f55970cb61f68d9f8"
+
+[pokemon_frlg_prerelease]
+"1.1.0-beta.4" = "f033b4929e17c9aee0a2fbadf36b893631381674301de1f7c134e74507bf5709"
+
+[pokemon_heartgold]
+"0.2.0" = "bc1eb39364fce31fdc6db6a4e584e32332c5d73e241f1d9cfe82588b19661f3e"
+
+[pokemon_xy]
+"0.0.4" = "4141701eb6d29add8a233ea0befab45b7d016e65f45a64026986953a5ad1e8d9"
+
+[pools]
+"pools-v1.0.0" = "4d37e6361c36aa3df1866b64e144fea3a0ad4b38b68130eb01b54f382448f010"
+
+[priestess_lust]
+"0.0.1" = "19bec8ba2dfe43aa58730e05d3be3c6a61a9f15ed9a53211d9775ae0c9428cac"
+
+[pvz2gardendless]
+"0.3.1" = "921b0cdd4d3cd677c3ca8b26d5266247a9ab9b4d9dadfec1714805eb578d99c1"
+
+[re3remake]
+"0.2.99" = "1f50c860fe16ed661b4d77d71d15c645fd74fe2fd18fe7594e04ffedf4e731e0"
+
+[rich_presence]
+"rich-presence-003" = "f6a771f1acb4451bf4f25e2395d4dc5b81c8468bc64dd619a6193cd2942d21c4"
+
+[rummy]
+"1.0.0" = "7dbb9ab5a26b2c590cc7eab547cf2be9c4fd0d4795737d6e72d2be59c7ac039a"
+
+[santa]
+"1.1" = "846f1cee767cbe3e7a1748f875a7305dfc9536ea52a69a60afbe8580e036d668"
