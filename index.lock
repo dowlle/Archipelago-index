@@ -42,6 +42,7 @@
 [angband]
 "0.4.0" = "66f7f20881858318ca0a355d0e1cc843c76342b81ad2d6bf407511eadcb10d3b"
 [alttp_beta]
+"alttp2026v4" = "f0bd0ae467d0c93304afb294de1dd46d4b473f8b4ad49d832456f0be10e24a3c"
 "alttp2026-v6" = "a53c65baed8b42bc5fb64530aaa186562627d116c68159ea7ef06b0ea18a71c5"
 
 [aom]
@@ -90,6 +91,7 @@
 [bannerlord]
 "0.4.0" = "f8c27369859e2965bce79688c2d9529a3943a72ff1cf682deadb2fcd41ca1894"
 [batim]
+"2.0.0r3" = "f200e13d4fef7fe349d67435c268d2a45bd0db321d91690dac96f8212c71794f"
 "2.0.1" = "7b92c315ddf3d52374ba1b2c0d923d20d95b92cd3174bae3fd544f2c51306ef4"
 
 [bayonetta]
@@ -3624,3 +3626,66 @@
 
 [create]
 "0.1.3" = "d34273b006ce5af6002ab17254611a246e9e7495b3bdbf3d2895838122e8dcfa"
+
+[Manual_EuroTruckSimulator2_Nixill]
+"ETS2-v4.0.0" = "29c1b55de3d3db27bdb7556516534423da2d4c577c71883049e614e2de6f31f3"
+
+[Manual_Sprashfecta_MuffinJets]
+"0.4.0" = "dd6f751c194afa572da4f48597fd2d7b1ccb01b05e347d638bc57bf1a6970107"
+
+[YARGGuitarHeroWarriorsOfRock]
+"26.09.13" = "53a2aab25c866babd59ae8c009a78c83cec8136f353e2f7967def552919225e6"
+
+[acww]
+"0.1.2-alpha" = "2ca11a6cfbe7053ed4280a02be09ce77a9b213e93594cc1e0fe3dfae647230cb"
+
+[apworld_manager]
+"apworld_manager-0.0.25" = "c6608c3b5d48302bf05124072b23029c930b6a8c6d08e79479c1917925fd7762"
+
+[armored_core_6]
+"0.2.1-Beta" = "9353f2fda4ceb2efb0473e6607c71cefa65a53427622a8154a4c2fb06696db11"
+
+[armoredcore3]
+"0.1.2" = "f795c93d38c1d455b50bdb3567855fb4029abfe66a62707f4a6c55ea8e9f9d01"
+
+[arzette]
+"1.0.0" = "025c72aa36b2d91d1312027cdf6f614603bbda4bfd770bf832edcb865ed3f7f1"
+
+[batboy]
+"0.1.6" = "da8fcffc9a24388571d3ac650b6b5e03e6edab5e3a314826fb70180b5ea1100b"
+
+[before_we_leave]
+"0.1" = "ac7891c4270edd428d184ff314b36b1ee3713490a51e7eeeb73eaae33d12c6cd"
+
+[bitburner]
+"bitburner-0.6.0" = "2a325e9d41405fc42d2815fcd77b355065eb153c5317b584cd303217b30bc69d"
+
+[bluesphere]
+"0.1.0" = "751a1e04ead6c547a2e59106f198ff27bd48a8246ea83599f301a9685e4f7b6a"
+
+[bomberman_tournament]
+"bombt-v0.0.10-alpha" = "85bc22530f888ce07834f16dd9d35f135f9256bf64fa1d65b2167c80238b2cb8"
+
+[bugsnax]
+"0.1.1-alpha" = "9099d11b5cd1825e886e847be3e7e3c7d379c22200f173255683c78f7c77daf7"
+
+[celeste_classic]
+"0.2.0" = "ceaa0420da4425844a07182eb7594f7c7aa6786d35e591fb2c36e5967016e1ce"
+
+[chests_n_keys]
+"0.3.0" = "0310264b2720bb46643d8387568899c6a2eba8054267928725a694a6fb034521"
+
+[christmasdeliveryapworld-main]
+"1.0.2" = "ae276ec1dd5791fd8c04fc5769c4c3c62c2d32a034139e1a4580f5eb86fab87c"
+
+[color_picker]
+"colorpicker_0.0.1" = "f3c877a35ddcc9bd7fb22385129ffeb7ec72ec5d3ae4172435b41edfa31fcb6b"
+
+[control]
+"1.2.0" = "7f1bd687b93afd683d3d6a26436ffd19ed546017f0826aac4653404fb44f6c70"
+
+[cotnd]
+"0.8.2" = "90cde93ac946a4cd8076c3dd1528677dab9de33098590c909bc710dca34e60d7"
+
+[crossword]
+"0.1.6" = "92af18063e528936809b46c9260ab040edb049ba5cf4ecb979cafd0ed7c07775"
