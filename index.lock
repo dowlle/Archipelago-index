@@ -643,8 +643,10 @@
 [manual_dbdsurven_wabadjakk]
 "V.1.1.6" = "954137d63509c02435ebfeb6fbda6697a5271d04ebdf4cc52752991b369f39bf"
 [manual_donkeykong_jd]
+"1.0.0-original-edition" = "9308c7777a0a2bb46fe29bcfcd8401c48832ec417d31db3e9b76146ae07d7b7a"
 "1.0.0-arcade" = "6e43d392873252fddca400b06679da02f16528faf1cca9fffa98297346073290"
 [manual_deckedout2_empathymp3]
+"1.1.0-unstable" = "f91658e5476634566ea4b0ad54f64685e652b1affd164b5dcc3a3a6efd2c8e3a"
 "1.1.0-stable" = "c3f797024a866d7e631ecd9a6f8139c3101b56899c8e0dae40469892f575373a"
 
 [manual_gloomhaven_codegorilla]
@@ -3688,3 +3690,32 @@
 
 [grandia]
 "0.15.0" = "e80d8e6537a68c9083f6e5679c5cd4e3f42e4ff03637cf563acadef0bca44947"
+[inscryption_beta]
+"1.5.4" = "fe4fefc741de427354266edb917a64d3e5498bde8f57348f6d397e137fc8703f"
+
+[lethalcrisis]
+"0.1.1" = "1af753eb2dd5163022e34c23a64911aac79c8d29c749bfe28291bdb2cec8dcaa"
+
+[lingo2]
+"9.4.0" = "8afa2ef5c53c15578b2bac5386e77b435c6aea98bb9ecf54bb156866a14973f0"
+
+[los]
+"0.6.1" = "ffc0d487f1f3303961aafab0e5d70cbe7d963f2417ad1789ac834b5b9a7d0cf5"
+
+[manual_adventuresofdreamland_bennydreamly]
+"AOD-3.0.0" = "23f3fc3dd3bc6ce6979a4e8eb98f2b5ad6824ec95451073060b8e72aa689f4dd"
+
+[manual_bandhero_gwaf]
+"25.12.11" = "9f7b317c04136b717fb7cc3f53b5ddbfd4b65247dd95ae833b3d52a7af85d4fa"
+
+[manual_breakingbad_jd]
+"1.0.2" = "086bf10b121431e76d305334fb0b2f3647beb103f2cd0cab77c2306f894f93bd"
+
+[manual_castleminerz_garbo]
+"cmz-0.4" = "1f708c1131a2aa12ab79d5a38e417f708460707fd3c309dee4f870e7688191af"
+
+[manual_ctcsudoku_axxroy]
+"Sudoku_1.2.1" = "555cbe3a6cb6f7f7ad496da9105a9e76287504608075bcdd9a443fd752f02e07"
+
+[manual_ctgpdeluxe_jd]
+"1.1.0" = "f8a7affa7f678ddd311651ef1210aa3ec7b83bbf08b01f73f43ae002e156a06d"
