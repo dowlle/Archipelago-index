@@ -3,3 +3,12 @@ home = "https://github.com/not-aoyama/ChestsNKeys-Web"
 
 [versions]
 "0.3.0" = { url = "https://github.com/not-aoyama/ChestsNKeys-Web/releases/download/v0.3.0/chests_n_keys.apworld" }
+
+[[fuzz_results]]
+version = "0.3.0"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

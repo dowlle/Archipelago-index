@@ -3,3 +3,12 @@ home = "https://github.com/NyanMC/ap-celesteclassic"
 
 [versions]
 "0.2.0" = { url = "https://github.com/NyanMC/ap-celesteclassic/releases/download/0.2.0/celeste_classic.apworld" }
+
+[[fuzz_results]]
+version = "0.2.0"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
