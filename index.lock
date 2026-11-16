@@ -3680,9 +3680,6 @@
 [drehmal]
 "0.3.0-beta" = "449244853f2f4f4130891caf76d94e5b05ccbb16d8fa2ed041ea8b7cfecb7485"
 
-[factorio_bobs]
-"2.2.6" = "62ebb31395d6cc4c64991b8f38ee12b0d24eb217bd397abeadd00530d9a0e6be"
-
 [gbapquest]
 "GBAPQuestV0.1.0" = "f569f593e00369e9c2fb4f1481f5b7ed4203bbe073c1dda193abbd5c5c7fad60"
 
