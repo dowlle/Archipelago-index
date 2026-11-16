@@ -1044,6 +1044,7 @@
 "0.1.0" = "83d29cda64268695241813e8f79a2c84d7a893a733ad0d8d1346f2f834f325a2"
 
 [smb1]
+"SMB1_ARCHIPELAGO_0.2" = "2bdb05c9b5d069c33001d1d9335153f612cf7bf719c15310f66b3c4d8d6afbec"
 "1.0.0" = "8d0e7342d14c408af4d82c9fac68d26534ae6784af15cd8c11b33346a46ed939"
 
 [sonic1]
@@ -1087,6 +1088,7 @@
 "1.0.3" = "81b3683a865a41debddf6f54e37855651262da54764682e9525ea6c7a0bf05c2"
 
 [stalker2]
+"Releases" = "50115747604e3ba3b119ef09d3acda1d617c6b9946b80aba69cba50903a5ebb4"
 "Prereleasefix" = "76fdf87b146b82f6b3c16c69a59529741a5f05e54baffe2fe228190c06438438"
 
 [sternly_worded_adventures]
@@ -3624,3 +3626,66 @@
 
 [create]
 "0.1.3" = "d34273b006ce5af6002ab17254611a246e9e7495b3bdbf3d2895838122e8dcfa"
+
+[sc2wol]
+"sc2-beta-after-044" = "8c4b701da626f7fc3fcfb6bbaf47242ec357ce0d5390928a4fef5f3f3bf54be2"
+
+[scooby_doo_unmasked]
+"0.2.1" = "59aba5f457f11e95b70b2c5608675970aabbb9e9dc99e901ca2acc18521c4c37"
+
+[scorpion_swamp]
+"scorpion-swamp-1.0.1" = "94d70f5d87ffe613b0ca5aee9abb2ac8b5681c30f8dbc86847a7e8ca009e81d7"
+
+[scritchy_scratchy]
+"0.1.2-hotfix.2-linuxtest.2" = "678dcbae22f87f6e886d714ae1f0b50ee9df69a2c16e33b96bc5f70b7f576770"
+
+[seedling]
+"0.2.3" = "9b780d38a38a8d43b7c2d71dd649d147911abe96bce79197374c0eddc87fa7ce"
+
+[seum]
+"1.0.0" = "69c98bb63456182a6309abedfa49f5f72c2ebeb056371d04a78f6a56069df654"
+
+[shadow_generations]
+"0.1.0" = "45bc8d7144fc0354fb9653def5781e2129eb25a37416a17bb07dccfac9a857d8"
+
+[shadowman]
+"0.1.1" = "0341b2bc58bb6671e096d44cfa4613784b3a10419e423b917a11f950f04cc6eb"
+
+[silksong]
+"0.4.5-Hotfix2" = "5d3b1fabcd427a2ba0e202be99ab682fe2b00d84b85303a26f372bdba2fa1e8f"
+
+[sni_ut]
+"sni-ut-v1.0.1" = "587f5c95385d47e6da5c5c0f7bc53ebbd59329fdf983f0ef21e4da152eb989eb"
+
+[ss2]
+"0.5.2" = "60bb4a691850d5f87b8a7a26962b6dbe28a988fbbed64ad0b1e6d93423778d06"
+
+[status_lock]
+"0.4.1" = "5c51fc028d0e11a1573699d327f6439ac3076c9450f19d3d955eb2450f857667"
+
+[stray]
+"0.0.4" = "283f39fd36456ffb6d5c4ca647f86b26a2dd171ab048d43c6bb851d83fb9095b"
+
+[sulfur]
+"alpha2.0.0" = "fa10b0a6e047fef855f81a188dea603fd60c0b80292b8daeb1ba2f7b1ec7c03b"
+
+[superhot]
+"0.2.1" = "f0e9dcfcafabd2b5ebae755092782ec8ecca29ad1a4ab5a607ae29f3c2961eb7"
+
+[talos_principle]
+"1.0.4" = "47a6da792de5385b39287358044a267c805db84d933047bd3bc674ff08fa3280"
+
+[teet_client]
+"teet-client-v0.0.0" = "fc8d2f8d28fabb4fcc7a86fa030abb653001864650d6ef6018a4ffa3bebdf7b6"
+
+[tf2_mvm]
+"1.16.0" = "99e736aa5e764f1b6f1ea6fb4313cebf0c225fdcfb18026b3184188b934a0f48"
+
+[tits]
+"tits-v0.8.2" = "f76b0b386de3830538bc30ba56fb495180188880e06d5dad8060778bbe43bbb6"
+
+[tomba]
+"1.5.7" = "087ccca7a594642759014c05462401ddc681a5dd84838ad147b0b512c9dc5b38"
+
+[torture_client]
+"0.0.4" = "b9e2d812addf0448cb60fdede422df87ce325ddfaac8d507443c1870ee721e4e"
