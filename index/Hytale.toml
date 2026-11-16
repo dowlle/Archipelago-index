@@ -5,6 +5,7 @@ stability = "untested"
 [versions]
 "1.1.2" = { url = "https://github.com/LucasRenaudineau/hytelago/releases/download/release2/Hytale.apworld" }
 "release3" = { url = "https://github.com/LucasRenaudineau/hytelago/releases/download/release3/Hytale.apworld" }
+"release6" = { url = "https://github.com/LucasRenaudineau/hytelago/releases/download/release6/hytale.apworld" }
 
 [[fuzz_results]]
 version = "1.1.2"
