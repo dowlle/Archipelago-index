@@ -7,6 +7,7 @@ tracker = "https://github.com/pwkfisher/ap-dktoluca-tracker/releases"
 [versions]
 "0.2.3" = {}
 "toluca-v1.0.3" = { url = "https://github.com/TheLX5/Archipelago/releases/download/toluca-v1.0.3/dktoluca.apworld" }
+"toluca-v1.0.4" = { url = "https://github.com/TheLX5/Archipelago/releases/download/toluca-v1.0.4/dktoluca.apworld" }
 
 [[fuzz_results]]
 version = "toluca-v1.0.3"
