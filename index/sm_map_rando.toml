@@ -1,5 +1,6 @@
 name = "Super Metroid Map Rando"
 home = "https://github.com/lordlou/Archipelago"
+disabled = true # Security: loading the world downloads and installs an unhashed native package. Re-enable once fixed upstream.
 
 [versions]
 "0.119.4" = { url = "https://github.com/lordlou/Archipelago/releases/download/v0.119.4/sm_map_rando.apworld" }
