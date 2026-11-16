@@ -399,6 +399,7 @@
 [factorio_platformer]
 "0.4.4" = "ca06ad657b61799a81d4cb176f04f8ceaa1911232fb0aa5c77eb2204520978c3"
 [ff7]
+"0.0.5a" = "7859f9af75f98165f5643fa1bdd4c51b2e9c5dc2cc25ef0f0a5c63e38d7238d6"
 "0.0.6" = "8d6a1da2d5ed9fc15a2f72301304cdf249e3fb9efed34c55bcf645c707d2ce20"
 [ffcc]
 "ffcc-beta-0.3.0" = "535f6c3beacd39ccd67bfe1694b12a6f4763f2c00e1e57c9e14dc8fa4d7ad335"
@@ -3666,3 +3667,24 @@
 
 [cotnd]
 "0.8.2" = "90cde93ac946a4cd8076c3dd1528677dab9de33098590c909bc710dca34e60d7"
+
+[demontides]
+"0.1.0" = "0f4b8c736bbbada2f0bd94f54b00690e693aa749baeb5b69dfe799d4a633d252"
+
+[donkey_kong_country_returns]
+"0.1.2-beta" = "8c8bd345771783cf450b9a02eb73e8bb60801e12fad7583e38f2f05d504c9b12"
+
+[dorfromantik]
+"0.1.0" = "a8d1a21177d35479e2a724d3febdfd4b83d4761a23c14cb029fb15b33d18cd66"
+
+[dq2]
+"0.0.3" = "46759a02e9c4a76940573870f42c9d2e4fd4326bf5c92df28f8b761aceae3fe1"
+
+[drehmal]
+"0.3.0-beta" = "449244853f2f4f4130891caf76d94e5b05ccbb16d8fa2ed041ea8b7cfecb7485"
+
+[gbapquest]
+"GBAPQuestV0.1.0" = "f569f593e00369e9c2fb4f1481f5b7ed4203bbe073c1dda193abbd5c5c7fad60"
+
+[grandia]
+"0.15.0" = "e80d8e6537a68c9083f6e5679c5cd4e3f42e4ff03637cf563acadef0bca44947"
