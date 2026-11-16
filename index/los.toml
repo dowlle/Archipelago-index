@@ -3,3 +3,12 @@ home = "https://github.com/Haywire32/LoS-Archipelago"
 
 [versions]
 "0.6.1" = { url = "https://github.com/Haywire32/LoS-Archipelago/releases/download/v0.6.1/los.apworld" }
+
+[[fuzz_results]]
+version = "0.6.1"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 2476
+default_rate = 0.043619
+worst_hook = "default"
+worst_hook_rate = 0.043619

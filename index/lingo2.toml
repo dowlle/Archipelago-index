@@ -2,3 +2,12 @@ name = "Lingo 2"
 
 [versions]
 "9.4.0" = { url = "https://files.fourisland.com/releases/lingo2-archipelago/apworld/v9.4.0/lingo2.apworld" }
+
+[[fuzz_results]]
+version = "9.4.0"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 492
+default_rate = 0.036585
+worst_hook = "default"
+worst_hook_rate = 0.036585

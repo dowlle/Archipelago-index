@@ -3,3 +3,12 @@ home = "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago"
 
 [versions]
 "0.1.2" = { url = "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago/releases/download/v0.1.2/armoredcore3.apworld" }
+
+[[fuzz_results]]
+version = "0.1.2"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

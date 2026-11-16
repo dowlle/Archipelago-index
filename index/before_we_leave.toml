@@ -3,3 +3,12 @@ home = "https://github.com/haydencase0/BWLArchipelago"
 
 [versions]
 "0.1" = { url = "https://github.com/haydencase0/BWLArchipelago/releases/download/v0.1/before_we_leave.apworld" }
+
+[[fuzz_results]]
+version = "0.1"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.5546
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.586

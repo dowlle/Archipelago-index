@@ -3,3 +3,12 @@ home = "https://github.com/Wakamu/Grandiarchipelago"
 
 [versions]
 "0.15.0" = { url = "https://github.com/Wakamu/Grandiarchipelago/releases/download/0.15.0/grandia.apworld" }
+
+[[fuzz_results]]
+version = "0.15.0"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
