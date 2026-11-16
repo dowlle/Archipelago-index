@@ -6,6 +6,7 @@ stability = "untested"
 [versions]
 "1.0.1" = {}
 "cvooe1.3.2" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvooe1.3.2/cv_ooe.apworld" }
+"cvooe2.1" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvooe2.1/cv_ooe.apworld" }
 
 [[fuzz_results]]
 version = "1.0.1"
