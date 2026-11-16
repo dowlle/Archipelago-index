@@ -42,6 +42,7 @@
 [angband]
 "0.4.0" = "66f7f20881858318ca0a355d0e1cc843c76342b81ad2d6bf407511eadcb10d3b"
 [alttp_beta]
+"alttp2026v4" = "f0bd0ae467d0c93304afb294de1dd46d4b473f8b4ad49d832456f0be10e24a3c"
 "alttp2026-v6" = "a53c65baed8b42bc5fb64530aaa186562627d116c68159ea7ef06b0ea18a71c5"
 
 [aom]
@@ -90,6 +91,7 @@
 [bannerlord]
 "0.4.0" = "f8c27369859e2965bce79688c2d9529a3943a72ff1cf682deadb2fcd41ca1894"
 [batim]
+"2.0.0r3" = "f200e13d4fef7fe349d67435c268d2a45bd0db321d91690dac96f8212c71794f"
 "2.0.1" = "7b92c315ddf3d52374ba1b2c0d923d20d95b92cd3174bae3fd544f2c51306ef4"
 
 [bayonetta]
@@ -397,6 +399,7 @@
 [factorio_platformer]
 "0.4.4" = "ca06ad657b61799a81d4cb176f04f8ceaa1911232fb0aa5c77eb2204520978c3"
 [ff7]
+"0.0.5a" = "7859f9af75f98165f5643fa1bdd4c51b2e9c5dc2cc25ef0f0a5c63e38d7238d6"
 "0.0.6" = "8d6a1da2d5ed9fc15a2f72301304cdf249e3fb9efed34c55bcf645c707d2ce20"
 [ffcc]
 "ffcc-beta-0.3.0" = "535f6c3beacd39ccd67bfe1694b12a6f4763f2c00e1e57c9e14dc8fa4d7ad335"
@@ -639,8 +642,10 @@
 [manual_dbdsurven_wabadjakk]
 "V.1.1.6" = "954137d63509c02435ebfeb6fbda6697a5271d04ebdf4cc52752991b369f39bf"
 [manual_donkeykong_jd]
+"1.0.0-original-edition" = "9308c7777a0a2bb46fe29bcfcd8401c48832ec417d31db3e9b76146ae07d7b7a"
 "1.0.0-arcade" = "6e43d392873252fddca400b06679da02f16528faf1cca9fffa98297346073290"
 [manual_deckedout2_empathymp3]
+"1.1.0-unstable" = "f91658e5476634566ea4b0ad54f64685e652b1affd164b5dcc3a3a6efd2c8e3a"
 "1.1.0-stable" = "c3f797024a866d7e631ecd9a6f8139c3101b56899c8e0dae40469892f575373a"
 
 [manual_gloomhaven_codegorilla]
@@ -886,6 +891,7 @@
 "6.0.0-rc.7" = "c25df786ba35945a0aba95d45b4d5bedd8a51385bf5ba712bcb04cbd7ea35eb1"
 
 [pokemon_hgss]
+"0.2.4" = "99a0bc8a48be72a45c655fa7098de664165a5c4df179b98b2dbedd39310a89cc"
 "0.2.4-hotfix" = "6c3752a2c82c55e7adabffa94250b374f4d1d8d658be66e1347334a3b3be8298"
 
 [pokemon_trozei]
@@ -1044,6 +1050,7 @@
 "0.1.0" = "83d29cda64268695241813e8f79a2c84d7a893a733ad0d8d1346f2f834f325a2"
 
 [smb1]
+"SMB1_ARCHIPELAGO_0.2" = "2bdb05c9b5d069c33001d1d9335153f612cf7bf719c15310f66b3c4d8d6afbec"
 "1.0.0" = "8d0e7342d14c408af4d82c9fac68d26534ae6784af15cd8c11b33346a46ed939"
 
 [sonic1]
@@ -1087,6 +1094,7 @@
 "1.0.3" = "81b3683a865a41debddf6f54e37855651262da54764682e9525ea6c7a0bf05c2"
 
 [stalker2]
+"Releases" = "50115747604e3ba3b119ef09d3acda1d617c6b9946b80aba69cba50903a5ebb4"
 "Prereleasefix" = "76fdf87b146b82f6b3c16c69a59529741a5f05e54baffe2fe228190c06438438"
 
 [sternly_worded_adventures]
@@ -1240,6 +1248,7 @@
 "0.4.7" = "af613f990b4cda0eb407efccbfb8dea13809faabd38c8efab70489edd271f48b"
 
 [yakuza_gaiden]
+"Beta2r2" = "4187faf6936b57759cc86f434b3dbb5273fc4a86d98a490aa7840c93dbe2e60f"
 "Beta-3" = "f5e25037c9c817ce6264731d7a0577af1e97eea31518833dca773cffbb5a99b9"
 
 [YARGAllSetlists]
@@ -3209,8 +3218,10 @@
 "0.3.4" = "1f3bdea724563845afafd385b31cd2739389c051ad272a5f1894ed96ca2f7455"
 
 [zalia]
+"1.0.3r5" = "84be70dabcf0aa2f5a8d9af4df4077ec8c0a6bb57f9b442a6ff15cc8b2fdd7c1"
 "1.0.4" = "812a046e1e16e0bbe6ee96fe568a7c0b790e05d1de1421a7dfdf83ba8607a9ed"
 [zoominoes]
+"0.1.1r2" = "14b22830a245556d120f0508d0d26602f9a2ce5dd966c6a6f6c143729d4f3edb"
 "0.1.2" = "74ae8c3a473e71fa3733cc995a80700b76dc72223e315ae4e33df8f0ccacf4a9"
 
 [zork_grand_inquisitor]
@@ -3624,3 +3635,558 @@
 
 [create]
 "0.1.3" = "d34273b006ce5af6002ab17254611a246e9e7495b3bdbf3d2895838122e8dcfa"
+
+[Manual_EuroTruckSimulator2_Nixill]
+"ETS2-v4.0.0" = "29c1b55de3d3db27bdb7556516534423da2d4c577c71883049e614e2de6f31f3"
+
+[Manual_Sprashfecta_MuffinJets]
+"0.4.0" = "dd6f751c194afa572da4f48597fd2d7b1ccb01b05e347d638bc57bf1a6970107"
+
+[YARGGuitarHeroWarriorsOfRock]
+"26.09.13" = "53a2aab25c866babd59ae8c009a78c83cec8136f353e2f7967def552919225e6"
+
+[acww]
+"0.1.2-alpha" = "2ca11a6cfbe7053ed4280a02be09ce77a9b213e93594cc1e0fe3dfae647230cb"
+
+[apworld_manager]
+"apworld_manager-0.0.25" = "c6608c3b5d48302bf05124072b23029c930b6a8c6d08e79479c1917925fd7762"
+
+[armored_core_6]
+"0.2.1-Beta" = "9353f2fda4ceb2efb0473e6607c71cefa65a53427622a8154a4c2fb06696db11"
+
+[armoredcore3]
+"0.1.2" = "f795c93d38c1d455b50bdb3567855fb4029abfe66a62707f4a6c55ea8e9f9d01"
+
+[arzette]
+"1.0.0" = "025c72aa36b2d91d1312027cdf6f614603bbda4bfd770bf832edcb865ed3f7f1"
+
+[batboy]
+"0.1.6" = "da8fcffc9a24388571d3ac650b6b5e03e6edab5e3a314826fb70180b5ea1100b"
+
+[before_we_leave]
+"0.1" = "ac7891c4270edd428d184ff314b36b1ee3713490a51e7eeeb73eaae33d12c6cd"
+
+[bitburner]
+"bitburner-0.6.0" = "2a325e9d41405fc42d2815fcd77b355065eb153c5317b584cd303217b30bc69d"
+
+[bluesphere]
+"0.1.0" = "751a1e04ead6c547a2e59106f198ff27bd48a8246ea83599f301a9685e4f7b6a"
+
+[bomberman_tournament]
+"bombt-v0.0.10-alpha" = "85bc22530f888ce07834f16dd9d35f135f9256bf64fa1d65b2167c80238b2cb8"
+
+[bugsnax]
+"0.1.1-alpha" = "9099d11b5cd1825e886e847be3e7e3c7d379c22200f173255683c78f7c77daf7"
+
+[celeste_classic]
+"0.2.0" = "ceaa0420da4425844a07182eb7594f7c7aa6786d35e591fb2c36e5967016e1ce"
+
+[chests_n_keys]
+"0.3.0" = "0310264b2720bb46643d8387568899c6a2eba8054267928725a694a6fb034521"
+
+[christmasdeliveryapworld-main]
+"1.0.2" = "ae276ec1dd5791fd8c04fc5769c4c3c62c2d32a034139e1a4580f5eb86fab87c"
+
+[color_picker]
+"colorpicker_0.0.1" = "f3c877a35ddcc9bd7fb22385129ffeb7ec72ec5d3ae4172435b41edfa31fcb6b"
+
+[control]
+"1.2.0" = "7f1bd687b93afd683d3d6a26436ffd19ed546017f0826aac4653404fb44f6c70"
+
+[cotnd]
+"0.8.2" = "90cde93ac946a4cd8076c3dd1528677dab9de33098590c909bc710dca34e60d7"
+
+[crossword]
+"0.1.6" = "92af18063e528936809b46c9260ab040edb049ba5cf4ecb979cafd0ed7c07775"
+
+[crt_2026_seed_roller]
+"1.0.3-crt-seed-roller" = "9d7e75e67623a92ca6e70732da5bd95e1d2610e89bbfaa0af68eecbefe88f19f"
+
+[ctrdi]
+"0.0.2" = "117599e032f2cfd9cbd76407bd4a4a3f2c4355b6dfd9777f9fd41fb328d343a0"
+
+[deathlink_text_client]
+"1.0" = "c5b6304a363c67668d4f1bdbfc5925f96b4cc0ecfa574e4d1f781ed5717879b7"
+
+[demontides]
+"0.1.0" = "0f4b8c736bbbada2f0bd94f54b00690e693aa749baeb5b69dfe799d4a633d252"
+
+[donkey_kong_country_returns]
+"0.1.2-beta" = "8c8bd345771783cf450b9a02eb73e8bb60801e12fad7583e38f2f05d504c9b12"
+
+[dorfromantik]
+"0.1.0" = "a8d1a21177d35479e2a724d3febdfd4b83d4761a23c14cb029fb15b33d18cd66"
+
+[dq2]
+"0.0.3" = "46759a02e9c4a76940573870f42c9d2e4fd4326bf5c92df28f8b761aceae3fe1"
+
+[drehmal]
+"0.3.0-beta" = "449244853f2f4f4130891caf76d94e5b05ccbb16d8fa2ed041ea8b7cfecb7485"
+
+[dsp]
+"0.2.0rc3" = "9f22bb26e7ae64e343b1545d45df8c9a7560916792a532f1c09ab6e721f76630"
+
+[duckgame]
+"0.1.0" = "0ab248720f743150b88456fd6339eb6f60c6da5f3242283ecb24eb9f62a13190"
+
+[dungeon_clawler]
+"1.0.3" = "4e6f4bb2c9e89a136cdea40b483cf1bff0de217e4dd6e16806fefe81d2ad4260"
+
+[factorio_bobs]
+"2.2.6" = "62ebb31395d6cc4c64991b8f38ee12b0d24eb217bd397abeadd00530d9a0e6be"
+
+[factorio_modpacks]
+"2.3.1" = "59a9ebea67b283834d1acfe4e78f55bd9b15b3a08996799cee7cbb857e0d3f10"
+
+[filter_text_client]
+"filterable_text_client_v0.0.1" = "c79362117126ac140816de1e88795ab8c5ed17e3a6d7c1a96728425a12067727"
+
+[fnafb]
+"0.0.1" = "bad532392ee9a58066505fcb8ee6fe572975644b571b0c0318ae0c61eb7dfd8d"
+
+[fnafb1]
+"fnafb1-1.1.0" = "1fac7000c38c349c8e7c85196bfbb501c9a70303cd17dfa785062719f18b56e6"
+
+[forgedcurse]
+"1.1.0-beta.1" = "d503d487cef70427b0b41024a2062d4293bb6456648e2d7ac3d8b2784192cd0a"
+
+[frickbears3]
+"1.0.2" = "1daa2e1487aabd7e4c4a292aec13a8226461b2bef5ca71475217d7e165b942b3"
+
+[gauntlet_legends]
+"Alpha-4" = "579b4040ce8b6c42e150b3027bcf1175817657b47ba9498cdd65d2f79ec9a80c"
+
+[gbapquest]
+"GBAPQuestV0.1.0" = "f569f593e00369e9c2fb4f1481f5b7ed4203bbe073c1dda193abbd5c5c7fad60"
+
+[generate_until_successful]
+"1.0.2" = "7686166c4c84aba133d4628ce58c5162d1d4c99ae1f6a775b44d71cc2403309d"
+
+[grandia]
+"0.15.0" = "e80d8e6537a68c9083f6e5679c5cd4e3f42e4ff03637cf563acadef0bca44947"
+
+[gtfo]
+"0.0.6" = "276ba96a2b8a96ad42dacfa53b9dacecdba97491fad7c4c84443a61afae0437b"
+
+[gzdoom]
+"gzap-0.7.1" = "8bdb94e373c6251c6e6bc7a2db86ca71a682e33cb5c395cc410a3f1658a5c049"
+
+[hades_2]
+"0.1.5" = "1203aa939b0c25d8db24cc52227c01d0f195029a9fede1ab19685bfec36bc1dd"
+
+[hangman]
+"1.0.1" = "9ac3d104ff451a4f072fd76ebe9721385b029276f853261c0cc94fccf3f1255c"
+
+[inscryption_beta]
+"1.5.4" = "fe4fefc741de427354266edb917a64d3e5498bde8f57348f6d397e137fc8703f"
+
+[lethalcrisis]
+"0.1.1" = "1af753eb2dd5163022e34c23a64911aac79c8d29c749bfe28291bdb2cec8dcaa"
+
+[lingo2]
+"9.4.0" = "8afa2ef5c53c15578b2bac5386e77b435c6aea98bb9ecf54bb156866a14973f0"
+
+[logic_test]
+"logic-test-0.3.1" = "f350b4af9ce1c4ed289d30cd42c5b79efeb70d5e581f6bd805d48e6e6e80584e"
+
+[los]
+"0.6.1" = "ffc0d487f1f3303961aafab0e5d70cbe7d963f2417ad1789ac834b5b9a7d0cf5"
+
+[manual_SMOFestival]
+"1.0.1" = "49277893d186702761776f50ea0aad9ec7875b0f517e6708519c8dcdf45672d3"
+
+[manual_adventuresofdreamland_bennydreamly]
+"AOD-3.0.0" = "23f3fc3dd3bc6ce6979a4e8eb98f2b5ad6824ec95451073060b8e72aa689f4dd"
+
+[manual_bandhero_gwaf]
+"25.12.11" = "9f7b317c04136b717fb7cc3f53b5ddbfd4b65247dd95ae833b3d52a7af85d4fa"
+
+[manual_breakingbad_jd]
+"1.0.2" = "086bf10b121431e76d305334fb0b2f3647beb103f2cd0cab77c2306f894f93bd"
+
+[manual_breathofthewild_jd]
+"1.1.0" = "779743549a6f6cd1903bea1fb7f65fc232788ff7cda25d55836e64ff7dcd3a84"
+
+[manual_castleminerz_garbo]
+"cmz-0.4" = "1f708c1131a2aa12ab79d5a38e417f708460707fd3c309dee4f870e7688191af"
+
+[manual_crashteamracingarcade_hallstead]
+"1.3" = "20017039c53d261c5ef1f93874a2b97e981f5bd2be8ae36c8ce776ef042659fb"
+
+[manual_ctcsudoku_axxroy]
+"Sudoku_1.2.1" = "555cbe3a6cb6f7f7ad496da9105a9e76287504608075bcdd9a443fd752f02e07"
+
+[manual_ctgpdeluxe_jd]
+"1.1.0" = "f8a7affa7f678ddd311651ef1210aa3ec7b83bbf08b01f73f43ae002e156a06d"
+
+[manual_eschatos_flit]
+"eschatos_v1.0.1" = "7cb2e61148eaec03393944e59d89e123af1c9fe8a17316fcafe11b320390d500"
+
+[manual_ffxivbmb_pizzie]
+"0.7.0" = "949c666fbc7bb89242a0e649285c865790d3ce0e31b0467ef1e4082ffe129946"
+
+[manual_fossilfighterschampions_girlwithoutafairy]
+"0.1.1" = "4e36f7d451f8d1df5479d63b2de93e5bd6b8d6a6e5de1abb4bfbd874c4ad9f13"
+
+[manual_fossilfighterschampions_gwaf]
+"0.1.2" = "579ee951d5b84dc047ac1bee58f4ff16d5775f8f74369b6837cd7cba67b1a3b7"
+
+[manual_freedomplanet2_knuxfan24]
+"m0.0.2" = "620febc4efdd13b138b5b2fca3a2f4b8f580a7ec9f9422e7f980c73962396ba6"
+
+[manual_frogpond_linkhs]
+"1.0" = "ef55cf4c98c9dcecec49c47e305e5d94e0e315a067158f379224ef7eb9cd90cd"
+
+[manual_glassanimals_bennydreamly]
+"GA-6.1.0" = "c5a64de35f3396683224476babc12895d2ec636178b5f749f056b8b642c030bf"
+
+[manual_goldeneye007_vincentssin]
+"1.4.1" = "ba06e6dfb80af6e1975d9dd41f2e227c6ab2b2328a721b8cfbc7a6a608daaffb"
+
+[manual_guitarheroontour_gwaf]
+"25.12.11" = "c39c0cc01c2a52cad95030b8d2c0d48b1430c22054e667d2fca2bc5698306132"
+
+[manual_guitarherootdecades_gwaf]
+"25.12.11" = "63552ddf56850f4052436e3fb77477a63a284bdd5cfd763e9193f7d56caf8af4"
+
+[manual_guitarherootmodernhits_gwaf]
+"25.12.11" = "f084f8851830e1b903246aa8ded8762b4a3ebcb8fdc665522c2cc471614f5522"
+
+[manual_halflife2_relentingzero]
+"2.1" = "f293e822110019625e4225668b0deaee4632685a9247e6effaedc212eff270e7"
+
+[manual_halflife2andepisodes_relentingzero]
+"1.0.0" = "771c3ba329dd934d34e4d8609f6834a92299c553960f02cc6f20241f8958bf35"
+
+[manual_halflife2episode1_relentingzero]
+"2.1" = "ee911261f2d43f48f5a4c5ab6a17ee8c4f39dd908f87da32705f3723497c23e5"
+
+[manual_halflife2episode2_relentingzero]
+"2.1" = "fa864a762ba81a447234cafed0f6975bdeebc1b4da9cec1fc1df5495485b3b00"
+
+[manual_helltaker_jd]
+"1.0.0" = "2a9b5717a79faeb18c5fbeac449a32a336bea72770a3a096467b1ca0500a99ec"
+
+[manual_infinityblade_jd]
+"1.0.0" = "85786355f1191fc37a91b8669db5168292155e7df1e8cb24aefbdde0a49c12aa"
+
+[manual_ironsworn_axxroy]
+"Ironsworn_1.0.0" = "a183df670214660659ad49b2de9b6d17638e2c7330a0ed21a0a0d52d95ed58b5"
+
+[manual_kirbyforgottenland_tailsmk4]
+"kfl_main_1-0-3" = "798f78b71a4c7a724fc9f839101629d7646c477ec3d48886af67f06ba81747c0"
+
+[manual_linklink_nicopopxd]
+"1.2.1" = "4b24c82f21a5071c69278b1071366651ce8ad0755313d8c23e7132a353beb08d"
+
+[manual_mariokart7local_bigbradley]
+"1.0" = "5f2d485d528f66905aeb152fdbabec8721c6a3395e6848efbfabb7343617854a"
+
+[manual_mariokart8deluxe_jd]
+"1.1.0" = "c29c5cc052d931c42538330ffdf6dca855713840c351bbffe6bc83e2f037d13f"
+
+[manual_mariokartworld_greengamefire]
+"0.5.1" = "00f3ece5c47d2767b2d94cd0e8c317488cc5028ca29a365452e686f97bb95170"
+
+[manual_marvellegendary_samitian]
+"0.4.1" = "88fb196556b4b05c3ae0acf699ac581e842cae39245267aad02b264c53bf6b08"
+
+[manual_monopolygo_wolfboi008]
+"1.0.1" = "82240f028386d466856d027ab1f7113033f72ed83d068431a106e0209c3055db"
+
+[manual_mp9v1_squidy]
+"1.1mp9" = "784dfc57bacc3a91f8403fdc23effb4747494ae611c82f5204fb667edb635cbd"
+
+[manual_mp9v2_squidy]
+"2.0mp9" = "14e9d8e6fd5e096678f7cfd090f9041306ab484cd61b6bbe9e69d5ae29af84ba"
+
+[manual_mp9v3_squidy]
+"3.0mp9manual" = "efa605352aaa9d0c6461fd1a34c560bbb344a459298ebf77bd29e0355013d10a"
+
+[manual_mp9v4_squidy]
+"4.0mp9manual" = "cf7604734998a32b2e7a52e7e4b3037081d9172ca3da92df58d25fb23f25854c"
+
+[manual_nationalpokedex_flit]
+"natdex_v1.0.0r2" = "923c23b140fc4e8dbebe407616f507319dc085cfabcc8eb026effacdeb8d5916"
+
+[manual_outcomememories_1sobbe]
+"playmyrandomizer" = "54e4a60f432fb5e66ca2cb15df09bc7b649ea5f697712bbdb2aa2a2c4ab542ac"
+
+[manual_outerwilds_nicopopxd]
+"OW7.0.0" = "ed49000be13a6ae2f0357b4c865d84bc0e337f7ac99d31d4552dd9b38bc279ca"
+
+[manual_outerwildseye_nicopopxd]
+"E1.0.0-pre2" = "0917e732e231147c8da6d7ae8b6789a2bf4bf4d733c73b6020e9f853ebc9d04e"
+
+[manual_overthehedge_jd]
+"1.2.1" = "4590042fdf5f9620f27cde7185dce8b33ef82421cbe4b1ad92b4a3b96e001eb4"
+
+[manual_pcbuildingsimulator_jd]
+"1.0.5" = "8e31d21aff157548c87f79d8e6112e5c8060945bf852927b65196a3c7599424a"
+
+[manual_penkopark_axxroy]
+"Penko_0.0.1" = "aec98c1afd6848ab29810417d278e336c06163bcbd97e570f6870f3071cee266"
+
+[manual_pewdiepielegendofthebrofist_wolfboi008]
+"1.2.1" = "525b1c7439dac648fee6dee32858c689459803d5e54f14ce9a5fd395f1f0a656"
+
+[manual_phantomhourglass_carrot]
+"0.2.0-alpha" = "621255427ae37b635890281f48324ecf3243de95a8e929558415306ead1655f3"
+
+[manual_pikmin3_squidy]
+"1.0pikmin3" = "df81232c801486573d5c58ebb55cc3020f6d19aaf9a24210d1fbc174574fcd8f"
+
+[manual_plateup_nicopopxd]
+"PlateUpv1.3.1-fix" = "8774f60106b1986b57a405f91cf602982d6d850ceda4dcd12fa8343a526fcea5"
+
+[manual_residentevil5_garbo]
+"re5-1.0.6" = "409a241f6bed90a69ab61c877753a8d0cce136bc722283bebb4df02d261f3248"
+
+[manual_riftofthenecrodancer_axxroy]
+"rift_0.1.0" = "cb11ef552cebbba039c0cea6d85ac7297145ac5cf817f0b6cc1dac195818a60c"
+
+[manual_skylandersgiants_thisguyhere]
+"1.1.1" = "edb1929995992c5e779eeb90473dc59d971fb602d06f56cfdbdc61e02b936e4c"
+
+[manual_smo_empathymp3]
+"2.0.0" = "8cc4edc1b1d69391109746d76c397390c8e9152e12b7467c32b5a39ad00e0695"
+
+[manual_sonicspeedsimulator_wolfboi008]
+"1.1.1" = "876f089d7ddf8b8539636e0673849f83e96a8a85200bd798edf48dd8c819aea2"
+
+[manual_spaceengine_jd]
+"1.1.0" = "65f7717bff7bc30ecf533d02cc82fa62bef3482bfc774ee570c1b31ee5176fca"
+
+[manual_spelunkyclassic_steele]
+"0.1.0" = "bc2ba300f908234a5ddfedc1a6d5ff4de3da2178d88e26ba6416753e539fedf9"
+
+[manual_supermariobros_pirateryan]
+"ersions" = "54cb38fd069ae164bfee4c9465f1e4b29713cd03e62049682d380d504fabfe8f"
+
+[manual_supermariopartyjamboree_dve]
+"1.1" = "9d6ea33e97af25d9779fe3ca8e2915a9e6cba7b15eefe456140a2fbb6345f20d"
+
+[manual_taleoftwowastelands_fallenkingdoms]
+"Beta_2.5.0" = "53059c9e63c3ea89e37abc4e98855905d5d2145d47f74f270d8bf2f03aea9c29"
+
+[manual_taylorswiftdiscography_bennydreamly]
+"TS-6.3.0" = "8fa47830b521f8d1282590f7c888b96df0b621df4ac63b2c68ce04f913804359"
+
+[manual_teamfortress2_axxroy]
+"TF2_0.0.1" = "eb9104abaf5769387c037c46db5ea782e3c19a150ba5b53709ff50fa014cdebb"
+
+[manual_thehenrystickmincollection_coolpro]
+"1.0.3" = "3476db2636bc5de30767895fb997fe257ed1040a50d41031249d8c2174e3f7ea"
+
+[manual_thehuntercotwtrophyhunt_camoufladies]
+"theHunterCotW_v0.1.0" = "0811e9f66ffb73f0a507f3116a87d7baa08db11dc96e6e3a74588ab54be7711f"
+
+[manual_theimpossiblegame_jd]
+"1.0.3" = "abb7c137d6db568820371e4d619ebcea7172e665970dbd5e14ade69ddf2cf1b1"
+
+[manual_thevault_chakraa]
+"2026.09.12" = "7350c7d3c3fe9e8c441b11baca13e95b0e0005f05d768632a5efa6703837537e"
+
+[manual_thmusic_awesome7285]
+"0.1.5r2" = "dbff819ad5297f94f7adacaa66cdedfad3588e8a698387d7d5904a9e86a8bae9"
+
+[manual_vampiresurvivors_jones]
+"1.9.2" = "87668cd3f35c11a02e21f3da849d668d5368baf7d3d089fe455de0228c25c917"
+
+[manual_walkabout_energymaster]
+"0.1.1" = "068d3e88a60085e4859b45460532d41eb705e548a0f8615aeb4a3a34e7654d6c"
+
+[manual_walkabout_musicblox]
+"2.3.0" = "d8af8609e2c76ff618dfa66f0de704ef6bde59015d3d7cb7a0e8457fe5f28982"
+
+[manual_watchashow_chakraa]
+"2026.09.12" = "9097b1735cb759c593a77ce87d1484ccde138daf7971b74fb13cf528b6ed2c27"
+
+[manual_wizard101freetoplay_garbo]
+"w101-0.1.3" = "9b0a699a33df90f35d402ebc6adf99d46a473f9cd24831bbcfe7edc62e6bf644"
+
+[manual_worldofwarcraftleveling_chakraa]
+"2025.12.09" = "e94606dbd9dd7db17c8b6f8f42d93930350e4c1d9baa678d0dfc971a9f392f30"
+
+[manual_wyrmspan_axxroy]
+"wyrmspan_0.1.0" = "20b6055dd8b9d5bcfbe432ebdd5c2f049d36a66e2b91e490f31ab4c5ea0d6a46"
+
+[manual_yakuzadeadsouls_cfood]
+"0.1.0" = "e11607c7662020446e1089097884eacbf5b17339d7dca0ca37621e465c682211"
+
+[mario_golf_64]
+"0.1.0a" = "a3fbf41a40ff323867db20bcaf81b96602b9058e6a85c439fb81e2e4b923a91e"
+
+[mathbreakers]
+"3" = "c4fc5dad49eaaba3f982310670123a079e0ac8b4b79e8fefaddb0adbb7418163"
+
+[mental_omega]
+"1.38" = "bf8195de4ff3b743dea3fe5c2bb635bdebf951f0ac748d4b31af07b05b35a43f"
+
+[metal_hellsinger]
+"1.1.3" = "e3c5bd20bc4ad4f9148d2d9578187610965f3d23c74392c86491519925c86d01"
+
+[metroid_bread]
+"1.8.4" = "5fdb7496e35bc0f6cac616f098a1e333027871fa058fe50ffee9ad2f77499ef5"
+
+[metroid_dread]
+"1.6.6" = "52fd17d9b24188391c46fa4f64cbdad5780c8771462db899bbe6048d683a6c0f"
+
+[mgsalad]
+"1.0.0" = "903a847a307234bf100aa423fc46fe3f3948692521df99a61e0e5d1d62682656"
+
+[mgtt]
+"1.0.4" = "e02bdff620bc6d0d2c3176ea8250c17fbe39962efe1814008ab8e0047e116766"
+
+[minecraft_aem]
+"0.6.2" = "86dbd6dac8aec9a709df7eee90bdc06b219473010e3c04d7b208aaa5bee9d092"
+
+[mm7]
+"0.4.0" = "41efcc632daaaff324eb52f9c21ae4f78e140f415e5a16e4abd666a06a3e5a8e"
+
+[momo4]
+"1.0.3" = "ee80e2366b72376a8c02ae164847a252af598822695b9aa3f239fde61db4d293"
+
+[nds]
+"Natural-Disaster-Survival" = "c7a2ec4fd110e631b2fd8cb49860f585ef68c7494df1dd9bf64b7f6b1767b3de"
+
+[nicktoons_bfvi]
+"Archipelago" = "fb0fa0235348e067f7b119237a173f342b422e4c6bb554c6be7e7ac027245521"
+
+[nplusplus]
+"0.2" = "161d09a921c032ec3eb46f16dceb242c84461be602a958a405deae28904fa6fd"
+
+[old_launcher]
+"old_launcher-1.0.0" = "fc62e8bc849b44e6a46301baaab01f97ef61ee4d732ddb5d23d9a61c32531147"
+
+[ootbijmqwt]
+"ootbijmqwt-v2.1" = "1a930c4ed5b629162ac74beefc2b395c2e5b9c15ac1263c9eeb4af212f206139"
+
+[pd2_crimdawn]
+"1.0.11" = "1fa97ad2c9b9c291ba0e76ecbf63caa1bae86d701a32e85f4a6286933218bda8"
+
+[pokemon_bw_extra_logic_plugin]
+"11" = "2997cdc893f5188927962c87092774afb341ed00cd89f3e4c985b42a36d824d0"
+
+[pokemon_emerald_beta]
+"3.0.0-beta1" = "db4f1a451a105153917fb86a4434301e8534379212d83e4f55970cb61f68d9f8"
+
+[pokemon_frlg_prerelease]
+"1.1.0-beta.4" = "f033b4929e17c9aee0a2fbadf36b893631381674301de1f7c134e74507bf5709"
+
+[pokemon_heartgold]
+"0.2.0" = "bc1eb39364fce31fdc6db6a4e584e32332c5d73e241f1d9cfe82588b19661f3e"
+
+[pokemon_xy]
+"0.0.4" = "4141701eb6d29add8a233ea0befab45b7d016e65f45a64026986953a5ad1e8d9"
+
+[pools]
+"pools-v1.0.0" = "4d37e6361c36aa3df1866b64e144fea3a0ad4b38b68130eb01b54f382448f010"
+
+[priestess_lust]
+"0.0.1" = "19bec8ba2dfe43aa58730e05d3be3c6a61a9f15ed9a53211d9775ae0c9428cac"
+
+[pvz2gardendless]
+"0.3.1" = "921b0cdd4d3cd677c3ca8b26d5266247a9ab9b4d9dadfec1714805eb578d99c1"
+
+[re3remake]
+"0.2.99" = "1f50c860fe16ed661b4d77d71d15c645fd74fe2fd18fe7594e04ffedf4e731e0"
+
+[rich_presence]
+"rich-presence-003" = "f6a771f1acb4451bf4f25e2395d4dc5b81c8468bc64dd619a6193cd2942d21c4"
+
+[rummy]
+"1.0.0" = "7dbb9ab5a26b2c590cc7eab547cf2be9c4fd0d4795737d6e72d2be59c7ac039a"
+
+[santa]
+"1.1" = "846f1cee767cbe3e7a1748f875a7305dfc9536ea52a69a60afbe8580e036d668"
+
+[sc2wol]
+"sc2-beta-after-044" = "8c4b701da626f7fc3fcfb6bbaf47242ec357ce0d5390928a4fef5f3f3bf54be2"
+
+[scooby_doo_unmasked]
+"0.2.1" = "59aba5f457f11e95b70b2c5608675970aabbb9e9dc99e901ca2acc18521c4c37"
+
+[scorpion_swamp]
+"scorpion-swamp-1.0.1" = "94d70f5d87ffe613b0ca5aee9abb2ac8b5681c30f8dbc86847a7e8ca009e81d7"
+
+[scritchy_scratchy]
+"0.1.2-hotfix.2-linuxtest.2" = "678dcbae22f87f6e886d714ae1f0b50ee9df69a2c16e33b96bc5f70b7f576770"
+
+[seedling]
+"0.2.3" = "9b780d38a38a8d43b7c2d71dd649d147911abe96bce79197374c0eddc87fa7ce"
+
+[seum]
+"1.0.0" = "69c98bb63456182a6309abedfa49f5f72c2ebeb056371d04a78f6a56069df654"
+
+[shadow_generations]
+"0.1.0" = "45bc8d7144fc0354fb9653def5781e2129eb25a37416a17bb07dccfac9a857d8"
+
+[shadowman]
+"0.1.1" = "0341b2bc58bb6671e096d44cfa4613784b3a10419e423b917a11f950f04cc6eb"
+
+[silksong]
+"0.4.5-Hotfix2" = "5d3b1fabcd427a2ba0e202be99ab682fe2b00d84b85303a26f372bdba2fa1e8f"
+
+[sni_ut]
+"sni-ut-v1.0.1" = "587f5c95385d47e6da5c5c0f7bc53ebbd59329fdf983f0ef21e4da152eb989eb"
+
+[ss2]
+"0.5.2" = "60bb4a691850d5f87b8a7a26962b6dbe28a988fbbed64ad0b1e6d93423778d06"
+
+[status_lock]
+"0.4.1" = "5c51fc028d0e11a1573699d327f6439ac3076c9450f19d3d955eb2450f857667"
+
+[stray]
+"0.0.4" = "283f39fd36456ffb6d5c4ca647f86b26a2dd171ab048d43c6bb851d83fb9095b"
+
+[sulfur]
+"alpha2.0.0" = "fa10b0a6e047fef855f81a188dea603fd60c0b80292b8daeb1ba2f7b1ec7c03b"
+
+[superhot]
+"0.2.1" = "f0e9dcfcafabd2b5ebae755092782ec8ecca29ad1a4ab5a607ae29f3c2961eb7"
+
+[talos_principle]
+"1.0.4" = "47a6da792de5385b39287358044a267c805db84d933047bd3bc674ff08fa3280"
+
+[teet_client]
+"teet-client-v0.0.0" = "fc8d2f8d28fabb4fcc7a86fa030abb653001864650d6ef6018a4ffa3bebdf7b6"
+
+[tf2_mvm]
+"1.16.0" = "99e736aa5e764f1b6f1ea6fb4313cebf0c225fdcfb18026b3184188b934a0f48"
+
+[tits]
+"tits-v0.8.2" = "f76b0b386de3830538bc30ba56fb495180188880e06d5dad8060778bbe43bbb6"
+
+[tomba]
+"1.5.7" = "087ccca7a594642759014c05462401ddc681a5dd84838ad147b0b512c9dc5b38"
+
+[torture_client]
+"0.0.4" = "b9e2d812addf0448cb60fdede422df87ce325ddfaac8d507443c1870ee721e4e"
+
+[touhou6]
+"0.13" = "b8916e4440c47f4df5d6d6d279244f89a1d511fd41a9cdd1af9b4fee49550d31"
+
+[tr1r]
+"0.1.5" = "ece9eb966480b28796bca886c5cb209ab9f799b8c9adb8045fa17440fbb2fce5"
+
+[tracker_addons]
+"Tracker_Addons_v0.1.1" = "167b38de772e1097d261a45dabd14f6edbb1b61c7f617acee9c91156305a1f98"
+
+[twwhd-apworld-main]
+"1.0.2-beta" = "a4c68202ee5fbc51a42bbd91d981e3a6f30d7d3e0fc807782612676f18905a1c"
+
+[ucn]
+"0.1.1" = "ccedd6971bf46c44a737282bc51785f3de35a686078450d7ce2ef8963cecfa35"
+
+[vertical_drop_heroes]
+"0.4.0" = "db326fa377a8d2346635acd00a300ba62d1c3c2b7ddbc26033595a0e3e2fba8c"
+
+[vex]
+"2" = "6d5e571d83729d5ef5216a683174890a7588011177748e3d447ab2c56771e7c6"
+
+[wc3]
+"0.0.1-releaser9" = "515a0ce6e544ddcdf348541362a39e2a2def3a1626aac8dfc4214e1e93dea37f"
+
+[whiteknuckle]
+"Release" = "e2a376059933eb2850b66ee395578fe1a6c5c3a18647547fa24008fe388eaa52"
