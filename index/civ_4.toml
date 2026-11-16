@@ -1,5 +1,6 @@
 name = "Civilization IV"
 home = "https://github.com/VincentBorchardt/Civ4-Archipelago-Mod"
+disabled = true # Security: the client unpickles data from an unauthenticated network socket, so a connecting peer can run code. Re-enable once fixed upstream.
 
 [versions]
 "Alpha_0_2_1" = { url = "https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/download/Alpha_0_2_1/civ_4.apworld" }

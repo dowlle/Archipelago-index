@@ -3,6 +3,7 @@ home = "https://discord.com/channels/731205301247803413/1191273397976584212"
 default_url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/download/v{{version}}/psychonauts.apworld"
 stability = "stable"
 tracker = "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases/latest"
+disabled = true # Security: the client deletes files under a directory derived from the unvalidated seed name. Re-enable once fixed upstream.
 
 [versions]
 "0.8.0+hotfix1" = { url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/download/v0.8.0/psychonauts.apworld" }

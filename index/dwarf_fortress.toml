@@ -1,5 +1,6 @@
 name = "Dwarf Fortress"
 home = "https://github.com/EthanTheBrave/Dwarfipelago"
+disabled = true # Security: the client builds DFHack Lua from unescaped player and item names. Re-enable once fixed upstream.
 
 [versions]
 "2.0.1" = { url = "https://github.com/EthanTheBrave/Dwarfipelago/releases/download/2.0.1/dwarf_fortress.apworld" }
