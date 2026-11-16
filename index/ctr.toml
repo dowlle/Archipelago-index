@@ -79,3 +79,14 @@ seeds = 5000
 default_rate = 0.0
 worst_hook = "default"
 worst_hook_rate = 0.0
+
+[[fuzz_results]]
+version = "0.2.4"
+verdict = "clean"
+fuzzed_at = "2026-10-13"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
+ap_version = "0.6.8"
+report_url = "https://github.com/dowlle/Archipelago-index/pull/1317"
