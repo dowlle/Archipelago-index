@@ -3,3 +3,12 @@ home = "https://github.com/lastingParadox/Archipelago-CotND"
 
 [versions]
 "0.8.2" = { url = "https://github.com/lastingParadox/Archipelago-CotND/releases/download/v0.8.2/cotnd.apworld" }
+
+[[fuzz_results]]
+version = "0.8.2"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0036
+worst_hook = "check-determinism"
+worst_hook_rate = 0.064128
