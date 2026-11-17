@@ -42,6 +42,7 @@
 [angband]
 "0.4.0" = "66f7f20881858318ca0a355d0e1cc843c76342b81ad2d6bf407511eadcb10d3b"
 [alttp_beta]
+"alttp2026v4" = "f0bd0ae467d0c93304afb294de1dd46d4b473f8b4ad49d832456f0be10e24a3c"
 "alttp2026-v6" = "a53c65baed8b42bc5fb64530aaa186562627d116c68159ea7ef06b0ea18a71c5"
 
 [aom]
@@ -3983,3 +3984,6 @@
 
 [factorio_modpacks]
 "2.3.1" = "59a9ebea67b283834d1acfe4e78f55bd9b15b3a08996799cee7cbb857e0d3f10"
+
+[manual_fossilfighterschampions_girlwithoutafairy]
+"0.1.1" = "4e36f7d451f8d1df5479d63b2de93e5bd6b8d6a6e5de1abb4bfbd874c4ad9f13"

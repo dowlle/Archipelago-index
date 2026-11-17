@@ -13,3 +13,12 @@ seeds = 4788
 default_rate = 0.020677
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.023446
+
+[[fuzz_results]]
+version = "alttp2026v4"
+verdict = "flaky"
+fuzzed_at = "2026-11-17"
+seeds = 4756
+default_rate = 0.021026
+worst_hook = "check-ut"
+worst_hook_rate = 0.022634
