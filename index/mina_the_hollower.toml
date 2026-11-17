@@ -6,6 +6,7 @@ stability = "untested"
 [versions]
 "1.0.0" = {}
 "1.1.0" = {}
+"1.1.2" = { url = "https://github.com/Minapelago/world/releases/download/v1.1.2/mina_the_hollower.apworld" }
 
 [[fuzz_results]]
 version = "1.0.0"
