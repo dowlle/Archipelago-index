@@ -3,3 +3,12 @@ home = "https://github.com/KuroLynx/AEMinecraft"
 
 [versions]
 "0.6.2" = { url = "https://github.com/KuroLynx/AEMinecraft/releases/download/v0.6.2/minecraft_aem.apworld" }
+
+[[fuzz_results]]
+version = "0.6.2"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 1449
+default_rate = 0.244306
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

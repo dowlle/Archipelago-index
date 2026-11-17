@@ -3,3 +3,12 @@ home = "https://github.com/kurt-cole/pvz2ge-ap"
 
 [versions]
 "0.3.1" = { url = "https://github.com/kurt-cole/pvz2ge-ap/releases/download/v0.3.1/pvz2gardendless.apworld" }
+
+[[fuzz_results]]
+version = "0.3.1"
+verdict = "flaky"
+fuzzed_at = "2026-11-17"
+seeds = 4996
+default_rate = 0.029223
+worst_hook = "default"
+worst_hook_rate = 0.029223
