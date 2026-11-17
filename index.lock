@@ -3903,3 +3903,6 @@
 
 [shadow_generations]
 "0.1.0" = "45bc8d7144fc0354fb9653def5781e2129eb25a37416a17bb07dccfac9a857d8"
+
+[pokemon_emerald_beta]
+"3.0.0-beta1" = "db4f1a451a105153917fb86a4434301e8534379212d83e4f55970cb61f68d9f8"
