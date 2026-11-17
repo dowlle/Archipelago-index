@@ -42,6 +42,7 @@
 [angband]
 "0.4.0" = "66f7f20881858318ca0a355d0e1cc843c76342b81ad2d6bf407511eadcb10d3b"
 [alttp_beta]
+"alttp2026v4" = "f0bd0ae467d0c93304afb294de1dd46d4b473f8b4ad49d832456f0be10e24a3c"
 "alttp2026-v6" = "a53c65baed8b42bc5fb64530aaa186562627d116c68159ea7ef06b0ea18a71c5"
 
 [aom]
@@ -3975,3 +3976,36 @@
 
 [ucn]
 "0.1.1" = "ccedd6971bf46c44a737282bc51785f3de35a686078450d7ce2ef8963cecfa35"
+
+[Manual_EuroTruckSimulator2_Nixill]
+"ETS2-v4.0.0" = "29c1b55de3d3db27bdb7556516534423da2d4c577c71883049e614e2de6f31f3"
+
+[factorio_modpacks]
+"2.3.1" = "59a9ebea67b283834d1acfe4e78f55bd9b15b3a08996799cee7cbb857e0d3f10"
+
+[gauntlet_legends]
+"Alpha-4" = "579b4040ce8b6c42e150b3027bcf1175817657b47ba9498cdd65d2f79ec9a80c"
+
+[gtfo]
+"0.0.6" = "276ba96a2b8a96ad42dacfa53b9dacecdba97491fad7c4c84443a61afae0437b"
+
+[manual_ffxivbmb_pizzie]
+"0.7.0" = "949c666fbc7bb89242a0e649285c865790d3ce0e31b0467ef1e4082ffe129946"
+
+[manual_fossilfighterschampions_girlwithoutafairy]
+"0.1.1" = "4e36f7d451f8d1df5479d63b2de93e5bd6b8d6a6e5de1abb4bfbd874c4ad9f13"
+
+[manual_kirbyforgottenland_tailsmk4]
+"kfl_main_1-0-3" = "798f78b71a4c7a724fc9f839101629d7646c477ec3d48886af67f06ba81747c0"
+
+[manual_watchashow_chakraa]
+"2026.09.12" = "9097b1735cb759c593a77ce87d1484ccde138daf7971b74fb13cf528b6ed2c27"
+
+[mario_golf_64]
+"0.1.0a" = "a3fbf41a40ff323867db20bcaf81b96602b9058e6a85c439fb81e2e4b923a91e"
+
+[minecraft_aem]
+"0.6.2" = "86dbd6dac8aec9a709df7eee90bdc06b219473010e3c04d7b208aaa5bee9d092"
+
+[pvz2gardendless]
+"0.3.1" = "921b0cdd4d3cd677c3ca8b26d5266247a9ab9b4d9dadfec1714805eb578d99c1"
