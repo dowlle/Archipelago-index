@@ -3,3 +3,12 @@ home = "https://github.com/axxroytovu/archipelago_manuals"
 
 [versions]
 "TF2_0.0.1" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/TF2_0.0.1/manual_teamfortress2_axxroy.apworld" }
+
+[[fuzz_results]]
+version = "TF2_0.0.1"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

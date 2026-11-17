@@ -3,3 +3,12 @@ home = "https://github.com/rsa17826/mbap"
 
 [versions]
 "3" = { url = "https://github.com/rsa17826/mbap/releases/download/3/mathbreakers.apworld" }
+
+[[fuzz_results]]
+version = "3"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.001
+worst_hook = "default"
+worst_hook_rate = 0.001

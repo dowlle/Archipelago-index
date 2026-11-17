@@ -3,3 +3,12 @@ home = "https://github.com/axxroytovu/archipelago_manuals"
 
 [versions]
 "wyrmspan_0.1.0" = { url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/wyrmspan_0.1.0/manual_wyrmspan_axxroy.apworld" }
+
+[[fuzz_results]]
+version = "wyrmspan_0.1.0"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

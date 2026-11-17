@@ -3,3 +3,12 @@ home = "https://github.com/DanielSchaack/ArchipelagoMetalHellsinger"
 
 [versions]
 "1.1.3" = { url = "https://github.com/DanielSchaack/ArchipelagoMetalHellsinger/releases/download/1.1.3/metal_hellsinger.apworld" }
+
+[[fuzz_results]]
+version = "1.1.3"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0004
+worst_hook = "default"
+worst_hook_rate = 0.0004
