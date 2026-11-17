@@ -3936,3 +3936,15 @@
 
 [talos_principle]
 "1.0.4" = "47a6da792de5385b39287358044a267c805db84d933047bd3bc674ff08fa3280"
+
+[pokemon_frlg_prerelease]
+"1.1.0-beta.4" = "f033b4929e17c9aee0a2fbadf36b893631381674301de1f7c134e74507bf5709"
+
+[re3remake]
+"0.2.99" = "1f50c860fe16ed661b4d77d71d15c645fd74fe2fd18fe7594e04ffedf4e731e0"
+
+[rich_presence]
+"rich-presence-003" = "f6a771f1acb4451bf4f25e2395d4dc5b81c8468bc64dd619a6193cd2942d21c4"
+
+[rummy]
+"1.0.0" = "7dbb9ab5a26b2c590cc7eab547cf2be9c4fd0d4795737d6e72d2be59c7ac039a"
