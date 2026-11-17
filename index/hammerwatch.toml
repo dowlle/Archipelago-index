@@ -5,6 +5,7 @@ stability = "stable"
 
 [versions]
 "4.1.3" = {}
+"4.1.4" = {}
 
 [[fuzz_results]]
 version = "4.1.3"
