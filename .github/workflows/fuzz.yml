@@ -200,10 +200,10 @@ jobs:
               --module "$INNER" --artifact-dir canonical_output --seed 0
           elif [ -z "$CHECK_HOOK" ]; then
             bash ../index-repo/.github/scripts/run_fuzz_budgeted.sh "$BUDGET_SECONDS" "$CHECK_RUNS" -- \
-              uv run python fuzz.py -j 2 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120
+              uv run python fuzz.py -j 4 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120
           else
             bash ../index-repo/.github/scripts/run_fuzz_budgeted.sh "$BUDGET_SECONDS" "$CHECK_RUNS" -- \
-              uv run python fuzz.py -j 2 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120 --hook "$CHECK_HOOK"
+              uv run python fuzz.py -j 4 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120 --hook "$CHECK_HOOK"
           fi
 
       - name: Upload failure artifacts
