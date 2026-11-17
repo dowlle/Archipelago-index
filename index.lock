@@ -1054,6 +1054,7 @@
 "0.1.0" = "83d29cda64268695241813e8f79a2c84d7a893a733ad0d8d1346f2f834f325a2"
 
 [smb1]
+"SMB1_ARCHIPELAGO_0.2" = "2bdb05c9b5d069c33001d1d9335153f612cf7bf719c15310f66b3c4d8d6afbec"
 "1.0.0" = "8d0e7342d14c408af4d82c9fac68d26534ae6784af15cd8c11b33346a46ed939"
 
 [sonic1]
@@ -1097,6 +1098,7 @@
 "1.0.3" = "81b3683a865a41debddf6f54e37855651262da54764682e9525ea6c7a0bf05c2"
 
 [stalker2]
+"Releases" = "50115747604e3ba3b119ef09d3acda1d617c6b9946b80aba69cba50903a5ebb4"
 "Prereleasefix" = "76fdf87b146b82f6b3c16c69a59529741a5f05e54baffe2fe228190c06438438"
 
 [sternly_worded_adventures]
@@ -3891,3 +3893,12 @@
 
 [pd2_crimdawn]
 "1.0.11" = "1fa97ad2c9b9c291ba0e76ecbf63caa1bae86d701a32e85f4a6286933218bda8"
+
+[scorpion_swamp]
+"scorpion-swamp-1.0.1" = "94d70f5d87ffe613b0ca5aee9abb2ac8b5681c30f8dbc86847a7e8ca009e81d7"
+
+[seum]
+"1.0.0" = "69c98bb63456182a6309abedfa49f5f72c2ebeb056371d04a78f6a56069df654"
+
+[shadow_generations]
+"0.1.0" = "45bc8d7144fc0354fb9653def5781e2129eb25a37416a17bb07dccfac9a857d8"
