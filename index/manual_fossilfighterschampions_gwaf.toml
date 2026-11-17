@@ -3,3 +3,12 @@ home = "https://github.com/GirlWithoutAFairy/Fossil-Fighters-Champions-Manual-fo
 
 [versions]
 "0.1.2" = { url = "https://github.com/GirlWithoutAFairy/Fossil-Fighters-Champions-Manual-for-Archipelago/releases/download/0.1.2/manual_fossilfighterschampions_gwaf.apworld" }
+
+[[fuzz_results]]
+version = "0.1.2"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

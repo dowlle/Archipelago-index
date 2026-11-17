@@ -11,6 +11,7 @@ disabled = true
 "0.3.3" = {}
 "0.6.1" = { url = "https://github.com/Matt41321/Archipelago/releases/download/v0.6.1/bloonstd6.apworld" }
 "0.7.1" = { url = "https://github.com/Matt41321/Archipelago/releases/download/v0.7.1/bloonstd6.apworld" }
+"0.8.3" = { url = "https://github.com/Matt41321/Archipelago/releases/download/v0.8.3/bloonstd6.apworld" }
 
 [[fuzz_results]]
 version = "0.6.1"
@@ -29,3 +30,12 @@ seeds = 5000
 default_rate = 0.5406
 worst_hook = "no-restrictive-starts"
 worst_hook_rate = 0.5544
+
+[[fuzz_results]]
+version = "0.8.3"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 2644
+default_rate = 0.001135
+worst_hook = "default"
+worst_hook_rate = 0.001135

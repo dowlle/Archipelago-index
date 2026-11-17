@@ -3,3 +3,12 @@ home = "https://github.com/linkhsCodesStuff/FrogPondAPManual"
 
 [versions]
 "1.0" = { url = "https://github.com/linkhsCodesStuff/FrogPondAPManual/releases/download/1.0/manual_frogpond_linkhs.apworld" }
+
+[[fuzz_results]]
+version = "1.0"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

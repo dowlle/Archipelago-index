@@ -3,3 +3,12 @@ home = "https://github.com/BigBradley/Mario-Kart-7-Manual-APworld"
 
 [versions]
 "1.0" = { url = "https://github.com/BigBradley/Mario-Kart-7-Manual-APworld/releases/download/V1.0/manual_mariokart7local_bigbradley.apworld" }
+
+[[fuzz_results]]
+version = "1.0"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.6184
+worst_hook = "check-placement-refs"
+worst_hook_rate = 0.979545

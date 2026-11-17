@@ -3,3 +3,12 @@ home = "https://github.com/robofett28/bugsnax_ap_world"
 
 [versions]
 "0.1.1-alpha" = { url = "https://github.com/robofett28/bugsnax_ap_world/releases/download/v0.1.1-alpha/bugsnax.apworld" }
+
+[[fuzz_results]]
+version = "0.1.1-alpha"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

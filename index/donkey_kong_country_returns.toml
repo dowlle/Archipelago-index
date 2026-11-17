@@ -3,3 +3,12 @@ home = "https://github.com/CallmeZewo/DKCR_APWorld"
 
 [versions]
 "0.1.2-beta" = { url = "https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v0.1.2-beta/donkey_kong_country_returns.apworld" }
+
+[[fuzz_results]]
+version = "0.1.2-beta"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.04

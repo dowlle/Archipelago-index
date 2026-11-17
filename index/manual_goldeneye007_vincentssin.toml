@@ -3,3 +3,12 @@ home = "https://github.com/VincentsSin/Goldeneye007-Maunual_AP"
 
 [versions]
 "1.4.1" = { url = "https://github.com/VincentsSin/Goldeneye007-Maunual_AP/releases/download/v1.4.1/manual_goldeneye007_vincentssin.apworld" }
+
+[[fuzz_results]]
+version = "1.4.1"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.2066
+worst_hook = "default"
+worst_hook_rate = 0.2066

@@ -3,3 +3,12 @@ home = "https://github.com/JDLKMR/Over-the-Hedge-APManual"
 
 [versions]
 "1.2.1" = { url = "https://github.com/JDLKMR/Over-the-Hedge-APManual/releases/download/v1.2.1/manual_overthehedge_jd.apworld" }
+
+[[fuzz_results]]
+version = "1.2.1"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

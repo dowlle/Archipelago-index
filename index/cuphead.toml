@@ -11,6 +11,7 @@ stability = "stable"
 "alpha03g" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03g/cuphead.apworld" }
 "alpha03j" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03j/cuphead.apworld" }
 "alpha03k" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03k/cuphead.apworld" }
+"alpha03m" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha03m/cuphead.apworld" }
 
 [[fuzz_results]]
 version = "alpha03d"
@@ -56,3 +57,12 @@ seeds = 5000
 default_rate = 0.0018
 worst_hook = "default"
 worst_hook_rate = 0.0018
+
+[[fuzz_results]]
+version = "alpha03m"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0022
+worst_hook = "default"
+worst_hook_rate = 0.0022
