@@ -3,3 +3,12 @@ home = "https://github.com/fewffwa/UCN-AP"
 
 [versions]
 "0.1.1" = { url = "https://github.com/fewffwa/UCN-AP/releases/download/0.1.1/ucn.apworld" }
+
+[[fuzz_results]]
+version = "0.1.1"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 3495
+default_rate = 0.745923
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.746222
