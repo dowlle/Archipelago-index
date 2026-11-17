@@ -3,3 +3,12 @@ home = "https://github.com/Dummydud3/metroid-dread-apworld"
 
 [versions]
 "1.6.6" = { url = "https://github.com/Dummydud3/metroid-dread-apworld/releases/download/1.6.6/metroid_dread.apworld" }
+
+[[fuzz_results]]
+version = "1.6.6"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.1238
+worst_hook = "check-determinism"
+worst_hook_rate = 0.24424

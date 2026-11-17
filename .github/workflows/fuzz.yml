@@ -10,10 +10,17 @@ on:
       - '.github/scripts/detect_added_versions.py'
       - '.github/scripts/check_canonical_generation.py'
       - '.github/scripts/patch_fuzzer_yaml_values.py'
+      - '.github/scripts/run_fuzz_budgeted.sh'
 
 permissions:
   contents: read
   pull-requests: read
+
+# A new head for the same PR cancels the superseded run so it stops holding
+# runners (the account has ~20 concurrent runners shared by every PR).
+concurrency:
+  group: fuzz-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 # Fuzz hooks repo is pinned by sha so a hook-side regression can't
 # silently change verdict semantics on an in-flight PR.
@@ -62,9 +69,13 @@ jobs:
     needs: detect
     if: needs.detect.outputs.has_targets == 'true'
     runs-on: ubuntu-latest
+    # Backstop only; the per-check budget in the run step ends jobs well before this.
     timeout-minutes: 350
     strategy:
       fail-fast: false
+      # One PR may use at most 10 of the account's ~20 runners, so a PR full
+      # of slow worlds cannot starve the next PR.
+      max-parallel: 10
       matrix: ${{ fromJson(needs.detect.outputs.matrix) }}
     steps:
       - name: Checkout index repo (for local-backed apworlds)
@@ -178,14 +189,21 @@ jobs:
           CHECK_MODE: ${{ matrix.check_mode }}
         run: |
           set -euo pipefail
-          echo "=== ${CHECK_NAME} (${CHECK_RUNS} runs) — apworld=${APWORLD} module=${INNER} ==="
+          # Wall-clock budget per check (run counts are unchanged). When it
+          # expires the fuzzer is stopped and a "PARTIAL: N / T done. ..." line
+          # is printed; the 1000/100-run minimums used by the badge emitter
+          # stay reachable even for ~40 s/seed stragglers.
+          if [ "$CHECK_RUNS" -ge 1000 ]; then BUDGET_SECONDS=7200; else BUDGET_SECONDS=4500; fi
+          echo "=== ${CHECK_NAME} (${CHECK_RUNS} runs, budget ${BUDGET_SECONDS}s) — apworld=${APWORLD} module=${INNER} ==="
           if [ "$CHECK_MODE" = "canonical" ]; then
             uv run python ../index-repo/.github/scripts/check_canonical_generation.py \
               --module "$INNER" --artifact-dir canonical_output --seed 0
           elif [ -z "$CHECK_HOOK" ]; then
-            uv run python fuzz.py -j 2 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120
+            bash ../index-repo/.github/scripts/run_fuzz_budgeted.sh "$BUDGET_SECONDS" "$CHECK_RUNS" -- \
+              uv run python fuzz.py -j 4 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 30
           else
-            uv run python fuzz.py -j 2 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 120 --hook "$CHECK_HOOK"
+            bash ../index-repo/.github/scripts/run_fuzz_budgeted.sh "$BUDGET_SECONDS" "$CHECK_RUNS" -- \
+              uv run python fuzz.py -j 4 -g "$INNER" -r "$CHECK_RUNS" -n 1 -t 30 --hook "$CHECK_HOOK"
           fi
 
       - name: Upload failure artifacts

@@ -3,3 +3,12 @@ home = "https://github.com/Zunawe/Archipelago"
 
 [versions]
 "3.0.0-beta1" = { url = "https://github.com/Zunawe/Archipelago/releases/download/emerald/3.0.0-beta1/pokemon_emerald_beta.apworld" }
+
+[[fuzz_results]]
+version = "3.0.0-beta1"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 2960
+default_rate = 0.005068
+worst_hook = "default"
+worst_hook_rate = 0.005068

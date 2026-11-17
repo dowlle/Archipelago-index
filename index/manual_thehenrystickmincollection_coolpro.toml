@@ -3,3 +3,12 @@ home = "https://github.com/Coolproness/APManual_TheHenryStickminCollection"
 
 [versions]
 "1.0.3" = { url = "https://github.com/Coolproness/APManual_TheHenryStickminCollection/releases/download/v1.0.3/manual_thehenrystickmincollection_coolpro.apworld" }
+
+[[fuzz_results]]
+version = "1.0.3"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.802
+worst_hook = "check-ut"
+worst_hook_rate = 0.808

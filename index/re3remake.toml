@@ -3,3 +3,12 @@ home = "https://github.com/TheRealSolidusSnake/RE3R_AP_World"
 
 [versions]
 "0.2.99" = { url = "https://github.com/TheRealSolidusSnake/RE3R_AP_World/releases/download/0.2.99/re3remake.apworld" }
+
+[[fuzz_results]]
+version = "0.2.99"
+verdict = "flaky"
+fuzzed_at = "2026-11-17"
+seeds = 3752
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 0.667513

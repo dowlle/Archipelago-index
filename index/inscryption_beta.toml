@@ -3,3 +3,12 @@ home = "https://github.com/empathy-mp3/Archipelago_Inscryption"
 
 [versions]
 "1.5.4" = { url = "https://github.com/empathy-mp3/Archipelago_Inscryption/releases/download/v1.5.4/inscryption_beta.apworld" }
+
+[[fuzz_results]]
+version = "1.5.4"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

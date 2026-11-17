@@ -3,3 +3,12 @@ home = "https://github.com/energymaster22/walkabout-mini-golf-ap-manual"
 
 [versions]
 "0.1.1" = { url = "https://github.com/energymaster22/walkabout-mini-golf-ap-manual/releases/download/0.1.1/manual_walkabout_energymaster.apworld" }
+
+[[fuzz_results]]
+version = "0.1.1"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

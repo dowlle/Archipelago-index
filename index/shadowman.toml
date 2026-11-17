@@ -3,3 +3,12 @@ home = "https://github.com/bropacman/shadow-man-remastered-ap-world"
 
 [versions]
 "0.1.1" = { url = "https://github.com/bropacman/shadow-man-remastered-ap-world/releases/download/v0.1.1/shadowman.apworld" }
+
+[[fuzz_results]]
+version = "0.1.1"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.271
+worst_hook = "check-indirect-conditions"
+worst_hook_rate = 0.452941

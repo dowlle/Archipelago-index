@@ -3,3 +3,12 @@ home = "https://github.com/Batatvideogames/silksong-archipelago-randomizer"
 
 [versions]
 "0.4.5-Hotfix2" = { url = "https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/download/v0.4.5-Hotfix2/silksong.apworld" }
+
+[[fuzz_results]]
+version = "0.4.5-Hotfix2"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 4716
+default_rate = 0.519508
+worst_hook = "default"
+worst_hook_rate = 0.519508

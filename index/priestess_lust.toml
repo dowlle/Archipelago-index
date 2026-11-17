@@ -3,3 +3,12 @@ home = "https://github.com/SeesawEffectt/ArchipelagoEffect"
 
 [versions]
 "0.0.1" = { url = "https://github.com/SeesawEffectt/ArchipelagoEffect/releases/download/v0.0.1/priestess_lust.apworld" }
+
+[[fuzz_results]]
+version = "0.0.1"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

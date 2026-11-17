@@ -3,3 +3,12 @@ home = "https://github.com/Miiroun/ap-rummy"
 
 [versions]
 "1.0.0" = { url = "https://github.com/Miiroun/ap-rummy/releases/download/v1.0.0/rummy.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.007
+worst_hook = "default"
+worst_hook_rate = 0.007

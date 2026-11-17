@@ -3,3 +3,12 @@ home = "https://github.com/SerpentAI/Archipelago"
 
 [versions]
 "rich-presence-003" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/rich-presence-003/rich_presence.apworld" }
+
+[[fuzz_results]]
+version = "rich-presence-003"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

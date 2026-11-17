@@ -3,3 +3,12 @@ home = "https://github.com/carrotinator/manual_phantomhourglass_carrot"
 
 [versions]
 "0.2.0-alpha" = { url = "https://github.com/carrotinator/manual_phantomhourglass_carrot/releases/download/v0.2.0-alpha/manual_phantomhourglass_carrot.apworld" }
+
+[[fuzz_results]]
+version = "0.2.0-alpha"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-placement-refs"
+worst_hook_rate = 0.484

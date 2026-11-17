@@ -3,3 +3,12 @@ home = "https://github.com/Nikkilites/Archipelago-Manuals"
 
 [versions]
 "theHunterCotW_v0.1.0" = { url = "https://github.com/Nikkilites/Archipelago-Manuals/releases/download/theHunterCotW_v0.1.0/manual_thehuntercotwtrophyhunt_camoufladies.apworld" }
+
+[[fuzz_results]]
+version = "theHunterCotW_v0.1.0"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.2566
+worst_hook = "check-placement-refs"
+worst_hook_rate = 0.48497

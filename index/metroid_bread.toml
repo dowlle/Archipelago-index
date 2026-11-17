@@ -3,3 +3,12 @@ home = "https://github.com/Dummydud3/metroid-dread-apworld"
 
 [versions]
 "1.8.4" = { url = "https://github.com/Dummydud3/metroid-dread-apworld/releases/download/1.8.4/metroid_bread.apworld" }
+
+[[fuzz_results]]
+version = "1.8.4"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 4500
+default_rate = 0.223778
+worst_hook = "default"
+worst_hook_rate = 0.223778

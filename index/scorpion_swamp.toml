@@ -3,3 +3,12 @@ home = "https://github.com/LegendofFantasy/Archipelago"
 
 [versions]
 "scorpion-swamp-1.0.1" = { url = "https://github.com/LegendofFantasy/Archipelago/releases/download/scorpion-swamp-1.0.1/scorpion_swamp.apworld" }
+
+[[fuzz_results]]
+version = "scorpion-swamp-1.0.1"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

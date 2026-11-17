@@ -3,3 +3,12 @@ home = "https://github.com/CFood0/Manual_YakuzaDeadSouls_CFood"
 
 [versions]
 "0.1.0" = { url = "https://github.com/CFood0/Manual_YakuzaDeadSouls_CFood/releases/download/v0.1.0/manual_yakuzadeadsouls_cfood.apworld" }
+
+[[fuzz_results]]
+version = "0.1.0"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-placement-refs"
+worst_hook_rate = 0.494

@@ -3,3 +3,12 @@ home = "https://github.com/nicolasberube/Arzette_Randomizer"
 
 [versions]
 "1.0.0" = { url = "https://github.com/nicolasberube/Arzette_Randomizer/releases/download/1.0.0/arzette.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 4160
+default_rate = 0.126202
+worst_hook = "default"
+worst_hook_rate = 0.126202

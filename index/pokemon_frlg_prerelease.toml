@@ -3,3 +3,12 @@ home = "https://github.com/vyneras/Archipelago"
 
 [versions]
 "1.1.0-beta.4" = { url = "https://github.com/vyneras/Archipelago/releases/download/1.1.0-beta.4/pokemon_frlg_prerelease.apworld" }
+
+[[fuzz_results]]
+version = "1.1.0-beta.4"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0018
+worst_hook = "default"
+worst_hook_rate = 0.0018
