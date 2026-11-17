@@ -3,3 +3,12 @@ home = "https://github.com/KLanausse/MultiworldGG"
 
 [versions]
 "Natural-Disaster-Survival" = { url = "https://github.com/KLanausse/MultiworldGG/releases/download/Natural-Disaster-Survival/nds.apworld" }
+
+[[fuzz_results]]
+version = "Natural-Disaster-Survival"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.3574
+worst_hook = "default"
+worst_hook_rate = 0.3574

@@ -3,3 +3,12 @@ home = "https://github.com/JRoeseph/NAP"
 
 [versions]
 "0.2" = { url = "https://github.com/JRoeseph/NAP/releases/download/v0.2/nplusplus.apworld" }
+
+[[fuzz_results]]
+version = "0.2"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 540
+default_rate = 0.72037
+worst_hook = "check-ut"
+worst_hook_rate = 0.830189

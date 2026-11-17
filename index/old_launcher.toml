@@ -3,3 +3,12 @@ home = "https://github.com/silasary/Archipelago"
 
 [versions]
 "old_launcher-1.0.0" = { url = "https://github.com/silasary/Archipelago/releases/download/old_launcher-1.0.0/old_launcher.apworld" }
+
+[[fuzz_results]]
+version = "old_launcher-1.0.0"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

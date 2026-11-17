@@ -3,3 +3,12 @@ home = "https://github.com/CATEM1NAL/PD2-Criminal-Dawn"
 
 [versions]
 "1.0.11" = { url = "https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/download/v1.0.11/pd2_crimdawn.apworld" }
+
+[[fuzz_results]]
+version = "1.0.11"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.3704
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.394

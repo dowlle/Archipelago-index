@@ -894,6 +894,7 @@
 "6.0.0-rc.7" = "c25df786ba35945a0aba95d45b4d5bedd8a51385bf5ba712bcb04cbd7ea35eb1"
 
 [pokemon_hgss]
+"0.2.4" = "99a0bc8a48be72a45c655fa7098de664165a5c4df179b98b2dbedd39310a89cc"
 "0.2.4-hotfix" = "6c3752a2c82c55e7adabffa94250b374f4d1d8d658be66e1347334a3b3be8298"
 
 [pokemon_trozei]
@@ -3872,3 +3873,21 @@
 
 [mgsalad]
 "1.0.0" = "903a847a307234bf100aa423fc46fe3f3948692521df99a61e0e5d1d62682656"
+
+[mgtt]
+"1.0.4" = "e02bdff620bc6d0d2c3176ea8250c17fbe39962efe1814008ab8e0047e116766"
+
+[mm7]
+"0.4.0" = "41efcc632daaaff324eb52f9c21ae4f78e140f415e5a16e4abd666a06a3e5a8e"
+
+[nds]
+"Natural-Disaster-Survival" = "c7a2ec4fd110e631b2fd8cb49860f585ef68c7494df1dd9bf64b7f6b1767b3de"
+
+[nplusplus]
+"0.2" = "161d09a921c032ec3eb46f16dceb242c84461be602a958a405deae28904fa6fd"
+
+[old_launcher]
+"old_launcher-1.0.0" = "fc62e8bc849b44e6a46301baaab01f97ef61ee4d732ddb5d23d9a61c32531147"
+
+[pd2_crimdawn]
+"1.0.11" = "1fa97ad2c9b9c291ba0e76ecbf63caa1bae86d701a32e85f4a6286933218bda8"
