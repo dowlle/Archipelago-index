@@ -1,0 +1,8 @@
+name = "DOOM Eternal"
+home = "https://github.com/snowzzrra/DoomEternal-AP-Mod"
+default_url = "https://github.com/snowzzrra/DoomEternal-AP-Mod/releases/download/{{version}}/doometernal.apworld"
+stability = "beta"
+setup_guide = "https://github.com/snowzzrra/DoomEternal-AP-Mod/blob/main/docs/INSTALL.md"
+
+[versions]
+"0.7.3" = {}
