@@ -3,3 +3,12 @@ home = "https://github.com/SingeKiller/Pok-HeartGold_Apworld"
 
 [versions]
 "0.2.0" = { url = "https://github.com/SingeKiller/Pok-HeartGold_Apworld/releases/download/v0.2.0/pokemon_heartgold.apworld" }
+
+[[fuzz_results]]
+version = "0.2.0"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

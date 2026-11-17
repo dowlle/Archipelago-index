@@ -3906,3 +3906,12 @@
 
 [pokemon_emerald_beta]
 "3.0.0-beta1" = "db4f1a451a105153917fb86a4434301e8534379212d83e4f55970cb61f68d9f8"
+
+[pokemon_heartgold]
+"0.2.0" = "bc1eb39364fce31fdc6db6a4e584e32332c5d73e241f1d9cfe82588b19661f3e"
+
+[pools]
+"pools-v1.0.0" = "4d37e6361c36aa3df1866b64e144fea3a0ad4b38b68130eb01b54f382448f010"
+
+[priestess_lust]
+"0.0.1" = "19bec8ba2dfe43aa58730e05d3be3c6a61a9f15ed9a53211d9775ae0c9428cac"
