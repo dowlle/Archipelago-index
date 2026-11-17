@@ -3,3 +3,12 @@ home = "https://github.com/SanchoBob8/Archipelago-MM7"
 
 [versions]
 "0.4.0" = { url = "https://github.com/SanchoBob8/Archipelago-MM7/releases/download/v0.4.0/mm7.apworld" }
+
+[[fuzz_results]]
+version = "0.4.0"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0024
+worst_hook = "check-determinism"
+worst_hook_rate = 0.052

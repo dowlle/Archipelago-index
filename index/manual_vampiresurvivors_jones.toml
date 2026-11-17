@@ -3,3 +3,12 @@ home = "https://github.com/wrjones104/manual_vampiresurvivors_jones"
 
 [versions]
 "1.9.2" = { url = "https://github.com/wrjones104/manual_vampiresurvivors_jones/releases/download/v1.9.2/manual_vampiresurvivors_jones.apworld" }
+
+[[fuzz_results]]
+version = "1.9.2"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

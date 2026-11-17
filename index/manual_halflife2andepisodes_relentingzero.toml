@@ -3,3 +3,12 @@ home = "https://github.com/RelentingZero/HL2-APManual"
 
 [versions]
 "1.0.0" = { url = "https://github.com/RelentingZero/HL2-APManual/releases/download/1.0.0/manual_halflife2andepisodes_relentingzero.apworld" }
+
+[[fuzz_results]]
+version = "1.0.0"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0004
+worst_hook = "default"
+worst_hook_rate = 0.0004

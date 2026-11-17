@@ -3,3 +3,12 @@ home = "https://github.com/Joethepic/Archipelago"
 
 [versions]
 "2.0mp9" = { url = "https://github.com/Joethepic/Archipelago/releases/download/2.0mp9/manual_mp9v2_squidy.apworld" }
+
+[[fuzz_results]]
+version = "2.0mp9"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.4926
+worst_hook = "check-ut"
+worst_hook_rate = 0.508

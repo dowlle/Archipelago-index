@@ -3,3 +3,12 @@ home = ["https://github.com/nicopop/NicosManualApworlds", "https://github.com/ni
 
 [versions]
 "OW7.0.0" = { url = "https://github.com/nicopop/ManualApworlds/releases/download/OW7.0.0/manual_outerwilds_nicopopxd.apworld" }
+
+[[fuzz_results]]
+version = "OW7.0.0"
+verdict = "flaky"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0

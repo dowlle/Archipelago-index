@@ -3,3 +3,12 @@ home = "https://github.com/benny-dreamly/Manuals"
 
 [versions]
 "GA-6.1.0" = { url = "https://github.com/benny-dreamly/Manuals/releases/download/GA-6.1.0/manual_glassanimals_bennydreamly.apworld" }
+
+[[fuzz_results]]
+version = "GA-6.1.0"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.4962
+worst_hook = "default"
+worst_hook_rate = 0.4962
