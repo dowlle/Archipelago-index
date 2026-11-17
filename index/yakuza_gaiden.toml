@@ -13,3 +13,12 @@ seeds = 5000
 default_rate = 0.0024
 worst_hook = "check-item-location-count"
 worst_hook_rate = 0.392
+
+[[fuzz_results]]
+version = "Beta2r2"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0026
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.39

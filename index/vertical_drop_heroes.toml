@@ -3,3 +3,12 @@ home = "https://github.com/zane31415/APVerticalDropHeroesHD"
 
 [versions]
 "0.4.0" = { url = "https://github.com/zane31415/APVerticalDropHeroesHD/releases/download/v0.4.0/vertical_drop_heroes.apworld" }
+
+[[fuzz_results]]
+version = "0.4.0"
+verdict = "clean"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

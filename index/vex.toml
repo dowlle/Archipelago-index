@@ -3,3 +3,12 @@ home = "https://github.com/rsa17826/vex2-ap"
 
 [versions]
 "2" = { url = "https://github.com/rsa17826/vex2-ap/releases/download/2/vex2.apworld" }
+
+[[fuzz_results]]
+version = "2"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.8732
+worst_hook = "default"
+worst_hook_rate = 0.8732

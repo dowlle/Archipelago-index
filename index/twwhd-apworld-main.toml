@@ -3,3 +3,12 @@ home = "https://github.com/Teotia444/twwhd-apworld"
 
 [versions]
 "1.0.2-beta" = { url = "https://github.com/Teotia444/twwhd-apworld/releases/download/v1.0.2-beta/twwhd-apworld-main.apworld" }
+
+[[fuzz_results]]
+version = "1.0.2-beta"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 2856
+default_rate = 0.198529
+worst_hook = "check-ut"
+worst_hook_rate = 0.213235

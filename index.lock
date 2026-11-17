@@ -1253,6 +1253,7 @@
 "0.4.7" = "af613f990b4cda0eb407efccbfb8dea13809faabd38c8efab70489edd271f48b"
 
 [yakuza_gaiden]
+"Beta2r2" = "4187faf6936b57759cc86f434b3dbb5273fc4a86d98a490aa7840c93dbe2e60f"
 "Beta-3" = "f5e25037c9c817ce6264731d7a0577af1e97eea31518833dca773cffbb5a99b9"
 
 [YARGAllSetlists]
@@ -3231,6 +3232,7 @@
 [zalia]
 "1.0.4" = "812a046e1e16e0bbe6ee96fe568a7c0b790e05d1de1421a7dfdf83ba8607a9ed"
 [zoominoes]
+"0.1.1r2" = "14b22830a245556d120f0508d0d26602f9a2ce5dd966c6a6f6c143729d4f3edb"
 "0.1.2" = "74ae8c3a473e71fa3733cc995a80700b76dc72223e315ae4e33df8f0ccacf4a9"
 
 [zork_grand_inquisitor]
@@ -3957,3 +3959,15 @@
 
 [torture_client]
 "0.0.4" = "b9e2d812addf0448cb60fdede422df87ce325ddfaac8d507443c1870ee721e4e"
+
+[twwhd-apworld-main]
+"1.0.2-beta" = "a4c68202ee5fbc51a42bbd91d981e3a6f30d7d3e0fc807782612676f18905a1c"
+
+[vertical_drop_heroes]
+"0.4.0" = "db326fa377a8d2346635acd00a300ba62d1c3c2b7ddbc26033595a0e3e2fba8c"
+
+[vex]
+"2" = "6d5e571d83729d5ef5216a683174890a7588011177748e3d447ab2c56771e7c6"
+
+[whiteknuckle]
+"Release" = "e2a376059933eb2850b66ee395578fe1a6c5c3a18647547fa24008fe388eaa52"
