@@ -3,3 +3,12 @@ home = "https://github.com/JDLKMR/CTGP-Deluxe-APManual"
 
 [versions]
 "1.1.0" = { url = "https://github.com/JDLKMR/CTGP-Deluxe-APManual/releases/download/v1.1.0/manual_mariokart8deluxe_jd.apworld" }
+
+[[fuzz_results]]
+version = "1.1.0"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.1182
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.136

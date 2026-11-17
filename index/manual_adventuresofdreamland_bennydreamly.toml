@@ -3,3 +3,12 @@ home = "https://github.com/benny-dreamly/Manuals"
 
 [versions]
 "AOD-3.0.0" = { url = "https://github.com/benny-dreamly/Manuals/releases/download/AOD-3.0.0/manual_adventuresofdreamland_bennydreamly.apworld" }
+
+[[fuzz_results]]
+version = "AOD-3.0.0"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0

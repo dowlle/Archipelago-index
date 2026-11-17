@@ -3,3 +3,12 @@ home = "https://github.com/ManNamedGarbo/Archipelago_Manuals"
 
 [versions]
 "cmz-0.4" = { url = "https://github.com/ManNamedGarbo/Archipelago_Manuals/releases/download/cmz-0.4/manual_castleminerz_garbo.apworld" }
+
+[[fuzz_results]]
+version = "cmz-0.4"
+verdict = "broken"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.4914
+worst_hook = "no-restrictive-starts"
+worst_hook_rate = 0.507
