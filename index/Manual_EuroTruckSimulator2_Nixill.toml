@@ -3,3 +3,12 @@ home = "https://github.com/Nixill/APManual-ETS2"
 
 [versions]
 "ETS2-v4.0.0" = { url = "https://github.com/Nixill/APManual-ETS2/releases/download/ETS2-v4.0.0/Manual_EuroTruckSimulator2_Nixill.apworld" }
+
+[[fuzz_results]]
+version = "ETS2-v4.0.0"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 4989
+default_rate = 0.477651
+worst_hook = "check-determinism"
+worst_hook_rate = 1.0
