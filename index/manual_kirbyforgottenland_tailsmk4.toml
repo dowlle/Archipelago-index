@@ -3,3 +3,12 @@ home = "https://github.com/TailsMK4/Kirby-And-The-Forgotten-Land-Archipelago-Man
 
 [versions]
 "kfl_main_1-0-3" = { url = "https://github.com/TailsMK4/Kirby-And-The-Forgotten-Land-Archipelago-Manual/releases/download/kfl_main_1-0-3/manual_kirbyforgottenland_tailsmk4.apworld" }
+
+[[fuzz_results]]
+version = "kfl_main_1-0-3"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 2429
+default_rate = 0.027172
+worst_hook = "check-placement-refs"
+worst_hook_rate = 1.0
