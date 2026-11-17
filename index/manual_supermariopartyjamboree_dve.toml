@@ -3,3 +3,12 @@ home = "https://github.com/TheBadNoob/Super-Mario-Party-Jamboree-Archipelago-Ran
 
 [versions]
 "1.1" = { url = "https://github.com/TheBadNoob/Super-Mario-Party-Jamboree-Archipelago-Randomizer-Manual/releases/download/v1.1/manual_supermariopartyjamboree_dve.apworld" }
+
+[[fuzz_results]]
+version = "1.1"
+verdict = "clean"
+fuzzed_at = "2026-11-16"
+seeds = 5000
+default_rate = 0.0
+worst_hook = "default"
+worst_hook_rate = 0.0
