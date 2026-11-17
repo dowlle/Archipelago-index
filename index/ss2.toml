@@ -3,3 +3,12 @@ home = ["https://github.com/Partatio/SS2-Apworld", "https://codeberg.org/Partati
 
 [versions]
 "0.5.2" = { url = "https://codeberg.org/Partatio/SS2-Apworld/releases/download/0.5.2/ss2.apworld" }
+
+[[fuzz_results]]
+version = "0.5.2"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 3987
+default_rate = 0.875094
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.992

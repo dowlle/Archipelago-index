@@ -3,3 +3,12 @@ home = "https://github.com/T4g1/ArchipelagoTomba"
 
 [versions]
 "1.5.7" = { url = "https://github.com/T4g1/ArchipelagoTomba/releases/download/v1.5.7/tomba.apworld" }
+
+[[fuzz_results]]
+version = "1.5.7"
+verdict = "broken"
+fuzzed_at = "2026-11-17"
+seeds = 5000
+default_rate = 0.8436
+worst_hook = "default"
+worst_hook_rate = 0.8436
