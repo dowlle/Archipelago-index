@@ -3,3 +3,4 @@ home = "https://github.com/jradcode23/LHP2-APWorld"
 
 [versions]
 "1.2.0" = { url = "https://github.com/jradcode23/LHP2-APWorld/releases/download/v1.2.0/lhp2.apworld" }
+"1.2.0_alpha_2" = { url = "https://github.com/jradcode23/LHP2-APWorld/releases/download/v1.2.0_alpha_2/lhp2.apworld" }
