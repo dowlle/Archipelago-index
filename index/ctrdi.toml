@@ -3,3 +3,4 @@ home = "https://github.com/Anguirel86/ap_ctrdi"
 
 [versions]
 "0.0.2" = { url = "https://github.com/Anguirel86/ap_ctrdi/releases/download/v0.0.2/ctrdi.apworld" }
+"0.0.4" = { url = "https://github.com/Anguirel86/ap_ctrdi/releases/download/v0.0.4/ctrdi.apworld" }
