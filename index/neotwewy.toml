@@ -4,6 +4,7 @@ home = "https://github.com/Sjerver/NEO-Twewy-Archipelago-Mod"
 [versions]
 ".0.0.4" = { url = "https://github.com/Sjerver/NEO-Twewy-Archipelago-Mod/releases/download/v.0.0.4/neotwewy.apworld" }
 "v.0.0.5" = { url = "https://github.com/Sjerver/NEO-Twewy-Archipelago-Mod/releases/download/v.0.0.5/neotwewy.apworld" }
+"v.0.1.0" = { url = "https://github.com/Sjerver/NEO-Twewy-Archipelago-Mod/releases/download/v.0.1.0/neotwewy.apworld" }
 
 [[fuzz_results]]
 version = "v.0.0.5"
