@@ -26,3 +26,12 @@ seeds = 5000
 default_rate = 0.001
 worst_hook = "check-item-location-count"
 worst_hook_rate = 0.754
+
+[[fuzz_results]]
+version = "paquerette_down_the_bunburrows-0.2.1"
+verdict = "broken"
+fuzzed_at = "2026-11-20"
+seeds = 5000
+default_rate = 0.0006
+worst_hook = "check-item-location-count"
+worst_hook_rate = 0.768
