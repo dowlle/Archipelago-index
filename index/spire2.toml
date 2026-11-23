@@ -10,6 +10,7 @@ default_url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases
 "2.1.0" = { url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/2.1.0/spire2.apworld" }
 "2.2.0" = { url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/2.2.0/spire2.apworld" }
 "2.2.2" = { url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/2.2.2/spire2.apworld" }
+"2.2.3" = { url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/2.2.3/spire2.apworld" }
 
 [[fuzz_results]]
 version = "0.4.3-alpha"
