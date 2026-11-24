@@ -26,6 +26,7 @@ stability = "unstable"
 "0.3.0-alpha3" = { url = "https://github.com/dowlle/ctr-native-ap/releases/download/v0.3.0-alpha3/ctr.apworld" }
 "0.3.0-alpha4" = { url = "https://github.com/dowlle/ctr-native-ap/releases/download/v0.3.0-alpha4/ctr.apworld" }
 "0.3.0-alpha6" = { url = "https://github.com/dowlle/ctr-native-ap/releases/download/v0.3.0-alpha6/ctr.apworld" }
+"0.3.0-alpha7" = { url = "https://github.com/dowlle/ctr-native-ap/releases/download/v0.3.0-alpha7/ctr.apworld" }
 
 [[fuzz_results]]
 version = "0.1.0"
