@@ -655,6 +655,7 @@
 [manual_deckedout2_empathymp3]
 "1.1.0-unstable" = "f91658e5476634566ea4b0ad54f64685e652b1affd164b5dcc3a3a6efd2c8e3a"
 "1.1.0-stable" = "c3f797024a866d7e631ecd9a6f8139c3101b56899c8e0dae40469892f575373a"
+"1.3.0" = "0f557b6b85d187446039e777b329010f508a4f20887f1f42a2ffe199cdcc1a17"
 
 [manual_gloomhaven_codegorilla]
 "2.1.1-gloomhaven-manual" = "aa79ddd54ed0818f16d4b11e0e9392cd2267bc0b4f4aaeaa54b81728bafaccda"
