@@ -8,6 +8,7 @@ setup_guide = "https://github.com/Wouter17/Spirit-Archipelago?tab=readme-ov-file
 "0.1.3-hf1" = {}
 "0.1.4" = {}
 "0.1.5" = {}
+"0.1.6" = {}
 
 [[fuzz_results]]
 version = "0.1.3-hf1"
